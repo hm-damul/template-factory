@@ -44,7 +44,13 @@ def main():
   <p><a href="../index.html">← Back to list</a></p>
   {body}
   <hr/>
-  <p><b>Download:</b> (placeholder) — next step will generate real files (PDF/Excel).</p>
+  <p><b>Download files:</b></p>
+<ul>
+  <li><a href="../downloads/{pid}/template.csv">template.csv</a></li>
+  <li><a href="../downloads/{pid}/printable.html">printable.html</a> (print or Save as PDF)</li>
+  <li><a href="../downloads/{pid}/instructions.txt">instructions.txt</a></li>
+</ul>
+
 </body>
 </html>
 """
