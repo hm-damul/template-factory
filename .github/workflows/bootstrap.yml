@@ -43,6 +43,9 @@ jobs:
       - name: Create ZIP bundles
         run: python engine/zip_bundle_generator.py
 
+      - name: Generate platform metadata (Etsy/Gumroad)
+        run: python engine/platform_metadata_generator.py
+
       - name: Publish site (VERIFIED only)
         run: python engine/site_publisher.py
 
