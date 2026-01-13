@@ -1,0 +1,21 @@
+# Generated at 2026-01-13 21:13:08 UTC
+Budget Planner for Couples
+Budget Planner for Families
+Budget Planner for Freelancers
+Budget Planner for Small Business Owners
+Budget Planner for Students
+Habit Tracker for Couples
+Habit Tracker for Families
+Habit Tracker for Freelancers
+Habit Tracker for Small Business Owners
+Habit Tracker for Students
+Meal Planner for Couples
+Meal Planner for Families
+Meal Planner for Freelancers
+Meal Planner for Small Business Owners
+Meal Planner for Students
+Study Planner for Couples
+Study Planner for Families
+Study Planner for Freelancers
+Study Planner for Small Business Owners
+Study Planner for Students
