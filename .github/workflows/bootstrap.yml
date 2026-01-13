@@ -2,6 +2,9 @@ name: Bootstrap Pipeline
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # 매일 00:00 UTC (한국시간 오전 9시)
+
 
 permissions:
   contents: write
@@ -48,6 +51,9 @@ jobs:
 
       - name: Generate bundles (bundle SKU + bundle ZIP)
         run: python engine/bundle_generator.py
+
+      - name: Generate i18n pages (DE/FR/JA)
+        run: python engine/i18n_generator.py
 
       - name: Publish site (VERIFIED only)
         run: python engine/site_publisher.py
