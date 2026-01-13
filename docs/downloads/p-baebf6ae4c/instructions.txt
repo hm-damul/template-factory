@@ -1,0 +1,14 @@
+# Budget Planner for Small Business Owners
+
+This package includes:
+- template.csv  (editable spreadsheet-style template)
+- printable.html (print-friendly template)
+- instructions.txt (this file)
+
+How to use:
+1) Download template.csv
+2) Open it with Excel, Google Sheets, or Numbers
+3) Fill weekly and review monthly
+
+Tip:
+Start simple and keep tracking consistent.
