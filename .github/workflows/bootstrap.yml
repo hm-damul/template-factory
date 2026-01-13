@@ -40,6 +40,9 @@ jobs:
       - name: Generate download files (CSV/TXT/Printable HTML)
         run: python engine/digital_file_generator.py
 
+      - name: Create ZIP bundles
+        run: python engine/zip_bundle_generator.py
+
       - name: Publish site (VERIFIED only)
         run: python engine/site_publisher.py
 
