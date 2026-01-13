@@ -28,11 +28,10 @@ jobs:
       - name: Score topics
         run: python engine/topic_evaluator.py
 
-
       - name: Commit & push generated topics
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add generated/topics.txt || true
+          git add generated/ || true
           git commit -m "Generate topics" || true
           git push || true
