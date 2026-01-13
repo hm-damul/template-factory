@@ -27,6 +27,9 @@ jobs:
 
       - name: Score topics
         run: python engine/topic_evaluator.py
+        
+      - name: Build products
+        run: python engine/product_builder.py
 
       - name: Commit & push generated topics
         run: |
