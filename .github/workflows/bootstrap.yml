@@ -24,3 +24,11 @@ jobs:
 
       - name: Generate topics
         run: python engine/topic_generator.py
+
+      - name: Commit & push generated topics
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add generated/topics.txt || true
+          git commit -m "Generate topics" || true
+          git push || true
