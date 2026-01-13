@@ -37,6 +37,9 @@ jobs:
       - name: Validate templates
         run: python engine/template_validator.py
 
+      - name: Generate download files (CSV/TXT/Printable HTML)
+        run: python engine/digital_file_generator.py
+
       - name: Publish site (VERIFIED only)
         run: python engine/site_publisher.py
 
