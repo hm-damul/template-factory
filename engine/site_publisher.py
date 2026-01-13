@@ -8,6 +8,10 @@ TEMPLATE_DIR = "generated/templates"
 SITE_ROOT = "docs"
 SITE_PRODUCTS = "docs/products"
 
+BUNDLE_DIR = "generated/bundles"
+BUNDLE_SITE_ROOT = "docs/bundles"
+BUNDLE_DOWNLOAD_ROOT = "docs/downloads_bundles"
+
 def main():
     os.makedirs(SITE_ROOT, exist_ok=True)
     os.makedirs(SITE_PRODUCTS, exist_ok=True)
