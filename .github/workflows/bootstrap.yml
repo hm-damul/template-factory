@@ -40,10 +40,11 @@ jobs:
       - name: Publish site (VERIFIED only)
         run: python engine/site_publisher.py
 
-      - name: Commit & push generated topics
+      - name: Commit & push outputs
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add generated/ || true
-          git commit -m "Generate topics" || true
+          git add docs/ generated/ engine/ .github/workflows/ || true
+          git commit -m "Auto-run pipeline" || true
           git push || true
+
