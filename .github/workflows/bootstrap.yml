@@ -37,6 +37,9 @@ jobs:
       - name: Validate templates
         run: python engine/template_validator.py
 
+      - name: Publish site (VERIFIED only)
+        run: python engine/site_publisher.py
+
       - name: Commit & push generated topics
         run: |
           git config user.name "github-actions"
