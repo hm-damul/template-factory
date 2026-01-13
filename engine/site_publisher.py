@@ -15,6 +15,35 @@ BUNDLE_DOWNLOAD_ROOT = "docs/downloads_bundles"
 def main():
     os.makedirs(SITE_ROOT, exist_ok=True)
     os.makedirs(SITE_PRODUCTS, exist_ok=True)
+        # 번들 페이지 생성
+    os.makedirs(BUNDLE_SITE_ROOT, exist_ok=True)
+    bundles = []
+    if os.path.exists(BUNDLE_DIR):
+        for fn in os.listdir(BUNDLE_DIR):
+            if fn.endswith(".json"):
+                b = json.load(open(f"{BUNDLE_DIR}/{fn}", "r", encoding="utf-8"))
+                bundles.append(b)
+        bundles.sort(key=lambda x: x.get("id", ""))
+
+    for b in bundles:
+        bid = b["id"]
+        btitle = b["title"]
+        bprice = b["price"]
+        items_html = "".join([f"<li>{it['title']} — ${it['price']}</li>" for it in b["items"]])
+        page = f"""<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>{btitle}</title></head>
+<body>
+  <p><a href="../index.html">← Back to list</a></p>
+  <h1>{btitle}</h1>
+  <p>Price: ${bprice}</p>
+  <p><b>Includes:</b></p>
+  <ul>{items_html}</ul>
+  <p><b>Download:</b> <a href="../downloads_bundles/{bid}/bundle_pack.zip">bundle_pack.zip</a></p>
+</body>
+</html>"""
+        with open(f"{BUNDLE_SITE_ROOT}/{bid}.html", "w", encoding="utf-8") as w:
+            w.write(page)
 
     ts = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
@@ -56,6 +85,12 @@ def main():
   <li><a href="../downloads/{pid}/instructions.txt">instructions.txt</a></li>
 </ul>
 
+    bundle_links = ""
+    if 'bundles' in locals():
+        blis = []
+        for b in bundles:
+            blis.append(f'<li><a href="bundles/{b["id"]}.html">{b["title"]}</a> — ${b["price"]}</li>')
+        bundle_links = "<h2>Bundles</h2><ul>" + "".join(blis) + "</ul>"
 
 </body>
 </html>
@@ -75,6 +110,7 @@ def main():
 <body>
   <h1>Template Store (MVP)</h1>
   <p>Generated at: {ts}</p>
+    {bundle_links}
   <p>VERIFIED products: {len(products)}</p>
   <ul>
     {''.join(items)}
