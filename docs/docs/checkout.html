@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Checkout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 760px; margin: 24px auto; padding: 0 12px; }
+    code { background:#f5f5f5; padding: 2px 6px; border-radius: 6px; }
+    .box { border:1px solid #ddd; border-radius: 10px; padding: 12px; margin: 12px 0; }
+    .btn { padding: 10px 14px; border: 0; border-radius: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Checkout</h1>
+
+  <div class="box">
+    <div><b>Product</b>: <span id="pid"></span></div>
+    <div><b>Price (USD)</b>: <span id="price"></span></div>
+    <div><b>Chain</b>: <span id="chain"></span></div>
+    <button class="btn" id="create">Create Order</button>
+  </div>
+
+  <div class="box" id="result" style="display:none;">
+    <div><b>Order ID</b>: <code id="oid"></code></div>
+    <div><b>Status</b>: <span id="status"></span></div>
+    <hr/>
+    <div><b>Send payment to</b>:</div>
+    <div><code id="wallet"></code></div>
+    <div style="margin-top:8px;"><b>Note</b>: After sending, keep your TX hash. Status stays PENDING until verified.</div>
+    <hr/>
+    <button class="btn" id="refresh">Refresh Status</button>
+  </div>
+
+  <script>
+    // ★ 여기를 당신 Worker 주소로 바꾸세요
+    const API_BASE = "https://crypto-checkout.xmdnlxjkqkdthd.workers.dev";
+
+    const qs = new URLSearchParams(location.search);
+    const product_id = qs.get("product_id") || "template_001";
+    const price_usd = Number(qs.get("price_usd") || "9.99");
+    const chain = qs.get("chain") || "EVM";
+
+    document.getElementById("pid").textContent = product_id;
+    document.getElementById("price").textContent = price_usd.toFixed(2);
+    document.getElementById("chain").textContent = chain;
+
+    const resultBox = document.getElementById("result");
+    let currentOrderId = null;
+
+    document.getElementById("create").onclick = async () => {
+      const res = await fetch(API_BASE + "/create", {
+        method: "POST",
+        headers: { "Content-Type":"application/json" },
+        body: JSON.stringify({ product_id, price_usd, chain })
+      });
+      const data = await res.json();
+      if (!data.ok) {
+        alert("Create failed: " + JSON.stringify(data));
+        return;
+      }
+      currentOrderId = data.order_id;
+      resultBox.style.display = "block";
+      document.getElementById("oid").textContent = data.order_id;
+      document.getElementById("status").textContent = data.status;
+      document.getElementById("wallet").textContent = data.pay_to;
+    };
+
+    document.getElementById("refresh").onclick = async () => {
+      if (!currentOrderId) return;
+      const res = await fetch(API_BASE + "/order?id=" + encodeURIComponent(currentOrderId));
+      const data = await res.json();
+      if (!data.ok) {
+        alert("Fetch failed: " + JSON.stringify(data));
+        return;
+      }
+      document.getElementById("status").textContent = data.order.status;
+    };
+  </script>
+</body>
+</html>
