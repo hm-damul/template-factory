@@ -1,0 +1,34 @@
+{
+  "id": "bundle-habit-001",
+  "title": "Habit Tracker Bundle Pack 1 (5 templates)",
+  "price": 37.99,
+  "created_at": "2026-01-14 01:55:47 UTC",
+  "category": "habit",
+  "items": [
+    {
+      "id": "p-d917b0bd8d",
+      "title": "Habit Tracker for Small Business Owners",
+      "price": 10.99
+    },
+    {
+      "id": "p-ac99fc33f0",
+      "title": "Habit Tracker for Couples",
+      "price": 10.99
+    },
+    {
+      "id": "p-666930e59e",
+      "title": "Habit Tracker for Families",
+      "price": 10.99
+    },
+    {
+      "id": "p-144ca9cacc",
+      "title": "Habit Tracker for Freelancers",
+      "price": 10.99
+    },
+    {
+      "id": "p-b021c15666",
+      "title": "Habit Tracker for Students",
+      "price": 10.99
+    }
+  ]
+}

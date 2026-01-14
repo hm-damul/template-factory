@@ -1,17 +1,13 @@
 {
-  "id": "bundle-003",
-  "title": "Bundle Pack 3 (5 templates)",
-  "price": 38.46,
+  "id": "bundle-meal-001",
+  "title": "Meal Planner Bundle Pack 1 (5 templates)",
+  "price": 37.99,
   "created_at": "2026-01-14 01:55:47 UTC",
+  "category": "meal",
   "items": [
     {
-      "id": "p-144ca9cacc",
-      "title": "Habit Tracker for Freelancers",
-      "price": 10.99
-    },
-    {
-      "id": "p-b021c15666",
-      "title": "Habit Tracker for Students",
+      "id": "p-b375b27117",
+      "title": "Meal Planner for Small Business Owners",
       "price": 10.99
     },
     {
@@ -27,6 +23,11 @@
     {
       "id": "p-a34abdfcab",
       "title": "Meal Planner for Freelancers",
+      "price": 10.99
+    },
+    {
+      "id": "p-b75e411eec",
+      "title": "Meal Planner for Students",
       "price": 10.99
     }
   ]

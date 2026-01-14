@@ -1,9 +1,20 @@
 {
-  "id": "bundle-002",
-  "title": "Bundle Pack 2 (5 templates)",
-  "price": 36.37,
+  "id": "bundle-budget-001",
+  "title": "Budget Planner Bundle Pack 1 (5 templates)",
+  "price": 34.95,
   "created_at": "2026-01-14 01:55:47 UTC",
+  "category": "budget",
   "items": [
+    {
+      "id": "p-baebf6ae4c",
+      "title": "Budget Planner for Small Business Owners",
+      "price": 9.99
+    },
+    {
+      "id": "p-a716982e09",
+      "title": "Budget Planner for Couples",
+      "price": 9.99
+    },
     {
       "id": "p-2680b6a509",
       "title": "Budget Planner for Families",
@@ -18,16 +29,6 @@
       "id": "p-10a0c81b00",
       "title": "Budget Planner for Students",
       "price": 9.99
-    },
-    {
-      "id": "p-ac99fc33f0",
-      "title": "Habit Tracker for Couples",
-      "price": 10.99
-    },
-    {
-      "id": "p-666930e59e",
-      "title": "Habit Tracker for Families",
-      "price": 10.99
     }
   ]
 }
