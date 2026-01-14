@@ -1,0 +1,33 @@
+{
+  "id": "bundle-001",
+  "title": "Bundle Pack 1 (5 templates)",
+  "price": 37.06,
+  "created_at": "2026-01-14 00:43:09 UTC",
+  "items": [
+    {
+      "id": "p-baebf6ae4c",
+      "title": "Budget Planner for Small Business Owners",
+      "price": 9.99
+    },
+    {
+      "id": "p-d917b0bd8d",
+      "title": "Habit Tracker for Small Business Owners",
+      "price": 10.99
+    },
+    {
+      "id": "p-b375b27117",
+      "title": "Meal Planner for Small Business Owners",
+      "price": 10.99
+    },
+    {
+      "id": "p-f5bdb88e91",
+      "title": "Study Planner for Small Business Owners",
+      "price": 10.99
+    },
+    {
+      "id": "p-a716982e09",
+      "title": "Budget Planner for Couples",
+      "price": 9.99
+    }
+  ]
+}
