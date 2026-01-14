@@ -3,7 +3,7 @@ name: Bootstrap Pipeline
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"  # 매일 00:00 UTC (한국시간 오전 9시)
+    - cron: "0 2 * * *"  # 매일 00:00 UTC (한국시간 오전 9시)
 
 
 permissions:
