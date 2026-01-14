@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: bootstrap
+  group: template-factory
   cancel-in-progress: true
 
 jobs:
