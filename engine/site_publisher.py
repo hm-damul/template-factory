@@ -84,9 +84,7 @@ def main():
   <li><a href="../downloads/{pid}/printable.html">printable.html</a> (print or Save as PDF)</li>
   <li><a href="../downloads/{pid}/instructions.txt">instructions.txt</a></li>
 </ul>
-
-    bundle_links = ""
-    if 'bundles' in locals():
+       if 'bundles' in locals():
         blis = []
         for b in bundles:
             blis.append(f'<li><a href="bundles/{b["id"]}.html">{b["title"]}</a> — ${b["price"]}</li>')
