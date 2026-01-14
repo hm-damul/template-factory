@@ -48,6 +48,9 @@ jobs:
 
       - name: Generate platform metadata (Etsy/Gumroad)
         run: python engine/platform_metadata_generator.py
+        
+      - name: Optimize bundles (category + psycho pricing + platform CSV)
+        run: python engine/bundle_optimizer.py
 
       - name: Generate bundles (bundle SKU + bundle ZIP)
         run: python engine/bundle_generator.py
