@@ -1,0 +1,50 @@
+{
+  "name": "Habit Purple",
+  "category": "habit",
+  "palette": {
+    "primary": "#7c3aed",
+    "onPrimary": "#ffffff",
+    "secondary": "#ede9fe",
+    "onSecondary": "#5b21b6",
+    "accent": "#f472b6",
+    "onAccent": "#831843",
+    "background": "#ffffff",
+    "surface": "#faf5ff",
+    "text": "#1f2937",
+    "border": "#c4b5fd"
+  },
+  "components": {
+    "header": {
+      "background": "#7c3aed",
+      "text": "#ffffff",
+      "fontFamily": "sans",
+      "fontSize": "2xl",
+      "fontWeight": "bold"
+    },
+    "table": {
+      "headerBg": "#ede9fe",
+      "headerText": "#5b21b6",
+      "rowBg": "#ffffff",
+      "rowAltBg": "#faf5ff",
+      "border": "#c4b5fd"
+    },
+    "section": {
+      "titleColor": "#7c3aed",
+      "textColor": "#1f2937",
+      "backgroundColor": "#ffffff"
+    },
+    "accent": {
+      "background": "#f472b6",
+      "text": "#831843"
+    }
+  },
+  "print": {
+    "pageSize": "A4",
+    "margins": "20mm",
+    "headerHeight": "15mm",
+    "footerHeight": "10mm"
+  },
+  "_meta": {
+    "generated_at": "2026-01-18 16:59:06 UTC"
+  }
+}

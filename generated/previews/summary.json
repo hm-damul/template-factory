@@ -1,0 +1,15 @@
+{
+  "step": "preview_generator",
+  "timestamp": "2026-01-18 16:59:23 UTC",
+  "status": "success",
+  "stats": {
+    "created": 20,
+    "skipped": 0,
+    "errors": 0
+  },
+  "outputs": {
+    "previews_dir": "generated/previews",
+    "manifest": "generated/previews/manifest.json"
+  },
+  "errors": []
+}

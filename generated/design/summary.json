@@ -1,0 +1,37 @@
+{
+  "step": "design_tokens_generator",
+  "timestamp": "2026-01-18 16:59:06 UTC",
+  "status": "success",
+  "outputs": {
+    "tokens_file": "generated/design/tokens.json",
+    "themes_dir": "generated/design/themes",
+    "themes_count": 5
+  },
+  "themes": [
+    {
+      "name": "Budget Mint",
+      "category": "budget",
+      "file": "generated/design/themes/budget.json"
+    },
+    {
+      "name": "Habit Purple",
+      "category": "habit",
+      "file": "generated/design/themes/habit.json"
+    },
+    {
+      "name": "Meal Orange",
+      "category": "meal",
+      "file": "generated/design/themes/meal.json"
+    },
+    {
+      "name": "Study Blue",
+      "category": "study",
+      "file": "generated/design/themes/study.json"
+    },
+    {
+      "name": "Minimal Gray",
+      "category": "general",
+      "file": "generated/design/themes/general.json"
+    }
+  ]
+}

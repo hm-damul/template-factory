@@ -128,22 +128,82 @@ template-factory-app/
 
 ## Pipeline Steps
 
-The engine runs up to 12 steps based on configuration:
+The engine runs up to **17 steps** for production-ready digital templates:
 
-| # | Step | Config Control |
-|---|------|----------------|
-| 1 | topic_generator | `pipeline.steps.topic_generator` |
-| 2 | topic_evaluator | `pipeline.steps.topic_evaluator` |
-| 3 | product_builder | `pipeline.steps.product_builder` |
-| 4 | template_generator | `pipeline.steps.template_generator` |
-| 5 | template_validator | `pipeline.steps.template_validator` |
-| 6 | digital_file_generator | `pipeline.steps.digital_file_generator` |
-| 7 | zip_bundle_generator | `bundling.enabled` |
-| 8 | platform_metadata_generator | `platforms.enabled` |
-| 9 | bundle_optimizer | `bundling.enabled` |
-| 10 | bundle_generator | `bundling.enabled` |
-| 11 | i18n_generator | `i18n.enabled` |
-| 12 | site_publisher | `publish.enabled` |
+| # | Step | Description | Config Control |
+|---|------|-------------|----------------|
+| 1 | topic_generator | Generate template topic ideas | `pipeline.steps.topic_generator` |
+| 2 | topic_evaluator | Score and price topics | `pipeline.steps.topic_evaluator` |
+| 3 | product_builder | Create product metadata | `pipeline.steps.product_builder` |
+| 4 | **design_tokens_generator** | Generate design tokens & themes | `design.enabled` |
+| 5 | **template_scaffolder** | Create themed, category-specific templates | `pipeline.steps.template_scaffolder` |
+| 6 | template_validator | Validate template structure | `pipeline.steps.template_validator` |
+| 7 | **template_qa** | QA checks (lint, print, a11y, duplicates) | `qa.enabled` |
+| 8 | digital_file_generator | Create CSV/TXT/HTML files | `pipeline.steps.digital_file_generator` |
+| 9 | **preview_generator** | Generate preview HTML & SVG thumbnails | `preview.enabled` |
+| 10 | **readme_generator** | Create product README/how-to-use docs | `readme.enabled` |
+| 11 | zip_bundle_generator | Package files into ZIP | `bundling.enabled` |
+| 12 | platform_metadata_generator | Generate Etsy/Gumroad metadata | `platforms.enabled` |
+| 13 | bundle_optimizer | Optimize bundle pricing | `bundling.enabled` |
+| 14 | bundle_generator | Create multi-product bundles | `bundling.enabled` |
+| 15 | i18n_generator | Generate internationalized pages | `i18n.enabled` |
+| 16 | site_publisher | Publish verified products to site | `publish.enabled` |
+| 17 | **pipeline_summary** | Generate final summary report | `pipeline.steps.pipeline_summary` |
+
+### New Production Steps (Steps 4, 5, 7, 9, 10, 17)
+
+#### Design Tokens Generator (Step 4)
+Generates a design system with:
+- **Color palettes** per category (budget=green, habit=purple, meal=orange, study=blue)
+- **Typography scales** (fonts, sizes, weights)
+- **Spacing units** and border styles
+- **Theme presets** for each template category
+
+Output: `generated/design/tokens.json`, `generated/design/themes/*.json`
+
+#### Template Scaffolder (Step 5)
+Creates professional, print-ready templates with:
+- **Category-specific layouts** (budget tracker tables, habit checklist grids, etc.)
+- **Theme-aware styling** from design tokens
+- **Print-optimized CSS** with `@media print` rules
+- **Professional structure** (header, sections, tables, footer)
+
+Output: `generated/templates/*.html`
+
+#### Template QA (Step 7)
+Performs quality assurance checks:
+- **HTML linting** (DOCTYPE, required tags, structure)
+- **Print layout validation** (content length, table headers)
+- **Accessibility checks** (lang attribute, alt text, landmarks)
+- **Duplication detection** (similar content hash)
+
+Output: `generated/qa/report.json`
+
+#### Preview Generator (Step 9)
+Creates preview assets:
+- **Preview HTML** with styled metadata overlay
+- **SVG thumbnails** for marketplace listings
+- **PNG generation instructions** (requires headless browser)
+
+Output: `generated/previews/*.html`, `generated/previews/*.svg`
+
+#### README Generator (Step 10)
+Creates product documentation:
+- **Usage instructions** (digital + print options)
+- **Category-specific tips** (budgeting, habit tracking, etc.)
+- **License information**
+- **FAQ section**
+
+Output: `docs/downloads/{pid}/README.md`
+
+#### Pipeline Summary (Step 17)
+Generates comprehensive execution report:
+- **Step-by-step status** summary
+- **Product counts** by state
+- **Error aggregation** across steps
+- **Markdown report** for review
+
+Output: `generated/pipeline_summary.json`, `output/pipeline_report.md`
 
 ## CLI Reference
 

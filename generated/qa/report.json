@@ -1,0 +1,655 @@
+{
+  "step": "template_qa",
+  "timestamp": "2026-01-18 16:59:17 UTC",
+  "summary": {
+    "templates_checked": 20,
+    "qa_passed": 20,
+    "qa_failed": 0,
+    "total_checks_passed": 220,
+    "total_checks_failed": 0,
+    "duplicate_groups": 0
+  },
+  "duplicates": [],
+  "results": {
+    "p-2680b6a509": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (904 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-2680b6a509",
+      "file": "generated/templates/p-2680b6a509.html",
+      "size_bytes": 904,
+      "content_hash": "9a9b837c38eb7404c605614e673e947b"
+    },
+    "p-b8608f7e49": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (901 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-b8608f7e49",
+      "file": "generated/templates/p-b8608f7e49.html",
+      "size_bytes": 901,
+      "content_hash": "85890be5b25721c2dd2c3217e6826717"
+    },
+    "p-10a0c81b00": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (904 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-10a0c81b00",
+      "file": "generated/templates/p-10a0c81b00.html",
+      "size_bytes": 904,
+      "content_hash": "9f48cdf4fbe96d23a888c92187817380"
+    },
+    "p-98ed58a082": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (910 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-98ed58a082",
+      "file": "generated/templates/p-98ed58a082.html",
+      "size_bytes": 910,
+      "content_hash": "413ebc346f5e113b98bfd66a9f5ed192"
+    },
+    "p-f5bdb88e91": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (929 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-f5bdb88e91",
+      "file": "generated/templates/p-f5bdb88e91.html",
+      "size_bytes": 929,
+      "content_hash": "17e3ed594d36e0fb3db03526cec1c7fc"
+    },
+    "p-b75e411eec": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (901 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-b75e411eec",
+      "file": "generated/templates/p-b75e411eec.html",
+      "size_bytes": 901,
+      "content_hash": "b0f64799b39cd36d62b3e218899240ff"
+    },
+    "p-cfa9fd31f4": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (903 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-cfa9fd31f4",
+      "file": "generated/templates/p-cfa9fd31f4.html",
+      "size_bytes": 903,
+      "content_hash": "0bd0995cdf68fa9988e87fd5f6a74b92"
+    },
+    "p-10d0a2c3f0": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (899 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-10d0a2c3f0",
+      "file": "generated/templates/p-10d0a2c3f0.html",
+      "size_bytes": 899,
+      "content_hash": "6f0f5ca001ee0e237880e8cd51f25260"
+    },
+    "p-b375b27117": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (927 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-b375b27117",
+      "file": "generated/templates/p-b375b27117.html",
+      "size_bytes": 927,
+      "content_hash": "e3b3acb90c2b466a4b04e957c046d827"
+    },
+    "p-a716982e09": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (902 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-a716982e09",
+      "file": "generated/templates/p-a716982e09.html",
+      "size_bytes": 902,
+      "content_hash": "e00d717eb7b57af7e6399f0cc23457df"
+    },
+    "p-ac99fc33f0": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (901 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-ac99fc33f0",
+      "file": "generated/templates/p-ac99fc33f0.html",
+      "size_bytes": 901,
+      "content_hash": "19c990f4dda04b024099fda05a69191b"
+    },
+    "p-0365054518": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (909 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-0365054518",
+      "file": "generated/templates/p-0365054518.html",
+      "size_bytes": 909,
+      "content_hash": "3856134d2cd260f7d3a315d14af073d7"
+    },
+    "p-baebf6ae4c": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (930 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-baebf6ae4c",
+      "file": "generated/templates/p-baebf6ae4c.html",
+      "size_bytes": 930,
+      "content_hash": "baaf4ffec6592ad3adb60f36618bf81c"
+    },
+    "p-666930e59e": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (903 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-666930e59e",
+      "file": "generated/templates/p-666930e59e.html",
+      "size_bytes": 903,
+      "content_hash": "faa0802825cb3c2dc4aa55e79a5293df"
+    },
+    "p-a34abdfcab": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (907 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-a34abdfcab",
+      "file": "generated/templates/p-a34abdfcab.html",
+      "size_bytes": 907,
+      "content_hash": "a1551f447a668b6abb9d2215da44457d"
+    },
+    "p-b09e948b38": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (903 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-b09e948b38",
+      "file": "generated/templates/p-b09e948b38.html",
+      "size_bytes": 903,
+      "content_hash": "e258fead9a8b384fdf9eefd1a23a6d29"
+    },
+    "p-b021c15666": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (903 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-b021c15666",
+      "file": "generated/templates/p-b021c15666.html",
+      "size_bytes": 903,
+      "content_hash": "456161963f00a1f901e46d9d9eaf1aae"
+    },
+    "p-d917b0bd8d": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (929 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-d917b0bd8d",
+      "file": "generated/templates/p-d917b0bd8d.html",
+      "size_bytes": 929,
+      "content_hash": "7a43bb287e3874a098b3dd96a55c75c0"
+    },
+    "p-88bbef3206": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (901 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-88bbef3206",
+      "file": "generated/templates/p-88bbef3206.html",
+      "size_bytes": 901,
+      "content_hash": "b0b676624fc3374903229057a39c1e25"
+    },
+    "p-144ca9cacc": {
+      "passed": 11,
+      "failed": 0,
+      "issues": [],
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "NO_PRINT_STYLES",
+          "message": "No print-specific styles found"
+        },
+        {
+          "severity": "warning",
+          "code": "SHORT_CONTENT",
+          "message": "Template content seems short (909 chars)"
+        },
+        {
+          "severity": "warning",
+          "code": "NO_LANG",
+          "message": "Missing lang attribute on html element"
+        },
+        {
+          "severity": "info",
+          "code": "NO_MAIN",
+          "message": "No main element or role found"
+        }
+      ],
+      "status": "pass",
+      "template_id": "p-144ca9cacc",
+      "file": "generated/templates/p-144ca9cacc.html",
+      "size_bytes": 909,
+      "content_hash": "3de0d470b466a19c4f9614acfd6739f1"
+    }
+  }
+}
