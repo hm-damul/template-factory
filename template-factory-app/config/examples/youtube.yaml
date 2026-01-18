@@ -1,0 +1,94 @@
+# YouTube Content Generation Configuration
+# Use case: Generate video content outlines and descriptions for YouTube
+
+version: "1.0"
+
+project:
+  name: "YouTube Productivity Channel"
+  description: "Video templates and descriptions for productivity content"
+  author: "Video Creator"
+  tags:
+    - youtube
+    - video
+    - content
+    - productivity
+
+generation:
+  type: youtube
+  dry_run: false
+
+topics:
+  strategy: manual
+  count: 15
+  categories:
+    - habit
+    - study
+    - budget
+  targets:
+    - Students
+    - Young Professionals
+  manual_topics:
+    - "5 Budget Hacks That Actually Work"
+    - "My Morning Routine for Maximum Productivity"
+    - "How I Study for Exams (Effective Techniques)"
+    - "Weekly Meal Prep for Busy Students"
+    - "Habit Tracking 101: A Beginner's Guide"
+    - "Minimalist Budget Planner Walkthrough"
+    - "Study With Me: 2-Hour Focus Session"
+    - "How to Build Better Habits in 30 Days"
+  scoring:
+    enabled: true
+    min_score: 0
+
+templates:
+  formats:
+    - html
+    - txt
+  validation:
+    enabled: true
+    strict: false
+    required_sections:
+      - Overview
+  style:
+    theme: colorful
+    branding:
+      primary_color: "#FF0000"
+
+bundling:
+  enabled: false
+
+pricing:
+  enabled: false
+
+i18n:
+  enabled: true
+  default_language: en
+  languages:
+    - es
+    - pt
+
+platforms:
+  enabled: false
+
+publish:
+  enabled: true
+  output_dir: output
+  site:
+    enabled: false
+
+pipeline:
+  steps:
+    topic_generator: true
+    topic_evaluator: true
+    product_builder: true
+    template_generator: true
+    template_validator: true
+    digital_file_generator: true
+    zip_bundle_generator: false
+    platform_metadata_generator: false
+    bundle_optimizer: false
+    bundle_generator: false
+    i18n_generator: true
+    site_publisher: false
+  stop_on_error: false
+  verbose: true

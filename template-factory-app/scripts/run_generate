@@ -1,0 +1,335 @@
+#!/usr/bin/env bash
+#
+# run_generate - Runs the template-factory engine pipeline
+#
+# Usage:
+#   ./scripts/run_generate                           # Run with defaults
+#   ./scripts/run_generate --config config.yaml      # Run with YAML config
+#   ./scripts/run_generate --validate-only config.yaml  # Validate only
+#   ./template-factory-app/scripts/run_generate      # Run from repo root
+
+set -u
+
+# Determine script and project directories
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+APP_DIR="$(dirname "$SCRIPT_DIR")"
+REPO_ROOT="$(dirname "$APP_DIR")"
+
+# Default settings
+ENGINE_DIR="template-factory/engine"
+OUTPUT_DIR="output"
+COPY_OUTPUT="1"
+COPY_DIRS="generated docs"
+VERBOSE="0"
+STOP_ON_ERROR="1"
+
+# Pipeline step flags (default: all enabled)
+STEP_TOPIC_GENERATOR=1
+STEP_TOPIC_EVALUATOR=1
+STEP_PRODUCT_BUILDER=1
+STEP_TEMPLATE_GENERATOR=1
+STEP_TEMPLATE_VALIDATOR=1
+STEP_DIGITAL_FILE_GENERATOR=1
+STEP_ZIP_BUNDLE_GENERATOR=1
+STEP_PLATFORM_METADATA_GENERATOR=1
+STEP_BUNDLE_OPTIMIZER=1
+STEP_BUNDLE_GENERATOR=1
+STEP_I18N_GENERATOR=1
+STEP_SITE_PUBLISHER=1
+
+# Parse command line arguments
+CONFIG_PATH=""
+VALIDATE_ONLY=0
+DRY_RUN=0
+
+usage() {
+    cat <<EOF
+Usage: $(basename "$0") [OPTIONS]
+
+Options:
+  --config <path>       Path to YAML configuration file
+  --validate-only       Validate config and exit without running pipeline
+  --dry-run             Parse config but skip actual generation
+  --verbose             Enable verbose output
+  --help                Show this help message
+
+Examples:
+  $(basename "$0")
+  $(basename "$0") --config config/examples/digital_product.yaml
+  $(basename "$0") --config config/examples/blog.yaml --verbose
+  $(basename "$0") --validate-only config/examples/youtube.yaml
+EOF
+    exit 0
+}
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --config)
+            CONFIG_PATH="$2"
+            shift 2
+            ;;
+        --validate-only)
+            VALIDATE_ONLY=1
+            if [[ $# -gt 1 && ! "$2" =~ ^-- ]]; then
+                CONFIG_PATH="$2"
+                shift
+            fi
+            shift
+            ;;
+        --dry-run)
+            DRY_RUN=1
+            shift
+            ;;
+        --verbose)
+            VERBOSE=1
+            shift
+            ;;
+        --help|-h)
+            usage
+            ;;
+        *)
+            echo "Unknown option: $1"
+            usage
+            ;;
+    esac
+done
+
+# Load legacy .conf if no YAML config provided
+LEGACY_CONFIG="$APP_DIR/config/pipeline.conf"
+if [[ -z "$CONFIG_PATH" && -f "$LEGACY_CONFIG" ]]; then
+    source "$LEGACY_CONFIG"
+fi
+
+# Python helper to parse YAML config and export as shell variables
+parse_yaml_config() {
+    local config_path="$1"
+    python3 - "$config_path" <<'PYTHON_SCRIPT'
+import sys
+import yaml
+from pathlib import Path
+
+config_path = Path(sys.argv[1])
+if not config_path.exists():
+    print(f"ERROR: Config file not found: {config_path}", file=sys.stderr)
+    sys.exit(1)
+
+with open(config_path) as f:
+    config = yaml.safe_load(f)
+
+if not config:
+    print("ERROR: Empty config file", file=sys.stderr)
+    sys.exit(1)
+
+# Map config to environment variables
+gen = config.get('generation', {})
+topics = config.get('topics', {})
+templates = config.get('templates', {})
+bundling = config.get('bundling', {})
+pricing = config.get('pricing', {})
+i18n = config.get('i18n', {})
+platforms = config.get('platforms', {})
+publish = config.get('publish', {})
+pipeline = config.get('pipeline', {})
+steps = pipeline.get('steps', {})
+
+# Output shell variable assignments
+print(f"CONFIG_PROJECT_NAME='{config.get('project', {}).get('name', '')}'")
+print(f"CONFIG_GEN_TYPE='{gen.get('type', 'generic')}'")
+print(f"CONFIG_DRY_RUN={1 if gen.get('dry_run', False) else 0}")
+
+# Pipeline control
+print(f"VERBOSE={1 if pipeline.get('verbose', False) else 0}")
+print(f"STOP_ON_ERROR={1 if pipeline.get('stop_on_error', True) else 0}")
+
+# Pipeline steps
+print(f"STEP_TOPIC_GENERATOR={1 if steps.get('topic_generator', True) else 0}")
+print(f"STEP_TOPIC_EVALUATOR={1 if steps.get('topic_evaluator', True) else 0}")
+print(f"STEP_PRODUCT_BUILDER={1 if steps.get('product_builder', True) else 0}")
+print(f"STEP_TEMPLATE_GENERATOR={1 if steps.get('template_generator', True) else 0}")
+print(f"STEP_TEMPLATE_VALIDATOR={1 if steps.get('template_validator', True) else 0}")
+print(f"STEP_DIGITAL_FILE_GENERATOR={1 if steps.get('digital_file_generator', True) else 0}")
+print(f"STEP_ZIP_BUNDLE_GENERATOR={1 if steps.get('zip_bundle_generator', True) and bundling.get('enabled', True) else 0}")
+print(f"STEP_PLATFORM_METADATA_GENERATOR={1 if steps.get('platform_metadata_generator', True) and platforms.get('enabled', True) else 0}")
+print(f"STEP_BUNDLE_OPTIMIZER={1 if steps.get('bundle_optimizer', True) and bundling.get('enabled', True) else 0}")
+print(f"STEP_BUNDLE_GENERATOR={1 if steps.get('bundle_generator', True) and bundling.get('enabled', True) else 0}")
+print(f"STEP_I18N_GENERATOR={1 if steps.get('i18n_generator', True) and i18n.get('enabled', False) else 0}")
+print(f"STEP_SITE_PUBLISHER={1 if steps.get('site_publisher', True) and publish.get('enabled', True) else 0}")
+
+# Output settings
+print(f"OUTPUT_DIR='{publish.get('output_dir', 'output')}'")
+print(f"COPY_OUTPUT={1 if publish.get('enabled', True) else 0}")
+PYTHON_SCRIPT
+}
+
+# Validate config using the validation script
+validate_config() {
+    local config_path="$1"
+    local verbose_flag=""
+    [[ "$VERBOSE" == "1" ]] && verbose_flag="--verbose"
+    
+    python3 "$SCRIPT_DIR/validate_config.py" $verbose_flag "$config_path"
+    return $?
+}
+
+# Process YAML config if provided
+if [[ -n "$CONFIG_PATH" ]]; then
+    # Resolve relative paths
+    if [[ ! "$CONFIG_PATH" =~ ^/ ]]; then
+        # Check relative to current dir, then app dir
+        if [[ -f "$CONFIG_PATH" ]]; then
+            CONFIG_PATH="$(cd "$(dirname "$CONFIG_PATH")" && pwd)/$(basename "$CONFIG_PATH")"
+        elif [[ -f "$APP_DIR/$CONFIG_PATH" ]]; then
+            CONFIG_PATH="$APP_DIR/$CONFIG_PATH"
+        fi
+    fi
+    
+    echo "============================================"
+    echo "  Config-driven Pipeline"
+    echo "============================================"
+    echo ""
+    echo "Config file: $CONFIG_PATH"
+    echo ""
+    
+    # Validate configuration
+    echo "Validating configuration..."
+    if ! validate_config "$CONFIG_PATH"; then
+        echo ""
+        echo "ERROR: Configuration validation failed. Aborting."
+        exit 1
+    fi
+    echo ""
+    
+    if [[ "$VALIDATE_ONLY" == "1" ]]; then
+        echo "Validation-only mode. Exiting."
+        exit 0
+    fi
+    
+    # Parse config and export variables
+    echo "Loading configuration..."
+    eval "$(parse_yaml_config "$CONFIG_PATH")"
+    
+    if [[ "$CONFIG_DRY_RUN" == "1" || "$DRY_RUN" == "1" ]]; then
+        echo "Dry-run mode enabled. Pipeline will not execute."
+        DRY_RUN=1
+    fi
+    
+    echo "Project: $CONFIG_PROJECT_NAME"
+    echo "Type:    $CONFIG_GEN_TYPE"
+    echo ""
+fi
+
+# Resolve paths
+ENGINE_PATH="$REPO_ROOT/$ENGINE_DIR"
+FACTORY_DIR="$(dirname "$ENGINE_PATH")"
+OUTPUT_PATH="$APP_DIR/$OUTPUT_DIR"
+
+echo "============================================"
+echo "  template-factory-app: Generation Pipeline"
+echo "============================================"
+echo ""
+echo "Repository root: $REPO_ROOT"
+echo "Engine path:     $ENGINE_PATH"
+echo "Output path:     $OUTPUT_PATH"
+echo ""
+
+# Verify engine exists
+if [[ ! -d "$ENGINE_PATH" ]]; then
+    echo "ERROR: Engine directory not found: $ENGINE_PATH"
+    exit 1
+fi
+
+# Change to template-factory directory (engine expects to run from there)
+cd "$FACTORY_DIR" || exit 1
+echo "Working directory: $(pwd)"
+echo ""
+
+if [[ "$DRY_RUN" == "1" ]]; then
+    echo "============================================"
+    echo "  DRY RUN - Pipeline steps to execute:"
+    echo "============================================"
+fi
+
+# Pipeline steps
+STEPS=(
+    "topic_generator.py:STEP_TOPIC_GENERATOR:Generate topics"
+    "topic_evaluator.py:STEP_TOPIC_EVALUATOR:Score topics"
+    "product_builder.py:STEP_PRODUCT_BUILDER:Build products"
+    "template_generator.py:STEP_TEMPLATE_GENERATOR:Generate templates"
+    "template_validator.py:STEP_TEMPLATE_VALIDATOR:Validate templates"
+    "digital_file_generator.py:STEP_DIGITAL_FILE_GENERATOR:Generate digital files"
+    "zip_bundle_generator.py:STEP_ZIP_BUNDLE_GENERATOR:Create ZIP bundles"
+    "platform_metadata_generator.py:STEP_PLATFORM_METADATA_GENERATOR:Generate platform metadata"
+    "bundle_optimizer.py:STEP_BUNDLE_OPTIMIZER:Optimize bundles"
+    "bundle_generator.py:STEP_BUNDLE_GENERATOR:Generate bundle packages"
+    "i18n_generator.py:STEP_I18N_GENERATOR:Generate i18n pages"
+    "site_publisher.py:STEP_SITE_PUBLISHER:Publish site"
+)
+
+FAILED=0
+
+for step in "${STEPS[@]}"; do
+    IFS=':' read -r script varname desc <<< "$step"
+    
+    # Check if step is enabled (default to 1 if var not set)
+    enabled="${!varname:-1}"
+    
+    if [[ "$enabled" == "1" ]]; then
+        if [[ "$DRY_RUN" == "1" ]]; then
+            echo "  ▶ $desc (would run: engine/$script)"
+        else
+            echo "▶ $desc..."
+            if python "engine/$script"; then
+                echo "  ✓ Done"
+            else
+                echo "  ✗ Failed (exit code: $?)"
+                FAILED=1
+                if [[ "$STOP_ON_ERROR" == "1" ]]; then
+                    echo ""
+                    echo "ERROR: Pipeline stopped due to failure (stop_on_error=true)"
+                    break
+                fi
+            fi
+            echo ""
+        fi
+    else
+        if [[ "$VERBOSE" == "1" || "$DRY_RUN" == "1" ]]; then
+            echo "  ○ $desc (skipped)"
+        fi
+    fi
+done
+
+if [[ "$DRY_RUN" == "1" ]]; then
+    echo ""
+    echo "============================================"
+    echo "  DRY RUN complete. No files modified."
+    echo "============================================"
+    exit 0
+fi
+
+# Copy output if enabled
+if [[ "$COPY_OUTPUT" == "1" && "$FAILED" == "0" ]]; then
+    echo "--------------------------------------------"
+    echo "Copying output to: $OUTPUT_PATH"
+    
+    mkdir -p "$OUTPUT_PATH"
+    
+    for dir in $COPY_DIRS; do
+        if [[ -d "$dir" ]]; then
+            echo "  Copying $dir..."
+            cp -r "$dir" "$OUTPUT_PATH/"
+        fi
+    done
+    
+    echo "  ✓ Output copied"
+    echo ""
+fi
+
+echo "============================================"
+if [[ "$FAILED" == "0" ]]; then
+    echo "  Pipeline completed successfully!"
+else
+    echo "  Pipeline completed with errors."
+fi
+echo "============================================"
+
+exit $FAILED

@@ -1,0 +1,99 @@
+# Digital Product Generation Configuration
+# Use case: Generate printable planners and trackers for sale on Etsy/Gumroad
+
+version: "1.0"
+
+project:
+  name: "Printable Planners Collection"
+  description: "A collection of digital planners and trackers for productivity"
+  author: "Template Factory"
+  tags:
+    - printable
+    - planner
+    - digital-product
+    - productivity
+
+generation:
+  type: digital_product
+  dry_run: false
+
+topics:
+  strategy: auto
+  count: 30
+  categories:
+    - budget
+    - habit
+    - meal
+    - study
+  targets:
+    - Freelancers
+    - Students
+    - Couples
+    - Families
+    - Small Business Owners
+  scoring:
+    enabled: true
+    min_score: 40
+
+templates:
+  formats:
+    - html
+    - csv
+    - txt
+    - zip
+  validation:
+    enabled: true
+    strict: true
+    required_sections:
+      - Overview
+      - How to Use
+      - Monthly Table
+  style:
+    theme: minimal
+
+bundling:
+  enabled: true
+  size: 5
+  strategy: category
+  categories:
+    - budget
+    - habit
+    - meal
+    - study
+
+pricing:
+  enabled: true
+  currency: USD
+  base_price: 9.99
+  bundle_discount: 0.30
+  psychological_pricing: true
+  price_table:
+    budget: 9.99
+    habit: 10.99
+    meal: 10.99
+    study: 10.99
+
+i18n:
+  enabled: true
+  default_language: en
+  languages:
+    - fr
+    - de
+    - ja
+
+platforms:
+  enabled: true
+  targets:
+    - etsy
+    - gumroad
+
+publish:
+  enabled: true
+  output_dir: output
+  site:
+    enabled: true
+    include_checkout: true
+
+pipeline:
+  stop_on_error: true
+  verbose: false

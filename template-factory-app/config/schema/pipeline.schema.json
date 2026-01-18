@@ -1,0 +1,372 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://template-factory-app/pipeline.schema.json",
+  "title": "Template Factory Pipeline Configuration",
+  "description": "Configuration schema for the template-factory generation pipeline",
+  "type": "object",
+  "required": ["version", "project", "generation"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version for compatibility",
+      "enum": ["1.0"]
+    },
+    "project": {
+      "type": "object",
+      "description": "Project metadata",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Project name",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "description": {
+          "type": "string",
+          "description": "Project description",
+          "maxLength": 500
+        },
+        "author": {
+          "type": "string",
+          "description": "Author name or organization"
+        },
+        "tags": {
+          "type": "array",
+          "description": "Project tags for categorization",
+          "items": { "type": "string" },
+          "maxItems": 20
+        }
+      }
+    },
+    "generation": {
+      "type": "object",
+      "description": "Generation settings",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Generation type determines the output format and structure",
+          "enum": ["blog", "youtube", "digital_product", "generic"]
+        },
+        "dry_run": {
+          "type": "boolean",
+          "description": "If true, validate config but skip actual generation",
+          "default": false
+        }
+      }
+    },
+    "topics": {
+      "type": "object",
+      "description": "Topic generation strategy",
+      "additionalProperties": false,
+      "properties": {
+        "strategy": {
+          "type": "string",
+          "description": "How to generate or source topics",
+          "enum": ["auto", "manual", "hybrid"],
+          "default": "auto"
+        },
+        "count": {
+          "type": "integer",
+          "description": "Maximum number of topics to generate",
+          "minimum": 1,
+          "maximum": 1000,
+          "default": 30
+        },
+        "categories": {
+          "type": "array",
+          "description": "Topic categories to include",
+          "items": {
+            "type": "string",
+            "enum": ["budget", "habit", "meal", "study", "general"]
+          },
+          "default": ["budget", "habit", "meal", "study"]
+        },
+        "targets": {
+          "type": "array",
+          "description": "Target audiences for topic generation",
+          "items": { "type": "string" },
+          "default": ["Freelancers", "Students", "Couples", "Families", "Small Business Owners"]
+        },
+        "manual_topics": {
+          "type": "array",
+          "description": "Manually specified topics (used with manual or hybrid strategy)",
+          "items": { "type": "string" }
+        },
+        "scoring": {
+          "type": "object",
+          "description": "Topic scoring configuration",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": true
+            },
+            "min_score": {
+              "type": "number",
+              "description": "Minimum score threshold for inclusion",
+              "minimum": 0,
+              "maximum": 100,
+              "default": 0
+            }
+          }
+        }
+      }
+    },
+    "templates": {
+      "type": "object",
+      "description": "Template generation settings",
+      "additionalProperties": false,
+      "properties": {
+        "formats": {
+          "type": "array",
+          "description": "Output formats to generate",
+          "items": {
+            "type": "string",
+            "enum": ["html", "csv", "txt", "pdf", "zip"]
+          },
+          "default": ["html", "csv", "txt", "zip"]
+        },
+        "validation": {
+          "type": "object",
+          "description": "Template validation settings",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": true
+            },
+            "strict": {
+              "type": "boolean",
+              "description": "If true, reject templates that don't pass all checks",
+              "default": true
+            },
+            "required_sections": {
+              "type": "array",
+              "description": "Required sections in generated templates",
+              "items": { "type": "string" },
+              "default": ["Overview", "How to Use", "Monthly Table"]
+            }
+          }
+        },
+        "style": {
+          "type": "object",
+          "description": "Template styling options",
+          "additionalProperties": false,
+          "properties": {
+            "theme": {
+              "type": "string",
+              "enum": ["minimal", "professional", "colorful"],
+              "default": "minimal"
+            },
+            "branding": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "logo_url": { "type": "string", "format": "uri" },
+                "primary_color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+                "font_family": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bundling": {
+      "type": "object",
+      "description": "Product bundling settings",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Enable bundle generation",
+          "default": true
+        },
+        "size": {
+          "type": "integer",
+          "description": "Number of items per bundle",
+          "minimum": 2,
+          "maximum": 20,
+          "default": 5
+        },
+        "strategy": {
+          "type": "string",
+          "description": "How to group items into bundles",
+          "enum": ["category", "score", "random", "custom"],
+          "default": "category"
+        },
+        "categories": {
+          "type": "array",
+          "description": "Categories to create bundles for",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "description": "Pricing configuration",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": true
+        },
+        "currency": {
+          "type": "string",
+          "description": "Currency code",
+          "default": "USD",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "base_price": {
+          "type": "number",
+          "description": "Default base price for products",
+          "minimum": 0,
+          "default": 9.99
+        },
+        "bundle_discount": {
+          "type": "number",
+          "description": "Discount rate for bundles (0.0 to 1.0)",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.30
+        },
+        "psychological_pricing": {
+          "type": "boolean",
+          "description": "Apply psychological pricing (e.g., $9.99 instead of $10)",
+          "default": true
+        },
+        "price_table": {
+          "type": "object",
+          "description": "Category-specific pricing overrides",
+          "additionalProperties": { "type": "number" }
+        }
+      }
+    },
+    "i18n": {
+      "type": "object",
+      "description": "Internationalization settings",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "default_language": {
+          "type": "string",
+          "description": "Default/source language",
+          "default": "en"
+        },
+        "languages": {
+          "type": "array",
+          "description": "Target languages for translation",
+          "items": {
+            "type": "string",
+            "enum": ["en", "fr", "de", "ja", "es", "pt", "zh", "ko"]
+          },
+          "default": []
+        }
+      }
+    },
+    "platforms": {
+      "type": "object",
+      "description": "Platform-specific metadata generation",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": true
+        },
+        "targets": {
+          "type": "array",
+          "description": "Platforms to generate metadata for",
+          "items": {
+            "type": "string",
+            "enum": ["etsy", "gumroad", "shopify", "generic"]
+          },
+          "default": ["etsy", "gumroad"]
+        }
+      }
+    },
+    "publish": {
+      "type": "object",
+      "description": "Publishing settings",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Enable site publishing",
+          "default": true
+        },
+        "output_dir": {
+          "type": "string",
+          "description": "Output directory for published files",
+          "default": "output"
+        },
+        "site": {
+          "type": "object",
+          "description": "Static site generation settings",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": true
+            },
+            "base_url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "include_checkout": {
+              "type": "boolean",
+              "default": true
+            }
+          }
+        }
+      }
+    },
+    "pipeline": {
+      "type": "object",
+      "description": "Advanced pipeline control",
+      "additionalProperties": false,
+      "properties": {
+        "steps": {
+          "type": "object",
+          "description": "Enable/disable individual pipeline steps",
+          "additionalProperties": false,
+          "properties": {
+            "topic_generator": { "type": "boolean", "default": true },
+            "topic_evaluator": { "type": "boolean", "default": true },
+            "product_builder": { "type": "boolean", "default": true },
+            "template_generator": { "type": "boolean", "default": true },
+            "template_validator": { "type": "boolean", "default": true },
+            "digital_file_generator": { "type": "boolean", "default": true },
+            "zip_bundle_generator": { "type": "boolean", "default": true },
+            "platform_metadata_generator": { "type": "boolean", "default": true },
+            "bundle_optimizer": { "type": "boolean", "default": true },
+            "bundle_generator": { "type": "boolean", "default": true },
+            "i18n_generator": { "type": "boolean", "default": true },
+            "site_publisher": { "type": "boolean", "default": true }
+          }
+        },
+        "stop_on_error": {
+          "type": "boolean",
+          "description": "Stop pipeline on first error",
+          "default": true
+        },
+        "verbose": {
+          "type": "boolean",
+          "description": "Enable verbose output",
+          "default": false
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Reserved for future extensions and custom plugins",
+      "additionalProperties": true
+    }
+  }
+}
