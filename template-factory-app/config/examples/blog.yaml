@@ -1,0 +1,85 @@
+# Blog Content Generation Configuration
+# Use case: Generate blog post templates and content outlines
+
+version: "1.0"
+
+project:
+  name: "Productivity Blog Templates"
+  description: "Blog post templates about productivity and organization"
+  author: "Content Creator"
+  tags:
+    - blog
+    - content
+    - productivity
+    - writing
+
+generation:
+  type: blog
+  dry_run: false
+
+topics:
+  strategy: hybrid
+  count: 20
+  categories:
+    - habit
+    - study
+  targets:
+    - Students
+    - Freelancers
+    - Remote Workers
+  manual_topics:
+    - "10 Morning Habits for Productivity"
+    - "How to Plan Your Week Effectively"
+    - "Budget Tips for Students"
+  scoring:
+    enabled: true
+    min_score: 30
+
+templates:
+  formats:
+    - html
+    - txt
+  validation:
+    enabled: true
+    strict: false
+    required_sections:
+      - Overview
+      - How to Use
+  style:
+    theme: professional
+
+bundling:
+  enabled: false
+
+pricing:
+  enabled: false
+
+i18n:
+  enabled: false
+
+platforms:
+  enabled: false
+
+publish:
+  enabled: true
+  output_dir: output
+  site:
+    enabled: true
+    include_checkout: false
+
+pipeline:
+  steps:
+    topic_generator: true
+    topic_evaluator: true
+    product_builder: true
+    template_generator: true
+    template_validator: true
+    digital_file_generator: true
+    zip_bundle_generator: false
+    platform_metadata_generator: false
+    bundle_optimizer: false
+    bundle_generator: false
+    i18n_generator: false
+    site_publisher: true
+  stop_on_error: false
+  verbose: true

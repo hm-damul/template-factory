@@ -1,0 +1,156 @@
+name: Generate Templates
+
+on:
+  workflow_dispatch:
+    inputs:
+      config:
+        description: 'Config to run (all = run all configs in parallel)'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - digital_product
+          - blog
+          - youtube
+      dry_run:
+        description: 'Dry run (validate only, no generation)'
+        required: false
+        default: false
+        type: boolean
+
+  schedule:
+    # 매주 월요일 09:00 KST (Asia/Seoul) = 월요일 00:00 UTC
+    - cron: '0 0 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: generate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - blog
+          - youtube
+          - digital_product
+        exclude:
+          # workflow_dispatch에서 특정 config만 선택한 경우 다른 것들 제외
+          - config: ${{ github.event_name == 'workflow_dispatch' && inputs.config != 'all' && inputs.config != 'blog' && 'blog' || '' }}
+          - config: ${{ github.event_name == 'workflow_dispatch' && inputs.config != 'all' && inputs.config != 'youtube' && 'youtube' || '' }}
+          - config: ${{ github.event_name == 'workflow_dispatch' && inputs.config != 'all' && inputs.config != 'digital_product' && 'digital_product' || '' }}
+
+    steps:
+      - name: Print job info
+        run: |
+          echo "============================================"
+          echo "  🚀 Template Generation Job Started"
+          echo "============================================"
+          echo ""
+          echo "📋 Config:     ${{ matrix.config }}"
+          echo "🔢 Run ID:     ${{ github.run_id }}"
+          echo "🎯 Trigger:    ${{ github.event_name }}"
+          echo "🕐 Timestamp:  $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "📁 Config Path: template-factory-app/config/examples/${{ matrix.config }}.yaml"
+          echo ""
+          echo "============================================"
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          echo "📦 Installing Python dependencies..."
+          pip install pyyaml jsonschema
+          echo "✅ Dependencies installed"
+
+      - name: Validate configuration
+        run: |
+          echo "🔍 Validating config: ${{ matrix.config }}.yaml"
+          python template-factory-app/scripts/validate_config.py -v \
+            template-factory-app/config/examples/${{ matrix.config }}.yaml
+          echo "✅ Config validation passed"
+
+      - name: Run generation pipeline
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          echo "⚙️ Running pipeline for: ${{ matrix.config }}"
+          echo "----------------------------------------"
+          ./template-factory-app/scripts/run_generate \
+            --config template-factory-app/config/examples/${{ matrix.config }}.yaml
+          echo "----------------------------------------"
+          echo "✅ Pipeline completed for: ${{ matrix.config }}"
+
+      - name: Skip generation (dry run)
+        if: ${{ inputs.dry_run == true }}
+        run: |
+          echo "⏭️ Dry run mode - skipping actual generation"
+          echo "   Config: ${{ matrix.config }}"
+
+      - name: Upload generated output
+        if: ${{ inputs.dry_run != true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-${{ matrix.config }}-${{ github.run_id }}
+          path: template-factory-app/output/
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Upload docs site
+        if: ${{ inputs.dry_run != true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-${{ matrix.config }}-${{ github.run_id }}
+          path: template-factory/docs/
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Print completion status
+        if: always()
+        run: |
+          echo ""
+          echo "============================================"
+          echo "  📊 Job Completion Summary"
+          echo "============================================"
+          echo "Config:    ${{ matrix.config }}"
+          echo "Run ID:    ${{ github.run_id }}"
+          echo "Status:    ${{ job.status }}"
+          echo "Artifacts: generated-${{ matrix.config }}-${{ github.run_id }}"
+          echo "============================================"
+
+  summary:
+    needs: generate
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Generate workflow summary
+        run: |
+          echo "## 🎯 Template Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Item | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Run ID** | \`${{ github.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Trigger** | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Dry Run** | ${{ inputs.dry_run || false }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Branch** | ${{ github.ref_name }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📦 Artifacts" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Config | Artifact Name |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|---------------|" >> $GITHUB_STEP_SUMMARY
+          echo "| blog | \`generated-blog-${{ github.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| youtube | \`generated-youtube-${{ github.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| digital_product | \`generated-digital_product-${{ github.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
