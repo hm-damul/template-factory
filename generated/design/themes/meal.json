@@ -1,0 +1,50 @@
+{
+  "name": "Meal Orange",
+  "category": "meal",
+  "palette": {
+    "primary": "#ea580c",
+    "onPrimary": "#ffffff",
+    "secondary": "#ffedd5",
+    "onSecondary": "#9a3412",
+    "accent": "#84cc16",
+    "onAccent": "#365314",
+    "background": "#ffffff",
+    "surface": "#fff7ed",
+    "text": "#1f2937",
+    "border": "#fdba74"
+  },
+  "components": {
+    "header": {
+      "background": "#ea580c",
+      "text": "#ffffff",
+      "fontFamily": "sans",
+      "fontSize": "2xl",
+      "fontWeight": "bold"
+    },
+    "table": {
+      "headerBg": "#ffedd5",
+      "headerText": "#9a3412",
+      "rowBg": "#ffffff",
+      "rowAltBg": "#fff7ed",
+      "border": "#fdba74"
+    },
+    "section": {
+      "titleColor": "#ea580c",
+      "textColor": "#1f2937",
+      "backgroundColor": "#ffffff"
+    },
+    "accent": {
+      "background": "#84cc16",
+      "text": "#365314"
+    }
+  },
+  "print": {
+    "pageSize": "A4",
+    "margins": "20mm",
+    "headerHeight": "15mm",
+    "footerHeight": "10mm"
+  },
+  "_meta": {
+    "generated_at": "2026-01-18 16:59:06 UTC"
+  }
+}

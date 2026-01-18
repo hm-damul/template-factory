@@ -1,0 +1,50 @@
+{
+  "name": "Minimal Gray",
+  "category": "general",
+  "palette": {
+    "primary": "#374151",
+    "onPrimary": "#ffffff",
+    "secondary": "#f3f4f6",
+    "onSecondary": "#1f2937",
+    "accent": "#6366f1",
+    "onAccent": "#ffffff",
+    "background": "#ffffff",
+    "surface": "#f9fafb",
+    "text": "#1f2937",
+    "border": "#d1d5db"
+  },
+  "components": {
+    "header": {
+      "background": "#374151",
+      "text": "#ffffff",
+      "fontFamily": "sans",
+      "fontSize": "2xl",
+      "fontWeight": "bold"
+    },
+    "table": {
+      "headerBg": "#f3f4f6",
+      "headerText": "#1f2937",
+      "rowBg": "#ffffff",
+      "rowAltBg": "#f9fafb",
+      "border": "#d1d5db"
+    },
+    "section": {
+      "titleColor": "#374151",
+      "textColor": "#1f2937",
+      "backgroundColor": "#ffffff"
+    },
+    "accent": {
+      "background": "#6366f1",
+      "text": "#ffffff"
+    }
+  },
+  "print": {
+    "pageSize": "A4",
+    "margins": "20mm",
+    "headerHeight": "15mm",
+    "footerHeight": "10mm"
+  },
+  "_meta": {
+    "generated_at": "2026-01-18 16:59:06 UTC"
+  }
+}

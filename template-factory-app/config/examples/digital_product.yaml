@@ -51,6 +51,38 @@ templates:
   style:
     theme: minimal
 
+# NEW: Design system settings
+design:
+  enabled: true
+  themes:
+    - budget
+    - habit
+    - meal
+    - study
+    - general
+
+# NEW: Preview generation
+preview:
+  enabled: true
+  format: html
+  thumbnail: true
+
+# NEW: Quality assurance
+qa:
+  enabled: true
+  strict: false
+  checks:
+    - html_lint
+    - print_layout
+    - accessibility
+    - duplicates
+
+# NEW: README generation
+readme:
+  enabled: true
+  include_license: true
+  include_faq: true
+
 bundling:
   enabled: true
   size: 5

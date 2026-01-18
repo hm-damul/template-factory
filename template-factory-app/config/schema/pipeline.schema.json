@@ -327,6 +327,98 @@
         }
       }
     },
+    "design": {
+      "type": "object",
+      "description": "Design system settings",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Enable design tokens generation",
+          "default": true
+        },
+        "themes": {
+          "type": "array",
+          "description": "Theme categories to generate",
+          "items": {
+            "type": "string",
+            "enum": ["budget", "habit", "meal", "study", "general"]
+          },
+          "default": ["budget", "habit", "meal", "study", "general"]
+        }
+      }
+    },
+    "preview": {
+      "type": "object",
+      "description": "Preview generation settings",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Enable preview generation",
+          "default": true
+        },
+        "format": {
+          "type": "string",
+          "description": "Preview format (html = HTML only, png = attempt PNG)",
+          "enum": ["html", "png"],
+          "default": "html"
+        },
+        "thumbnail": {
+          "type": "boolean",
+          "description": "Generate SVG thumbnails",
+          "default": true
+        }
+      }
+    },
+    "qa": {
+      "type": "object",
+      "description": "Quality assurance settings",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Enable QA checks",
+          "default": true
+        },
+        "strict": {
+          "type": "boolean",
+          "description": "Fail on any QA error",
+          "default": false
+        },
+        "checks": {
+          "type": "array",
+          "description": "QA checks to perform",
+          "items": {
+            "type": "string",
+            "enum": ["html_lint", "print_layout", "accessibility", "duplicates"]
+          },
+          "default": ["html_lint", "print_layout", "accessibility", "duplicates"]
+        }
+      }
+    },
+    "readme": {
+      "type": "object",
+      "description": "README generation settings",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Generate README files for each product",
+          "default": true
+        },
+        "include_license": {
+          "type": "boolean",
+          "description": "Include license information",
+          "default": true
+        },
+        "include_faq": {
+          "type": "boolean",
+          "description": "Include FAQ section",
+          "default": true
+        }
+      }
+    },
     "pipeline": {
       "type": "object",
       "description": "Advanced pipeline control",
@@ -340,15 +432,20 @@
             "topic_generator": { "type": "boolean", "default": true },
             "topic_evaluator": { "type": "boolean", "default": true },
             "product_builder": { "type": "boolean", "default": true },
-            "template_generator": { "type": "boolean", "default": true },
+            "design_tokens_generator": { "type": "boolean", "default": true },
+            "template_scaffolder": { "type": "boolean", "default": true },
             "template_validator": { "type": "boolean", "default": true },
+            "template_qa": { "type": "boolean", "default": true },
             "digital_file_generator": { "type": "boolean", "default": true },
+            "preview_generator": { "type": "boolean", "default": true },
+            "readme_generator": { "type": "boolean", "default": true },
             "zip_bundle_generator": { "type": "boolean", "default": true },
             "platform_metadata_generator": { "type": "boolean", "default": true },
             "bundle_optimizer": { "type": "boolean", "default": true },
             "bundle_generator": { "type": "boolean", "default": true },
             "i18n_generator": { "type": "boolean", "default": true },
-            "site_publisher": { "type": "boolean", "default": true }
+            "site_publisher": { "type": "boolean", "default": true },
+            "pipeline_summary": { "type": "boolean", "default": true }
           }
         },
         "stop_on_error": {

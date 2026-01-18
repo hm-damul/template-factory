@@ -1,0 +1,50 @@
+{
+  "name": "Budget Mint",
+  "category": "budget",
+  "palette": {
+    "primary": "#059669",
+    "onPrimary": "#ffffff",
+    "secondary": "#d1fae5",
+    "onSecondary": "#065f46",
+    "accent": "#fbbf24",
+    "onAccent": "#78350f",
+    "background": "#ffffff",
+    "surface": "#f0fdf4",
+    "text": "#1f2937",
+    "border": "#a7f3d0"
+  },
+  "components": {
+    "header": {
+      "background": "#059669",
+      "text": "#ffffff",
+      "fontFamily": "sans",
+      "fontSize": "2xl",
+      "fontWeight": "bold"
+    },
+    "table": {
+      "headerBg": "#d1fae5",
+      "headerText": "#065f46",
+      "rowBg": "#ffffff",
+      "rowAltBg": "#f0fdf4",
+      "border": "#a7f3d0"
+    },
+    "section": {
+      "titleColor": "#059669",
+      "textColor": "#1f2937",
+      "backgroundColor": "#ffffff"
+    },
+    "accent": {
+      "background": "#fbbf24",
+      "text": "#78350f"
+    }
+  },
+  "print": {
+    "pageSize": "A4",
+    "margins": "20mm",
+    "headerHeight": "15mm",
+    "footerHeight": "10mm"
+  },
+  "_meta": {
+    "generated_at": "2026-01-18 16:59:06 UTC"
+  }
+}

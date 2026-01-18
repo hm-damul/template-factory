@@ -27,15 +27,20 @@ STOP_ON_ERROR="1"
 STEP_TOPIC_GENERATOR=1
 STEP_TOPIC_EVALUATOR=1
 STEP_PRODUCT_BUILDER=1
-STEP_TEMPLATE_GENERATOR=1
+STEP_DESIGN_TOKENS_GENERATOR=1
+STEP_TEMPLATE_SCAFFOLDER=1
 STEP_TEMPLATE_VALIDATOR=1
+STEP_TEMPLATE_QA=1
 STEP_DIGITAL_FILE_GENERATOR=1
+STEP_PREVIEW_GENERATOR=1
+STEP_README_GENERATOR=1
 STEP_ZIP_BUNDLE_GENERATOR=1
 STEP_PLATFORM_METADATA_GENERATOR=1
 STEP_BUNDLE_OPTIMIZER=1
 STEP_BUNDLE_GENERATOR=1
 STEP_I18N_GENERATOR=1
 STEP_SITE_PUBLISHER=1
+STEP_PIPELINE_SUMMARY=1
 
 # Parse command line arguments
 CONFIG_PATH=""
@@ -141,19 +146,30 @@ print(f"CONFIG_DRY_RUN={1 if gen.get('dry_run', False) else 0}")
 print(f"VERBOSE={1 if pipeline.get('verbose', False) else 0}")
 print(f"STOP_ON_ERROR={1 if pipeline.get('stop_on_error', True) else 0}")
 
-# Pipeline steps
+# New config sections
+design = config.get('design', {})
+preview = config.get('preview', {})
+qa = config.get('qa', {})
+readme = config.get('readme', {})
+
+# Pipeline steps (updated order with new steps)
 print(f"STEP_TOPIC_GENERATOR={1 if steps.get('topic_generator', True) else 0}")
 print(f"STEP_TOPIC_EVALUATOR={1 if steps.get('topic_evaluator', True) else 0}")
 print(f"STEP_PRODUCT_BUILDER={1 if steps.get('product_builder', True) else 0}")
-print(f"STEP_TEMPLATE_GENERATOR={1 if steps.get('template_generator', True) else 0}")
+print(f"STEP_DESIGN_TOKENS_GENERATOR={1 if steps.get('design_tokens_generator', True) and design.get('enabled', True) else 0}")
+print(f"STEP_TEMPLATE_SCAFFOLDER={1 if steps.get('template_scaffolder', True) else 0}")
 print(f"STEP_TEMPLATE_VALIDATOR={1 if steps.get('template_validator', True) else 0}")
+print(f"STEP_TEMPLATE_QA={1 if steps.get('template_qa', True) and qa.get('enabled', True) else 0}")
 print(f"STEP_DIGITAL_FILE_GENERATOR={1 if steps.get('digital_file_generator', True) else 0}")
+print(f"STEP_PREVIEW_GENERATOR={1 if steps.get('preview_generator', True) and preview.get('enabled', True) else 0}")
+print(f"STEP_README_GENERATOR={1 if steps.get('readme_generator', True) and readme.get('enabled', True) else 0}")
 print(f"STEP_ZIP_BUNDLE_GENERATOR={1 if steps.get('zip_bundle_generator', True) and bundling.get('enabled', True) else 0}")
 print(f"STEP_PLATFORM_METADATA_GENERATOR={1 if steps.get('platform_metadata_generator', True) and platforms.get('enabled', True) else 0}")
 print(f"STEP_BUNDLE_OPTIMIZER={1 if steps.get('bundle_optimizer', True) and bundling.get('enabled', True) else 0}")
 print(f"STEP_BUNDLE_GENERATOR={1 if steps.get('bundle_generator', True) and bundling.get('enabled', True) else 0}")
 print(f"STEP_I18N_GENERATOR={1 if steps.get('i18n_generator', True) and i18n.get('enabled', False) else 0}")
 print(f"STEP_SITE_PUBLISHER={1 if steps.get('site_publisher', True) and publish.get('enabled', True) else 0}")
+print(f"STEP_PIPELINE_SUMMARY={1 if steps.get('pipeline_summary', True) else 0}")
 
 # Output settings
 print(f"OUTPUT_DIR='{publish.get('output_dir', 'output')}'")
@@ -249,20 +265,25 @@ if [[ "$DRY_RUN" == "1" ]]; then
     echo "============================================"
 fi
 
-# Pipeline steps
+# Pipeline steps (17 total - updated production pipeline)
 STEPS=(
-    "topic_generator.py:STEP_TOPIC_GENERATOR:Generate topics"
-    "topic_evaluator.py:STEP_TOPIC_EVALUATOR:Score topics"
-    "product_builder.py:STEP_PRODUCT_BUILDER:Build products"
-    "template_generator.py:STEP_TEMPLATE_GENERATOR:Generate templates"
-    "template_validator.py:STEP_TEMPLATE_VALIDATOR:Validate templates"
-    "digital_file_generator.py:STEP_DIGITAL_FILE_GENERATOR:Generate digital files"
-    "zip_bundle_generator.py:STEP_ZIP_BUNDLE_GENERATOR:Create ZIP bundles"
-    "platform_metadata_generator.py:STEP_PLATFORM_METADATA_GENERATOR:Generate platform metadata"
-    "bundle_optimizer.py:STEP_BUNDLE_OPTIMIZER:Optimize bundles"
-    "bundle_generator.py:STEP_BUNDLE_GENERATOR:Generate bundle packages"
-    "i18n_generator.py:STEP_I18N_GENERATOR:Generate i18n pages"
-    "site_publisher.py:STEP_SITE_PUBLISHER:Publish site"
+    "topic_generator.py:STEP_TOPIC_GENERATOR:1. Generate topics"
+    "topic_evaluator.py:STEP_TOPIC_EVALUATOR:2. Score topics"
+    "product_builder.py:STEP_PRODUCT_BUILDER:3. Build products"
+    "design_tokens_generator.py:STEP_DESIGN_TOKENS_GENERATOR:4. Generate design tokens"
+    "template_scaffolder.py:STEP_TEMPLATE_SCAFFOLDER:5. Scaffold templates"
+    "template_validator.py:STEP_TEMPLATE_VALIDATOR:6. Validate templates"
+    "template_qa.py:STEP_TEMPLATE_QA:7. QA checks"
+    "digital_file_generator.py:STEP_DIGITAL_FILE_GENERATOR:8. Generate digital files"
+    "preview_generator.py:STEP_PREVIEW_GENERATOR:9. Generate previews"
+    "readme_generator.py:STEP_README_GENERATOR:10. Generate READMEs"
+    "zip_bundle_generator.py:STEP_ZIP_BUNDLE_GENERATOR:11. Create ZIP bundles"
+    "platform_metadata_generator.py:STEP_PLATFORM_METADATA_GENERATOR:12. Generate platform metadata"
+    "bundle_optimizer.py:STEP_BUNDLE_OPTIMIZER:13. Optimize bundles"
+    "bundle_generator.py:STEP_BUNDLE_GENERATOR:14. Generate bundle packages"
+    "i18n_generator.py:STEP_I18N_GENERATOR:15. Generate i18n pages"
+    "site_publisher.py:STEP_SITE_PUBLISHER:16. Publish site"
+    "pipeline_summary.py:STEP_PIPELINE_SUMMARY:17. Generate summary"
 )
 
 FAILED=0

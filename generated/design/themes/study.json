@@ -1,0 +1,50 @@
+{
+  "name": "Study Blue",
+  "category": "study",
+  "palette": {
+    "primary": "#2563eb",
+    "onPrimary": "#ffffff",
+    "secondary": "#dbeafe",
+    "onSecondary": "#1e40af",
+    "accent": "#14b8a6",
+    "onAccent": "#134e4a",
+    "background": "#ffffff",
+    "surface": "#eff6ff",
+    "text": "#1f2937",
+    "border": "#93c5fd"
+  },
+  "components": {
+    "header": {
+      "background": "#2563eb",
+      "text": "#ffffff",
+      "fontFamily": "sans",
+      "fontSize": "2xl",
+      "fontWeight": "bold"
+    },
+    "table": {
+      "headerBg": "#dbeafe",
+      "headerText": "#1e40af",
+      "rowBg": "#ffffff",
+      "rowAltBg": "#eff6ff",
+      "border": "#93c5fd"
+    },
+    "section": {
+      "titleColor": "#2563eb",
+      "textColor": "#1f2937",
+      "backgroundColor": "#ffffff"
+    },
+    "accent": {
+      "background": "#14b8a6",
+      "text": "#134e4a"
+    }
+  },
+  "print": {
+    "pageSize": "A4",
+    "margins": "20mm",
+    "headerHeight": "15mm",
+    "footerHeight": "10mm"
+  },
+  "_meta": {
+    "generated_at": "2026-01-18 16:59:06 UTC"
+  }
+}
