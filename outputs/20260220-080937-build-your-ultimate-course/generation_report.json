@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-080937-build-your-ultimate-course",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-080937-build-your-ultimate-course",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-080937-build-your-ultimate-course\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-080937-build-your-ultimate-course\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-080937-build-your-ultimate-course\\product.pdf",
+  "checksum": "b45898951e200b5b7696cf5c054e737c40dc5e55c09b9af69ff1c747f2e67d97",
+  "generated_at": "20260220-081007",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

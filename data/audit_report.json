@@ -1,14 +1,50 @@
 {
-  "last_audit": "2026-02-20 06:56:10",
+  "last_audit": "2026-02-20 07:54:11",
   "summary": {
-    "total_products": 176,
-    "healthy_products": 3,
+    "total_products": 182,
+    "healthy_products": 9,
     "broken_products": 173,
-    "total_promotions": 324,
+    "total_promotions": 330,
     "healthy_promotions": 141,
-    "broken_promotions": 183
+    "broken_promotions": 189
   },
   "details": [
+    {
+      "product_id": "20260220-074802-student-log-in",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-074149-20-indonesia-viral-terbaru-vid",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-073537-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-073144-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-072901-best-digital-product-ideas-to",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-071129-70-digital-product-ideas-for-p",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
     {
       "product_id": "20260220-064523-how-to-make-money-on-etsy-what",
       "type": "product",
@@ -1442,6 +1478,60 @@
       "issues": [
         "Deployment URL dead/invalid: Status Code 401",
         "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260220-074802-student-log-in",
+      "type": "promotion_wordpress",
+      "post_id": 1303,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-074802-student-log-in/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Student Log In'"
+      ]
+    },
+    {
+      "product_id": "20260220-074149-20-indonesia-viral-terbaru-vid",
+      "type": "promotion_wordpress",
+      "post_id": 1302,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-074149-20-indonesia-viral-terbaru-vid/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '20 Indonesia Viral Terbaru Videos on Social Media in 2026 &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260220-073537-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1301,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-073537-digital-asset-bundle-2026-02-2/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 07:35'"
+      ]
+    },
+    {
+      "product_id": "20260220-073144-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1300,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-073144-digital-asset-bundle-2026-02-2/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 07:31'"
+      ]
+    },
+    {
+      "product_id": "20260220-072901-best-digital-product-ideas-to",
+      "type": "promotion_wordpress",
+      "post_id": 1299,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-072901-best-digital-product-ideas-to/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Best Digital Product Ideas to Start Selling Today'"
+      ]
+    },
+    {
+      "product_id": "20260220-071129-70-digital-product-ideas-for-p",
+      "type": "promotion_wordpress",
+      "post_id": 1298,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-071129-70-digital-product-ideas-for-p/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '70+ Digital Product Ideas for Passive Income'"
       ]
     },
     {

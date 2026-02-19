@@ -1,6 +1,6 @@
 {
-  "product_id": "20260220-074802-student-log-in",
-  "topic": "Student Log In",
+  "product_id": "20260220-080937-build-your-ultimate-course",
+  "topic": "Build Your Ultimate Course",
   "sections": [
     "executive_overview",
     "strategic_foundation",
@@ -13,6 +13,5 @@
     "roadmap",
     "bonus_vault"
   ],
-  "price_band": "$39.00",
-  "price_wei": 11600000000000000
+  "price_band": "$29.00"
 }
