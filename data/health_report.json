@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T21:18:01.045111+00:00",
+  "timestamp": "2026-02-19T21:24:24.160505+00:00",
   "stats": {
-    "total": 171,
+    "total": 172,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-061810-digital-to-physical-on-etsy-th",
+      "topic": "Digital -to-Physical on Etsy : The New Hybrid Seller Playbook",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T06:18:10.531931"
+    },
     {
       "id": "20260220-060044-web3-marketing-playbook-commun",
       "topic": "Web3 Marketing Playbook: Community Growth & Tokenomics",
@@ -120,17 +126,11 @@
       "topic": "What Genres Dominate the eBook Market in 2026?",
       "status": "PROMOTED",
       "created_at": "2026-02-20T03:02:37.688089"
-    },
-    {
-      "id": "20260220-024401-40-best-digital-ai-product-des",
-      "topic": "40 Best Digital AI Product Design Examples in 2025",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T02:44:01.306844"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Trading / Bot / Crypto Tool\": 1}",
-    "last_updated": "2026-02-19T21:18:00.191757+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Guide / E-book / Blueprint\": 1}",
+    "last_updated": "2026-02-19T21:24:23.281414+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T21:06:50.872777+00:00",
-    "next_run_approx": "2026-02-19T21:07:00.872778+00:00",
+    "last_run_end": "2026-02-19T21:24:10.891904+00:00",
+    "next_run_approx": "2026-02-19T21:24:20.891904+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,

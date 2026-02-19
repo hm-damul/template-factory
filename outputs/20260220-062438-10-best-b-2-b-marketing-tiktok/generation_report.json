@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-062438-10-best-b-2-b-marketing-tiktok",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-062438-10-best-b-2-b-marketing-tiktok",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-062438-10-best-b-2-b-marketing-tiktok\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-062438-10-best-b-2-b-marketing-tiktok\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-062438-10-best-b-2-b-marketing-tiktok\\product.pdf",
+  "checksum": "f8e0c50734cc6bbae27ddabf977f3606d90de9be9a6f04c866583322a2b573a1",
+  "generated_at": "20260220-062448",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
