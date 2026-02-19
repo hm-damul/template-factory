@@ -1,10 +1,10 @@
 {
-  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1}",
-  "last_updated": "2026-02-19T20:26:10.248925+00:00",
-  "phase": "running_autopilot",
+  "last_log": "성과 기반 재홍보(Analytics Loop) 실행...",
+  "last_updated": "2026-02-19T20:32:02.080923+00:00",
+  "phase": "idle",
   "product_id": null,
   "last_cmd": [
-    "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
     "auto_pilot.py",
     "--batch",
     "1"
