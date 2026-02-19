@@ -1,18 +1,18 @@
 {
-  "last_log": "재배포 성공: 20260215-074829-freelancer-consultant-landing",
-  "last_updated": "2026-02-19T18:30:32.847485+00:00",
+  "last_log": "--- RUN #8 END (took 97.9s). Next run in 3502.1s ---",
+  "last_updated": "2026-02-19T18:33:06.818405+00:00",
   "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
-    "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
     "auto_pilot.py",
     "--batch",
     "1"
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-19T18:24:38.050498+00:00",
-  "next_run_approx": "2026-02-19T18:24:48.050498+00:00",
+  "last_run_end": "2026-02-19T18:33:06.745403+00:00",
+  "next_run_approx": "2026-02-19T19:31:28.866678+00:00",
   "count": 1,
   "status": "running",
   "pid": 12128,

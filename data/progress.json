@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-031839-trending-etsy-products-2026",
-  "updated_at": 1771525453.318205,
-  "updated_at_iso": "2026-02-19T18:24:13Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260220-033213-how-to-use-amazon-s-new-ai-too",
+  "updated_at": 1771525946.9107459,
+  "updated_at_iso": "2026-02-19T18:32:26Z"
 }
