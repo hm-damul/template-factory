@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T22:11:10.829738+00:00",
+  "timestamp": "2026-02-19T22:28:41.318281+00:00",
   "stats": {
-    "total": 176,
-    "published": 0,
-    "waiting": 32,
+    "total": 177,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-071129-70-digital-product-ideas-for-p",
+      "topic": "70+ Digital Product Ideas for Passive Income",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T07:11:29.756017"
+    },
     {
       "id": "20260220-064523-how-to-make-money-on-etsy-what",
       "topic": "How to Make Money on Etsy: What Actually Works (And What's Changed in 2026)",
@@ -120,29 +126,23 @@
       "topic": "(2026 Guide) 38 Popular Digital Products On Etsy",
       "status": "PROMOTED",
       "created_at": "2026-02-20T03:46:18.344600"
-    },
-    {
-      "id": "20260220-033412-30-best-free-shopify-themes-20",
-      "topic": "30 Best free Shopify themes ( 2026 )",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T03:34:12.039494"
     }
   ],
   "daemon": {
     "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-19T22:11:09.916663+00:00",
+    "last_updated": "2026-02-19T22:28:40.573597+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T21:51:12.393953+00:00",
-    "next_run_approx": "2026-02-19T22:31:30.519554+00:00",
+    "last_run_end": "2026-02-19T22:17:34.467636+00:00",
+    "next_run_approx": "2026-02-19T22:17:44.468638+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
