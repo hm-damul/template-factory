@@ -1,10 +1,10 @@
 {
-  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Template / Landing Page\": 1}",
-  "last_updated": "2026-02-19T23:26:56.679247+00:00",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Guide / E-book / Blueprint\": 1}",
+  "last_updated": "2026-02-19T23:31:32.951984+00:00",
   "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
-    "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
     "auto_pilot.py",
     "--batch",
     "1"

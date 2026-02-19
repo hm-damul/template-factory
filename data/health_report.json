@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T23:26:56.572926+00:00",
+  "timestamp": "2026-02-19T23:31:32.846327+00:00",
   "stats": {
-    "total": 183,
+    "total": 184,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-082710-course-login",
+      "topic": "Course Login",
+      "status": "QA2_PASSED",
+      "created_at": "2026-02-20T08:27:10.539982"
+    },
     {
       "id": "20260220-080937-build-your-ultimate-course",
       "topic": "Build Your Ultimate Course",
@@ -120,18 +126,12 @@
       "topic": "15+ Best Digital Product Ideas to Earn Passive Income",
       "status": "PROMOTED",
       "created_at": "2026-02-20T05:02:39.437324"
-    },
-    {
-      "id": "20260220-044219-best-digital-downloads-to-sell",
-      "topic": "Best Digital Downloads to Sell on Etsy (2026)",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T04:42:19.419166"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Template / Landing Page\": 1}",
-    "last_updated": "2026-02-19T23:26:55.875454+00:00",
-    "phase": "sleeping",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Guide / E-book / Blueprint\": 1}",
+    "last_updated": "2026-02-19T23:31:32.085149+00:00",
+    "phase": "running_autopilot",
     "product_id": null,
     "last_cmd": [
       "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
