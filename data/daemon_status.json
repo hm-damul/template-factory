@@ -1,10 +1,10 @@
 {
-  "last_log": "--- RUN #8 END (took 97.9s). Next run in 3502.1s ---",
-  "last_updated": "2026-02-19T18:33:06.818405+00:00",
-  "phase": "sleeping",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
+  "last_updated": "2026-02-19T18:33:58.149454+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
-    "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
     "auto_pilot.py",
     "--batch",
     "1"
