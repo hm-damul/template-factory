@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T20:02:25.844703+00:00",
+  "timestamp": "2026-02-19T20:19:43.392983+00:00",
   "stats": {
-    "total": 164,
-    "published": 0,
-    "waiting": 32,
+    "total": 165,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-050239-15-best-digital-product-ideas",
+      "topic": "15+ Best Digital Product Ideas to Earn Passive Income",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T05:02:39.437324"
+    },
     {
       "id": "20260220-044219-best-digital-downloads-to-sell",
       "topic": "Best Digital Downloads to Sell on Etsy (2026)",
@@ -120,17 +126,11 @@
       "topic": "A Dozen Digital Product Ideas You Can Build With AI in 2026",
       "status": "PROMOTED",
       "created_at": "2026-02-20T02:09:36.629610"
-    },
-    {
-      "id": "20260220-020442-most-popular-genres-for-2026-w",
-      "topic": "Most Popular Genres for 2026 – What Readers Are Buying",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T02:04:42.886411"
     }
   ],
   "daemon": {
     "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-19T20:02:25.087116+00:00",
+    "last_updated": "2026-02-19T20:19:42.685959+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T19:48:21.050811+00:00",
-    "next_run_approx": "2026-02-19T19:48:31.050811+00:00",
+    "last_run_end": "2026-02-19T20:08:35.964673+00:00",
+    "next_run_approx": "2026-02-19T20:08:45.965185+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
