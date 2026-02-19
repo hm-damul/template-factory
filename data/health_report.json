@@ -1,16 +1,22 @@
 {
-  "timestamp": "2026-02-19T22:31:32.414499+00:00",
+  "timestamp": "2026-02-19T22:35:27.270512+00:00",
   "stats": {
-    "total": 178,
+    "total": 179,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
     {
+      "id": "20260220-073144-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 07:31",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T07:31:44.357650"
+    },
+    {
       "id": "20260220-072901-best-digital-product-ideas-to",
       "topic": "Best Digital Product Ideas to Start Selling Today",
-      "status": "QA2_PASSED",
+      "status": "PROMOTED",
       "created_at": "2026-02-20T07:29:01.317650"
     },
     {
@@ -120,29 +126,23 @@
       "topic": "Digital Nomad Tax Haven Guide: Crypto-Friendly Jurisdictions",
       "status": "PROMOTED",
       "created_at": "2026-02-20T04:23:04.846819"
-    },
-    {
-      "id": "20260220-040541-top-10-digital-product-niches",
-      "topic": "Top 10 Digital Product Niches for 2026 (Low Competition, High ROI)",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T04:05:41.543292"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-19T22:31:31.726792+00:00",
-    "phase": "running_autopilot",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
+    "last_updated": "2026-02-19T22:35:26.597409+00:00",
+    "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T22:17:34.467636+00:00",
-    "next_run_approx": "2026-02-19T22:17:44.468638+00:00",
+    "last_run_end": "2026-02-19T22:35:15.043480+00:00",
+    "next_run_approx": "2026-02-19T22:35:25.043481+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
