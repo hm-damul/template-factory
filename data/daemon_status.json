@@ -1,6 +1,6 @@
 {
-  "last_log": "대기 중인 제품 2개 재배포 시도 중...",
-  "last_updated": "2026-02-19T20:08:47.384096+00:00",
+  "last_log": "재배포 성공: 20260215-074829-freelancer-consultant-landing",
+  "last_updated": "2026-02-19T20:14:06.095742+00:00",
   "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
