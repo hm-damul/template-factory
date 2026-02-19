@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T23:33:33.603384+00:00",
+  "timestamp": "2026-02-19T23:40:02.775895+00:00",
   "stats": {
-    "total": 185,
+    "total": 186,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-083354-12-notion-ideas-to-boost-produ",
+      "topic": "12 Notion Ideas to Boost Productivity in 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T08:33:54.081181"
+    },
     {
       "id": "20260220-083144-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 08:31",
@@ -120,29 +126,23 @@
       "topic": "DAO Governance 101: How to Launch and Manage a Decentralized Org",
       "status": "PROMOTED",
       "created_at": "2026-02-20T05:26:29.243110"
-    },
-    {
-      "id": "20260220-052005-how-to-sell-high-ticket-digita",
-      "topic": "How to Sell High-Ticket Digital Products for Crypto (Ops + Security)",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T05:20:05.209479"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-19T23:33:32.923856+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-19T23:40:02.086830+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T23:33:21.446494+00:00",
-    "next_run_approx": "2026-02-19T23:33:31.446494+00:00",
+    "last_run_end": "2026-02-19T23:39:50.521710+00:00",
+    "next_run_approx": "2026-02-19T23:40:00.521711+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
