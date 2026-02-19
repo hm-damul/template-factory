@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T20:19:43.392983+00:00",
+  "timestamp": "2026-02-19T20:26:10.130976+00:00",
   "stats": {
-    "total": 165,
+    "total": 166,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-052005-how-to-sell-high-ticket-digita",
+      "topic": "How to Sell High-Ticket Digital Products for Crypto (Ops + Security)",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T05:20:05.209479"
+    },
     {
       "id": "20260220-050239-15-best-digital-product-ideas",
       "topic": "15+ Best Digital Product Ideas to Earn Passive Income",
@@ -120,17 +126,11 @@
       "topic": "8 Creative Ideas to Make AI-Generated Digital Products Unique",
       "status": "PROMOTED",
       "created_at": "2026-02-20T02:27:07.216746"
-    },
-    {
-      "id": "20260220-020936-a-dozen-digital-product-ideas",
-      "topic": "A Dozen Digital Product Ideas You Can Build With AI in 2026",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T02:09:36.629610"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-19T20:19:42.685959+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-19T20:26:09.449236+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T20:08:35.964673+00:00",
-    "next_run_approx": "2026-02-19T20:08:45.965185+00:00",
+    "last_run_end": "2026-02-19T20:25:57.750955+00:00",
+    "next_run_approx": "2026-02-19T20:26:07.750955+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
