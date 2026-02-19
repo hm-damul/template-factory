@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-064523-how-to-make-money-on-etsy-what",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-064523-how-to-make-money-on-etsy-what",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-064523-how-to-make-money-on-etsy-what\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-064523-how-to-make-money-on-etsy-what\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-064523-how-to-make-money-on-etsy-what\\product.pdf",
+  "checksum": "e89864441b30551b87cf892ee3fb889755ecf5ce15db9192f80d286358adfcf5",
+  "generated_at": "20260220-064531",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

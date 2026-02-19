@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-063850-crypto-wallet-buyer-playbook-p",
-  "updated_at": 1771537474.8554888,
-  "updated_at_iso": "2026-02-19T21:44:34Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260220-064523-how-to-make-money-on-etsy-what",
+  "updated_at": 1771537531.5120788,
+  "updated_at_iso": "2026-02-19T21:45:31Z"
 }
