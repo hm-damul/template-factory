@@ -1,6 +1,6 @@
 {
   "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Template / Landing Page\": 1}",
-  "last_updated": "2026-02-19T18:46:06.536253+00:00",
+  "last_updated": "2026-02-19T19:05:29.334095+00:00",
   "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-19T18:40:24.311850+00:00",
-  "next_run_approx": "2026-02-19T18:40:34.311850+00:00",
+  "last_run_end": "2026-02-19T18:52:09.292487+00:00",
+  "next_run_approx": "2026-02-19T18:52:19.292487+00:00",
   "count": 1,
   "status": "running",
   "pid": 12128,

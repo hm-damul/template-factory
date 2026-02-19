@@ -1,14 +1,50 @@
 {
-  "last_audit": "2026-02-20 02:48:42",
+  "last_audit": "2026-02-20 03:52:20",
   "summary": {
-    "total_products": 152,
-    "healthy_products": 44,
+    "total_products": 158,
+    "healthy_products": 50,
     "broken_products": 108,
-    "total_promotions": 300,
+    "total_promotions": 306,
     "healthy_promotions": 141,
-    "broken_promotions": 159
+    "broken_promotions": 165
   },
   "details": [
+    {
+      "product_id": "20260220-034618-2026-guide-38-popular-digital",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-033412-30-best-free-shopify-themes-20",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-033213-how-to-use-amazon-s-new-ai-too",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-031839-trending-etsy-products-2026",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-030507-selling-notion-templates-on-wh",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-030237-what-genres-dominate-the-ebook",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
     {
       "product_id": "20260220-024401-40-best-digital-ai-product-des",
       "type": "product",
@@ -1064,8 +1100,9 @@
     {
       "product_id": "20260215-074829-freelancer-consultant-landing",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PUBLISHED",
       "issues": [
+        "Deployment URL dead/invalid: Status Code 404",
         "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
       ]
     },
@@ -1117,8 +1154,9 @@
     {
       "product_id": "20260214-231100-unknown-single",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PUBLISHED",
       "issues": [
+        "Deployment URL dead/invalid: Status Code 404",
         "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
       ]
     },
@@ -1165,6 +1203,59 @@
       "issues": [
         "Deployment URL dead/invalid: Status Code 401",
         "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260220-034618-2026-guide-38-popular-digital",
+      "type": "promotion_wordpress",
+      "post_id": 1279,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-034618-2026-guide-38-popular-digital/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '(2026 Guide) 38 Popular Digital Products On Etsy'"
+      ]
+    },
+    {
+      "product_id": "20260220-033412-30-best-free-shopify-themes-20",
+      "type": "promotion_wordpress",
+      "post_id": 1278,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-033412-30-best-free-shopify-themes-20/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '30 Best free Shopify themes ( 2026 )'"
+      ]
+    },
+    {
+      "product_id": "20260220-033213-how-to-use-amazon-s-new-ai-too",
+      "type": "promotion_wordpress",
+      "post_id": 1277,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'How to Use Amazon’s New AI Tool to Discover Untapped Digital &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260220-031839-trending-etsy-products-2026",
+      "type": "promotion_wordpress",
+      "post_id": 1276,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-031839-trending-etsy-products-2026/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Trending Etsy Products 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-030507-selling-notion-templates-on-wh",
+      "type": "promotion_wordpress",
+      "post_id": 1275,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Selling Notion Templates on Whop'"
+      ]
+    },
+    {
+      "product_id": "20260220-030237-what-genres-dominate-the-ebook",
+      "type": "promotion_wordpress",
+      "post_id": 1274,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'What Genres Dominate the eBook Market in 2026?'"
       ]
     },
     {
