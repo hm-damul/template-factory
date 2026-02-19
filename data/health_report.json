@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T19:35:59.934045+00:00",
+  "timestamp": "2026-02-19T19:42:11.734742+00:00",
   "stats": {
-    "total": 162,
+    "total": 163,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-043607-25-passive-income-ideas-to-mak",
+      "topic": "25 Passive Income Ideas To Make Extra Money",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T04:36:07.864962"
+    },
     {
       "id": "20260220-043147-saas-boilerplate-for-crypto-pa",
       "topic": "SaaS Boilerplate for Crypto Payments (Next.js + Tailwind)",
@@ -120,29 +126,23 @@
       "topic": "Cold-Wallet Ops Manual for Digital Product Businesses",
       "status": "PROMOTED",
       "created_at": "2026-02-20T01:59:45.269212"
-    },
-    {
-      "id": "20260220-015448-9-most-profitable-notion-niche",
-      "topic": "9 Most Profitable Notion Niches to Sell and Make Money 2026",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T01:54:48.448625"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 2}",
-    "last_updated": "2026-02-19T19:35:59.240041+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-19T19:42:11.028389+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T19:35:47.843027+00:00",
-    "next_run_approx": "2026-02-19T19:35:57.843028+00:00",
+    "last_run_end": "2026-02-19T19:41:59.554900+00:00",
+    "next_run_approx": "2026-02-19T19:42:09.554900+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
