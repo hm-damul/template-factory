@@ -55,5 +55,11 @@
     "promotions/youtube_shorts.txt": "cfb6745d4379d81d477ee1e84aab1f6a63898e53d30b0bb5d3c9550cab1ca4ea"
   },
   "price": 19,
-  "market_price": 49
+  "market_price": 49,
+  "metadata": {
+    "price_usd": 19.0
+  },
+  "product": {
+    "price_usd": 19.0
+  }
 }

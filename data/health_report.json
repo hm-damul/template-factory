@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T21:24:24.160505+00:00",
+  "timestamp": "2026-02-19T21:31:03.966375+00:00",
   "stats": {
-    "total": 172,
+    "total": 173,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-062438-10-best-b-2-b-marketing-tiktok",
+      "topic": "10 Best B 2 B Marketing TikTok Examples",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T06:24:38.702335"
+    },
     {
       "id": "20260220-061810-digital-to-physical-on-etsy-th",
       "topic": "Digital -to-Physical on Etsy : The New Hybrid Seller Playbook",
@@ -120,17 +126,11 @@
       "topic": "Selling Notion Templates on Whop",
       "status": "PROMOTED",
       "created_at": "2026-02-20T03:05:07.909910"
-    },
-    {
-      "id": "20260220-030237-what-genres-dominate-the-ebook",
-      "topic": "What Genres Dominate the eBook Market in 2026?",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T03:02:37.688089"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Guide / E-book / Blueprint\": 1}",
-    "last_updated": "2026-02-19T21:24:23.281414+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Guide / E-book / Blueprint\": 1}",
+    "last_updated": "2026-02-19T21:31:03.198071+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T21:24:10.891904+00:00",
-    "next_run_approx": "2026-02-19T21:24:20.891904+00:00",
+    "last_run_end": "2026-02-19T21:30:51.422287+00:00",
+    "next_run_approx": "2026-02-19T21:31:01.422288+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,

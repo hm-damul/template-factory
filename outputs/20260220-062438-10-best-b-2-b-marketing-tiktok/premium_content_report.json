@@ -13,5 +13,6 @@
     "roadmap",
     "bonus_vault"
   ],
-  "price_band": "$49.00"
+  "price_band": "$49.00",
+  "price_wei": 10000000000000000
 }

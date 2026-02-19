@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-063116-sell-online-with-shopify",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-063116-sell-online-with-shopify",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-063116-sell-online-with-shopify\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-063116-sell-online-with-shopify\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-063116-sell-online-with-shopify\\product.pdf",
+  "checksum": "190847d5cb8c13e51fd29a495ebb524ed0be6a497db80c5f393b45062c92ea9f",
+  "generated_at": "20260220-063127",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

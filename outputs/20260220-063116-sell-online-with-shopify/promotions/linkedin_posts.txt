@@ -1,0 +1,10 @@
+Digital products + crypto checkout can be a clean alternative to card rails.
+I packaged a guide: Sell Online with Shopify®.
+Focus: privacy-first buyer experience, deterministic fulfillment, and an ops runbook.
+Price: $19. Wallet buyers get instant delivery.
+
+---
+
+Chargebacks are a hidden tax on digital products.
+This guide shows a minimal, auditable payment+delivery pipeline: Sell Online with Shopify®.
+Built for global buyers who prefer crypto wallets.
