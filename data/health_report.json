@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T19:29:23.750323+00:00",
+  "timestamp": "2026-02-19T19:31:30.954200+00:00",
   "stats": {
-    "total": 160,
+    "total": 161,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-042938-zero-knowledge-proofs-for-begi",
+      "topic": "Zero-Knowledge Proofs for Beginners: Privacy in Blockchain",
+      "status": "QA2_PASSED",
+      "created_at": "2026-02-20T04:29:38.325042"
+    },
     {
       "id": "20260220-042304-digital-nomad-tax-haven-guide",
       "topic": "Digital Nomad Tax Haven Guide: Crypto-Friendly Jurisdictions",
@@ -120,18 +126,12 @@
       "topic": "10 Digital Products You Can Sell Using AI Tools in 2025",
       "status": "PROMOTED",
       "created_at": "2026-02-20T01:52:47.305849"
-    },
-    {
-      "id": "20260220-014523-16-best-notion-life-planner-te",
-      "topic": "16 Best Notion Life Planner Templates for 2026 (Goals & Vision)",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T01:45:23.034274"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Trading / Bot / Crypto Tool\": 1}",
-    "last_updated": "2026-02-19T19:29:23.010889+00:00",
-    "phase": "sleeping",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-19T19:31:30.202080+00:00",
+    "phase": "running_autopilot",
     "product_id": null,
     "last_cmd": [
       "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",

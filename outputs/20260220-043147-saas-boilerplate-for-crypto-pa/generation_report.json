@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-043147-saas-boilerplate-for-crypto-pa",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-043147-saas-boilerplate-for-crypto-pa",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-043147-saas-boilerplate-for-crypto-pa\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-043147-saas-boilerplate-for-crypto-pa\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-043147-saas-boilerplate-for-crypto-pa\\product.pdf",
+  "checksum": "6d1c800b7eff44c6fa0d14d838edabc2efa65e9f21df30c6b3f9accfd6a35314",
+  "generated_at": "20260220-043155",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
