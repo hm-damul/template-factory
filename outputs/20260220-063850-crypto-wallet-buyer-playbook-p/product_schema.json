@@ -1,0 +1,63 @@
+{
+  "product_id": "20260220-063850-crypto-wallet-buyer-playbook-p",
+  "title": "Unlock Your Passive Income with Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
+  "target_customer": "Creators and merchants interested in Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
+      "subheadline": "Leverage AI to create and sell digital products based on: Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing"
+    },
+    "problem": {
+      "description": "Financial operators struggle with manual reporting, volatile fees, and complex compliance. Without a professional system, trust decays and conversion drops."
+    },
+    "solution": {
+      "description": "A hardened financial toolkit with automated tracking, fee-optimized checkout, and built-in compliance checklists. Designed for high-trust transactions."
+    },
+    "features": [
+      "Fee-optimized wallet checkout for Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
+      "Automated transaction reconciliation log for Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
+      "Compliance & Tax reporting templates for Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
+      "Real-time network fee estimator for Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
+      "Secure, idempotent delivery system for Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing"
+    ],
+    "benefits": [
+      "Ship faster with ready Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing templates",
+      "Increase conversion with clear Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing value prop",
+      "Operate with predictable Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing delivery flow",
+      "Scale experimentation with simple Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$49.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "landing",
+      "primary_color": "#00b4ff",
+      "secondary_color": "#00b4ff",
+      "font_family": "system-ui, sans-serif",
+      "layout_style": "professional"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  }
+}
