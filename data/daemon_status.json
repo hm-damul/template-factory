@@ -1,7 +1,7 @@
 {
-  "last_log": "대기 중인 제품 1개 재배포 시도 중...",
-  "last_updated": "2026-02-19T18:40:35.979548+00:00",
-  "phase": "sleeping",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Template / Landing Page\": 1}",
+  "last_updated": "2026-02-19T18:46:06.536253+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
     "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",

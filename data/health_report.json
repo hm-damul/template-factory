@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T18:33:58.019229+00:00",
+  "timestamp": "2026-02-19T18:46:06.420945+00:00",
   "stats": {
-    "total": 156,
-    "published": 31,
-    "waiting": 1,
+    "total": 157,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-033412-30-best-free-shopify-themes-20",
+      "topic": "30 Best free Shopify themes ( 2026 )",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T03:34:12.039494"
+    },
     {
       "id": "20260220-033213-how-to-use-amazon-s-new-ai-too",
       "topic": "How to Use Amazon’s New AI Tool to Discover Untapped Digital ...",
@@ -120,29 +126,23 @@
       "topic": "How to Sell Digital Downloads on Etsy (Beginner Guide 2026)",
       "status": "PROMOTED",
       "created_at": "2026-02-20T01:25:58.124161"
-    },
-    {
-      "id": "20260220-011529-15-successful-b2b-ecommerce-ex",
-      "topic": "15+ Successful B2B Ecommerce Examples for 2026",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T01:15:29.945262"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-19T18:33:56.654455+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Template / Landing Page\": 1}",
+    "last_updated": "2026-02-19T18:46:05.650155+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T18:33:06.745403+00:00",
-    "next_run_approx": "2026-02-19T19:31:28.866678+00:00",
+    "last_run_end": "2026-02-19T18:40:24.311850+00:00",
+    "next_run_approx": "2026-02-19T18:40:34.311850+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
