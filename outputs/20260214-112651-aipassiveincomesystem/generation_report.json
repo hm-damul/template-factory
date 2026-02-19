@@ -1,0 +1,16 @@
+{
+  "product_id": "20260214-112651-aipassiveincomesystem",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-112651-aipassiveincomesystem",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-112651-aipassiveincomesystem\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-112651-aipassiveincomesystem\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-112651-aipassiveincomesystem\\product.pdf",
+  "checksum": "d7112276bd9074a68438d639318dfe0ff0795555eebaf7a8d336b233c7d87323",
+  "generated_at": "20260214-112651",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260214-130903-ai-trading-bot",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-130903-ai-trading-bot",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-130903-ai-trading-bot\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-130903-ai-trading-bot\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-130903-ai-trading-bot\\product.pdf",
+  "checksum": "ec22f121b07190707481a2315b5dbb510eff7532331502abc9501de0a08a562b",
+  "generated_at": "20260214-130904",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "product_id": "20260219-081908-latest-ielts-writing-topics-fe",
+  "title": "Unlock Your Passive Income with Latest IELTS Writing Topics February & March 2026 with answers",
+  "target_customer": "Creators and merchants interested in Latest IELTS Writing Topics February & March 2026 with answers",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Latest IELTS Writing Topics February & March 2026 with answers",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Latest IELTS Writing Topics February & March 2026 with answers",
+      "subheadline": "Leverage AI to create and sell digital products based on: Latest IELTS Writing Topics February & March 2026 with answers"
+    },
+    "problem": {
+      "description": "Creating and selling digital products is complex and time-consuming. Most creators fail due to technical friction and lack of a structured system."
+    },
+    "solution": {
+      "description": "A professional-grade implementation system that handles everything from landing to delivery. Focus on your content, we handle the infrastructure."
+    },
+    "features": [
+      "One-file deployment architecture for Latest IELTS Writing Topics February & March 2026 with answers",
+      "Secure token-gated delivery for Latest IELTS Writing Topics February & March 2026 with answers",
+      "Conversion-optimized landing components for Latest IELTS Writing Topics February & March 2026 with answers",
+      "Built-in analytics & tracking for Latest IELTS Writing Topics February & March 2026 with answers",
+      "Automated promotion asset generator for Latest IELTS Writing Topics February & March 2026 with answers"
+    ],
+    "benefits": [
+      "Ship faster with ready Latest IELTS Writing Topics February & March 2026 with answers templates",
+      "Increase conversion with clear Latest IELTS Writing Topics February & March 2026 with answers value prop",
+      "Operate with predictable Latest IELTS Writing Topics February & March 2026 with answers delivery flow",
+      "Scale experimentation with simple Latest IELTS Writing Topics February & March 2026 with answers A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$29.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Latest IELTS Writing Topics February & March 2026 with answers guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "landing",
+      "primary_color": "#8b5cf6",
+      "secondary_color": "#8b5cf6",
+      "font_family": "Roboto, sans-serif",
+      "layout_style": "bold"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "metadata": {
+    "final_price_usd": 29.0
+  },
+  "_injected_price": "$29.00",
+  "price": "29",
+  "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$49.00",
+  "market_analysis": {
+    "category": "Standard Digital Asset",
+    "market_price": 49,
+    "our_price": 29,
+    "desc": "High-quality digital resource"
+  }
+}

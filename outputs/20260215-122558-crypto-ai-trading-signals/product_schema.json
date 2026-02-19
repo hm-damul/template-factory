@@ -1,0 +1,80 @@
+{
+  "product_id": "20260215-122558-crypto-ai-trading-signals",
+  "title": "Unlock Your Passive Income with Crypto-AI-Trading-Signals",
+  "target_customer": "Creators and merchants interested in Crypto-AI-Trading-Signals",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Crypto-AI-Trading-Signals",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Crypto-AI-Trading-Signals",
+      "subheadline": "Leverage AI to create and sell digital products based on: Crypto-AI-Trading-Signals"
+    },
+    "problem": {
+      "description": "Financial operators struggle with manual reporting, volatile fees, and complex compliance. Without a professional system, trust decays and conversion drops."
+    },
+    "solution": {
+      "description": "A hardened financial toolkit with automated tracking, fee-optimized checkout, and built-in compliance checklists. Designed for high-trust transactions."
+    },
+    "features": [
+      "Fee-optimized wallet checkout for Crypto-AI-Trading-Signals",
+      "Automated transaction reconciliation log for Crypto-AI-Trading-Signals",
+      "Compliance & Tax reporting templates for Crypto-AI-Trading-Signals",
+      "Real-time network fee estimator for Crypto-AI-Trading-Signals",
+      "Secure, idempotent delivery system for Crypto-AI-Trading-Signals"
+    ],
+    "benefits": [
+      "Ship faster with ready Crypto-AI-Trading-Signals templates",
+      "Increase conversion with clear Crypto-AI-Trading-Signals value prop",
+      "Operate with predictable Crypto-AI-Trading-Signals delivery flow",
+      "Scale experimentation with simple Crypto-AI-Trading-Signals A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$49.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Crypto-AI-Trading-Signals guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "elegant",
+      "primary_color": "#00b4ff",
+      "secondary_color": "#00b4ff",
+      "font_family": "system-ui, sans-serif",
+      "layout_style": "professional"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "_injected_price": "$49.00",
+  "metadata": {
+    "final_price_usd": 49.0
+  },
+  "price": "49",
+  "offers": {
+    "@type": "Offer",
+    "price": "49.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$149.00",
+  "market_analysis": {
+    "category": "Trading / Bot / Crypto Tool",
+    "market_price": 149,
+    "our_price": 49,
+    "desc": "Specialized financial tools & scripts"
+  }
+}

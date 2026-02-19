@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-063717-26-best-shopify-themes-for-202",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-063717-26-best-shopify-themes-for-202",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-063717-26-best-shopify-themes-for-202\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-063717-26-best-shopify-themes-for-202\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-063717-26-best-shopify-themes-for-202\\product.pdf",
+  "checksum": "db6f04ad79ca866e7a590de3310d927edcddf7fac50198e53b92035041f68044",
+  "generated_at": "20260219-063734",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

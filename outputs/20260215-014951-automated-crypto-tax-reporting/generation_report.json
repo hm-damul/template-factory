@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-014951-automated-crypto-tax-reporting",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-014951-automated-crypto-tax-reporting",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-014951-automated-crypto-tax-reporting\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-014951-automated-crypto-tax-reporting\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-014951-automated-crypto-tax-reporting\\product.pdf",
+  "checksum": "1ec3800d9e865feffd014ceff2e64bc61d2fe04bbd2400f2446c5218088816ed",
+  "generated_at": "20260215-014951",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

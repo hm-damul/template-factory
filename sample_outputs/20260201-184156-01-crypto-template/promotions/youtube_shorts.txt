@@ -1,0 +1,4 @@
+[YOUTUBE_SHORTS]
+Hook: 결제 후 다운로드, 이렇게 막아야 합니다.
+Core: order_id+product_id+exp 토큰에 HMAC 서명
+CTA: 무료 데모/Mock 모드로 바로 테스트 (product_id=20260201-184156-01-crypto-template)

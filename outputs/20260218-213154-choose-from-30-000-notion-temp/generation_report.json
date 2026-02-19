@@ -1,0 +1,16 @@
+{
+  "product_id": "20260218-213154-choose-from-30-000-notion-temp",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-213154-choose-from-30-000-notion-temp",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-213154-choose-from-30-000-notion-temp\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-213154-choose-from-30-000-notion-temp\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-213154-choose-from-30-000-notion-temp\\product.pdf",
+  "checksum": "bfa428a80dc22bc08b4815538e3135139ea68874bc521431467ae27b974c59d4",
+  "generated_at": "20260218-213215",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

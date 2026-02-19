@@ -1,0 +1,16 @@
+{
+  "product_id": "20260213-112431-social-media-link-in-bio",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260213-112431-social-media-link-in-bio",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260213-112431-social-media-link-in-bio\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260213-112431-social-media-link-in-bio\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260213-112431-social-media-link-in-bio\\product.md",
+  "checksum": "4d5eb65af6093b378268f53bb071cad3d3916cc99cdb0366a8f24ac0097a927f",
+  "generated_at": "20260213-112431",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

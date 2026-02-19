@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-143641-finance-risk-management-for-cr",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-143641-finance-risk-management-for-cr",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-143641-finance-risk-management-for-cr\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-143641-finance-risk-management-for-cr\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-143641-finance-risk-management-for-cr\\product.pdf",
+  "checksum": "8db4cb049153977b76394dc030980fc18449db2fd4ae0ad9d2e04d2090251d90",
+  "generated_at": "20260215-143641",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "product_id": "20260219-192247-7-digital-product-ideas-you-ca",
+  "title": "Unlock Your Passive Income with 7 digital product ideas you can make with Excel and...",
+  "target_customer": "Creators and merchants interested in 7 digital product ideas you can make with Excel and...",
+  "value_proposition": "Leverage AI to create and sell digital products based on: 7 digital product ideas you can make with Excel and...",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with 7 digital product ideas you can make with Excel and...",
+      "subheadline": "Leverage AI to create and sell digital products based on: 7 digital product ideas you can make with Excel and..."
+    },
+    "problem": {
+      "description": "Generic e-commerce stores fail to build trust and suffer from high cart abandonment. Without a high-performance storefront, conversion remains stagnant."
+    },
+    "solution": {
+      "description": "A conversion-optimized e-commerce engine with mobile-first UI, friction-free checkout, and built-in trust triggers. Built for modern digital merchants."
+    },
+    "features": [
+      "Mobile-optimized high-speed landing UI for 7 digital product ideas you can make with Excel and...",
+      "Trust-building proof & badge templates for 7 digital product ideas you can make with Excel and...",
+      "Frictionless 1-click checkout flow for 7 digital product ideas you can make with Excel and...",
+      "Automated order confirmation & tracking for 7 digital product ideas you can make with Excel and...",
+      "Urgency & scarcity trigger system for 7 digital product ideas you can make with Excel and..."
+    ],
+    "benefits": [
+      "Ship faster with ready 7 digital product ideas you can make with Excel and... templates",
+      "Increase conversion with clear 7 digital product ideas you can make with Excel and... value prop",
+      "Operate with predictable 7 digital product ideas you can make with Excel and... delivery flow",
+      "Scale experimentation with simple 7 digital product ideas you can make with Excel and... A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$29.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the 7 digital product ideas you can make with Excel and... guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "minimal",
+      "primary_color": "#f59e0b",
+      "secondary_color": "#f59e0b",
+      "font_family": "Roboto, sans-serif",
+      "layout_style": "bold"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "price": "29",
+  "_injected_price": "$29.00",
+  "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$49.00",
+  "market_analysis": {
+    "category": "Standard Digital Asset",
+    "market_price": 49,
+    "our_price": 29,
+    "desc": "High-quality digital resource"
+  }
+}

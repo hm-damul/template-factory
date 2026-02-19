@@ -1,0 +1,60 @@
+{
+  "product_id": "20260214-130903-ai-trading-bot",
+  "created_at": "2026-02-14T13:16:35Z",
+  "dry_run": false,
+  "sent": [
+    {
+      "channel": "blog_wordpress",
+      "ok": true,
+      "msg": "status=201, wp_status=publish, post_id=619"
+    },
+    {
+      "channel": "x_api",
+      "ok": false,
+      "error": {
+        "ok": false,
+        "error": "402 Payment Required\nYour enrolled account [2022269330814361600] does not have any credits to fulfill this request."
+      }
+    },
+    {
+      "channel": "pinterest",
+      "ok": true,
+      "note": "disabled"
+    },
+    {
+      "channel": "reddit",
+      "ok": true,
+      "note": "disabled"
+    },
+    {
+      "channel": "linkedin",
+      "ok": true,
+      "note": "disabled"
+    },
+    {
+      "channel": "telegram",
+      "ok": true,
+      "note": "disabled"
+    },
+    {
+      "channel": "discord",
+      "ok": true,
+      "note": "disabled"
+    },
+    {
+      "channel": "instagram",
+      "ok": true,
+      "note": "disabled"
+    },
+    {
+      "channel": "tiktok",
+      "ok": true,
+      "note": "disabled"
+    },
+    {
+      "channel": "youtube_shorts",
+      "ok": true,
+      "note": "disabled"
+    }
+  ]
+}

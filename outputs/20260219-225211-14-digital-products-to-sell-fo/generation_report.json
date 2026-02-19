@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-225211-14-digital-products-to-sell-fo",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-225211-14-digital-products-to-sell-fo",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-225211-14-digital-products-to-sell-fo\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-225211-14-digital-products-to-sell-fo\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-225211-14-digital-products-to-sell-fo\\product.pdf",
+  "checksum": "4b6b7c22f47ce74c9322a0817cdf15b83ceca1ad22fcb41241eb0f00785d00e6",
+  "generated_at": "20260219-225225",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-173730-5-shopify-themes-perfect-for-e",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-173730-5-shopify-themes-perfect-for-e",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-173730-5-shopify-themes-perfect-for-e\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-173730-5-shopify-themes-perfect-for-e\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-173730-5-shopify-themes-perfect-for-e\\product.pdf",
+  "checksum": "d329ea541b962a91820fcd27ad7081a0edc2fdc5cbf14cd248dd386a8f80cd68",
+  "generated_at": "20260219-173739",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

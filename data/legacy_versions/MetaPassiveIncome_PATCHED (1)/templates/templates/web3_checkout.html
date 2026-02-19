@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Web3 결제 템플릿 (로컬 테스트)</title>
+  <style>
+    :root{--bg:#0b0f19;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--accent:#22c55e;--danger:#ef4444;--line:rgba(255,255,255,.08)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Noto Sans KR",sans-serif;background:var(--bg);color:var(--text)}
+    .wrap{max-width:980px;margin:0 auto;padding:28px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(0,0,0,.25)}
+    .grid{display:grid;grid-template-columns:1.3fr .7fr;gap:16px}
+    @media(max-width:860px){.grid{grid-template-columns:1fr}}
+    h1{margin:0 0 8px;font-size:26px}
+    p{margin:0 0 10px;color:var(--muted);line-height:1.55}
+    .btn{appearance:none;border:0;border-radius:14px;padding:12px 14px;font-weight:700;cursor:pointer}
+    .btn-primary{background:var(--accent);color:#06210f}
+    .btn-ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+    .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .pill{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:999px;padding:8px 10px;color:var(--muted);font-size:13px}
+    .k{color:var(--text);font-weight:700}
+    .hr{height:1px;background:var(--line);margin:14px 0}
+    .status{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:12px;color:#cbd5e1;white-space:pre-wrap;background:rgba(255,255,255,.04);border:1px solid var(--line);padding:12px;border-radius:14px}
+    .ok{color:var(--accent);font-weight:800}
+    .bad{color:var(--danger);font-weight:800}
+    a.dl{display:inline-block;margin-top:12px;text-decoration:none;background:#1f2937;border:1px solid var(--line);padding:10px 12px;border-radius:12px;color:var(--text)}
+    a.dl[aria-disabled="true"]{opacity:.45;pointer-events:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="grid">
+      <div class="card">
+        <h1>Web3 결제 + 다운로드 자동화 (로컬 테스트)</h1>
+        <p>이 페이지는 <span class="k">로컬 결제 서버(Flask)</span>와 통신해서 결제 상태가 성공이면 다운로드를 열어줍니다.</p>
+
+        <div class="row">
+          <span class="pill">서버: <span class="k" id="serverBase"></span></span>
+          <span class="pill">상품ID: <span class="k" id="productId">crypto-template-001</span></span>
+          <span class="pill">가격(테스트): <span class="k" id="priceEth">0.01 ETH</span></span>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="row">
+          <button class="btn btn-primary" id="btnPay">결제 시작(테스트)</button>
+          <button class="btn btn-ghost" id="btnCheck">결제 상태 확인</button>
+        </div>
+
+        <a class="dl" id="downloadLink" href="#" aria-disabled="true">다운로드(결제 성공 후 활성화)</a>
+
+        <div class="hr"></div>
+        <div class="status" id="log">[ready] 버튼을 눌러 결제 흐름을 시작하세요.</div>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 8px;font-size:18px">동작 규칙</h2>
+        <p>1) 결제 시작 → 서버가 주문ID 생성</p>
+        <p>2) (테스트 모드) 서버가 3초 후 결제를 성공 처리</p>
+        <p>3) 상태 확인 시 성공이면 다운로드 링크 활성화</p>
+        <div class="hr"></div>
+        <p style="color:var(--muted)">※ 실제 메타마스크/온체인 결제로 바꾸는 건 다음 단계에서 붙입니다.</p>
+      </div>
+    </div>
+  </div>
+
+<script>
+  // ===== 설정 =====
+  const SERVER_BASE = "";     // Flask 서버 주소
+  const PRODUCT_ID  = "crypto-template-001";       // 상품 식별자 (나중에 자동화로 바뀜)
+  const DOWNLOAD_URL = "./download.zip";           // 테스트용 다운로드 경로(나중에 서버에서 발급)
+
+  // ===== 상태 =====
+  let currentOrderId = null;
+
+  const $log = document.getElementById("log");
+  const $download = document.getElementById("downloadLink");
+
+  function logLine(msg){
+    const now = new Date().toLocaleTimeString();
+    $log.textContent = `[${now}] ${msg}\n` + $log.textContent;
+  }
+
+  function enableDownload(){
+    $download.href = DOWNLOAD_URL;
+    $download.setAttribute("aria-disabled","false");
+    $download.innerHTML = '다운로드 <span class="ok">(활성화)</span>';
+  }
+
+  async function api(path, payload){
+    const r = await fetch(`${SERVER_BASE}${path}`, {
+      method: "POST",
+      headers: {"Content-Type":"application/json"},
+      body: JSON.stringify(payload)
+    });
+    if(!r.ok){
+      const t = await r.text();
+      throw new Error(`HTTP ${r.status}: ${t}`);
+    }
+    return

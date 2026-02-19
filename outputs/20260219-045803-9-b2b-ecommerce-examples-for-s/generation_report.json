@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-045803-9-b2b-ecommerce-examples-for-s",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-045803-9-b2b-ecommerce-examples-for-s",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-045803-9-b2b-ecommerce-examples-for-s\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-045803-9-b2b-ecommerce-examples-for-s\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-045803-9-b2b-ecommerce-examples-for-s\\product.pdf",
+  "checksum": "4d505a4397b5129522f4c83587f68719ff6d5bcd04d7daa393edc815e0e2e1c3",
+  "generated_at": "20260219-045816",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

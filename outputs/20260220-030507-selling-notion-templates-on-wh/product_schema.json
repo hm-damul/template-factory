@@ -1,0 +1,66 @@
+{
+  "product_id": "20260220-030507-selling-notion-templates-on-wh",
+  "title": "Unlock Your Passive Income with Selling Notion Templates on Whop",
+  "target_customer": "Creators and merchants interested in Selling Notion Templates on Whop",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Selling Notion Templates on Whop",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Selling Notion Templates on Whop",
+      "subheadline": "Leverage AI to create and sell digital products based on: Selling Notion Templates on Whop"
+    },
+    "problem": {
+      "description": "Creating and selling digital products is complex and time-consuming. Most creators fail due to technical friction and lack of a structured system."
+    },
+    "solution": {
+      "description": "A professional-grade implementation system that handles everything from landing to delivery. Focus on your content, we handle the infrastructure."
+    },
+    "features": [
+      "One-file deployment architecture for Selling Notion Templates on Whop",
+      "Secure token-gated delivery for Selling Notion Templates on Whop",
+      "Conversion-optimized landing components for Selling Notion Templates on Whop",
+      "Built-in analytics & tracking for Selling Notion Templates on Whop",
+      "Automated promotion asset generator for Selling Notion Templates on Whop"
+    ],
+    "benefits": [
+      "Ship faster with ready Selling Notion Templates on Whop templates",
+      "Increase conversion with clear Selling Notion Templates on Whop value prop",
+      "Operate with predictable Selling Notion Templates on Whop delivery flow",
+      "Scale experimentation with simple Selling Notion Templates on Whop A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$19.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Selling Notion Templates on Whop guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "minimal",
+      "primary_color": "#8b5cf6",
+      "secondary_color": "#8b5cf6",
+      "font_family": "Georgia, serif",
+      "layout_style": "creative"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "_injected_price": "$19.00",
+  "_market_price": "$49.00",
+  "price": "19"
+}

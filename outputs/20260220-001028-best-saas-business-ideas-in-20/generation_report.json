@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-001028-best-saas-business-ideas-in-20",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-001028-best-saas-business-ideas-in-20",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-001028-best-saas-business-ideas-in-20\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-001028-best-saas-business-ideas-in-20\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-001028-best-saas-business-ideas-in-20\\product.pdf",
+  "checksum": "b50406a837f1c9acdf3a124623b4bbf19bb74ad7af3255490400dc8c7c7404e9",
+  "generated_at": "20260220-001038",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

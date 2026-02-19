@@ -1,0 +1,4 @@
+[INSTAGRAM]
+Hook: Crypto 결제 받는데 다운로드는 안전하게 하고 싶다면?
+Value: 토큰 기반 다운로드(만료/재발급) + Mock 결제 테스트
+CTA: 링크에서 확인 (product_id=20260201-184156-01-crypto-template)

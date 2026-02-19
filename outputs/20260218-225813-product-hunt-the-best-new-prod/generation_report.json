@@ -1,0 +1,16 @@
+{
+  "product_id": "20260218-225813-product-hunt-the-best-new-prod",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-225813-product-hunt-the-best-new-prod",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-225813-product-hunt-the-best-new-prod\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-225813-product-hunt-the-best-new-prod\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-225813-product-hunt-the-best-new-prod\\product.pdf",
+  "checksum": "d6ec3b8b6c46ef7b32a3697a6fdaaa3407268b62bb3514836574f1dc48db957a",
+  "generated_at": "20260218-225820",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

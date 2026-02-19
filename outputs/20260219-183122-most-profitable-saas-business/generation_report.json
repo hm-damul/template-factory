@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-183122-most-profitable-saas-business",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-183122-most-profitable-saas-business",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-183122-most-profitable-saas-business\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-183122-most-profitable-saas-business\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-183122-most-profitable-saas-business\\product.pdf",
+  "checksum": "d58711f3511b8bcb7a02622a1053514c42484168a4130576168f62edca6f61ff",
+  "generated_at": "20260219-183131",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

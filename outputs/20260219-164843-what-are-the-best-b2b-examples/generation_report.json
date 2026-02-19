@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-164843-what-are-the-best-b2b-examples",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-164843-what-are-the-best-b2b-examples",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-164843-what-are-the-best-b2b-examples\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-164843-what-are-the-best-b2b-examples\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-164843-what-are-the-best-b2b-examples\\product.pdf",
+  "checksum": "2d55ef2bfa76f653b12b7ca9861a2308337772892352b31b43acb37766c9c2cb",
+  "generated_at": "20260219-164853",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

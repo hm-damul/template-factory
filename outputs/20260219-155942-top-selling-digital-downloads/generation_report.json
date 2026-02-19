@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-155942-top-selling-digital-downloads",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-155942-top-selling-digital-downloads",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-155942-top-selling-digital-downloads\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-155942-top-selling-digital-downloads\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-155942-top-selling-digital-downloads\\product.pdf",
+  "checksum": "9fafb4776dcce859d01f54f3d6aa100f6c334dda35dbc1942a9d22092d1f551c",
+  "generated_at": "20260219-155953",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

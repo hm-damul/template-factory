@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-081908-latest-ielts-writing-topics-fe",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-081908-latest-ielts-writing-topics-fe",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-081908-latest-ielts-writing-topics-fe\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-081908-latest-ielts-writing-topics-fe\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-081908-latest-ielts-writing-topics-fe\\product.pdf",
+  "checksum": "a716eca960a26445b4d93018298222c68abac0c7b73abf1e3ec0ad696e5e198c",
+  "generated_at": "20260219-081917",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

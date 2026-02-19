@@ -1,0 +1,77 @@
+SCRIPT 1
+HOOK: 3 mistakes that kill your crypto checkout conversion.
+BODY: Use a simple state machine and make payment status visible in 1 click.
+PROOF: Include a checklist, templates, and a 30-day promo calendar.
+CTA: Copy the templates and launch today.
+
+---
+
+SCRIPT 2
+HOOK: 3 mistakes that kill your crypto checkout conversion.
+BODY: Reduce support load with macros + a clean refund boundary.
+PROOF: Add trust blocks: what’s included, delivery steps, and support scope.
+CTA: Get the full premium guide and ship this week.
+
+---
+
+SCRIPT 3
+HOOK: If you're selling digital products for crypto, do this first.
+BODY: Add a troubleshooting matrix: network mismatch, pending too long, wrong amount.
+PROOF: Add trust blocks: what’s included, delivery steps, and support scope.
+CTA: Copy the templates and launch today.
+
+---
+
+SCRIPT 4
+HOOK: 3 mistakes that kill your crypto checkout conversion.
+BODY: Add a troubleshooting matrix: network mismatch, pending too long, wrong amount.
+PROOF: Show exact assets: PDF + bonus pack + sales page copy.
+CTA: Get the full premium guide and ship this week.
+
+---
+
+SCRIPT 5
+HOOK: Stop losing sales because your crypto checkout feels sketchy.
+BODY: Use a simple state machine and make payment status visible in 1 click.
+PROOF: Show exact assets: PDF + bonus pack + sales page copy.
+CTA: Get the full premium guide and ship this week.
+
+---
+
+SCRIPT 6
+HOOK: If you're selling digital products for crypto, do this first.
+BODY: Add a troubleshooting matrix: network mismatch, pending too long, wrong amount.
+PROOF: Add trust blocks: what’s included, delivery steps, and support scope.
+CTA: Download the bundle — link in bio.
+
+---
+
+SCRIPT 7
+HOOK: If you're selling digital products for crypto, do this first.
+BODY: Show proof blocks, explain the delivery, and use a signed download token.
+PROOF: Include a checklist, templates, and a 30-day promo calendar.
+CTA: Download the bundle — link in bio.
+
+---
+
+SCRIPT 8
+HOOK: 3 mistakes that kill your crypto checkout conversion.
+BODY: Show proof blocks, explain the delivery, and use a signed download token.
+PROOF: Show exact assets: PDF + bonus pack + sales page copy.
+CTA: Download the bundle — link in bio.
+
+---
+
+SCRIPT 9
+HOOK: 3 mistakes that kill your crypto checkout conversion.
+BODY: Show proof blocks, explain the delivery, and use a signed download token.
+PROOF: Show exact assets: PDF + bonus pack + sales page copy.
+CTA: Download the bundle — link in bio.
+
+---
+
+SCRIPT 10
+HOOK: 3 mistakes that kill your crypto checkout conversion.
+BODY: Show proof blocks, explain the delivery, and use a signed download token.
+PROOF: Include a checklist, templates, and a 30-day promo calendar.
+CTA: Download the bundle — link in bio.

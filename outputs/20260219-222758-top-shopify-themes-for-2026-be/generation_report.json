@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-222758-top-shopify-themes-for-2026-be",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-222758-top-shopify-themes-for-2026-be",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-222758-top-shopify-themes-for-2026-be\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-222758-top-shopify-themes-for-2026-be\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-222758-top-shopify-themes-for-2026-be\\product.pdf",
+  "checksum": "f481b3384c8b7f201c99b67d8e60a2e25be4aedc85e6c72d5001925af9bb0fcc",
+  "generated_at": "20260219-222808",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

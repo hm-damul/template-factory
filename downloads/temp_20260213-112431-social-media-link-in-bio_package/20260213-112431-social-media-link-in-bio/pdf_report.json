@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "results": {
+    "en": {
+      "ok": "true",
+      "error": "",
+      "pdf_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260213-112431-social-media-link-in-bio\\product_en.pdf"
+    },
+    "ko": {
+      "ok": "true",
+      "error": "",
+      "pdf_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260213-112431-social-media-link-in-bio\\product_ko.pdf"
+    }
+  }
+}

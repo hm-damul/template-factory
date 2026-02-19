@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-003858-the-best-free-and-premium-noti",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-003858-the-best-free-and-premium-noti",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-003858-the-best-free-and-premium-noti\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-003858-the-best-free-and-premium-noti\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-003858-the-best-free-and-premium-noti\\product.pdf",
+  "checksum": "3fece9c81aca4a2022a3753c87a6b83f0d1698770d8f5a8e3b148fe7228fe917",
+  "generated_at": "20260220-003907",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

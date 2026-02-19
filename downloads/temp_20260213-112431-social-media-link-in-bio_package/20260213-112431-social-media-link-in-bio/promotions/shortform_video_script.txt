@@ -1,0 +1,5 @@
+SCRIPT 1
+HOOK: 3 mistakes that kill your crypto checkout conversion.
+BODY: Use a simple state machine and make payment status visible in 1 click.
+PROOF: Include a checklist, templates, and a 30-day promo calendar.
+CTA: Copy the templates and launch today.

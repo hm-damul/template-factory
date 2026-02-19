@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-030007-18-best-digital-products-to-se",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-030007-18-best-digital-products-to-se",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-030007-18-best-digital-products-to-se\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-030007-18-best-digital-products-to-se\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-030007-18-best-digital-products-to-se\\product.pdf",
+  "checksum": "06f498fecf85836a3548b4bf1c9bf048e5459915ca46037a6f82259b68107b81",
+  "generated_at": "20260219-030019",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

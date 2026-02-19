@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-214518-10-profitable-saas-ideas-to-ex",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-214518-10-profitable-saas-ideas-to-ex",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-214518-10-profitable-saas-ideas-to-ex\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-214518-10-profitable-saas-ideas-to-ex\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-214518-10-profitable-saas-ideas-to-ex\\product.pdf",
+  "checksum": "2c13c7250ec75e6789941c467b8c840d6a5df060222c81c848d21974e8380760",
+  "generated_at": "20260219-214529",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-233033-25-trending-products-to-sell-o",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-233033-25-trending-products-to-sell-o",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-233033-25-trending-products-to-sell-o\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-233033-25-trending-products-to-sell-o\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-233033-25-trending-products-to-sell-o\\product.pdf",
+  "checksum": "6e45f0e04826cd7e1844d89919f62cf859f4e0c923e1ed952bdcb42bda4cda87",
+  "generated_at": "20260219-233043",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

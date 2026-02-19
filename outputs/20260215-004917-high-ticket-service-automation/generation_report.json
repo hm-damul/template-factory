@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-004917-high-ticket-service-automation",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-004917-high-ticket-service-automation",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-004917-high-ticket-service-automation\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-004917-high-ticket-service-automation\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-004917-high-ticket-service-automation\\product.pdf",
+  "checksum": "6d9ecf109a694b174aef0ffb97305dc6ab8770d95dd329435994e1b6423e2e8f",
+  "generated_at": "20260215-004917",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

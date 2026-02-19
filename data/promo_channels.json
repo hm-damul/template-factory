@@ -1,0 +1,45 @@
+{
+  "blog": {
+    "mode": "wordpress",
+    "webhook_url": "",
+    "wp_api_url": "https://dev-best-pick-global.pantheonsite.io/wp-json/wp/v2/posts",
+    "wp_token": "dev-best-pick-global:hmmG sg6w MqTR jXWK IZzQ MLzi"
+  },
+  "x": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "pinterest": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "reddit": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "linkedin": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "telegram": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "discord": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "instagram": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "tiktok": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "youtube_shorts": {
+    "enabled": true,
+    "webhook_url": ""
+  },
+  "dry_run": false
+}

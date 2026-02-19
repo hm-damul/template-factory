@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-192247-7-digital-product-ideas-you-ca",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-192247-7-digital-product-ideas-you-ca",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-192247-7-digital-product-ideas-you-ca\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-192247-7-digital-product-ideas-you-ca\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-192247-7-digital-product-ideas-you-ca\\product.pdf",
+  "checksum": "c72ccdab83357e6c25d3f531ed7e7c8025b21248fbdf5aec5e189b9fab374df3",
+  "generated_at": "20260219-192258",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

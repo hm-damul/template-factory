@@ -1,0 +1,80 @@
+{
+  "product_id": "20260218-203243-7-most-profitable-ebook-niches",
+  "title": "Unlock Your Passive Income with 7 Most Profitable eBook Niches for 2025: Your Guide to High ...",
+  "target_customer": "Creators and merchants interested in 7 Most Profitable eBook Niches for 2025: Your Guide to High ...",
+  "value_proposition": "Leverage AI to create and sell digital products based on: 7 Most Profitable eBook Niches for 2025: Your Guide to High ...",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with 7 Most Profitable eBook Niches for 2025: Your Guide to High ...",
+      "subheadline": "Leverage AI to create and sell digital products based on: 7 Most Profitable eBook Niches for 2025: Your Guide to High ..."
+    },
+    "problem": {
+      "description": "Creating and selling digital products is complex and time-consuming. Most creators fail due to technical friction and lack of a structured system."
+    },
+    "solution": {
+      "description": "A professional-grade implementation system that handles everything from landing to delivery. Focus on your content, we handle the infrastructure."
+    },
+    "features": [
+      "One-file deployment architecture for 7 Most Profitable eBook Niches for 2025: Your Guide to High ...",
+      "Secure token-gated delivery for 7 Most Profitable eBook Niches for 2025: Your Guide to High ...",
+      "Conversion-optimized landing components for 7 Most Profitable eBook Niches for 2025: Your Guide to High ...",
+      "Built-in analytics & tracking for 7 Most Profitable eBook Niches for 2025: Your Guide to High ...",
+      "Automated promotion asset generator for 7 Most Profitable eBook Niches for 2025: Your Guide to High ..."
+    ],
+    "benefits": [
+      "Ship faster with ready 7 Most Profitable eBook Niches for 2025: Your Guide to High ... templates",
+      "Increase conversion with clear 7 Most Profitable eBook Niches for 2025: Your Guide to High ... value prop",
+      "Operate with predictable 7 Most Profitable eBook Niches for 2025: Your Guide to High ... delivery flow",
+      "Scale experimentation with simple 7 Most Profitable eBook Niches for 2025: Your Guide to High ... A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$19.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the 7 Most Profitable eBook Niches for 2025: Your Guide to High ... guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "landing",
+      "primary_color": "#00b4ff",
+      "secondary_color": "#00b4ff",
+      "font_family": "Inter, sans-serif",
+      "layout_style": "minimalist"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "metadata": {
+    "final_price_usd": 25.0
+  },
+  "_injected_price": "$19.00",
+  "price": "19",
+  "offers": {
+    "@type": "Offer",
+    "price": "19.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$49.00",
+  "market_analysis": {
+    "category": "Template / Landing Page",
+    "market_price": 49,
+    "our_price": 19,
+    "desc": "Ready-to-use web templates"
+  }
+}

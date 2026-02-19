@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-131443-18-best-digital-product-niches",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-131443-18-best-digital-product-niches",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-131443-18-best-digital-product-niches\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-131443-18-best-digital-product-niches\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-131443-18-best-digital-product-niches\\product.pdf",
+  "checksum": "437248db4f24a195db4c1759a79ae8ced154d3a05e1f9debbffaea5e5cbe1e36",
+  "generated_at": "20260219-131452",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

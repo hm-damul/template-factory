@@ -1,0 +1,80 @@
+{
+  "product_id": "20260218-215906-best-ebook-niches-2025-2026-10",
+  "title": "Unlock Your Passive Income with Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales",
+  "target_customer": "Creators and merchants interested in Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales",
+      "subheadline": "Leverage AI to create and sell digital products based on: Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales"
+    },
+    "problem": {
+      "description": "Most marketing assets are generic and fail to convert. Without a high-converting system, traffic is wasted and acquisition costs skyrocket."
+    },
+    "solution": {
+      "description": "A results-driven marketing vault with proven hooks, structured landing templates, and conversion-optimized copy. Designed for rapid scale."
+    },
+    "features": [
+      "High-converting hook & headline library for Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales",
+      "A/B test ready landing page templates for Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales",
+      "Psychology-based sales copy frameworks for Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales",
+      "Social proof & proof-block templates for Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales",
+      "Multi-channel promotion sequences for Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales"
+    ],
+    "benefits": [
+      "Ship faster with ready Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales templates",
+      "Increase conversion with clear Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales value prop",
+      "Operate with predictable Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales delivery flow",
+      "Scale experimentation with simple Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$29.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "modern",
+      "primary_color": "#8b5cf6",
+      "secondary_color": "#8b5cf6",
+      "font_family": "Georgia, serif",
+      "layout_style": "creative"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "metadata": {
+    "final_price_usd": 25.0
+  },
+  "_injected_price": "$29.00",
+  "price": "29",
+  "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$49.00",
+  "market_analysis": {
+    "category": "Guide / E-book / Blueprint",
+    "market_price": 49,
+    "our_price": 29,
+    "desc": "Educational content & strategies"
+  }
+}

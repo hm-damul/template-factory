@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "interval_minutes": 180,
+  "max_products_per_day": 2,
+  "languages": "en,ko"
+}

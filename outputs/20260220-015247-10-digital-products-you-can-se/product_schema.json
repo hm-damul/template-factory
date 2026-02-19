@@ -1,0 +1,66 @@
+{
+  "product_id": "20260220-015247-10-digital-products-you-can-se",
+  "title": "Unlock Your Passive Income with 10 Digital Products You Can Sell Using AI Tools in 2025",
+  "target_customer": "Creators and merchants interested in 10 Digital Products You Can Sell Using AI Tools in 2025",
+  "value_proposition": "Leverage AI to create and sell digital products based on: 10 Digital Products You Can Sell Using AI Tools in 2025",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with 10 Digital Products You Can Sell Using AI Tools in 2025",
+      "subheadline": "Leverage AI to create and sell digital products based on: 10 Digital Products You Can Sell Using AI Tools in 2025"
+    },
+    "problem": {
+      "description": "Modern workflows are fragmented and manual. Users waste hours on repetitive tasks that should be automated, leading to burnout and inefficiency."
+    },
+    "solution": {
+      "description": "A seamless productivity engine that automates the heavy lifting. Includes ready-to-use templates, batch scripts, and a clear roadmap to 10x output."
+    },
+    "features": [
+      "1-Click workflow automation templates for 10 Digital Products You Can Sell Using AI Tools in 2025",
+      "Batch processing & script library for 10 Digital Products You Can Sell Using AI Tools in 2025",
+      "Time-saving integration hooks for 10 Digital Products You Can Sell Using AI Tools in 2025",
+      "Customizable milestone trackers for 10 Digital Products You Can Sell Using AI Tools in 2025",
+      "Minimalist, friction-free UI/UX for 10 Digital Products You Can Sell Using AI Tools in 2025"
+    ],
+    "benefits": [
+      "Ship faster with ready 10 Digital Products You Can Sell Using AI Tools in 2025 templates",
+      "Increase conversion with clear 10 Digital Products You Can Sell Using AI Tools in 2025 value prop",
+      "Operate with predictable 10 Digital Products You Can Sell Using AI Tools in 2025 delivery flow",
+      "Scale experimentation with simple 10 Digital Products You Can Sell Using AI Tools in 2025 A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$59.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the 10 Digital Products You Can Sell Using AI Tools in 2025 guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "tech",
+      "primary_color": "#f59e0b",
+      "secondary_color": "#f59e0b",
+      "font_family": "Georgia, serif",
+      "layout_style": "creative"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "_injected_price": "$59.00",
+  "_market_price": "$179.00",
+  "price": "59"
+}

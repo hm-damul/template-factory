@@ -1,0 +1,16 @@
+{
+  "product_id": "20260218-205806-shopify-com",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-205806-shopify-com",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-205806-shopify-com\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-205806-shopify-com\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-205806-shopify-com\\product.pdf",
+  "checksum": "438ff94738d9d0c3812dc0e6bb6c949aa486b58e21aacb53d9a538a692613430",
+  "generated_at": "20260218-205826",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

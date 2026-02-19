@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-015809-best-notion-templates-in-2026",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-015809-best-notion-templates-in-2026",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-015809-best-notion-templates-in-2026\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-015809-best-notion-templates-in-2026\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-015809-best-notion-templates-in-2026\\product.pdf",
+  "checksum": "88124382c1f638e25920443eb504d91428635b2c26a3c67d9447abc7ef34a55c",
+  "generated_at": "20260219-015819",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

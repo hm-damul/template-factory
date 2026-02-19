@@ -1,0 +1,164 @@
+from http.server import BaseHTTPRequestHandler
+import json
+import os
+import sys
+import secrets
+from datetime import datetime, timedelta
+from pathlib import Path
+from urllib.parse import parse_qs, urlparse
+
+# Cloud-specific imports
+try:
+    from . import nowpayments
+except ImportError:
+    # If running locally in api folder without package structure
+    import nowpayments
+
+class handler(BaseHTTPRequestHandler):
+    def _send_json(self, status, data):
+        self.send_response(status)
+        self.send_header('Content-type', 'application/json')
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.end_headers()
+        self.wfile.write(json.dumps(data).encode('utf-8'))
+
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+        self.end_headers()
+
+    def do_GET(self):
+        try:
+            parsed_path = urlparse(self.path)
+            path = parsed_path.path
+            query = parse_qs(parsed_path.query)
+
+            if "/api/pay/check" in path:
+                self.handle_check(query)
+            elif "/api/pay/debug" in path:
+                self.handle_debug()
+            elif "/api/pay/start" in path:
+                # Convert query params (lists) to single values for handle_start
+                data = {k: v[0] for k, v in query.items() if v}
+                self.handle_start(data)
+            else:
+                self._send_json(404, {"error": "not_found", "path": path})
+        except Exception as e:
+            self._send_json(500, {"error": str(e), "trace": "do_GET"})
+
+    def do_POST(self):
+        try:
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(content_length)
+            data = json.loads(body.decode('utf-8')) if body else {}
+            
+            parsed_path = urlparse(self.path)
+            path = parsed_path.path
+
+            if "/api/pay/start" in path:
+                self.handle_start(data)
+            elif "/api/pay/token" in path:
+                self.handle_token(data)
+            else:
+                self._send_json(404, {"error": "not_found", "path": path})
+        except Exception as e:
+            self._send_json(500, {"error": str(e), "trace": "do_POST"})
+
+    def handle_debug(self):
+        self._send_json(200, {
+            "status": "ok", 
+            "env_keys": list(os.environ.keys()),
+            "nowpayments_loaded": True
+        })
+
+    def handle_check(self, query):
+        # We use payment_id as order_id in this stateless flow
+        payment_id = query.get('order_id', [''])[0]
+        product_id = query.get('product_id', [''])[0]
+        
+        if not payment_id:
+             self._send_json(400, {"error": "order_id_missing"})
+             return
+
+        # Check status via NOWPayments
+        payment_info = nowpayments.get_payment_status(payment_id)
+        
+        status = "pending"
+        download_url = None
+        provider_status = "unknown"
+        
+        if payment_info:
+            provider_status = payment_info.get("payment_status", "unknown")
+            # Map NOWPayments status to our status
+            # finished, confirmed, sending -> paid
+            # waiting, confirming -> pending
+            if provider_status in ["finished", "confirmed", "sending"]:
+                status = "paid"
+                # Secure download link (in real app, use signed URL)
+                # For Vercel demo/autonomous, we redirect to file
+                # In Vercel, static files are served from root if placed in public/
+                # Assuming product_factory puts zip in outputs/{product_id}/
+                download_url = f"/outputs/{product_id}/package.zip"
+            elif provider_status in ["failed", "refunded", "expired"]:
+                status = "failed"
+            else:
+                status = "pending" # waiting, confirming
+        else:
+            # Fallback if API fails or ID invalid
+            status = "pending"
+
+        self._send_json(200, {
+            "status": status, 
+            "order_id": payment_id,
+            "download_url": download_url,
+            "provider_status": provider_status
+        })
+
+    def handle_start(self, data):
+        product_id = data.get('product_id', '')
+        price = data.get('price_amount', '19.90')
+        
+        # Generate Order ID for internal tracking (if we had DB)
+        # For stateless, we use random or timestamp
+        internal_order_id = f"ord_{secrets.token_hex(8)}"
+        
+        # Call NOWPayments to create invoice
+        # Use USDT-TRC20 as default (low fee) or ETH
+        payment_data = nowpayments.create_payment(
+            order_id=internal_order_id,
+            product_id=product_id,
+            amount=price,
+            currency="usd" # Base currency
+        )
+        
+        if payment_data and "payment_id" in payment_data:
+            # Success
+            self._send_json(200, {
+                "order_id": payment_data["payment_id"], # Return payment_id as order_id for client tracking
+                "payment_address": payment_data.get("pay_address"),
+                "pay_amount": payment_data.get("pay_amount"),
+                "pay_currency": payment_data.get("pay_currency", "USDTTRC20").upper(),
+                "amount": price,
+                "currency": "USD",
+                "status": "pending",
+                "message": "Payment created. Please send funds to the address below."
+            })
+        else:
+            # Failure fallback
+            self._send_json(500, {
+                "error": "payment_creation_failed",
+                "message": "Could not create payment address. Please try again later."
+            })
+
+    def handle_token(self, data):
+        # Placeholder for token logic
+        self._send_json(200, {"status": "token_issued"})
+
+if __name__ == "__main__":
+    from http.server import HTTPServer
+    server = HTTPServer(('localhost', 5000), handler)
+    print("Starting local server on http://localhost:5000")
+    server.serve_forever()

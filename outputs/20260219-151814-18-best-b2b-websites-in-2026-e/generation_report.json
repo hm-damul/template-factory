@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-151814-18-best-b2b-websites-in-2026-e",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-151814-18-best-b2b-websites-in-2026-e",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-151814-18-best-b2b-websites-in-2026-e\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-151814-18-best-b2b-websites-in-2026-e\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-151814-18-best-b2b-websites-in-2026-e\\product.pdf",
+  "checksum": "4dd92401870c35039738319345bd3ea292f39b24ebb315062cb80f784eae4ad0",
+  "generated_at": "20260219-151825",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

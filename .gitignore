@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Project specific
+# outputs/
+# downloads/
+logs/
+data/secrets.json
+data/*.db-journal
+node_modules/
+.vercel/
+.github/workflows/status.json
+
+.vercel

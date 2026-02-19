@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-145247-ultimate-guide-to-passive-inco",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-145247-ultimate-guide-to-passive-inco",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-145247-ultimate-guide-to-passive-inco\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-145247-ultimate-guide-to-passive-inco\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-145247-ultimate-guide-to-passive-inco\\product.pdf",
+  "checksum": "3e28cbbcaa6f04608cfa74d458b932a21066cea74849bbb72fc09940ab5453d2",
+  "generated_at": "20260219-145259",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

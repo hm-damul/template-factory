@@ -1,0 +1,80 @@
+{
+  "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+  "title": "Unlock Your Passive Income with Viral-Marketing-Growth-Blueprint",
+  "target_customer": "Creators and merchants interested in Viral-Marketing-Growth-Blueprint",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Viral-Marketing-Growth-Blueprint",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Viral-Marketing-Growth-Blueprint",
+      "subheadline": "Leverage AI to create and sell digital products based on: Viral-Marketing-Growth-Blueprint"
+    },
+    "problem": {
+      "description": "Most marketing assets are generic and fail to convert. Without a high-converting system, traffic is wasted and acquisition costs skyrocket."
+    },
+    "solution": {
+      "description": "A results-driven marketing vault with proven hooks, structured landing templates, and conversion-optimized copy. Designed for rapid scale."
+    },
+    "features": [
+      "High-converting hook & headline library for Viral-Marketing-Growth-Blueprint",
+      "A/B test ready landing page templates for Viral-Marketing-Growth-Blueprint",
+      "Psychology-based sales copy frameworks for Viral-Marketing-Growth-Blueprint",
+      "Social proof & proof-block templates for Viral-Marketing-Growth-Blueprint",
+      "Multi-channel promotion sequences for Viral-Marketing-Growth-Blueprint"
+    ],
+    "benefits": [
+      "Ship faster with ready Viral-Marketing-Growth-Blueprint templates",
+      "Increase conversion with clear Viral-Marketing-Growth-Blueprint value prop",
+      "Operate with predictable Viral-Marketing-Growth-Blueprint delivery flow",
+      "Scale experimentation with simple Viral-Marketing-Growth-Blueprint A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$29.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Viral-Marketing-Growth-Blueprint guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "dark",
+      "primary_color": "#00b4ff",
+      "secondary_color": "#00b4ff",
+      "font_family": "system-ui, sans-serif",
+      "layout_style": "professional"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "_injected_price": "$29.00",
+  "metadata": {
+    "final_price_usd": 25.0
+  },
+  "price": "29",
+  "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$49.00",
+  "market_analysis": {
+    "category": "Guide / E-book / Blueprint",
+    "market_price": 49,
+    "our_price": 29,
+    "desc": "Educational content & strategies"
+  }
+}

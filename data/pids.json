@@ -1,0 +1,77 @@
+{
+  "autopilot": {
+    "pid": 10160,
+    "cmd": [
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "auto_pilot.py",
+      "--batch",
+      "3",
+      "--seed",
+      "1770934068"
+    ],
+    "log_file": "D:\\auto\\MetaPassiveIncome_FINAL\\logs\\autopilot.log",
+    "started_at": "2026-02-12T22:07:48Z"
+  },
+  "recovery": {
+    "pid": 9356,
+    "cmd": [
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "failed_product_recovery.py"
+    ],
+    "log_file": "D:\\auto\\MetaPassiveIncome_FINAL\\logs\\recovery.log",
+    "started_at": "2026-02-13T05:47:06Z"
+  },
+  "redeploy": {
+    "pid": 6256,
+    "cmd": [
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "redeploy_waiting.py"
+    ],
+    "log_file": "D:\\auto\\MetaPassiveIncome_FINAL\\logs\\redeploy.log",
+    "started_at": "2026-02-13T05:47:11Z"
+  },
+  "vercel_check": {
+    "pid": 15168,
+    "cmd": [
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "check_vercel_reset.py"
+    ],
+    "log_file": "D:\\auto\\MetaPassiveIncome_FINAL\\logs\\vercel_check.log",
+    "started_at": "2026-02-13T05:47:15Z"
+  },
+  "daemon": {
+    "pid": 7976,
+    "cmd": [
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+      "auto_mode_daemon.py",
+      "--interval",
+      "3600",
+      "--batch",
+      "1",
+      "--deploy",
+      "1",
+      "--publish",
+      "1"
+    ],
+    "log_file": "D:\\auto\\MetaPassiveIncome_FINAL\\logs\\daemon.log",
+    "started_at": "2026-02-18T01:06:48Z"
+  },
+  "payment": {
+    "pid": 8032,
+    "cmd": [
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "backend/payment_server.py"
+    ],
+    "log_file": "D:\\auto\\MetaPassiveIncome_FINAL\\logs\\payment.log",
+    "started_at": "2026-02-18T21:26:31Z"
+  },
+  "preview": {
+    "pid": 12968,
+    "cmd": [
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "preview_server.py"
+    ],
+    "log_file": "D:\\auto\\MetaPassiveIncome_FINAL\\logs\\preview.log",
+    "started_at": "2026-02-18T21:48:47Z"
+  }
+}

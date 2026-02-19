@@ -1,0 +1,151 @@
+# -*- coding: utf-8 -*-
+"""
+AI PATCH RUNNER
+패치 명령(JSON)을 읽어 프로젝트 파일을 자동 수정하는 시스템
+
+사용법:
+1) patches 폴더에 패치 파일(.json) 넣기
+2) python patch_runner.py 실행
+"""
+
+import os
+import json
+import shutil
+from datetime import datetime
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+PATCH_DIR = os.path.join(PROJECT_ROOT, "patches")
+
+
+# -------------------------------
+# 유틸
+# -------------------------------
+
+def backup_file(path):
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_path = f"{path}.bak_{timestamp}"
+    shutil.copy2(path, backup_path)
+    print(f"[BACKUP] {backup_path}")
+
+
+def find_file(filename):
+    for root, _, files in os.walk(PROJECT_ROOT):
+        if filename in files:
+            return os.path.join(root, filename)
+    return None
+
+
+def read_file(path):
+    with open(path, "r", encoding="utf-8", errors="ignore") as f:
+        return f.read()
+
+
+def write_file(path, content):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+
+# -------------------------------
+# 패치 적용 로직
+# -------------------------------
+
+def apply_patch(patch):
+    action = patch.get("action")
+    filename = patch.get("file")
+
+    path = find_file(filename)
+    if not path:
+        print(f"[ERROR] File not found: {filename}")
+        return
+
+    content = read_file(path)
+
+    if action == "replace_function":
+        func_name = patch["function"]
+        new_code = patch["code"]
+
+        start = content.find(f"def {func_name}(")
+        if start == -1:
+            print(f"[SKIP] Function {func_name} not found in {filename}")
+            return
+
+        # 함수 블록 범위 추정
+        end = content.find("\ndef ", start + 1)
+        if end == -1:
+            end = len(content)
+
+        backup_file(path)
+        updated = content[:start] + new_code.strip() + "\n\n" + content[end:]
+        write_file(path, updated)
+        print(f"[PATCH] Function replaced: {func_name} in {filename}")
+
+    elif action == "insert_before":
+        anchor = patch["anchor"]
+        snippet = patch["code"]
+
+        if snippet in content:
+            print(f"[SKIP] Snippet already exists in {filename}")
+            return
+
+        if anchor in content:
+            backup_file(path)
+            updated = content.replace(anchor, snippet + "\n" + anchor)
+            write_file(path, updated)
+            print(f"[PATCH] Inserted snippet before '{anchor}' in {filename}")
+        else:
+            print(f"[WARN] Anchor not found in {filename}: {anchor}")
+
+    elif action == "replace_text":
+        old = patch["old"]
+        new = patch["new"]
+
+        if old in content:
+            backup_file(path)
+            write_file(path, content.replace(old, new))
+            print(f"[PATCH] Text replaced in {filename}")
+        else:
+            print(f"[SKIP] Text not found in {filename}")
+
+    else:
+        print(f"[ERROR] Unknown action: {action}")
+
+
+# -------------------------------
+# 실행
+# -------------------------------
+
+def main():
+    if not os.path.exists(PATCH_DIR):
+        print("[INFO] No patches folder found.")
+        return
+
+    files = [f for f in os.listdir(PATCH_DIR) if f.endswith(".json")]
+    if not files:
+        print("[INFO] No patch files found.")
+        return
+
+    print(f"=== APPLYING {len(files)} PATCH(ES) ===")
+
+    for fname in files:
+        path = os.path.join(PATCH_DIR, fname)
+        print(f"\n[PATCH FILE] {fname}")
+
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        if isinstance(data, list):
+            for patch in data:
+                apply_patch(patch)
+        else:
+            apply_patch(data)
+
+        # 적용 완료 후 패치 파일 이동
+        done_dir = os.path.join(PATCH_DIR, "applied")
+        os.makedirs(done_dir, exist_ok=True)
+        shutil.move(path, os.path.join(done_dir, fname))
+
+    print("\n=== PATCH COMPLETE ===")
+
+
+if __name__ == "__main__":
+    main()

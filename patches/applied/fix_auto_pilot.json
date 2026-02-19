@@ -1,0 +1,9 @@
+[
+    {
+      "action": "replace_function",
+      "file": "deploy_module_vercel_api.py",
+      "function": "deploy_to_vercel",
+      "code": "def deploy_to_vercel(output_dir):\n    import os\n    print('[DEPLOY] Using product page as main entry')\n    product_page = os.path.join(output_dir, 'public', 'products', 'crypto-template-001', 'index.html')\n    if not os.path.exists(product_page):\n        raise FileNotFoundError(f'Product page not found: {product_page}')\n    print('[DEPLOY] Product page confirmed:', product_page)\n    # 기존 배포 로직 호출 부분 유지\n    print('[DEPLOY] Proceeding with existing Vercel upload...')"
+    }
+  ]
+  

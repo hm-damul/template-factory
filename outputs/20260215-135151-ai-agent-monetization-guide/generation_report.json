@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-135151-ai-agent-monetization-guide",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-135151-ai-agent-monetization-guide",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-135151-ai-agent-monetization-guide\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-135151-ai-agent-monetization-guide\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-135151-ai-agent-monetization-guide\\product.pdf",
+  "checksum": "44fa1fd261e3b7de1e39b9dd156b448fe95b22fcda140b2c043efe731851f55e",
+  "generated_at": "20260215-135152",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

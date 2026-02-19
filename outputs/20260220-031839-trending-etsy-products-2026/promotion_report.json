@@ -1,0 +1,28 @@
+{
+  "product_id": "20260220-031839-trending-etsy-products-2026",
+  "created_at": "2026-02-19T18:18:51Z",
+  "files": [
+    "blog_longform.md",
+    "blog_outline.md",
+    "blog_post.md",
+    "instagram_post.txt",
+    "linkedin_posts.txt",
+    "medium_story.md",
+    "newsletter_email.txt",
+    "promo_calendar_30d.csv",
+    "promo_pack.zip",
+    "reddit_posts.txt",
+    "sales_page_copy.md",
+    "seo.txt",
+    "shortform_scripts.txt",
+    "shortform_video_script.txt",
+    "x_posts.txt",
+    "x_threads.txt"
+  ],
+  "validation": {
+    "passed": true,
+    "score": 0.97,
+    "feedback": [],
+    "schema_errors": []
+  }
+}

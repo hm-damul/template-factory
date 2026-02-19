@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-213419-best-digital-products-to-sell",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-213419-best-digital-products-to-sell",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-213419-best-digital-products-to-sell\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-213419-best-digital-products-to-sell\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-213419-best-digital-products-to-sell\\product.pdf",
+  "checksum": "1838a0afdc3c3fe7e59c775678f68d9c129b118d996576974c777179515545ff",
+  "generated_at": "20260219-213429",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260218-225010-etsy-digital-products-2026-how",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-225010-etsy-digital-products-2026-how",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-225010-etsy-digital-products-2026-how\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-225010-etsy-digital-products-2026-how\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260218-225010-etsy-digital-products-2026-how\\product.pdf",
+  "checksum": "d24a12481b6cd9a84d620a65b9bf2b9b99fa6f7e642788488d1978ddc28d1a00",
+  "generated_at": "20260218-225029",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-171353-150-ebook-ideas-that-actually",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-171353-150-ebook-ideas-that-actually",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-171353-150-ebook-ideas-that-actually\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-171353-150-ebook-ideas-that-actually\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-171353-150-ebook-ideas-that-actually\\product.pdf",
+  "checksum": "49173b2ced6fc44a6525faf7df5819b7c168bd8093fcacfaf7545195e5ba2908",
+  "generated_at": "20260219-171403",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

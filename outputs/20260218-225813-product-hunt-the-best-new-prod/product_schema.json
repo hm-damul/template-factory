@@ -1,0 +1,80 @@
+{
+  "product_id": "20260218-225813-product-hunt-the-best-new-prod",
+  "title": "Unlock Your Passive Income with Product Hunt – The best new products in tech.",
+  "target_customer": "Creators and merchants interested in Product Hunt – The best new products in tech.",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Product Hunt – The best new products in tech.",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Product Hunt – The best new products in tech.",
+      "subheadline": "Leverage AI to create and sell digital products based on: Product Hunt – The best new products in tech."
+    },
+    "problem": {
+      "description": "Generic e-commerce stores fail to build trust and suffer from high cart abandonment. Without a high-performance storefront, conversion remains stagnant."
+    },
+    "solution": {
+      "description": "A conversion-optimized e-commerce engine with mobile-first UI, friction-free checkout, and built-in trust triggers. Built for modern digital merchants."
+    },
+    "features": [
+      "Mobile-optimized high-speed landing UI for Product Hunt – The best new products in tech.",
+      "Trust-building proof & badge templates for Product Hunt – The best new products in tech.",
+      "Frictionless 1-click checkout flow for Product Hunt – The best new products in tech.",
+      "Automated order confirmation & tracking for Product Hunt – The best new products in tech.",
+      "Urgency & scarcity trigger system for Product Hunt – The best new products in tech."
+    ],
+    "benefits": [
+      "Ship faster with ready Product Hunt – The best new products in tech. templates",
+      "Increase conversion with clear Product Hunt – The best new products in tech. value prop",
+      "Operate with predictable Product Hunt – The best new products in tech. delivery flow",
+      "Scale experimentation with simple Product Hunt – The best new products in tech. A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$29.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Product Hunt – The best new products in tech. guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "tech",
+      "primary_color": "#6366f1",
+      "secondary_color": "#6366f1",
+      "font_family": "Georgia, serif",
+      "layout_style": "creative"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "metadata": {
+    "final_price_usd": 29.0
+  },
+  "_injected_price": "$29.00",
+  "price": "29",
+  "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$49.00",
+  "market_analysis": {
+    "category": "Standard Digital Asset",
+    "market_price": 49,
+    "our_price": 29,
+    "desc": "High-quality digital resource"
+  }
+}

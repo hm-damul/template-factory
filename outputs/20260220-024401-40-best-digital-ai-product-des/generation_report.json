@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-024401-40-best-digital-ai-product-des",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-024401-40-best-digital-ai-product-des",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-024401-40-best-digital-ai-product-des\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-024401-40-best-digital-ai-product-des\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-024401-40-best-digital-ai-product-des\\product.pdf",
+  "checksum": "7031d1e196292291260c31a1fa40c0309fd47ff56a375eb1352473e74ec86e4b",
+  "generated_at": "20260220-024411",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

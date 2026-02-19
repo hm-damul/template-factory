@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-000641-freelancer-consultant-landing",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-000641-freelancer-consultant-landing",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-000641-freelancer-consultant-landing\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-000641-freelancer-consultant-landing\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-000641-freelancer-consultant-landing\\product.pdf",
+  "checksum": "e45f9f8622bbd75e559a71b25dd02dd347df39033948943cd6f680e23b40774c",
+  "generated_at": "20260215-000641",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

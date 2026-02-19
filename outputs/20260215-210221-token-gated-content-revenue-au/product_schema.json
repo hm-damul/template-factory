@@ -1,0 +1,80 @@
+{
+  "product_id": "20260215-210221-token-gated-content-revenue-au",
+  "title": "Unlock Your Passive Income with Token-Gated Content + Revenue Automation for Web3 Communities",
+  "target_customer": "Creators and merchants interested in Token-Gated Content + Revenue Automation for Web3 Communities",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Token-Gated Content + Revenue Automation for Web3 Communities",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Token-Gated Content + Revenue Automation for Web3 Communities",
+      "subheadline": "Leverage AI to create and sell digital products based on: Token-Gated Content + Revenue Automation for Web3 Communities"
+    },
+    "problem": {
+      "description": "Traditional digital commerce is plagued by high fees, slow settlements, and platform risk. Web3 offers a solution, but technical complexity prevents mass adoption."
+    },
+    "solution": {
+      "description": "A hardened Web3 commerce stack that simplifies crypto payments, token-gated access, and decentralized delivery. Designed for the next generation of digital entrepreneurs."
+    },
+    "features": [
+      "Multi-chain crypto payment gateway for Token-Gated Content + Revenue Automation for Web3 Communities",
+      "Automated token-gating & access control for Token-Gated Content + Revenue Automation for Web3 Communities",
+      "Non-custodial digital asset delivery for Token-Gated Content + Revenue Automation for Web3 Communities",
+      "Real-time blockchain event monitoring for Token-Gated Content + Revenue Automation for Web3 Communities",
+      "Gas-optimized smart contract templates for Token-Gated Content + Revenue Automation for Web3 Communities"
+    ],
+    "benefits": [
+      "Ship faster with ready Token-Gated Content + Revenue Automation for Web3 Communities templates",
+      "Increase conversion with clear Token-Gated Content + Revenue Automation for Web3 Communities value prop",
+      "Operate with predictable Token-Gated Content + Revenue Automation for Web3 Communities delivery flow",
+      "Scale experimentation with simple Token-Gated Content + Revenue Automation for Web3 Communities A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$59.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Token-Gated Content + Revenue Automation for Web3 Communities guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "dark",
+      "primary_color": "#10b981",
+      "secondary_color": "#10b981",
+      "font_family": "system-ui, sans-serif",
+      "layout_style": "professional"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "_injected_price": "$59.00",
+  "metadata": {
+    "final_price_usd": 179.0
+  },
+  "price": "59",
+  "offers": {
+    "@type": "Offer",
+    "price": "59.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$179.00",
+  "market_analysis": {
+    "category": "SaaS / System",
+    "market_price": 179,
+    "our_price": 59,
+    "desc": "High-value functional software/system"
+  }
+}

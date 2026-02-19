@@ -1,0 +1,80 @@
+{
+  "product_id": "20260215-081614-saas-marketing",
+  "title": "Unlock Your Passive Income with SaaS_Marketing",
+  "target_customer": "Creators and merchants interested in SaaS_Marketing",
+  "value_proposition": "Leverage AI to create and sell digital products based on: SaaS_Marketing",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with SaaS_Marketing",
+      "subheadline": "Leverage AI to create and sell digital products based on: SaaS_Marketing"
+    },
+    "problem": {
+      "description": "Most marketing assets are generic and fail to convert. Without a high-converting system, traffic is wasted and acquisition costs skyrocket."
+    },
+    "solution": {
+      "description": "A results-driven marketing vault with proven hooks, structured landing templates, and conversion-optimized copy. Designed for rapid scale."
+    },
+    "features": [
+      "High-converting hook & headline library for SaaS_Marketing",
+      "A/B test ready landing page templates for SaaS_Marketing",
+      "Psychology-based sales copy frameworks for SaaS_Marketing",
+      "Social proof & proof-block templates for SaaS_Marketing",
+      "Multi-channel promotion sequences for SaaS_Marketing"
+    ],
+    "benefits": [
+      "Ship faster with ready SaaS_Marketing templates",
+      "Increase conversion with clear SaaS_Marketing value prop",
+      "Operate with predictable SaaS_Marketing delivery flow",
+      "Scale experimentation with simple SaaS_Marketing A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$59.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the SaaS_Marketing guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "modern",
+      "primary_color": "#8b5cf6",
+      "secondary_color": "#8b5cf6",
+      "font_family": "Roboto, sans-serif",
+      "layout_style": "bold"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "_injected_price": "$59.00",
+  "metadata": {
+    "final_price_usd": 179.0
+  },
+  "price": "59",
+  "offers": {
+    "@type": "Offer",
+    "price": "59.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$179.00",
+  "market_analysis": {
+    "category": "SaaS / System",
+    "market_price": 179,
+    "our_price": 59,
+    "desc": "High-value functional software/system"
+  }
+}

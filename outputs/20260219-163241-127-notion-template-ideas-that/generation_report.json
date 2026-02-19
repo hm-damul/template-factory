@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-163241-127-notion-template-ideas-that",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-163241-127-notion-template-ideas-that",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-163241-127-notion-template-ideas-that\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-163241-127-notion-template-ideas-that\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-163241-127-notion-template-ideas-that\\product.pdf",
+  "checksum": "1097cb7275e56ce483615c44b361442ce8ee2595b9332fa684a3ef3219a190f9",
+  "generated_at": "20260219-163252",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

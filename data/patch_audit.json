@@ -1,0 +1,95 @@
+{
+  "patches": [
+    {
+      "ts": "2026-02-01T18:33:01.441266",
+      "file": "backend/payment_server.py",
+      "summary": "토큰 기반 다운로드(/api/pay/token, /api/pay/download) + 만료/재발급 + Mock 안전성 + OPTIONS/CORS 처리 강화",
+      "sha256_before": "3ae9161e9b0be9305728232c829c633e10b754d17a54ed8f5b0a8b65f7e882a9",
+      "sha256_after": "0ec14dda9bf747d063b4101a688f355b0b0dc1c2d5485b180bb81137088d3eca"
+    },
+    {
+      "ts": "2026-02-01T18:33:37.405943",
+      "file": "dashboard_server.py",
+      "summary": "대시보드 라우트 등록 순서 수정(app.run 이전) + /health 추가 + 기본 포트 8088로 변경",
+      "sha256_before": "66957ff15ccb826fa956c56e6423edf4b538db6c5b970e6ea29aa66a767a1448",
+      "sha256_after": "80480cf817c1542729afdf7e6273e647673981acd6ba72920d2800eb96fb4c11"
+    },
+    {
+      "ts": "2026-02-01T18:33:51.562137",
+      "file": "auto_pilot_legacy.py",
+      "summary": "기존 auto_pilot.py 내용을 auto_pilot_legacy.py로 보존(하위 호환용)",
+      "sha256_before": "",
+      "sha256_after": "4d8869eca4e4300a49b9b3efd25b12e745b8b39d705e27d8bf753ee379e37de6"
+    },
+    {
+      "ts": "2026-02-01T18:36:17.586054",
+      "file": "auto_pilot.py",
+      "summary": "요구 테스트용 CLI(--batch, --languages) 추가 + 산출물(product.md, quality_report.json, product_en/ko.pdf, bonus_ko.zip, promotions) 생성 보장 + legacy 위임",
+      "sha256_before": "4d8869eca4e4300a49b9b3efd25b12e745b8b39d705e27d8bf753ee379e37de6",
+      "sha256_after": "1f53ea9ba44dc8ae850c61b347b4ae972d746ffb4bc9667f844c2c10d33cc8b8"
+    },
+    {
+      "ts": "2026-02-01T18:37:26.915879",
+      "file": "tools/self_test.py",
+      "summary": "필수 기능 자동 검증 스크립트 추가(TEST1~3)",
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "78d39a4443911ce40aae5ccf0e91f1be7c96601a655904cc19bdb1304f279684"
+    },
+    {
+      "ts": "2026-02-01T18:38:10.929287",
+      "file": "README_ENV.md",
+      "summary": "환경변수/Mock 모드 문서 추가",
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "d726c6518b99618aad40cb532c7e36f8c903e99618a10be5e45799a47e341f39"
+    },
+    {
+      "ts": "2026-02-01T18:38:10.929834",
+      "file": "CHANGELOG.md",
+      "summary": "변경 요약 문서 추가",
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e2573c9d2195ee89fa90d572af484ef73b8683c2faf57da9ed41088517b6b8ec"
+    },
+    {
+      "ts": "2026-02-01T18:38:51.469006",
+      "file": "auto_pilot.py",
+      "summary": "translation_engine 반환 타입(TranslationResult) 문자열 정규화",
+      "sha256_before": "1f53ea9ba44dc8ae850c61b347b4ae972d746ffb4bc9667f844c2c10d33cc8b8",
+      "sha256_after": "9ee91580de22022db70acdf6b397558145fe5a8cf9dc6c328b7d764707b54322"
+    },
+    {
+      "ts": "2026-02-01T18:39:15.658706",
+      "file": "auto_pilot.py",
+      "summary": "outputs/<product_id>/package.zip 생성 추가(결제 다운로드 테스트 통과용)",
+      "sha256_before": "9ee91580de22022db70acdf6b397558145fe5a8cf9dc6c328b7d764707b54322",
+      "sha256_after": "c12d29fbd4fb2b951381078a010263b2e895db6bd57582fc910fcef9dc47a5f0"
+    },
+    {
+      "ts": "2026-02-01T18:40:15.512732",
+      "file": "tools/self_test.py",
+      "summary": "dashboard self test: 8088 우선, 포트 사용 중이면 8089/8090 자동 폴백",
+      "sha256_before": "78d39a4443911ce40aae5ccf0e91f1be7c96601a655904cc19bdb1304f279684",
+      "sha256_after": "7d1404add5d5ba1a87a315e2f283363b5b1e77416a2b8857a6abf7558afa8a67"
+    },
+    {
+      "ts": "2026-02-01T18:40:49.072650",
+      "file": "tools/self_test.py",
+      "summary": "dashboard self test 함수 재작성(포트 자동 폴백)",
+      "sha256_before": "7d1404add5d5ba1a87a315e2f283363b5b1e77416a2b8857a6abf7558afa8a67",
+      "sha256_after": "ee6aea8132f2f37949ce2b932739bd1430bcfbb4b59eddb460c042adce022daf"
+    },
+    {
+      "ts": "2026-02-01T18:41:42.829590",
+      "file": "tools/self_test.py",
+      "summary": "dashboard self test: 포트별로 실제 /health 응답 기반 재시도",
+      "sha256_before": "ee6aea8132f2f37949ce2b932739bd1430bcfbb4b59eddb460c042adce022daf",
+      "sha256_after": "73435fbad64e99692b20c752868b97f7e75cacbdcc83dce29b5ab843fd5a37fc"
+    },
+    {
+      "ts": "2026-02-01T18:42:58.740095",
+      "file": "README_RUN.md",
+      "summary": "README_RUN에 tools/self_test.py 실행 가이드 추가",
+      "sha256_before": "af0d15b7eeb49e68345d39d987bf109e3f843ed4aaa906636a6e44b3516d4bc7",
+      "sha256_after": "1aa5222d9810651baeacffee9b9734cfe35ba57665be37f7117ee61623fe5d39"
+    }
+  ]
+}

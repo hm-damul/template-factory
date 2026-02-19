@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-02-19T18:18:23.630417+00:00",
+  "stats": {
+    "total": 154,
+    "published": 30,
+    "waiting": 2,
+    "failed": 0
+  },
+  "recent_products": [
+    {
+      "id": "20260220-030507-selling-notion-templates-on-wh",
+      "topic": "Selling Notion Templates on Whop",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T03:05:07.909910"
+    },
+    {
+      "id": "20260220-030237-what-genres-dominate-the-ebook",
+      "topic": "What Genres Dominate the eBook Market in 2026?",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T03:02:37.688089"
+    },
+    {
+      "id": "20260220-024401-40-best-digital-ai-product-des",
+      "topic": "40 Best Digital AI Product Design Examples in 2025",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T02:44:01.306844"
+    },
+    {
+      "id": "20260220-023845-best-digital-product-ideas-202",
+      "topic": "Best Digital Product Ideas 2026 for Online Success",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T02:38:45.999475"
+    },
+    {
+      "id": "20260220-023351-nft-business-blueprint-beyond",
+      "topic": "NFT Business Blueprint: Beyond the Hype to Real Utility",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T02:33:51.594273"
+    },
+    {
+      "id": "20260220-023210-digital-products-goldmine-200",
+      "topic": "Digital Products Goldmine: 200 Untapped Niches for 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T02:32:10.161272"
+    },
+    {
+      "id": "20260220-022846-10-best-shopify-themes-for-hig",
+      "topic": "10 Best Shopify Themes for High Conversions in 2026 Guide",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T02:28:46.945049"
+    },
+    {
+      "id": "20260220-022707-8-creative-ideas-to-make-ai-ge",
+      "topic": "8 Creative Ideas to Make AI-Generated Digital Products Unique",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T02:27:07.216746"
+    },
+    {
+      "id": "20260220-020936-a-dozen-digital-product-ideas",
+      "topic": "A Dozen Digital Product Ideas You Can Build With AI in 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T02:09:36.629610"
+    },
+    {
+      "id": "20260220-020442-most-popular-genres-for-2026-w",
+      "topic": "Most Popular Genres for 2026 – What Readers Are Buying",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T02:04:42.886411"
+    },
+    {
+      "id": "20260220-015945-cold-wallet-ops-manual-for-dig",
+      "topic": "Cold-Wallet Ops Manual for Digital Product Businesses",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:59:45.269212"
+    },
+    {
+      "id": "20260220-015448-9-most-profitable-notion-niche",
+      "topic": "9 Most Profitable Notion Niches to Sell and Make Money 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:54:48.448625"
+    },
+    {
+      "id": "20260220-015247-10-digital-products-you-can-se",
+      "topic": "10 Digital Products You Can Sell Using AI Tools in 2025",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:52:47.305849"
+    },
+    {
+      "id": "20260220-014523-16-best-notion-life-planner-te",
+      "topic": "16 Best Notion Life Planner Templates for 2026 (Goals & Vision)",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:45:23.034274"
+    },
+    {
+      "id": "20260220-013245-6-best-b2b-ecommerce-examples",
+      "topic": "6 Best B2B eCommerce Examples to Check Out in 2025",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:32:45.333517"
+    },
+    {
+      "id": "20260220-012800-anti-fraud-chargeback-free-sal",
+      "topic": "Anti-Fraud & Chargeback-Free Sales System Using Crypto Payments",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:28:00.270060"
+    },
+    {
+      "id": "20260220-012558-how-to-sell-digital-downloads",
+      "topic": "How to Sell Digital Downloads on Etsy (Beginner Guide 2026)",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:25:58.124161"
+    },
+    {
+      "id": "20260220-011529-15-successful-b2b-ecommerce-ex",
+      "topic": "15+ Successful B2B Ecommerce Examples for 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:15:29.945262"
+    },
+    {
+      "id": "20260220-011338-top-book-club-picks-for-2026",
+      "topic": "Top Book Club Picks for 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T01:13:38.874624"
+    },
+    {
+      "id": "20260220-005631-100-proven-digital-product-ide",
+      "topic": "100 Proven Digital Product Ideas and the Ultimate Launch Marketing ...",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T00:56:31.415683"
+    }
+  ],
+  "daemon": {
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Template / Landing Page\": 1}",
+    "last_updated": "2026-02-19T18:18:21.987187+00:00",
+    "phase": "sleeping",
+    "product_id": null,
+    "last_cmd": [
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+      "auto_pilot.py",
+      "--batch",
+      "1"
+    ],
+    "action": "Creating/Updating Product",
+    "rc": 0,
+    "last_run_end": "2026-02-19T18:06:43.334556+00:00",
+    "next_run_approx": "2026-02-19T18:08:46.878263+00:00",
+    "count": 1,
+    "status": "running",
+    "pid": 12128,
+    "start_time": "2026-02-19T11:31:26.197309+00:00",
+    "stop_time": "2026-02-18T22:46:37.546758+00:00"
+  }
+}

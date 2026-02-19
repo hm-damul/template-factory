@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-072234-12-most-popular-notion-templat",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-072234-12-most-popular-notion-templat",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-072234-12-most-popular-notion-templat\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-072234-12-most-popular-notion-templat\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-072234-12-most-popular-notion-templat\\product.pdf",
+  "checksum": "0358690505662c524c02b07541eb5aea66cc92663a307b48cc35afcd9a2a29e3",
+  "generated_at": "20260219-072246",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

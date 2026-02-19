@@ -1,0 +1,27 @@
+{
+  "product_id": "20260215-185109-token-gated-content-revenue-au",
+  "created_at": "2026-02-15T09:51:09Z",
+  "files": [
+    "blog_longform.md",
+    "blog_outline.md",
+    "blog_post.md",
+    "instagram_post.txt",
+    "linkedin_posts.txt",
+    "newsletter_email.txt",
+    "promo_calendar_30d.csv",
+    "promo_pack.zip",
+    "reddit_posts.txt",
+    "sales_page_copy.md",
+    "seo.txt",
+    "shortform_scripts.txt",
+    "shortform_video_script.txt",
+    "x_posts.txt",
+    "x_threads.txt"
+  ],
+  "validation": {
+    "passed": true,
+    "score": 0.94,
+    "feedback": [],
+    "schema_errors": []
+  }
+}

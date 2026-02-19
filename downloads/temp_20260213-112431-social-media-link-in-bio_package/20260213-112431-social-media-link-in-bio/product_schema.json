@@ -1,0 +1,56 @@
+{
+  "product_id": "20260213-112431-social-media-link-in-bio",
+  "title": "Unlock Your Passive Income with social-media-link-in-bio",
+  "target_customer": "Creators and merchants interested in social-media-link-in-bio",
+  "value_proposition": "Leverage AI to create and sell digital products based on: social-media-link-in-bio",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with social-media-link-in-bio",
+      "subheadline": "Leverage AI to create and sell digital products based on: social-media-link-in-bio"
+    },
+    "problem": {
+      "description": "Monetizing social-media-link-in-bio is slow without ready assets. Builders waste time wiring checkout, delivery, and messaging, hurting conversion."
+    },
+    "solution": {
+      "description": "A complete package for social-media-link-in-bio: wallet checkout landing, token-gated delivery, and structured copy that converts. One-file deploy."
+    },
+    "features": [
+      "Wallet checkout landing (one-file deploy)",
+      "Token-gated delivery flow",
+      "Lead capture and plan gating UI",
+      "Structured copy sections that convert",
+      "Promotion hooks for immediate launch"
+    ],
+    "benefits": [
+      "Ship faster with ready templates",
+      "Increase conversion with clear value prop",
+      "Operate with predictable delivery flow",
+      "Scale experimentation with simple A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Pro",
+      "price": "$99"
+    },
+    "faq": [
+      {
+        "q": "What do I get?",
+        "a": "Landing page, main content file, and usage guide."
+      },
+      {
+        "q": "Is it crypto payment ready?",
+        "a": "Designed for Web3; integrate NOWPayments or on-chain EVM verification."
+      },
+      {
+        "q": "Can I customize it?",
+        "a": "Yes. All assets are editable HTML and Markdown."
+      }
+    ],
+    "cta": {
+      "text": "Get Started"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.md",
+    "landing_page": "index.html"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+  "title": "Unlock Your Passive Income with AI-Automation-Agency-Prompt-Pack",
+  "target_customer": "Creators and merchants interested in AI-Automation-Agency-Prompt-Pack",
+  "value_proposition": "Leverage AI to create and sell digital products based on: AI-Automation-Agency-Prompt-Pack",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with AI-Automation-Agency-Prompt-Pack",
+      "subheadline": "Leverage AI to create and sell digital products based on: AI-Automation-Agency-Prompt-Pack"
+    },
+    "problem": {
+      "description": "Manual AI workflows are slow and error-prone. Without a structured automation system, scaling AI-driven tasks leads to inconsistent quality and high operational costs."
+    },
+    "solution": {
+      "description": "A robust AI automation framework with pre-built prompt templates, error-handling logic, and automated quality gates. Designed for high-scale AI operations."
+    },
+    "features": [
+      "Hardened prompt engineering library for AI-Automation-Agency-Prompt-Pack",
+      "Automated quality gate & validation logic for AI-Automation-Agency-Prompt-Pack",
+      "Rate-limit & retry handling system for AI-Automation-Agency-Prompt-Pack",
+      "Structured output (JSON/Markdown) templates for AI-Automation-Agency-Prompt-Pack",
+      "AI-to-Human handoff workflows for AI-Automation-Agency-Prompt-Pack"
+    ],
+    "benefits": [
+      "Ship faster with ready AI-Automation-Agency-Prompt-Pack templates",
+      "Increase conversion with clear AI-Automation-Agency-Prompt-Pack value prop",
+      "Operate with predictable AI-Automation-Agency-Prompt-Pack delivery flow",
+      "Scale experimentation with simple AI-Automation-Agency-Prompt-Pack A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$59.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the AI-Automation-Agency-Prompt-Pack guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "dark",
+      "primary_color": "#10b981",
+      "secondary_color": "#10b981",
+      "font_family": "system-ui, sans-serif",
+      "layout_style": "professional"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  },
+  "_injected_price": "$59.00",
+  "metadata": {
+    "final_price_usd": 179.0
+  },
+  "price": "59",
+  "offers": {
+    "@type": "Offer",
+    "price": "59.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$179.00",
+  "market_analysis": {
+    "category": "SaaS / System",
+    "market_price": 179,
+    "our_price": 59,
+    "desc": "High-value functional software/system"
+  }
+}

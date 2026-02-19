@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-135047-token-gated-content-revenue-au",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-135047-token-gated-content-revenue-au",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-135047-token-gated-content-revenue-au\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-135047-token-gated-content-revenue-au\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-135047-token-gated-content-revenue-au\\product.pdf",
+  "checksum": "22608dcd3c4388d48254e8c50755940f4da7a6e2c5afd6f4d4dd40fcbd7d3e01",
+  "generated_at": "20260215-135048",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

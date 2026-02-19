@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-015754-ai-automation-agency-prompt-pa",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-015754-ai-automation-agency-prompt-pa\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-015754-ai-automation-agency-prompt-pa\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-015754-ai-automation-agency-prompt-pa\\product.pdf",
+  "checksum": "af6bc19feb59b79ba3bd7ca866aea164588b9f5c536eeb7c9bba5d8403c0b43d",
+  "generated_at": "20260215-015755",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

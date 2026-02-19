@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-015455-automated-daily-planner-system",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-015455-automated-daily-planner-system",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-015455-automated-daily-planner-system\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-015455-automated-daily-planner-system\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-015455-automated-daily-planner-system\\product.pdf",
+  "checksum": "1061a6b48446478a88126a8cf101127cff2187b363713045f12bca4c24d3526e",
+  "generated_at": "20260215-015455",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

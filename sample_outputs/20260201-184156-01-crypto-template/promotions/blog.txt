@@ -1,0 +1,7 @@
+[BLOG]
+Title: Crypto Token-Gated Download Template for Digital Products — Token-gated Crypto Checkout Template
+Body:
+- Pain: 카드/플랫폼 제약, 결제 추적 부담
+- Solution: 토큰 기반 다운로드 + Mock-safe 결제 테스트
+- What you get: PDF+보너스+프로모션 템플릿
+CTA: 지금 다운로드해서 즉시 적용하세요. (product_id=20260201-184156-01-crypto-template)

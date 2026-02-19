@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-014523-16-best-notion-life-planner-te",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-014523-16-best-notion-life-planner-te",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-014523-16-best-notion-life-planner-te\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-014523-16-best-notion-life-planner-te\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-014523-16-best-notion-life-planner-te\\product.pdf",
+  "checksum": "4fbb4721b90fa5d14df055dd53bebd898802f4c71ea7e5f08538f9ed84a9ff02",
+  "generated_at": "20260220-014533",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

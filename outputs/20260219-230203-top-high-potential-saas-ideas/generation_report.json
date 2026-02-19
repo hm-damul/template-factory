@@ -1,0 +1,16 @@
+{
+  "product_id": "20260219-230203-top-high-potential-saas-ideas",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-230203-top-high-potential-saas-ideas",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-230203-top-high-potential-saas-ideas\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-230203-top-high-potential-saas-ideas\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260219-230203-top-high-potential-saas-ideas\\product.pdf",
+  "checksum": "1f9f40a0c94e73615a49c6939bb55e51f13b78f087c14324c968993435c77211",
+  "generated_at": "20260219-230213",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

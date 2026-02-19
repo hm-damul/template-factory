@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Passive Income Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .status-dot { height: 10px; width: 10px; border-radius: 50%; display: inline-block; }
+        .bg-green-500 { background-color: #10B981; }
+        .bg-red-500 { background-color: #EF4444; }
+        .bg-gray-500 { background-color: #6B7280; }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <div class="container mx-auto p-6">
+        <header class="mb-8 flex justify-between items-center">
+            <div>
+                <h1 class="text-3xl font-bold text-gray-900">Meta Passive Income</h1>
+                <p class="text-gray-600">Automated Revenue System Control Center</p>
+            </div>
+            <div class="flex gap-4">
+                <button onclick="refreshData()" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Refresh</button>
+            </div>
+        </header>
+
+        <!-- System Status Cards -->
+        <!-- Daemon Active Banner -->
+        <div class="bg-blue-50 border-l-4 border-blue-500 text-blue-700 p-4 mb-8 rounded shadow-sm flex justify-between items-center" id="system-banner" style="display:none">
+            <div>
+                <p class="font-bold text-lg flex items-center">
+                    <span class="animate-pulse h-3 w-3 bg-blue-500 rounded-full mr-2"></span>
+                    System Active
+                </p>
+                <p class="text-sm mt-1" id="banner-msg">Initializing...</p>
+            </div>
+            <div class="text-right text-xs text-blue-400">
+                Last Update: <span id="banner-time">-</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-semibold mb-4">Service Status</h2>
+                <div class="space-y-3" id="service-status">
+                    <!-- Populated by JS -->
+                    <div class="flex items-center justify-between">
+                        <span>Dashboard</span>
+                        <span class="status-dot bg-green-500"></span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span>Payment Server</span>
+                        <span class="status-dot bg-gray-500" id="status-payment"></span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span>Preview Server</span>
+                        <span class="status-dot bg-gray-500" id="status-preview"></span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span>Auto Daemon</span>
+                        <span class="status-dot bg-gray-500" id="status-daemon"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-semibold mb-4">Production Stats</h2>
+                <div class="space-y-3">
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Total Products</span>
+                        <span class="font-bold" id="stat-total">0</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Published</span>
+                        <span class="font-bold text-green-600" id="stat-published">0</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Pending</span>
+                        <span class="font-bold text-yellow-600" id="stat-pending">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Financial Overview -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-semibold mb-4">Financial Overview</h2>
+                <div class="space-y-3">
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Total Revenue</span>
+                        <span class="font-bold text-green-600" id="stat-revenue">$0</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Transactions</span>
+                        <span class="font-bold" id="stat-transactions">0</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-sm font-semibold text-gray-500 mb-2">Recent Transactions</h3>
+                        <ul class="text-sm space-y-2" id="list-recent-tx">
+                            <li class="text-gray-400">No transactions yet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-semibold mb-4">Quick Actions</h2>
+                <div class="grid grid-cols-2 gap-3">
+                    <button onclick="controlServer('payment', 'start')" class="px-3 py-2 bg-green-100 text-green-700 rounded hover:bg-green-200">Start Payment</button>
+                    <button onclick="controlServer('preview', 'start')" class="px-3 py-2 bg-green-100 text-green-700 rounded hover:bg-green-200">Start Preview</button>
+                    <button onclick="controlServer('daemon', 'start')" class="px-3 py-2 bg-purple-100 text-purple-700 rounded hover:bg-purple-200">Start Daemon</button>
+                    <button onclick="runAutoPilot()" class="px-3 py-2 bg-blue-100 text-blue-700 rounded hover:bg-blue-200">Run AutoPilot</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Current Activity -->
+        <div class="bg-white p-6 rounded-lg shadow mb-8" id="activity-card">
+            <h2 class="text-xl font-semibold mb-4 text-blue-800">Current Activity</h2>
+            <div class="bg-blue-50 p-4 rounded border border-blue-200">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="font-bold text-lg" id="activity-task">Idle</span>
+                    <span class="text-sm text-gray-500" id="activity-time">-</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 mb-2">
+                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 0%" id="activity-bar"></div>
+                </div>
+                <div class="flex justify-between text-sm">
+                    <span id="activity-status">Waiting for tasks...</span>
+                    <span class="font-bold" id="activity-percent">0%</span>
+                </div>
+                <div class="mt-2 text-xs text-gray-500" id="activity-details">System is ready.</div>
+            </div>
+        </div>
+
+        <!-- Product Management -->
+        <div class="bg-white p-6 rounded-lg shadow mb-8">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-semibold">Product Management</h2>
+                <button onclick="fetchProducts()" class="text-sm text-blue-600 hover:text-blue-800">Refresh List</button>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Product</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Created</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">QA Status</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Live Link</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Promotions</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200" id="product-list">
+                        <!-- Populated by JS -->
+                        <tr><td colspan="7" class="px-6 py-4 text-center text-gray-500">Loading products...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Pagination Controls -->
+            <div class="mt-4 flex items-center justify-between border-t border-gray-200 pt-4">
+                <div class="text-sm text-gray-700">
+                    Showing page <span class="font-medium" id="page-current">1</span> of <span class="font-medium" id="page-total">1</span>
+                    <span class="text-gray-400 mx-2">|</span>
+                    Total: <span class="font-medium" id="total-products-count">-</span>
+                </div>
+                <div class="flex gap-2">
+                    <button onclick="changePage(currentPage - 1)" class="px-3 py-1 border border-gray-300 rounded text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed" id="btn-prev">Previous</button>
+                    <button onclick="changePage(currentPage + 1)" class="px-3 py-1 border border-gray-300 rounded text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed" id="btn-next">Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Logs -->
+        <div class="bg-white p-6 rounded-lg shadow mb-8">
+            <h2 class="text-xl font-semibold mb-4">System Logs</h2>
+            <div class="bg-gray-900 text-green-400 p-4 rounded font-mono text-sm h-64 overflow-y-auto" id="log-container">
+                <!-- Logs here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function syncProducts() {
+            if(!confirm('Sync products from disk? This will scan the outputs directory and update the database.')) return;
+            try {
+                const res = await fetch('/api/system/sync_products', { method: 'POST' });
+                const data = await res.json();
+                if (data.ok) {
+                    alert('Sync complete! ' + data.synced + ' products updated.');
+                    refreshData();
+                } else {
+                    alert('Sync failed: ' + data.error);
+                }
+            } catch (e) {
+                alert('Error syncing: ' + e);
+            }
+        }
+
+        async function fetchStatus() {
+            try {
+                // Fetch progress stats
+                const res = await fetch('/api/system/progress');
+                const data = await res.json();
+                
+                // Update stats
+                document.getElementById('stat-total').textContent = data.total_products || 0;
+                document.getElementById('stat-published').textContent = data.published_count || 0;
+                document.getElementById('stat-pending').textContent = data.pending_count || 0;
+
+                // Update Financial Stats
+                document.getElementById('stat-revenue').textContent = '$' + (data.total_revenue || 0).toLocaleString();
+                document.getElementById('stat-transactions').textContent = data.total_transactions || 0;
+
+                const txList = document.getElementById('list-recent-tx');
+                if (data.recent_transactions && data.recent_transactions.length > 0) {
+                    txList.innerHTML = data.recent_transactions.map(tx => 
+                        `<li class="flex justify-between items-center border-b border-gray-100 pb-1">
+                            <span class="text-gray-600 truncate w-32" title="${tx.email || 'Anonymous'}">${tx.date.split(' ')[0]}</span>
+                            <span class="font-bold text-green-600">$${tx.amount}</span>
+                        </li>`
+                    ).join('');
+                } else {
+                    txList.innerHTML = '<li class="text-gray-400">No transactions yet</li>';
+                }
+
+                // Update logs if available
+                if (data.recent_logs) {
+                    const logContainer = document.getElementById('log-container');
+                    // Reverse logs to show newest at top if needed, but usually log files are appended
+                    // Here we just show as is
+                    logContainer.innerHTML = data.recent_logs.map(l => `<div>${l}</div>`).join('');
+                    // Auto scroll to bottom
+                    logContainer.scrollTop = logContainer.scrollHeight;
+                }
+
+                // Update System Banner
+                if (data.daemon_status && data.daemon_status.last_log) {
+                    const banner = document.getElementById('system-banner');
+                    const msg = document.getElementById('banner-msg');
+                    const time = document.getElementById('banner-time');
+                    
+                    banner.style.display = 'flex';
+                    msg.textContent = data.daemon_status.last_log;
+                    
+                    const lastTime = new Date(data.daemon_status.last_updated);
+                    time.textContent = lastTime.toLocaleString();
+                    
+                    // Optional: Highlight if stale (older than 5 mins)
+                    const now = new Date();
+                    const diffMins = (now - lastTime) / 60000;
+                    if (diffMins > 5) {
+                         banner.className = banner.className.replace('border-blue-500', 'border-yellow-500').replace('bg-blue-50', 'bg-yellow-50').replace('text-blue-700', 'text-yellow-800');
+                    } else {
+                         banner.className = banner.className.replace('border-yellow-500', 'border-blue-500').replace('bg-yellow-50', 'bg-blue-50').replace('text-yellow-800', 'text-blue-700');
+                    }
+                }
+
+                // Update Current Activity
+                if (data.current_progress && data.current_progress.task) {
+                    const card = document.getElementById('activity-card');
+                    card.style.display = 'block';
+                    
+                    document.getElementById('activity-task').textContent = data.current_progress.task || 'Idle';
+                    document.getElementById('activity-status').textContent = data.current_progress.status || '';
+                    document.getElementById('activity-details').textContent = data.current_progress.details || '';
+                    
+                    const pct = data.current_progress.progress || 0;
+                    document.getElementById('activity-percent').textContent = pct + '%';
+                    document.getElementById('activity-bar').style.width = pct + '%';
+                    
+                    if (data.current_progress.updated_at) {
+                        const updated = new Date(data.current_progress.updated_at * 1000);
+                        document.getElementById('activity-time').textContent = updated.toLocaleTimeString();
+                    }
+                }
+
+                // Fetch server status
+                const statusRes = await fetch('/api/system/status');
+                const statusData = await statusRes.json();
+                
+                updateDot('status-payment', statusData.payment && statusData.payment.alive);
+                updateDot('status-preview', statusData.preview && statusData.preview.alive);
+                updateDot('status-daemon', statusData.daemon && statusData.daemon.alive);
+
+            } catch (e) {
+                console.error("Failed to fetch status", e);
+            }
+        }
+
+        function updateDot(id, isOk) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.className = `status-dot ${isOk ? 'bg-green-500' : 'bg-red-500'}`;
+            }
+        }
+
+
+        async function checkServices() {
+            // Check Payment Server
+            try {
+                // We use the dashboard's proxy or direct check if CORS allowed
+                // For now, let's assume we check via dashboard API
+                const res = await fetch('/api/system/control', { 
+                    method: 'POST', 
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ name: 'payment', action: 'status' })
+                });
+                // Implementation depends on backend
+            } catch (e) {}
+        }
+
+        async function controlServer(name, action) {
+            try {
+                const res = await fetch('/api/system/control', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ name, action })
+                });
+                const data = await res.json();
+                alert(data.ok ? 'Success: ' + (data.status || 'Command sent') : 'Failed: ' + data.error);
+                refreshData();
+            } catch (e) {
+                alert('Error: ' + e);
+            }
+        }
+
+        function runAutoPilot() {
+            if(confirm('Start Auto Pilot Daemon? This will run the automated system loop.')) {
+                controlServer('daemon', 'start');
+            }
+        }
+
+        function changePage(newPage) {
+            if (newPage < 1 || newPage > totalPages) return;
+            fetchProducts(newPage);
+        }
+
+        let currentPage = 1;
+        let totalPages = 1;
+
+        async function fetchProducts(page) {
+            // If page is provided, update currentPage
+            if (page) currentPage = page;
+
+            try {
+                const res = await fetch(`/api/products?page=${currentPage}&limit=10`);
+                const data = await res.json();
+                
+                let products = [];
+                let total = 0;
+
+                if (Array.isArray(data)) {
+                    products = data;
+                    total = data.length;
+                    totalPages = 1;
+                } else {
+                    products = data.products || [];
+                    total = data.total || 0;
+                    totalPages = data.total_pages || 1;
+                    currentPage = data.page || currentPage;
+                }
+
+                // Update Pagination UI
+                const pageCurrentEl = document.getElementById('page-current');
+                const pageTotalEl = document.getElementById('page-total');
+                const totalCountEl = document.getElementById('total-products-count');
+                const btnPrev = document.getElementById('btn-prev');
+                const btnNext = document.getElementById('btn-next');
+
+                if (pageCurrentEl) pageCurrentEl.textContent = currentPage;
+                if (pageTotalEl) pageTotalEl.textContent = totalPages;
+                if (totalCountEl) totalCountEl.textContent = total;
+                
+                if (btnPrev) {
+                    btnPrev.disabled = currentPage <= 1;
+                    // Ensure onclick is set in HTML or here
+                }
+                if (btnNext) {
+                    btnNext.disabled = currentPage >= totalPages;
+                }
+                
+                const tbody = document.getElementById('product-list');
+                if (!products || products.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="7" class="px-6 py-4 text-center text-gray-500">No products found.</td></tr>';
+                    return;
+                }
+
+                tbody.innerHTML = products.map(p => {
+                    // Process promotions
+                    const promos = p.promotions || [];
+                    const promoHtml = promos.map(pr => {
+                        // Clean up channel name
+                        let channel = (pr.channel || '?').replace('promotion_', '');
+                        if (channel.includes('_api')) channel = channel.replace('_api', '');
+                        
+                        const hasIssues = pr.issues && pr.issues.length > 0;
+                        const color = hasIssues ? 'text-red-500' : 'text-green-500';
+                        const info = pr.url || pr.id || (hasIssues ? pr.issues.join('\n') : 'Active');
+                        const title = `${channel}: ${info}`;
+                        
+                        // Icon mapping (simple text for now)
+                        const icon = channel.substring(0, 2).toUpperCase();
+                        
+                        const badge = `<span class="${color} font-bold text-xs mr-2 cursor-help border border-current rounded px-1" title="${title}">${icon}</span>`;
+                        
+                        if (pr.url && !hasIssues) {
+                            return `<a href="${pr.url}" target="_blank" class="hover:opacity-75">${badge}</a>`;
+                        }
+                        return badge;
+                    }).join('');
+                    
+                    const previewUrl = `http://127.0.0.1:8088/outputs/${p.id}/index.html`;
+                    const liveLink = p.live_url ? `<a href="${p.live_url}" target="_blank" class="text-green-600 hover:underline font-bold flex items-center"><svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>Visit Live</a>` : '<span class="text-gray-400 text-xs">Not Deployed</span>';
+
+                    const qaStatus = p.qa_status || 'Pending';
+                    const isPositive = qaStatus.toLowerCase().includes('pass') || qaStatus.includes('Published') || qaStatus.includes('Promoted');
+                    const qaColor = isPositive ? 'text-green-600' : (qaStatus.toLowerCase().includes('fail') ? 'text-red-600' : 'text-gray-500');
+                    const qaDetails = (p.qa_details || []).join('\n');
+
+                    return `
+                        <tr>
+                            <td class="px-6 py-4">
+                                <div class="text-sm font-medium text-gray-900 truncate max-w-xs" title="${p.topic}">${p.topic}</div>
+                                <div class="text-xs text-gray-500 font-mono">${p.id}</div>
+                                <div class="text-xs text-gray-400">$${p.price || 0}</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${p.status === 'PUBLISHED' ? 'bg-green-100 text-green-800' : (p.status === 'PROMOTED' ? 'bg-blue-100 text-blue-800' : 'bg-yellow-100 text-yellow-800')}">
+                                    ${p.status}
+                                </span>
+                                ${p.published_at ? `<div class="text-xs text-gray-500 mt-1">${new Date(p.published_at).toLocaleDateString()}</div>` : ''}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                ${new Date(p.created_at).toLocaleString()}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                <div class="${qaColor} font-bold" title="${qaDetails}">${qaStatus}</div>
+                                ${qaDetails ? '<div class="text-xs text-gray-400 mt-1 cursor-help underline" title="' + qaDetails + '">Details</div>' : ''}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                ${liveLink}
+                            </td>
+                            <td class="px-6 py-4 text-sm text-gray-500">
+                                <div class="flex flex-wrap gap-1">
+                                    ${promoHtml || '<span class="text-gray-400">-</span>'}
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                <a href="${previewUrl}" target="_blank" class="text-indigo-600 hover:text-indigo-900 mr-3">Preview</a>
+                            </td>
+                        </tr>
+                    `;
+                }).join('');
+            } catch (e) {
+                console.error("Failed to fetch products", e);
+                document.getElementById('product-list').innerHTML = '<tr><td colspan="7" class="px-6 py-4 text-center text-red-500">Failed to load products.</td></tr>';
+            }
+        }
+
+        function refreshData() {
+            fetchStatus();
+            fetchProducts();
+        }
+
+        // Initial load
+        refreshData();
+        setInterval(refreshData, 5000);
+    </script>
+</body>
+</html>

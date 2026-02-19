@@ -1,0 +1,16 @@
+{
+  "product_id": "20260215-125053-global-merchant-crypto-checkou",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-125053-global-merchant-crypto-checkou",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-125053-global-merchant-crypto-checkou\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-125053-global-merchant-crypto-checkou\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260215-125053-global-merchant-crypto-checkou\\product.pdf",
+  "checksum": "e7a53f6df1a1c408221ef31f0b5cf528b2b0d20770dd1c54e4cf50e7ba692ff2",
+  "generated_at": "20260215-125053",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

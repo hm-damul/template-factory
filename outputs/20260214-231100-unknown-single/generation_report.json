@@ -1,0 +1,16 @@
+{
+  "product_id": "20260214-231100-unknown-single",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-231100-unknown-single",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-231100-unknown-single\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-231100-unknown-single\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260214-231100-unknown-single\\product.pdf",
+  "checksum": "cf4b1dab8cedc362555f2426b2901ec2854d09b08cdd1bad94bf9db32a192d36",
+  "generated_at": "20260214-231101",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

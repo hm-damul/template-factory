@@ -1,0 +1,3260 @@
+{
+  "last_audit": "2026-02-20 02:48:42",
+  "summary": {
+    "total_products": 152,
+    "healthy_products": 44,
+    "broken_products": 108,
+    "total_promotions": 300,
+    "healthy_promotions": 141,
+    "broken_promotions": 159
+  },
+  "details": [
+    {
+      "product_id": "20260220-024401-40-best-digital-ai-product-des",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-023845-best-digital-product-ideas-202",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-023351-nft-business-blueprint-beyond",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-023210-digital-products-goldmine-200",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-022846-10-best-shopify-themes-for-hig",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-022707-8-creative-ideas-to-make-ai-ge",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-020936-a-dozen-digital-product-ideas",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-020442-most-popular-genres-for-2026-w",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-015945-cold-wallet-ops-manual-for-dig",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-015448-9-most-profitable-notion-niche",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-015247-10-digital-products-you-can-se",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-014523-16-best-notion-life-planner-te",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-013245-6-best-b2b-ecommerce-examples",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-012800-anti-fraud-chargeback-free-sal",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Missing index.html in outputs"
+      ]
+    },
+    {
+      "product_id": "20260220-012558-how-to-sell-digital-downloads",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-011529-15-successful-b2b-ecommerce-ex",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-011338-top-book-club-picks-for-2026",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-005631-100-proven-digital-product-ide",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-005135-the-ultimate-notion-template-g",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-004641-top-10-profitable-saas-applica",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-004203-ai-agent-monetization-guide-se",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-003858-the-best-free-and-premium-noti",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-003319-crypto-first-email-funnel-syst",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-002330-top-9-lucrative-topics-to-sell",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-001843-10-must-try-notion-templates-f",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-001028-best-saas-business-ideas-in-20",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-000427-best-shopify-themes-2026-desig",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-234910-30-top-selling-digital-product",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-233412-top-10-b2b-ecommerce-examples",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-233033-25-trending-products-to-sell-o",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-231841-50-profitable-micro-saas-ideas",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-230203-top-high-potential-saas-ideas",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-225211-what-s-going-to-be-hot-in-2026",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-225211-14-digital-products-to-sell-fo",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-222758-top-shopify-themes-for-2026-be",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-214518-10-profitable-saas-ideas-to-ex",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-213559-untapped-digital-product-niche",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-213419-best-digital-products-to-sell",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-211904-ai-powered-digital-product-ide",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-210308-best-shopify-themes-for-ecomme",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-204559-best-books-2026-what-we-can-t",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-204520-25-best-shopify-themes-that-ll",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-202435-academia-edu",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-201042-trending-ebook-topics-2026-wha",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-194620-best-shopify-themes-in-2026-fr",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260219-192339-best-digital-products-to-sell",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-192247-7-digital-product-ideas-you-ca",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-185810-top-8-popular-ebook-topics-to",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-183122-most-profitable-saas-business",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-182721-top-20-profitable-saas-startup",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-180224-18-most-profitable-digital-pro",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-173730-5-shopify-themes-perfect-for-e",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-172503-b2b-products-the-complete-guid",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-171353-150-ebook-ideas-that-actually",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-164843-what-are-the-best-b2b-examples",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-163241-127-notion-template-ideas-that",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-161804-50-profitable-micro-saas-ideas",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-160930-the-best-notion-templates-for",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-155942-top-selling-digital-downloads",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-153954-50-digital-product-ideas-that",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-151814-18-best-b2b-websites-in-2026-e",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-151033-top-22-digital-products-in-dem",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-145247-ultimate-guide-to-passive-inco",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-143112-28-unique-digital-products-to",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-141212-etsy",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-141212-как-открыть-магазин-на-etsy-и",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.78): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-141036-11-b2b-ecommerce-examples-and",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-135543-etsy",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-135543-как-открыть-магазин-на-etsy-и",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.78): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-133359-top-ebook-topic-ideas-in-2026",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-131443-18-best-digital-product-niches",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-131418-20-profitable-saas-micro-saas",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-113455-notion",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-111848-notion",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-113455-шаблоны-notion-на-русском",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-111848-шаблоны-notion-на-русском",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-101841-best-ebook-topics",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-091843-50-digital-products-to-sell-fo",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-081908-latest-ielts-writing-topics-fe",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-072234-12-most-popular-notion-templat",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-072203-15-digital-product-ideas-you-c",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-063824-top-20-b2b-ecommerce-examples",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-063717-26-best-shopify-themes-for-202",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-060349-7-ai-generated-digital-product",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-060347-saas-ideas-150-profitable-saas",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-052804-3-profitable-ai-saas-ideas-to",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-045803-9-b2b-ecommerce-examples-for-s",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-043147-best-shopify-themes-2026-free",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-035801-build-your-2026",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-032754-720-business-2-ideas-to-save-i",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-030007-18-best-digital-products-to-se",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-022754-dashboard-and-digital-product",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-015809-best-notion-templates-in-2026",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-012800-the-30-best-notion-second-brai",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-005756-15-profitable-digital-products",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260219-002802-top-sales-templates-from-notio",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-235807-30-ai-powered-digital-product",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-232911-20-untapped-etsy-niches-for-20",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-225813-product-hunt-the-best-new-prod",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-225123-2026-s-best-selling-shopify-th",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-225010-etsy-digital-products-2026-how",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-223156-8-best-notion-templates-for-20",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-215906-best-ebook-niches-2025-2026-10",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-213154-choose-from-30-000-notion-temp",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-205806-shopify-com",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-203243-7-most-profitable-ebook-niches",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "test-prod-123",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-063000-freelancer-consultant-landing",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-000641-freelancer-consultant-landing",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-144125-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-102720-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.78): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-094845-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-093450-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-093420-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-093130-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-090417-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-085832-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-075918-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260218-075634-test-run",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.68): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-212725-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-212356-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-210221-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-185109-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-155105-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-145048-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-143859-web3-asset-security-audit-fram",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section"
+      ]
+    },
+    {
+      "product_id": "20260215-143641-finance-risk-management-for-cr",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-143622-web3-smart-contract-audit-chec",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-135151-ai-agent-monetization-guide",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-135047-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-132048-defi-passive-income-strategies",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-130406-ai-driven-product-flipping",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-130008-token-gated-content-revenue-au",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-125053-global-merchant-crypto-checkou",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-122807-passive-income-with-saas-boile",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "test_optimized_v3",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "product",
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "product",
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": [
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Missing deployment_url in metadata",
+        "Promotion quality failed (Score 0.81): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "product",
+      "status": "PUBLISHED",
+      "issues": [
+        "Deployment URL dead/invalid: Status Code 401",
+        "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260220-024401-40-best-digital-ai-product-des",
+      "type": "promotion_wordpress",
+      "post_id": 1273,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '40 Best Digital AI Product Design Examples in 2025'"
+      ]
+    },
+    {
+      "product_id": "20260220-023845-best-digital-product-ideas-202",
+      "type": "promotion_wordpress",
+      "post_id": 1272,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Best Digital Product Ideas 2026 for Online Success'"
+      ]
+    },
+    {
+      "product_id": "20260220-023351-nft-business-blueprint-beyond",
+      "type": "promotion_wordpress",
+      "post_id": 1271,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'NFT Business Blueprint: Beyond the Hype to Real Utility'"
+      ]
+    },
+    {
+      "product_id": "20260220-023210-digital-products-goldmine-200",
+      "type": "promotion_wordpress",
+      "post_id": 1270,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Digital Products Goldmine: 200 Untapped Niches for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-022846-10-best-shopify-themes-for-hig",
+      "type": "promotion_wordpress",
+      "post_id": 1269,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '10 Best Shopify Themes for High Conversions in 2026 Guide'"
+      ]
+    },
+    {
+      "product_id": "20260220-022707-8-creative-ideas-to-make-ai-ge",
+      "type": "promotion_wordpress",
+      "post_id": 1268,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '8 Creative Ideas to Make AI-Generated Digital Products Unique'"
+      ]
+    },
+    {
+      "product_id": "20260220-020936-a-dozen-digital-product-ideas",
+      "type": "promotion_wordpress",
+      "post_id": 1267,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'A Dozen Digital Product Ideas You Can Build With AI in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-020442-most-popular-genres-for-2026-w",
+      "type": "promotion_wordpress",
+      "post_id": 1266,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Most Popular Genres for 2026 – What Readers Are Buying'"
+      ]
+    },
+    {
+      "product_id": "20260220-015945-cold-wallet-ops-manual-for-dig",
+      "type": "promotion_wordpress",
+      "post_id": 1265,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Cold-Wallet Ops Manual for Digital Product Businesses'"
+      ]
+    },
+    {
+      "product_id": "20260220-015448-9-most-profitable-notion-niche",
+      "type": "promotion_wordpress",
+      "post_id": 1264,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '9 Most Profitable Notion Niches to Sell and Make Money 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-015247-10-digital-products-you-can-se",
+      "type": "promotion_wordpress",
+      "post_id": 1263,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '10 Digital Products You Can Sell Using AI Tools in 2025'"
+      ]
+    },
+    {
+      "product_id": "20260220-014523-16-best-notion-life-planner-te",
+      "type": "promotion_wordpress",
+      "post_id": 1262,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '16 Best Notion Life Planner Templates for 2026 (Goals &#038; Vision)'"
+      ]
+    },
+    {
+      "product_id": "20260220-013245-6-best-b2b-ecommerce-examples",
+      "type": "promotion_wordpress",
+      "post_id": 1261,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '6 Best B2B eCommerce Examples to Check Out in 2025'"
+      ]
+    },
+    {
+      "product_id": "20260220-012800-anti-fraud-chargeback-free-sal",
+      "type": "promotion_wordpress",
+      "post_id": 1260,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Anti-Fraud &#038; Chargeback-Free Sales System Using Crypto Payments'"
+      ]
+    },
+    {
+      "product_id": "20260220-012558-how-to-sell-digital-downloads",
+      "type": "promotion_wordpress",
+      "post_id": 1259,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'How to Sell Digital Downloads on Etsy (Beginner Guide 2026)'"
+      ]
+    },
+    {
+      "product_id": "20260220-011529-15-successful-b2b-ecommerce-ex",
+      "type": "promotion_wordpress",
+      "post_id": 1258,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '15+ Successful B2B Ecommerce Examples for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-011338-top-book-club-picks-for-2026",
+      "type": "promotion_wordpress",
+      "post_id": 1257,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top Book Club Picks for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-005631-100-proven-digital-product-ide",
+      "type": "promotion_wordpress",
+      "post_id": 1256,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '100 Proven Digital Product Ideas and the Ultimate Launch Marketing &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260220-005135-the-ultimate-notion-template-g",
+      "type": "promotion_wordpress",
+      "post_id": 1255,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'The Ultimate Notion Template Gallery: 12 Best Marketplaces for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-004641-top-10-profitable-saas-applica",
+      "type": "promotion_wordpress",
+      "post_id": 1254,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top 10 Profitable SaaS Application Ideas for Startups in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-004203-ai-agent-monetization-guide-se",
+      "type": "promotion_wordpress",
+      "post_id": 1253,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'AI Agent Monetization Guide: Selling Custom GPT Actions'"
+      ]
+    },
+    {
+      "product_id": "20260220-003858-the-best-free-and-premium-noti",
+      "type": "promotion_wordpress",
+      "post_id": 1252,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'The best free and premium Notion templates in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-003319-crypto-first-email-funnel-syst",
+      "type": "promotion_wordpress",
+      "post_id": 1251,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Crypto-First Email + Funnel System for Passive Digital Product Sales'"
+      ]
+    },
+    {
+      "product_id": "20260220-002330-top-9-lucrative-topics-to-sell",
+      "type": "promotion_wordpress",
+      "post_id": 1250,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top 9 Lucrative Topics to Sell Ebooks 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-001843-10-must-try-notion-templates-f",
+      "type": "promotion_wordpress",
+      "post_id": 1249,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '10 Must-Try Notion Templates for Productivity in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-001028-best-saas-business-ideas-in-20",
+      "type": "promotion_wordpress",
+      "post_id": 1248,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Best SaaS Business Ideas in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-000427-best-shopify-themes-2026-desig",
+      "type": "promotion_wordpress",
+      "post_id": 1247,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes 2026 — Design Inspiration'"
+      ]
+    },
+    {
+      "product_id": "20260219-234910-30-top-selling-digital-product",
+      "type": "promotion_wordpress",
+      "post_id": 1246,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-234910-30-top-selling-digital-product/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '30 Top Selling digital Products on Etsy in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-233412-top-10-b2b-ecommerce-examples",
+      "type": "promotion_wordpress",
+      "post_id": 1245,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-233412-top-10-b2b-ecommerce-examples/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top 10 B2B Ecommerce Examples'"
+      ]
+    },
+    {
+      "product_id": "20260219-233033-25-trending-products-to-sell-o",
+      "type": "promotion_wordpress",
+      "post_id": 1244,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-233033-25-trending-products-to-sell-o/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '25 Trending Products to Sell Online in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-231841-50-profitable-micro-saas-ideas",
+      "type": "promotion_wordpress",
+      "post_id": 1243,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-231841-50-profitable-micro-saas-ideas/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '50 Profitable Micro SaaS Ideas for 2026: Build &#038; Launch &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-230203-top-high-potential-saas-ideas",
+      "type": "promotion_wordpress",
+      "post_id": 1242,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-230203-top-high-potential-saas-ideas/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Top High-Potential SaaS Ideas for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-225211-what-s-going-to-be-hot-in-2026",
+      "type": "promotion_wordpress",
+      "post_id": 1241,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-225211-what-s-going-to-be-hot-in-2026/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'What&#8217;s Going to Be Hot in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-225211-14-digital-products-to-sell-fo",
+      "type": "promotion_wordpress",
+      "post_id": 1240,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-225211-14-digital-products-to-sell-fo/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title '14 Digital Products to Sell for Passive Income (2026)'"
+      ]
+    },
+    {
+      "product_id": "20260219-222758-top-shopify-themes-for-2026-be",
+      "type": "promotion_wordpress",
+      "post_id": 1239,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-222758-top-shopify-themes-for-2026-be/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Top Shopify Themes for 2026: Best Themes for Speed, SEO, and &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-214518-10-profitable-saas-ideas-to-ex",
+      "type": "promotion_wordpress",
+      "post_id": 1238,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-214518-10-profitable-saas-ideas-to-ex/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '10 Profitable SaaS Ideas to Explore in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-213559-untapped-digital-product-niche",
+      "type": "promotion_wordpress",
+      "post_id": 1234,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-213559-untapped-digital-product-niche/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Untapped Digital Product Niches No One Is Talking About Yet'"
+      ]
+    },
+    {
+      "product_id": "20260219-213419-best-digital-products-to-sell",
+      "type": "promotion_wordpress",
+      "post_id": 1233,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-213419-best-digital-products-to-sell/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Best Digital Products to Sell in 2026 (With Examples)'"
+      ]
+    },
+    {
+      "product_id": "20260219-211904-ai-powered-digital-product-ide",
+      "type": "promotion_wordpress",
+      "post_id": 1232,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-211904-ai-powered-digital-product-ide/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'AI-Powered Digital Product Ideas: 15 Profitable Offers to Launch…'"
+      ]
+    },
+    {
+      "product_id": "20260219-210308-best-shopify-themes-for-ecomme",
+      "type": "promotion_wordpress",
+      "post_id": 1231,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-210308-best-shopify-themes-for-ecomme/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes for eCommerce Startups in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-204559-best-books-2026-what-we-can-t",
+      "type": "promotion_wordpress",
+      "post_id": 1230,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-204559-best-books-2026-what-we-can-t/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Best Books 2026: What We Can&#8217;t Wait to Read'"
+      ]
+    },
+    {
+      "product_id": "20260219-204520-25-best-shopify-themes-that-ll",
+      "type": "promotion_wordpress",
+      "post_id": 1229,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-204520-25-best-shopify-themes-that-ll/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '25 Best Shopify Themes That’ll Help Your Store Grow in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-202435-academia-edu",
+      "type": "promotion_wordpress",
+      "post_id": 1235,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Academia.edu'"
+      ]
+    },
+    {
+      "product_id": "20260219-201042-trending-ebook-topics-2026-wha",
+      "type": "promotion_wordpress",
+      "post_id": 1228,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-201042-trending-ebook-topics-2026-wha/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Trending Ebook Topics 2026: What&#8217;s Next?'"
+      ]
+    },
+    {
+      "product_id": "20260219-194620-best-shopify-themes-in-2026-fr",
+      "type": "promotion_wordpress",
+      "post_id": 1227,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-194620-best-shopify-themes-in-2026-fr/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes in 2026: Free and Paid'"
+      ]
+    },
+    {
+      "product_id": "20260219-192339-best-digital-products-to-sell",
+      "type": "promotion_wordpress",
+      "post_id": 1226,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-192339-best-digital-products-to-sell/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Best Digital Products to Sell in 2026 (Beginner to Advanced)'"
+      ]
+    },
+    {
+      "product_id": "20260219-192247-7-digital-product-ideas-you-ca",
+      "type": "promotion_wordpress",
+      "post_id": 1225,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '7 digital product ideas you can make with Excel and&#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-185810-top-8-popular-ebook-topics-to",
+      "type": "promotion_wordpress",
+      "post_id": 1223,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-185810-top-8-popular-ebook-topics-to/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Top 8 Popular Ebook Topics to Sell for Maximum Profit 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-183122-most-profitable-saas-business",
+      "type": "promotion_wordpress",
+      "post_id": 1222,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-183122-most-profitable-saas-business/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Most Profitable SaaS Business Ideas to Watch in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-182721-top-20-profitable-saas-startup",
+      "type": "promotion_wordpress",
+      "post_id": 1221,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-182721-top-20-profitable-saas-startup/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Top 20+ Profitable SaaS Startup Ideas 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-180224-18-most-profitable-digital-pro",
+      "type": "promotion_wordpress",
+      "post_id": 1220,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-180224-18-most-profitable-digital-pro/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '18 Most Profitable Digital Products to Sell in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-173730-5-shopify-themes-perfect-for-e",
+      "type": "promotion_wordpress",
+      "post_id": 1219,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-173730-5-shopify-themes-perfect-for-e/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '5 Shopify Themes Perfect for E-commerce Stores in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-172503-b2b-products-the-complete-guid",
+      "type": "promotion_wordpress",
+      "post_id": 1218,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-172503-b2b-products-the-complete-guid/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'B2B Products: The Complete Guide for Ecommerce &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-171353-150-ebook-ideas-that-actually",
+      "type": "promotion_wordpress",
+      "post_id": 1217,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-171353-150-ebook-ideas-that-actually/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '150+ Ebook Ideas That Actually Sell in 2026 (By Niche, With &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-164843-what-are-the-best-b2b-examples",
+      "type": "promotion_wordpress",
+      "post_id": 1216,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-164843-what-are-the-best-b2b-examples/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'What Are the Best B2B Examples in 2026?'"
+      ]
+    },
+    {
+      "product_id": "20260219-163241-127-notion-template-ideas-that",
+      "type": "promotion_wordpress",
+      "post_id": 1215,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-163241-127-notion-template-ideas-that/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '127 Notion Template Ideas That Actually Sell in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-161804-50-profitable-micro-saas-ideas",
+      "type": "promotion_wordpress",
+      "post_id": 1214,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '50 Profitable Micro-SaaS Ideas I&#8217;m Watching in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-160930-the-best-notion-templates-for",
+      "type": "promotion_wordpress",
+      "post_id": 1212,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'The Best Notion Templates for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-155942-top-selling-digital-downloads",
+      "type": "promotion_wordpress",
+      "post_id": 1211,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top Selling Digital Downloads'"
+      ]
+    },
+    {
+      "product_id": "20260219-153954-50-digital-product-ideas-that",
+      "type": "promotion_wordpress",
+      "post_id": 1210,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '50 Digital Product Ideas That Generate Passive Income in 2025'"
+      ]
+    },
+    {
+      "product_id": "20260219-151814-18-best-b2b-websites-in-2026-e",
+      "type": "promotion_wordpress",
+      "post_id": 1120,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '18 Best B2B Websites in 2026: Examples &#038; Best Practices'"
+      ]
+    },
+    {
+      "product_id": "20260219-151033-top-22-digital-products-in-dem",
+      "type": "promotion_wordpress",
+      "post_id": 1119,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top 22 digital products in demand for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-145247-ultimate-guide-to-passive-inco",
+      "type": "promotion_wordpress",
+      "post_id": 1118,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Ultimate Guide to Passive Income Digital Products 2025'"
+      ]
+    },
+    {
+      "product_id": "20260219-143112-28-unique-digital-products-to",
+      "type": "promotion_wordpress",
+      "post_id": 1117,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '28 Unique Digital Products To Sell in 2026 (Profitable Ideas)'"
+      ]
+    },
+    {
+      "product_id": "20260219-141212-etsy",
+      "type": "promotion_wordpress",
+      "post_id": 1115,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-141212-как-открыть-магазин-на-etsy-и",
+      "type": "promotion_wordpress",
+      "post_id": 1115,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-141036-11-b2b-ecommerce-examples-and",
+      "type": "promotion_wordpress",
+      "post_id": 1116,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '11 B2B Ecommerce Examples and What You Can Learn From Them (2026)'"
+      ]
+    },
+    {
+      "product_id": "20260219-135543-etsy",
+      "type": "promotion_wordpress",
+      "post_id": 1115,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-135543-как-открыть-магазин-на-etsy-и",
+      "type": "promotion_wordpress",
+      "post_id": 1115,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-135543-как-открыть-магазин-на-etsy-и/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-133359-top-ebook-topic-ideas-in-2026",
+      "type": "promotion_wordpress",
+      "post_id": 1114,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top Ebook Topic Ideas in 2026: What do readers want?'"
+      ]
+    },
+    {
+      "product_id": "20260219-131443-18-best-digital-product-niches",
+      "type": "promotion_wordpress",
+      "post_id": 1112,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '18 Best Digital Product Niches in 2025'"
+      ]
+    },
+    {
+      "product_id": "20260219-131418-20-profitable-saas-micro-saas",
+      "type": "promotion_wordpress",
+      "post_id": 1111,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '20 Profitable SaaS &#038; Micro-SaaS Ideas for 2026 (And How to &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-113455-notion",
+      "type": "promotion_wordpress",
+      "post_id": 1110,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+      ]
+    },
+    {
+      "product_id": "20260219-111848-notion",
+      "type": "promotion_wordpress",
+      "post_id": 1110,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+      ]
+    },
+    {
+      "product_id": "20260219-113455-шаблоны-notion-на-русском",
+      "type": "promotion_wordpress",
+      "post_id": 1110,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+      ]
+    },
+    {
+      "product_id": "20260219-111848-шаблоны-notion-на-русском",
+      "type": "promotion_wordpress",
+      "post_id": 1110,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+      ]
+    },
+    {
+      "product_id": "20260219-101841-best-ebook-topics",
+      "type": "promotion_wordpress",
+      "post_id": 1109,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Best Ebook Topics'"
+      ]
+    },
+    {
+      "product_id": "20260219-091843-50-digital-products-to-sell-fo",
+      "type": "promotion_wordpress",
+      "post_id": 1108,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '50 Digital Products to Sell for Passive Income in 2025 (Full Guide)'"
+      ]
+    },
+    {
+      "product_id": "20260219-081908-latest-ielts-writing-topics-fe",
+      "type": "promotion_wordpress",
+      "post_id": 1107,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Latest IELTS Writing Topics February &#038; March 2026 with answers'"
+      ]
+    },
+    {
+      "product_id": "20260219-072234-12-most-popular-notion-templat",
+      "type": "promotion_wordpress",
+      "post_id": 1106,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '12 Most Popular Notion Templates to Sell for Quick Profits 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-072203-15-digital-product-ideas-you-c",
+      "type": "promotion_wordpress",
+      "post_id": 1105,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '15 Digital Product Ideas You Can Create with AI (Even If You&#8217;re a Total &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-063824-top-20-b2b-ecommerce-examples",
+      "type": "promotion_wordpress",
+      "post_id": 1104,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'TOP 20 B2B Ecommerce Examples &#038; What You Can Learn'"
+      ]
+    },
+    {
+      "product_id": "20260219-063717-26-best-shopify-themes-for-202",
+      "type": "promotion_wordpress",
+      "post_id": 1103,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '26 Best Shopify Themes for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-060349-7-ai-generated-digital-product",
+      "type": "promotion_wordpress",
+      "post_id": 1100,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '7 AI-Generated Digital Products You Can Start Selling Online Today'"
+      ]
+    },
+    {
+      "product_id": "20260219-060347-saas-ideas-150-profitable-saas",
+      "type": "promotion_wordpress",
+      "post_id": 1099,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'SaaS Ideas: 150+ Profitable SaaS Ideas to Build in 2026 &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-052804-3-profitable-ai-saas-ideas-to",
+      "type": "promotion_wordpress",
+      "post_id": 1102,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '3 Profitable AI SaaS Ideas To Build in 2026 (Before Someone Else Does)&#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-045803-9-b2b-ecommerce-examples-for-s",
+      "type": "promotion_wordpress",
+      "post_id": 1098,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '9 B2B eCommerce Examples for Streamlined Digital Purchasing'"
+      ]
+    },
+    {
+      "product_id": "20260219-043147-best-shopify-themes-2026-free",
+      "type": "promotion_wordpress",
+      "post_id": 1097,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes 2026: Free &#038; Premium Options Compared'"
+      ]
+    },
+    {
+      "product_id": "20260219-035801-build-your-2026",
+      "type": "promotion_wordpress",
+      "post_id": 1236,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Build your 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-032754-720-business-2-ideas-to-save-i",
+      "type": "promotion_wordpress",
+      "post_id": 1095,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '720 Business 2 ideas to save in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-030007-18-best-digital-products-to-se",
+      "type": "promotion_wordpress",
+      "post_id": 1094,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '18 Best Digital Products to Sell in 2026: Top Trending, Profitable, and In-Demand Ideas'"
+      ]
+    },
+    {
+      "product_id": "20260219-022754-dashboard-and-digital-product",
+      "type": "promotion_wordpress",
+      "post_id": 1093,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Dashboard and Digital Product Trends for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260219-015809-best-notion-templates-in-2026",
+      "type": "promotion_wordpress",
+      "post_id": 1092,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Best Notion Templates in 2026 (Free &#038; Paid Picks) – Plandio'"
+      ]
+    },
+    {
+      "product_id": "20260219-012800-the-30-best-notion-second-brai",
+      "type": "promotion_wordpress",
+      "post_id": 1091,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'The 30 Best Notion Second Brain Templates ( 2026 )'"
+      ]
+    },
+    {
+      "product_id": "20260219-005756-15-profitable-digital-products",
+      "type": "promotion_wordpress",
+      "post_id": 1089,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '15 Profitable Digital Products to Create with AI in 2025 (That Actually &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260219-002802-top-sales-templates-from-notio",
+      "type": "promotion_wordpress",
+      "post_id": 1088,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top Sales Templates from Notion'"
+      ]
+    },
+    {
+      "product_id": "20260218-235807-30-ai-powered-digital-product",
+      "type": "promotion_wordpress",
+      "post_id": 1087,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '30 AI-Powered Digital Product Ideas to Sell in 2025'"
+      ]
+    },
+    {
+      "product_id": "20260218-232911-20-untapped-etsy-niches-for-20",
+      "type": "promotion_wordpress",
+      "post_id": 1086,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260218-232911-20-untapped-etsy-niches-for-20/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title '20 Untapped Etsy Niches for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260218-225813-product-hunt-the-best-new-prod",
+      "type": "promotion_wordpress",
+      "post_id": 1083,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Product Hunt – The best new products in tech.'"
+      ]
+    },
+    {
+      "product_id": "20260218-225123-2026-s-best-selling-shopify-th",
+      "type": "promotion_wordpress",
+      "post_id": 1085,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '2026&#8217;s Best Selling Shopify Themes and Templates'"
+      ]
+    },
+    {
+      "product_id": "20260218-225010-etsy-digital-products-2026-how",
+      "type": "promotion_wordpress",
+      "post_id": 1084,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Etsy Digital Products 2026: How to Make $2,000-$10,000/Month &#8230;'"
+      ]
+    },
+    {
+      "product_id": "20260218-223156-8-best-notion-templates-for-20",
+      "type": "promotion_wordpress",
+      "post_id": 1082,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '8 Best Notion Templates for 2025 (I Built and Tested Every One)'"
+      ]
+    },
+    {
+      "product_id": "20260218-215906-best-ebook-niches-2025-2026-10",
+      "type": "promotion_wordpress",
+      "post_id": 1081,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales'"
+      ]
+    },
+    {
+      "product_id": "20260218-213154-choose-from-30-000-notion-temp",
+      "type": "promotion_wordpress",
+      "post_id": 1080,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Choose from 30,000+ Notion templates'"
+      ]
+    },
+    {
+      "product_id": "20260218-205806-shopify-com",
+      "type": "promotion_wordpress",
+      "post_id": 1079,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Shopify.com'"
+      ]
+    },
+    {
+      "product_id": "20260218-203243-7-most-profitable-ebook-niches",
+      "type": "promotion_wordpress",
+      "post_id": 1078,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title '7 Most Profitable eBook Niches for 2025: Your Guide to High &#8230;'"
+      ]
+    },
+    {
+      "product_id": "test-prod-123",
+      "type": "promotion_wordpress",
+      "post_id": 1077,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Unknown Topic'"
+      ]
+    },
+    {
+      "product_id": "20260215-063000-freelancer-consultant-landing",
+      "type": "promotion_wordpress",
+      "post_id": 1029,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-063000-freelancer-consultant-landing/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+      ]
+    },
+    {
+      "product_id": "20260215-000641-freelancer-consultant-landing",
+      "type": "promotion_wordpress",
+      "post_id": 1029,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+      ]
+    },
+    {
+      "product_id": "20260218-144125-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260218-102720-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260218-094845-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260218-093450-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260218-093420-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260218-093130-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260218-090417-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260218-085832-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260218-075918-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260218-075634-test-run",
+      "type": "promotion_wordpress",
+      "post_id": 1237,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+      ]
+    },
+    {
+      "product_id": "20260215-212725-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260215-212356-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260215-210221-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260215-185109-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260215-155105-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260215-145048-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260215-143859-web3-asset-security-audit-fram",
+      "type": "promotion_wordpress",
+      "post_id": 1040,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Web3 Asset Security Audit Framework'"
+      ]
+    },
+    {
+      "product_id": "20260215-143641-finance-risk-management-for-cr",
+      "type": "promotion_wordpress",
+      "post_id": 1039,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Finance Risk Management For Crypto Traders'"
+      ]
+    },
+    {
+      "product_id": "20260215-143622-web3-smart-contract-audit-chec",
+      "type": "promotion_wordpress",
+      "post_id": 1038,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Web3 Smart Contract Audit Checklist'"
+      ]
+    },
+    {
+      "product_id": "20260215-135151-ai-agent-monetization-guide",
+      "type": "promotion_wordpress",
+      "post_id": 1037,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Ai Agent Monetization Guide'"
+      ]
+    },
+    {
+      "product_id": "20260215-135047-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260215-132048-defi-passive-income-strategies",
+      "type": "promotion_wordpress",
+      "post_id": 1035,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Defi Passive Income Strategies Staking Yield Farming And Lending'"
+      ]
+    },
+    {
+      "product_id": "20260215-130406-ai-driven-product-flipping",
+      "type": "promotion_wordpress",
+      "post_id": 1034,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Ai Driven Product Flipping'"
+      ]
+    },
+    {
+      "product_id": "20260215-130008-token-gated-content-revenue-au",
+      "type": "promotion_wordpress",
+      "post_id": 1046,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
+    },
+    {
+      "product_id": "20260215-125053-global-merchant-crypto-checkou",
+      "type": "promotion_wordpress",
+      "post_id": 1021,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Global Merchant Crypto Checkout Blueprint (No Bank Friction)'"
+      ]
+    },
+    {
+      "product_id": "20260215-122807-passive-income-with-saas-boile",
+      "type": "promotion_wordpress",
+      "post_id": 1032,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Passive Income With Saas Boilerplates'"
+      ]
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_wordpress",
+      "post_id": 1031,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Crypto Ai Trading Signals'"
+      ]
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_reddit",
+      "issues": [
+        "Channel reddit publish failed: no_webhook_url"
+      ]
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_linkedin",
+      "issues": [
+        "Channel linkedin publish failed: no_webhook_url"
+      ]
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-122558-crypto-ai-trading-signals",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_wordpress",
+      "post_id": 1030,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Metaverse Real Estate Marketing Guide'"
+      ]
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_reddit_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_reddit",
+      "issues": [
+        "Channel reddit publish failed: no_webhook_url"
+      ]
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_linkedin_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_linkedin",
+      "issues": [
+        "Channel linkedin publish failed: no_webhook_url"
+      ]
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-120036-metaverse-real-estate-marketin",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "test_optimized_v3",
+      "type": "promotion_wordpress",
+      "post_id": 662,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/test_optimized_v3/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Automated Wealth Blueprint 2026'"
+      ]
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_wordpress",
+      "post_id": 1054,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Reddit Linkedin Test'"
+      ]
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_reddit_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_reddit",
+      "issues": [
+        "Channel reddit publish failed: no_webhook_url"
+      ]
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_linkedin_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_linkedin",
+      "issues": [
+        "Channel linkedin publish failed: no_webhook_url"
+      ]
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081716-reddit-linkedin-test",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_wordpress",
+      "post_id": 1224,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Saas Marketing'"
+      ]
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-081614-saas-marketing",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_wordpress",
+      "post_id": 1029,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-074829-freelancer-consultant-landing/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+      ]
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-074829-freelancer-consultant-landing",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_wordpress",
+      "post_id": 1028,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Ai Automation Agency Prompt Pack'"
+      ]
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_wordpress",
+      "post_id": 1027,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Viral Marketing Growth Blueprint'"
+      ]
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015534-viral-marketing-growth-bluepri",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_wordpress",
+      "post_id": 1026,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Automated Daily Planner System'"
+      ]
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-015455-automated-daily-planner-system",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_wordpress",
+      "post_id": 1025,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Automated Crypto Tax Reporting Tool'"
+      ]
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-014951-automated-crypto-tax-reporting",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_wordpress",
+      "post_id": 1024,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'High Ticket Service Automation Guide'"
+      ]
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260215-004917-high-ticket-service-automation",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_wordpress",
+      "post_id": 1074,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260214-231100-unknown-single/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Unknown Single'"
+      ]
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-231100-unknown-single",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_wordpress",
+      "post_id": 1075,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Ai Dev Income'"
+      ]
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-140141-ai-dev-income",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_wordpress",
+      "post_id": 1023,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AI-Powered Passive Income Systems for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-133737-ai-powered-passive-income-syst",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_wordpress",
+      "post_id": 604,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AI-Trading-Bot'"
+      ]
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_x_api",
+      "issues": [
+        "Channel x_api publish failed: unknown error"
+      ]
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-130903-ai-trading-bot",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_wordpress",
+      "post_id": 605,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AIPassiveIncomeSystem'"
+      ]
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-112651-aipassiveincomesystem",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_wordpress",
+      "post_id": 1021,
+      "issues": [
+        "No link to https://mpi-20260214-105333-global-merchant-crypto-checkou-88qsxo05w.vercel.app found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Global Merchant Crypto Checkout Blueprint (No Bank Friction)'"
+      ]
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_x_api",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_pinterest",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_reddit",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_linkedin",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_telegram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_discord",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_instagram",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_tiktok",
+      "issues": []
+    },
+    {
+      "product_id": "20260214-105333-global-merchant-crypto-checkou",
+      "type": "promotion_youtube_shorts",
+      "issues": []
+    }
+  ]
+}

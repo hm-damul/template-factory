@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-030237-what-genres-dominate-the-ebook",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-030237-what-genres-dominate-the-ebook",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-030237-what-genres-dominate-the-ebook\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-030237-what-genres-dominate-the-ebook\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-030237-what-genres-dominate-the-ebook\\product.pdf",
+  "checksum": "32285de2a5a30ceb2eed221525cb34515af7e7c8c8a884a2268ed9ac20f6242b",
+  "generated_at": "20260220-030251",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

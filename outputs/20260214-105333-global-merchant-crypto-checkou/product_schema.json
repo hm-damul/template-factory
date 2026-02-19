@@ -1,0 +1,80 @@
+{
+  "product_id": "20260214-105333-global-merchant-crypto-checkou",
+  "title": "Unlock Your Passive Income with Global Merchant Crypto Checkout Blueprint (No Bank Friction)",
+  "target_customer": "Creators and merchants interested in Global Merchant Crypto Checkout Blueprint (No Bank Friction)",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Global Merchant Crypto Checkout Blueprint (No Bank Friction)",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Global Merchant Crypto Checkout Blueprint (No Bank Friction)",
+      "subheadline": "Leverage AI to create and sell digital products based on: Global Merchant Crypto Checkout Blueprint (No Bank Friction)"
+    },
+    "problem": {
+      "description": "Monetizing Global Merchant Crypto Checkout Blueprint (No Bank Friction) is slow without ready assets. Builders waste time wiring checkout, delivery, and messaging, hurting conversion."
+    },
+    "solution": {
+      "description": "A complete package for Global Merchant Crypto Checkout Blueprint (No Bank Friction): wallet checkout landing, token-gated delivery, and structured copy that converts. One-file deploy."
+    },
+    "features": [
+      "Wallet checkout landing (one-file deploy)",
+      "Token-gated delivery flow",
+      "Lead capture and plan gating UI",
+      "Structured copy sections that convert",
+      "Promotion hooks for immediate launch"
+    ],
+    "benefits": [
+      "Ship faster with ready templates",
+      "Increase conversion with clear value prop",
+      "Operate with predictable delivery flow",
+      "Scale experimentation with simple A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Pro",
+      "price": "$59.00"
+    },
+    "faq": [
+      {
+        "q": "What do I get?",
+        "a": "Landing page, main content file, and usage guide."
+      },
+      {
+        "q": "Is it crypto payment ready?",
+        "a": "Designed for Web3; integrate NOWPayments or on-chain EVM verification."
+      },
+      {
+        "q": "Can I customize it?",
+        "a": "Yes. All assets are editable HTML and Markdown."
+      }
+    ],
+    "cta": {
+      "text": "Get Started"
+    },
+    "design": {
+      "theme": "modern",
+      "primary_color": "#00b4ff",
+      "secondary_color": "#22d3ee",
+      "font_family": "Inter, sans-serif",
+      "layout_style": "minimalist"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.md",
+    "landing_page": "index.html"
+  },
+  "_injected_price": "$59.00",
+  "metadata": {
+    "final_price_usd": 179.0
+  },
+  "price": "59",
+  "offers": {
+    "@type": "Offer",
+    "price": "59.00",
+    "priceCurrency": "USD"
+  },
+  "_market_price": "$179.00",
+  "market_analysis": {
+    "category": "SaaS / System",
+    "market_price": 179,
+    "our_price": 59,
+    "desc": "High-value functional software/system"
+  }
+}
