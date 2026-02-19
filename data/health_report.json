@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T22:35:27.270512+00:00",
+  "timestamp": "2026-02-19T22:41:41.809178+00:00",
   "stats": {
-    "total": 179,
+    "total": 180,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-073537-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 07:35",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T07:35:37.034949"
+    },
     {
       "id": "20260220-073144-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 07:31",
@@ -120,29 +126,23 @@
       "topic": "Zero-Knowledge Proofs for Beginners: Privacy in Blockchain",
       "status": "PROMOTED",
       "created_at": "2026-02-20T04:29:38.325042"
-    },
-    {
-      "id": "20260220-042304-digital-nomad-tax-haven-guide",
-      "topic": "Digital Nomad Tax Haven Guide: Crypto-Friendly Jurisdictions",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T04:23:04.846819"
     }
   ],
   "daemon": {
     "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-19T22:35:26.597409+00:00",
+    "last_updated": "2026-02-19T22:41:41.136024+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T22:35:15.043480+00:00",
-    "next_run_approx": "2026-02-19T22:35:25.043481+00:00",
+    "last_run_end": "2026-02-19T22:41:29.538906+00:00",
+    "next_run_approx": "2026-02-19T22:41:39.538907+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
