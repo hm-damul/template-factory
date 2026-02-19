@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-074802-student-log-in",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-074802-student-log-in",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-074802-student-log-in\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-074802-student-log-in\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-074802-student-log-in\\product.pdf",
+  "checksum": "178562a527c6dbd7307fc1998e012e8cf98b14a30a8ae110fa272ba1835837b3",
+  "generated_at": "20260220-074814",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
