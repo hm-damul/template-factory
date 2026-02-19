@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-060044-web3-marketing-playbook-commun",
-  "updated_at": 1771535181.850204,
-  "updated_at_iso": "2026-02-19T21:06:21Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260220-061810-digital-to-physical-on-etsy-th",
+  "updated_at": 1771535902.487204,
+  "updated_at_iso": "2026-02-19T21:18:22Z"
 }

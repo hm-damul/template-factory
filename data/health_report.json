@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T21:00:31.640773+00:00",
+  "timestamp": "2026-02-19T21:18:01.045111+00:00",
   "stats": {
-    "total": 170,
-    "published": 0,
-    "waiting": 32,
+    "total": 171,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-060044-web3-marketing-playbook-commun",
+      "topic": "Web3 Marketing Playbook: Community Growth & Tokenomics",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T06:00:44.369104"
+    },
     {
       "id": "20260220-053943-17-untapped-digital-products-t",
       "topic": "17 Untapped Digital Products that Sell Like Crazy in 2025 and Beyond ...",
@@ -120,17 +126,11 @@
       "topic": "40 Best Digital AI Product Design Examples in 2025",
       "status": "PROMOTED",
       "created_at": "2026-02-20T02:44:01.306844"
-    },
-    {
-      "id": "20260220-023845-best-digital-product-ideas-202",
-      "topic": "Best Digital Product Ideas 2026 for Online Success",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T02:38:45.999475"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-19T21:00:30.850456+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Trading / Bot / Crypto Tool\": 1}",
+    "last_updated": "2026-02-19T21:18:00.191757+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T20:45:35.915327+00:00",
-    "next_run_approx": "2026-02-19T20:45:45.915328+00:00",
+    "last_run_end": "2026-02-19T21:06:50.872777+00:00",
+    "next_run_approx": "2026-02-19T21:07:00.872778+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,

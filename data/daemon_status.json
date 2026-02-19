@@ -1,7 +1,7 @@
 {
-  "last_log": "재배포 성공: 20260215-074829-freelancer-consultant-landing",
-  "last_updated": "2026-02-19T21:12:22.854081+00:00",
-  "phase": "sleeping",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Trading / Bot / Crypto Tool\": 1}",
+  "last_updated": "2026-02-19T21:18:01.165102+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
     "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
