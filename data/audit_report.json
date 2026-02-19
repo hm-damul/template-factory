@@ -1,18 +1,30 @@
 {
-  "last_audit": "2026-02-20 06:31:45",
+  "last_audit": "2026-02-20 06:56:10",
   "summary": {
-    "total_products": 174,
-    "healthy_products": 1,
+    "total_products": 176,
+    "healthy_products": 3,
     "broken_products": 173,
-    "total_promotions": 321,
+    "total_promotions": 324,
     "healthy_promotions": 141,
-    "broken_promotions": 180
+    "broken_promotions": 183
   },
   "details": [
     {
+      "product_id": "20260220-064523-how-to-make-money-on-etsy-what",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-063850-crypto-wallet-buyer-playbook-p",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
       "product_id": "20260220-063116-sell-online-with-shopify",
       "type": "product",
-      "status": "QA2_PASSED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -1430,6 +1442,33 @@
       "issues": [
         "Deployment URL dead/invalid: Status Code 401",
         "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260220-064523-how-to-make-money-on-etsy-what",
+      "type": "promotion_wordpress",
+      "post_id": 1297,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-064523-how-to-make-money-on-etsy-what/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'How to Make Money on Etsy: What Actually Works (And What&#8217;s Changed in 2026)'"
+      ]
+    },
+    {
+      "product_id": "20260220-063850-crypto-wallet-buyer-playbook-p",
+      "type": "promotion_wordpress",
+      "post_id": 1296,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-063850-crypto-wallet-buyer-playbook-p/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing'"
+      ]
+    },
+    {
+      "product_id": "20260220-063116-sell-online-with-shopify",
+      "type": "promotion_wordpress",
+      "post_id": 1295,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-063116-sell-online-with-shopify/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Sell Online with Shopify®'"
       ]
     },
     {
