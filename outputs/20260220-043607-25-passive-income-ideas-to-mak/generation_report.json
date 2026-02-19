@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-043607-25-passive-income-ideas-to-mak",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-043607-25-passive-income-ideas-to-mak",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-043607-25-passive-income-ideas-to-mak\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-043607-25-passive-income-ideas-to-mak\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-043607-25-passive-income-ideas-to-mak\\product.pdf",
+  "checksum": "e7e25ff5e0690cd38ea49c0090004847b239e51abfab301aefabaffec75c1a66",
+  "generated_at": "20260220-043620",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

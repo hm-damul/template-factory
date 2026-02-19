@@ -1,16 +1,22 @@
 {
-  "timestamp": "2026-02-19T19:31:30.954200+00:00",
+  "timestamp": "2026-02-19T19:35:59.934045+00:00",
   "stats": {
-    "total": 161,
+    "total": 162,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
     {
+      "id": "20260220-043147-saas-boilerplate-for-crypto-pa",
+      "topic": "SaaS Boilerplate for Crypto Payments (Next.js + Tailwind)",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T04:31:47.094437"
+    },
+    {
       "id": "20260220-042938-zero-knowledge-proofs-for-begi",
       "topic": "Zero-Knowledge Proofs for Beginners: Privacy in Blockchain",
-      "status": "QA2_PASSED",
+      "status": "PROMOTED",
       "created_at": "2026-02-20T04:29:38.325042"
     },
     {
@@ -120,29 +126,23 @@
       "topic": "9 Most Profitable Notion Niches to Sell and Make Money 2026",
       "status": "PROMOTED",
       "created_at": "2026-02-20T01:54:48.448625"
-    },
-    {
-      "id": "20260220-015247-10-digital-products-you-can-se",
-      "topic": "10 Digital Products You Can Sell Using AI Tools in 2025",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T01:52:47.305849"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-19T19:31:30.202080+00:00",
-    "phase": "running_autopilot",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 2}",
+    "last_updated": "2026-02-19T19:35:59.240041+00:00",
+    "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T19:29:11.005726+00:00",
-    "next_run_approx": "2026-02-19T19:29:21.005727+00:00",
+    "last_run_end": "2026-02-19T19:35:47.843027+00:00",
+    "next_run_approx": "2026-02-19T19:35:57.843028+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
