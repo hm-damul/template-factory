@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-042938-zero-knowledge-proofs-for-begi",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-042938-zero-knowledge-proofs-for-begi",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-042938-zero-knowledge-proofs-for-begi\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-042938-zero-knowledge-proofs-for-begi\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-042938-zero-knowledge-proofs-for-begi\\product.pdf",
+  "checksum": "4eba198072653af0b4acbeabff824037c024a31207294f3cefa06e5d23ae2665",
+  "generated_at": "20260220-042948",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

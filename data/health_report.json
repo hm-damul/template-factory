@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T19:22:47.452860+00:00",
+  "timestamp": "2026-02-19T19:29:23.750323+00:00",
   "stats": {
-    "total": 159,
+    "total": 160,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-042304-digital-nomad-tax-haven-guide",
+      "topic": "Digital Nomad Tax Haven Guide: Crypto-Friendly Jurisdictions",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T04:23:04.846819"
+    },
     {
       "id": "20260220-040541-top-10-digital-product-niches",
       "topic": "Top 10 Digital Product Niches for 2026 (Low Competition, High ROI)",
@@ -120,17 +126,11 @@
       "topic": "16 Best Notion Life Planner Templates for 2026 (Goals & Vision)",
       "status": "PROMOTED",
       "created_at": "2026-02-20T01:45:23.034274"
-    },
-    {
-      "id": "20260220-013245-6-best-b2b-ecommerce-examples",
-      "topic": "6 Best B2B eCommerce Examples to Check Out in 2025",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T01:32:45.333517"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-19T19:22:46.385535+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Trading / Bot / Crypto Tool\": 1}",
+    "last_updated": "2026-02-19T19:29:23.010889+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T19:11:38.375368+00:00",
-    "next_run_approx": "2026-02-19T19:11:48.375368+00:00",
+    "last_run_end": "2026-02-19T19:29:11.005726+00:00",
+    "next_run_approx": "2026-02-19T19:29:21.005727+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,

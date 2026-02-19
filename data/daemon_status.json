@@ -1,6 +1,6 @@
 {
-  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
-  "last_updated": "2026-02-19T19:22:47.603131+00:00",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Trading / Bot / Crypto Tool\": 1}",
+  "last_updated": "2026-02-19T19:29:23.872098+00:00",
   "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-19T19:11:38.375368+00:00",
-  "next_run_approx": "2026-02-19T19:11:48.375368+00:00",
+  "last_run_end": "2026-02-19T19:29:11.005726+00:00",
+  "next_run_approx": "2026-02-19T19:29:21.005727+00:00",
   "count": 1,
   "status": "running",
   "pid": 12128,
