@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-19T19:05:29.217228+00:00",
+  "timestamp": "2026-02-19T19:22:47.452860+00:00",
   "stats": {
-    "total": 158,
-    "published": 0,
-    "waiting": 32,
+    "total": 159,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-040541-top-10-digital-product-niches",
+      "topic": "Top 10 Digital Product Niches for 2026 (Low Competition, High ROI)",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T04:05:41.543292"
+    },
     {
       "id": "20260220-034618-2026-guide-38-popular-digital",
       "topic": "(2026 Guide) 38 Popular Digital Products On Etsy",
@@ -120,17 +126,11 @@
       "topic": "6 Best B2B eCommerce Examples to Check Out in 2025",
       "status": "PROMOTED",
       "created_at": "2026-02-20T01:32:45.333517"
-    },
-    {
-      "id": "20260220-012800-anti-fraud-chargeback-free-sal",
-      "topic": "Anti-Fraud & Chargeback-Free Sales System Using Crypto Payments",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T01:28:00.270060"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 15, \"SaaS / System\": 1, \"Template / Landing Page\": 1}",
-    "last_updated": "2026-02-19T19:05:28.467580+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-19T19:22:46.385535+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T18:52:09.292487+00:00",
-    "next_run_approx": "2026-02-19T18:52:19.292487+00:00",
+    "last_run_end": "2026-02-19T19:11:38.375368+00:00",
+    "next_run_approx": "2026-02-19T19:11:48.375368+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
