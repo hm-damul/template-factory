@@ -1,14 +1,50 @@
 {
-  "last_audit": "2026-02-20 08:52:35",
+  "last_audit": "2026-02-20 09:49:00",
   "summary": {
-    "total_products": 188,
-    "healthy_products": 15,
+    "total_products": 194,
+    "healthy_products": 21,
     "broken_products": 173,
-    "total_promotions": 336,
+    "total_promotions": 342,
     "healthy_promotions": 141,
-    "broken_promotions": 195
+    "broken_promotions": 201
   },
   "details": [
+    {
+      "product_id": "20260220-094258-find-the-school-that-fits-you",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-093647-top-27-highest-converting-shop",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-093149-44-trending-products-to-sell-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-093144-shopify-the-all-in-one-commerc",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-092534-best-shopify-themes-for-your-s",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-090820-digital-products-best-seller-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
     {
       "product_id": "20260220-084628-digital-asset-bundle-2026-02-2",
       "type": "product",
@@ -1514,6 +1550,59 @@
       "issues": [
         "Deployment URL dead/invalid: Status Code 401",
         "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260220-094258-find-the-school-that-fits-you",
+      "type": "promotion_wordpress",
+      "post_id": 1315,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-094258-find-the-school-that-fits-you/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Find the School that Fits You Best'"
+      ]
+    },
+    {
+      "product_id": "20260220-093647-top-27-highest-converting-shop",
+      "type": "promotion_wordpress",
+      "post_id": 1314,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-093647-top-27-highest-converting-shop/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Top 27 Highest Converting Shopify Themes for 2026 – EComposer'"
+      ]
+    },
+    {
+      "product_id": "20260220-093149-44-trending-products-to-sell-2",
+      "type": "promotion_wordpress",
+      "post_id": 1313,
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '44 Trending Products to Sell (2026)'"
+      ]
+    },
+    {
+      "product_id": "20260220-093144-shopify-the-all-in-one-commerc",
+      "type": "promotion_wordpress",
+      "post_id": 1312,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-093144-shopify-the-all-in-one-commerc/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Shopify : The All-in-One Commerce Platform for Businesses'"
+      ]
+    },
+    {
+      "product_id": "20260220-092534-best-shopify-themes-for-your-s",
+      "type": "promotion_wordpress",
+      "post_id": 1311,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-092534-best-shopify-themes-for-your-s/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes for Your Store in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-090820-digital-products-best-seller-2",
+      "type": "promotion_wordpress",
+      "post_id": 1310,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-090820-digital-products-best-seller-2/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Digital Products Best Seller 2026'"
       ]
     },
     {

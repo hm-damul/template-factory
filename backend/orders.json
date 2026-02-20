@@ -1087,6 +1087,14 @@
       "created_at": "2026-02-20 08:52:35",
       "created_at_ts": 1771545155.8336446,
       "paid_at": "2026-02-20 08:52:35"
+    },
+    {
+      "order_id": "c8075bdc-fdcc-4367-b07b-30feb71c82e8",
+      "product_id": "20260220-094258-find-the-school-that-fits-you",
+      "status": "paid",
+      "created_at": "2026-02-20 09:49:00",
+      "created_at_ts": 1771548540.8410182,
+      "paid_at": "2026-02-20 09:49:00"
     }
   ]
 }

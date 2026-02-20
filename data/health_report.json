@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T00:42:50.530127+00:00",
+  "timestamp": "2026-02-20T01:05:33.844510+00:00",
   "stats": {
-    "total": 193,
-    "published": 32,
-    "waiting": 0,
+    "total": 194,
+    "published": 0,
+    "waiting": 32,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-094258-find-the-school-that-fits-you",
+      "topic": "Find the School that Fits You Best",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T09:42:58.327785"
+    },
     {
       "id": "20260220-093647-top-27-highest-converting-shop",
       "topic": "Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
@@ -120,17 +126,11 @@
       "topic": "Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
       "status": "PROMOTED",
       "created_at": "2026-02-20T06:38:50.035154"
-    },
-    {
-      "id": "20260220-063116-sell-online-with-shopify",
-      "topic": "Sell Online with Shopify®",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T06:31:16.215614"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Template / Landing Page\": 1}",
-    "last_updated": "2026-02-20T00:42:49.557545+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-20T01:05:33.060962+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T00:42:37.945460+00:00",
-    "next_run_approx": "2026-02-20T00:42:47.945460+00:00",
+    "last_run_end": "2026-02-20T00:48:49.023959+00:00",
+    "next_run_approx": "2026-02-20T00:48:59.023960+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
