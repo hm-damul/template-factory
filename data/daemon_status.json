@@ -1,7 +1,7 @@
 {
-  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Trading / Bot / Crypto Tool\": 1}",
-  "last_updated": "2026-02-20T02:46:22.056219+00:00",
-  "phase": "running_autopilot",
+  "last_log": "대기 중인 제품 2개 재배포 시도 중...",
+  "last_updated": "2026-02-20T02:48:43.561629+00:00",
+  "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-20T02:41:47.510178+00:00",
-  "next_run_approx": "2026-02-20T02:41:57.511649+00:00",
+  "last_run_end": "2026-02-20T02:48:29.319489+00:00",
+  "next_run_approx": "2026-02-20T02:48:39.319490+00:00",
   "count": 1,
   "status": "running",
   "pid": 12128,
