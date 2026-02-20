@@ -4,7 +4,7 @@
   "topic": "Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
   "product_id": "20260220-093647-top-27-highest-converting-shop",
   "created_at": "2026-02-20T00:36:57Z",
-  "price_usd": 25,
+  "price_usd": 19,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,13 @@
     "promotions/x_posts.txt": "3fdcbcf39c11f2bed1698e7bf119b60b1cb2695ce30b488a949f9221e7c107b7",
     "promotions/x_threads.txt": "0bd19670538cb6baaef3071ddac86587dd678647e97efad711a9d5929beb4e37",
     "promotions/youtube_shorts.txt": "b5007b534fb80ddb6672ae1e4f68ab8bcd6dee8f4783b799991729c1edec2a80"
-  }
+  },
+  "metadata": {
+    "price_usd": 25.0
+  },
+  "product": {
+    "price_usd": 25.0
+  },
+  "price": 19,
+  "market_price": 49
 }

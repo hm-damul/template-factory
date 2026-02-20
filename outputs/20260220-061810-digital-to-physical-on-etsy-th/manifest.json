@@ -4,7 +4,7 @@
   "topic": "Digital -to-Physical on Etsy : The New Hybrid Seller Playbook",
   "product_id": "20260220-061810-digital-to-physical-on-etsy-th",
   "created_at": "2026-02-19T21:18:22Z",
-  "price_usd": 25,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -55,9 +55,11 @@
     "promotions/youtube_shorts.txt": "793f5514661139bdbb173106dbcd15e5e450dc71a0385c787bc1c26abb214eac"
   },
   "metadata": {
-    "price_usd": 59.0
+    "price_usd": 25.0
   },
   "product": {
-    "price_usd": 59.0
-  }
+    "price_usd": 25.0
+  },
+  "price": 29,
+  "market_price": 49
 }

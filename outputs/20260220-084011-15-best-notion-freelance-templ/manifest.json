@@ -4,7 +4,7 @@
   "topic": "15+ Best Notion Freelance Templates",
   "product_id": "20260220-084011-15-best-notion-freelance-templ",
   "created_at": "2026-02-19T23:40:21Z",
-  "price_usd": 25,
+  "price_usd": 19,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,13 @@
     "promotions/x_posts.txt": "0e2687bf18e76d5a334e4ae6544b74178aa14d1456c3095a66b6d9f835433c26",
     "promotions/x_threads.txt": "69a1a11288b3dd1d7cf66fc88acaff20c381dcf515060eae9f70323492c943fd",
     "promotions/youtube_shorts.txt": "4172e64b8c2f2d0964493d972280747503378e21cb8754b36715db3a40a5b687"
-  }
+  },
+  "metadata": {
+    "price_usd": 25.0
+  },
+  "product": {
+    "price_usd": 25.0
+  },
+  "price": 19,
+  "market_price": 49
 }

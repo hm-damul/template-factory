@@ -4,7 +4,7 @@
   "topic": "10 Best B 2 B Marketing TikTok Examples",
   "product_id": "20260220-062438-10-best-b-2-b-marketing-tiktok",
   "created_at": "2026-02-19T21:24:49Z",
-  "price_usd": 25,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -55,9 +55,11 @@
     "promotions/youtube_shorts.txt": "1ab1c9a5d633287a09ccbd5d76a03d3a90bc65b6b60b213faf55a040b0748de5"
   },
   "metadata": {
-    "price_usd": 49.0
+    "price_usd": 25.0
   },
   "product": {
-    "price_usd": 49.0
-  }
+    "price_usd": 25.0
+  },
+  "price": 29,
+  "market_price": 49
 }

@@ -4,7 +4,7 @@
   "topic": "30 Best free Shopify themes ( 2026 )",
   "product_id": "20260220-033412-30-best-free-shopify-themes-20",
   "created_at": "2026-02-19T18:34:22Z",
-  "price_usd": 25,
+  "price_usd": 19,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -55,9 +55,11 @@
     "promotions/youtube_shorts.txt": "b9c6a31fd587158ce1ac3ccac99e75f7054fa8405be0b7aa8d0e582000015145"
   },
   "metadata": {
-    "price_usd": 39.0
+    "price_usd": 25.0
   },
   "product": {
-    "price_usd": 39.0
-  }
+    "price_usd": 25.0
+  },
+  "price": 19,
+  "market_price": 49
 }

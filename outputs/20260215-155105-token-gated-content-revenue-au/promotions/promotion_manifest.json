@@ -1,11 +1,13 @@
 {
   "product_id": "20260215-155105-token-gated-content-revenue-au",
-  "created_at": "2026-02-19T06:36:54Z",
+  "created_at": "2026-02-20T08:38:39Z",
   "files": [
     "blog.txt",
     "blog_longform.md",
     "blog_outline.md",
+    "blog_post.html",
     "blog_post.md",
+    "channel_payloads.json",
     "instagram.txt",
     "instagram_post.txt",
     "linkedin_posts.txt",

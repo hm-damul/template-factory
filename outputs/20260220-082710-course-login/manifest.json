@@ -4,7 +4,7 @@
   "topic": "Course Login",
   "product_id": "20260220-082710-course-login",
   "created_at": "2026-02-19T23:27:22Z",
-  "price_usd": 25,
+  "price_usd": 39,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,13 @@
     "promotions/x_posts.txt": "d5df0fd5c6e13661f59c05296e503e66a70bab4ee5df8ee3f78b1bfc72ad5158",
     "promotions/x_threads.txt": "772bbb4d0cc5b57b493851ed61755cbb0c8026e025bde05c2da14bb926e9b0a5",
     "promotions/youtube_shorts.txt": "45395f754f907060e1b96ab3d2213b0e41c7e70cbe23ad60ab7ffc8cc3373e42"
-  }
+  },
+  "metadata": {
+    "price_usd": 25.0
+  },
+  "product": {
+    "price_usd": 25.0
+  },
+  "price": 39,
+  "market_price": 99
 }

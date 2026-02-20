@@ -4,7 +4,7 @@
   "topic": "B2B Products: The Complete Guide for Ecommerce ...",
   "product_id": "20260219-172503-b2b-products-the-complete-guid",
   "created_at": "2026-02-19T08:25:12Z",
-  "price_usd": 25,
+  "price_usd": 19,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -55,10 +55,10 @@
     "promotions/youtube_shorts.txt": "ef9fd0b39299340146e4a1e4e178c9689caf67f7e30262ef0c340c08c1e4de70"
   },
   "metadata": {
-    "price_usd": 19.0
+    "price_usd": 25.0
   },
   "product": {
-    "price_usd": 19.0
+    "price_usd": 25.0
   },
   "price": 19,
   "market_price": 49

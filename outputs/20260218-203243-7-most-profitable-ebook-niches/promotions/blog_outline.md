@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with 7 Most Profitable eBook Niches for 2025: Your Guide to High ...
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: 7 Most Profitable eBook Niches for 2025: Your Guide to High ... automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with Шаблоны Notion на русском
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: Шаблоны Notion на русском automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

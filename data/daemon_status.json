@@ -1,6 +1,6 @@
 {
-  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
-  "last_updated": "2026-02-20T04:46:52.581935+00:00",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 2, \"Course / Masterclass\": 1, \"Template / Landing Page\": 1, \"Guide / E-book / Blueprint\": 1}",
+  "last_updated": "2026-02-20T08:39:29.960428+00:00",
   "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
@@ -15,7 +15,7 @@
   "next_run_approx": "2026-02-20T04:35:49.774781+00:00",
   "count": 1,
   "status": "running",
-  "pid": 12128,
-  "start_time": "2026-02-19T11:31:26.197309+00:00",
+  "pid": 7048,
+  "start_time": "2026-02-20T08:09:25.814049+00:00",
   "stop_time": "2026-02-18T22:46:37.546758+00:00"
 }

@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with 15 Digital Product Ideas You Can Create with AI (Even If You're a Total ...
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: 15 Digital Product Ideas You Can Create with AI (Even If You're a Total ... automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

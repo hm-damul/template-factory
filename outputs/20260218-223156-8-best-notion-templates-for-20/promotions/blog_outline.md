@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with 8 Best Notion Templates for 2025 (I Built and Tested Every One)
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: 8 Best Notion Templates for 2025 (I Built and Tested Every One) automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

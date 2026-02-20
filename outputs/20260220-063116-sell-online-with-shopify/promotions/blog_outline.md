@@ -1,5 +1,5 @@
-# SEO Content Blueprint — Sell Online with Shopify®
-**Primary Keyword:** Sell Online with Shopify® automation
+# SEO Content Blueprint — Unlock Your Passive Income with Sell Online with Shopify®
+**Primary Keyword:** Leverage AI to create and sell digital products based on: Sell Online with Shopify® automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

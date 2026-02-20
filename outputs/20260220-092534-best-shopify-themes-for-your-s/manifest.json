@@ -4,7 +4,7 @@
   "topic": "Best Shopify Themes for Your Store in 2026",
   "product_id": "20260220-092534-best-shopify-themes-for-your-s",
   "created_at": "2026-02-20T00:25:44Z",
-  "price_usd": 25,
+  "price_usd": 19,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,13 @@
     "promotions/x_posts.txt": "3411cc10deb90d2ca88faa583f7852179981549cd576390d1f9872a9155a5579",
     "promotions/x_threads.txt": "33ca582ca779344ecfe49ea27dce074a2d701892f75da5550daacda5a099d6f1",
     "promotions/youtube_shorts.txt": "ba365bb3452bd6845ddaaf083e1ca735f76db5c5a7e98889a071bf87b9c4f794"
-  }
+  },
+  "metadata": {
+    "price_usd": 25.0
+  },
+  "product": {
+    "price_usd": 25.0
+  },
+  "price": 19,
+  "market_price": 49
 }

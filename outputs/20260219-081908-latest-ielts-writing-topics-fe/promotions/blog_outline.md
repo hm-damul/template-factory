@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with Latest IELTS Writing Topics February & March 2026 with answers
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: Latest IELTS Writing Topics February & March 2026 with answers automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

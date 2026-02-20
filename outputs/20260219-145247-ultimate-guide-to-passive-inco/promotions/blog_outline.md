@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with Ultimate Guide to Passive Income Digital Products 2025
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: Ultimate Guide to Passive Income Digital Products 2025 automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

@@ -4,7 +4,7 @@
   "topic": "Stablecoin Settlement Handbook for Cross-Border Solopreneurs",
   "product_id": "20260220-053326-stablecoin-settlement-handbook",
   "created_at": "2026-02-19T20:33:38Z",
-  "price_usd": 25,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -55,9 +55,11 @@
     "promotions/youtube_shorts.txt": "97f4b42a961e045e3cbdef0cf96e3b911799d7eb6726e9c36264cc0664262faa"
   },
   "metadata": {
-    "price_usd": 29.0
+    "price_usd": 25.0
   },
   "product": {
-    "price_usd": 29.0
-  }
+    "price_usd": 25.0
+  },
+  "price": 29,
+  "market_price": 49
 }

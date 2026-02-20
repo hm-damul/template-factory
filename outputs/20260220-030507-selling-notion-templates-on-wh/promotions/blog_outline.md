@@ -1,5 +1,5 @@
-# SEO Content Blueprint — Selling Notion Templates on Whop
-**Primary Keyword:** Selling Notion Templates on Whop automation
+# SEO Content Blueprint — Unlock Your Passive Income with Selling Notion Templates on Whop
+**Primary Keyword:** Leverage AI to create and sell digital products based on: Selling Notion Templates on Whop automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

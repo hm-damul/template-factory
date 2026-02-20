@@ -4,7 +4,7 @@
   "topic": "Your modern ebook reading experience",
   "product_id": "20260220-112316-your-modern-ebook-reading-expe",
   "created_at": "2026-02-20T02:23:26Z",
-  "price_usd": 25,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,13 @@
     "promotions/x_posts.txt": "f485ec68f5123812a2a6058a8740a0d9ae129e2bcc89059fcd2bd392b99987b8",
     "promotions/x_threads.txt": "745bd54186bedd4474a075a5d13cecf3068676ae999ee34fa52ff9604cc1c995",
     "promotions/youtube_shorts.txt": "67a98ba9b83d23ec56ef213a75713ccff826bf9f6b83229ecab473f55d6935db"
-  }
+  },
+  "metadata": {
+    "price_usd": 25.0
+  },
+  "product": {
+    "price_usd": 25.0
+  },
+  "price": 29,
+  "market_price": 49
 }

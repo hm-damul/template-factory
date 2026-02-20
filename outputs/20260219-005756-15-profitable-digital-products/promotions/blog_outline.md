@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with 15 Profitable Digital Products to Create with AI in 2025 (That Actually ...
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: 15 Profitable Digital Products to Create with AI in 2025 (That Actually ... automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

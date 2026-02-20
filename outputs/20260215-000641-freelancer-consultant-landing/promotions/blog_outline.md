@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with freelancer-consultant-landing-page
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: freelancer-consultant-landing-page automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

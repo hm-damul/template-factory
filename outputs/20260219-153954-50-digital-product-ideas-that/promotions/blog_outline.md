@@ -1,5 +1,5 @@
-# SEO Content Blueprint — 50 Digital Product Ideas That Generate Passive Income in 2025
-**Primary Keyword:** 50 Digital Product Ideas That Generate Passive Income in 2025 automation
+# SEO Content Blueprint — Unlock Your Passive Income with 50 Digital Product Ideas That Generate Passive Income in 2025
+**Primary Keyword:** Leverage AI to create and sell digital products based on: 50 Digital Product Ideas That Generate Passive Income in 2025 automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

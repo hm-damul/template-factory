@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with Reddit_LinkedIn_Test
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: Reddit_LinkedIn_Test automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

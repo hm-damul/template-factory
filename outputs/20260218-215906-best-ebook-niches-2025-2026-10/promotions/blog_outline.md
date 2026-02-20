@@ -1,5 +1,5 @@
 # SEO Content Blueprint — Unlock Your Passive Income with Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales
-**Primary Keyword:** Business automation
+**Primary Keyword:** Leverage AI to create and sell digital products based on: Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:
