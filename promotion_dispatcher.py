@@ -243,8 +243,8 @@ def _simple_markdown_to_html(md: str, title: str = "", target_url: str = "", pri
                             'category': ma.get("category", "Digital Asset")
                         }
                         # Use stored our_price if available to be safe, though passed 'price' should be same
-                        if "our_price" in ma:
-                            current_price = float(ma["our_price"])
+                        # if "our_price" in ma:
+                        #    current_price = float(ma["our_price"])
         except Exception as e:
             print(f"Failed to load schema for market analysis: {e}")
 
@@ -520,16 +520,43 @@ def build_channel_payloads(product_id: str) -> Dict[str, Any]:
     screenshot_url = ""
     price_str = "29.00"
     
+    # [Priority 1] Try product_schema.json first (Source of Truth)
+    schema_path = product_dir / "product_schema.json"
+    if schema_path.exists():
+        try:
+            s = json.loads(schema_path.read_text(encoding="utf-8"))
+            # 1. Try pricing section
+            p_val = s.get("sections", {}).get("pricing", {}).get("price", "")
+            if p_val:
+                price_str = f"{float(p_val.replace('$', '').replace(',', '')):.2f}"
+            
+            # 2. Fallback to market_analysis if pricing section missing
+            if price_str == "29.00" and "market_analysis" in s:
+                 p_val = s["market_analysis"].get("our_price")
+                 if p_val:
+                     price_str = f"{float(p_val):.2f}"
+            
+            if not title:
+                title = s.get("title", "")
+        except Exception as e:
+            print(f"Error reading schema in build_channel_payloads: {e}")
+
     manifest = product_dir / "manifest.json"
     if manifest.exists():
         try:
             m = json.loads(manifest.read_text(encoding="utf-8"))
-            title = m.get("title", "") or m.get("product", {}).get("title", "")
-            preview_url = m.get("metadata", {}).get("deployment_url", "")
-            screenshot_url = m.get("metadata", {}).get("screenshot_url", "")
-            price_val = m.get("metadata", {}).get("price_usd") or m.get("product", {}).get("price_usd")
-            if price_val:
-                price_str = f"{float(price_val):.2f}"
+            if not title:
+                title = m.get("title", "") or m.get("product", {}).get("title", "")
+            if not preview_url:
+                preview_url = m.get("metadata", {}).get("deployment_url", "")
+            if not screenshot_url:
+                screenshot_url = m.get("metadata", {}).get("screenshot_url", "")
+            
+            # Only use manifest price if schema didn't provide it
+            if price_str == "29.00":
+                price_val = m.get("metadata", {}).get("price_usd") or m.get("product", {}).get("price_usd")
+                if price_val:
+                    price_str = f"{float(price_val):.2f}"
         except Exception:
             pass
 
