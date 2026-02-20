@@ -90,6 +90,7 @@ def _retry_pending_deployments():
         except Exception as e:
             logger_info(f"Vercel 프로젝트 정리 중 오류 (무시하고 진행): {e}")
 
+        product_ids = []
         for p in waiting:
             pid = p["id"]
             output_dir = PROJECT_ROOT / "outputs" / pid
@@ -107,22 +108,25 @@ def _retry_pending_deployments():
                             logger_info(f"[{pid}] 결제 위젯 주입 완료.")
                         except Exception as e:
                             logger_info(f"[{pid}] 결제 위젯 주입 실패: {e}")
-
-                try:
-                    res = pub.publish_product(pid, str(output_dir))
+                
+                product_ids.append(pid)
+        
+        if product_ids:
+            logger_info(f"배치 배포 시작: {len(product_ids)}개 제품")
+            # Batch publish call
+            try:
+                results = pub.publish_products_batch(product_ids)
+                
+                for pid, res in results.items():
                     if res.get("status") == "PUBLISHED":
                         logger_info(f"재배포 성공: {pid}")
-                        time.sleep(10) # 성공 시 충분한 대기 (Vercel 스로틀링 방지)
+                    elif res.get("status") == "WAITING_VERIFICATION":
+                        logger_info(f"재배포 검증 대기: {pid} (URL: {res.get('url')})")
                     else:
                         err_msg = str(res.get("error", ""))
-                        logger_info(f"재배포 대기 유지: {pid} ({err_msg})")
-                        if any(x in err_msg.lower() for x in ["rate_limited", "too_many_requests", "api-deployments-free-per-day", "daily_limit"]):
-                            logger_info("Vercel 속도 제한 또는 일일 한도 초과 감지. 이번 턴 재배포 중단.")
-                            break
-                        time.sleep(10) # 일반 실패 시 대기
-                except Exception as e:
-                    logger_info(f"재배포 실행 중 예외 ({pid}): {e}")
-                    time.sleep(10)
+                        logger_info(f"재배포 실패: {pid} ({err_msg})")
+            except Exception as e:
+                logger_info(f"배치 배포 중 치명적 오류: {e}")
     except Exception as e:
         logger_info(f"재배포 프로세스 전체 오류: {e}")
 

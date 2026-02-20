@@ -380,12 +380,11 @@ class Publisher:
         
         return full_url
 
-    def _verify_deployment(self, url: str, product_id: str):
+    def _verify_deployment(self, url: str, product_id: str, max_retries: int = 30):
         """배포된 URL에 실제로 접속하여 정상 동작 여부를 확인합니다."""
-        logger.info(f"배포 검증 시작: {url}")
+        logger.info(f"배포 검증 시작: {url} (최대 재시도 {max_retries}회)")
         
         # Vercel 배포 전파 대기 (최대 300초 = 5분)
-        max_retries = 30
         api_verified = False
         
         for i in range(max_retries):
@@ -694,10 +693,116 @@ class Publisher:
             # 일단 에러를 던져서 재시도하게 함.
             raise e
 
-        # 기존 API 방식 코드 (Legacy fallback - unreachable due to raise above, kept for reference if needed)
-        # project_name = self._sanitize_project_name(f"meta-passive-income-{product_id}")
-        # ...
+    def publish_products_batch(self, product_ids: List[str]) -> Dict[str, Any]:
+        """
+        Batches multiple products into a single Git commit/push to save Vercel deployment quota.
+        """
+        logger.info(f"Batch publishing {len(product_ids)} products: {product_ids}")
+        
+        results = {}
+        successful_preps = []
+        
+        # 1. Prepare all products
+        for pid in product_ids:
+            try:
+                product = self.ledger_manager.get_product(pid)
+                if not product:
+                    results[pid] = {"status": "FAILED", "error": "Product not found"}
+                    continue
+                    
+                output_dir = os.path.join(Config.OUTPUT_DIR, pid)
+                if not os.path.exists(output_dir):
+                    results[pid] = {"status": "FAILED", "error": "Output dir not found"}
+                    continue
 
+                # HTML Regeneration
+                try:
+                    schema_path = Path(output_dir) / "product_schema.json"
+                    if schema_path.exists():
+                        schema = json.loads(schema_path.read_text(encoding="utf-8"))
+                        if "package_file" not in schema and (Path(output_dir) / "package.zip").exists():
+                            schema["package_file"] = "package.zip"
+                        
+                        if _render_landing_html_from_schema:
+                            html = _render_landing_html_from_schema(schema, brand="MetaPassiveIncome")
+                            (Path(output_dir) / "index.html").write_text(html, encoding="utf-8")
+                        else:
+                            logger.warning("HTML generator not imported, skipping regeneration")
+                except Exception as e:
+                    logger.warning(f"HTML regeneration failed for {pid}: {e}")
+
+                # Copy to public
+                public_output_path = f"public/outputs/{pid}"
+                os.makedirs(os.path.dirname(public_output_path), exist_ok=True)
+                if os.path.exists(public_output_path):
+                    shutil.rmtree(public_output_path)
+                shutil.copytree(output_dir, public_output_path)
+                
+                # Git Add
+                subprocess.run(["git", "add", public_output_path], check=True, capture_output=True)
+                subprocess.run(["git", "add", "-f", f"outputs/{pid}"], check=True, capture_output=True)
+                
+                successful_preps.append(pid)
+                
+            except Exception as e:
+                results[pid] = {"status": "FAILED", "error": str(e)}
+        
+        if not successful_preps:
+            return results
+
+        # 2. Commit and Push (Once)
+        try:
+            subprocess.run(["git", "commit", "-m", f"Batch Deploy: {len(successful_preps)} products"], check=False, capture_output=True)
+            
+            # Push (try main then master)
+            push_result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True)
+            if push_result.returncode != 0:
+                push_result = subprocess.run(["git", "push", "origin", "master"], capture_output=True, text=True)
+            
+            if push_result.returncode != 0:
+                raise ProductionError(f"Batch Git Push Failed: {push_result.stderr}", stage="Publish_Batch")
+                
+            logger.info("Batch Git Push Successful")
+            
+        except Exception as e:
+            for pid in successful_preps:
+                results[pid] = {"status": "FAILED", "error": f"Push failed: {str(e)}"}
+            return results
+
+        # 3. Verify and Update Status
+        base_url = "https://metapassiveincome-final.vercel.app"
+        
+        # Wait a bit for Vercel to pick up the push
+        time.sleep(10)
+        
+        for pid in successful_preps:
+            try:
+                product_url = f"{base_url}/outputs/{pid}/index.html"
+                
+                # Use fewer retries for batch items to speed up
+                try:
+                    self._verify_deployment(product_url, pid, max_retries=10)
+                except Exception as ve:
+                    logger.warning(f"Verification pending/failed for {pid}: {ve}")
+                    results[pid] = {"status": "WAITING_VERIFICATION", "error": str(ve)}
+                    continue
+                
+                # Update Ledger
+                self.ledger_manager.update_product_status(
+                    product_id=pid,
+                    status="PUBLISHED",
+                    metadata={
+                        "published_at": datetime.now().isoformat(),
+                        "deployment_url": product_url,
+                        "deploy_method": "git_push_batch"
+                    },
+                )
+                results[pid] = {"status": "PUBLISHED", "url": product_url}
+                
+            except Exception as e:
+                results[pid] = {"status": "FAILED", "error": f"Post-process failed: {str(e)}"}
+                
+        return results
 
 # -----------------------------
 # 로컬 단독 실행 테스트 (선택 사항)
