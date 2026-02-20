@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T12:12:37.990377+00:00",
+  "timestamp": "2026-02-20T12:14:51.060538+00:00",
   "stats": {
-    "total": 223,
+    "total": 224,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-211248-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 21:12",
+      "status": "QA2_PASSED",
+      "created_at": "2026-02-20T21:12:48.608794"
+    },
     {
       "id": "20260220-205123-2026-ielts-speaking-questions",
       "topic": "2026 IELTS Speaking Questions And Answer",
@@ -120,18 +126,12 @@
       "topic": "TOP definition in American English",
       "status": "PROMOTED",
       "created_at": "2026-02-20T11:42:19.267645"
-    },
-    {
-      "id": "20260220-113551-top-definition-meaning",
-      "topic": "TOP Definition & Meaning",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T11:35:51.070420"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 1}",
-    "last_updated": "2026-02-20T12:12:37.224282+00:00",
-    "phase": "sleeping",
+    "last_log": "가격 최적화 완료: {\"Prompt Pack / Asset\": 1}",
+    "last_updated": "2026-02-20T12:14:50.304535+00:00",
+    "phase": "running_autopilot",
     "product_id": null,
     "last_cmd": [
       "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
