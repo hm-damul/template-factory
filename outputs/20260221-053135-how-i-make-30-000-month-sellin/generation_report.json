@@ -1,0 +1,16 @@
+{
+  "product_id": "20260221-053135-how-i-make-30-000-month-sellin",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-053135-how-i-make-30-000-month-sellin",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-053135-how-i-make-30-000-month-sellin\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-053135-how-i-make-30-000-month-sellin\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-053135-how-i-make-30-000-month-sellin\\product.pdf",
+  "checksum": "63150c6d9290a20ed433028b9e48721682578a0bb0db42c092850431d60d2a3d",
+  "generated_at": "20260221-053144",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

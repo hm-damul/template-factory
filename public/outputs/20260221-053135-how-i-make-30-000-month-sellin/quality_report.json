@@ -1,0 +1,8 @@
+{
+  "score": 80,
+  "passed": true,
+  "defects": [
+    "AI Quality Check Skipped (No API Key)"
+  ],
+  "threshold": 90
+}

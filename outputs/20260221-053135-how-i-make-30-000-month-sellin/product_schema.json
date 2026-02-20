@@ -1,0 +1,63 @@
+{
+  "product_id": "20260221-053135-how-i-make-30-000-month-sellin",
+  "title": "Unlock Your Passive Income with How I make $30,000/Month Selling Notion Templates",
+  "target_customer": "Creators and merchants interested in How I make $30,000/Month Selling Notion Templates",
+  "value_proposition": "Leverage AI to create and sell digital products based on: How I make $30,000/Month Selling Notion Templates",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with How I make $30,000/Month Selling Notion Templates",
+      "subheadline": "Leverage AI to create and sell digital products based on: How I make $30,000/Month Selling Notion Templates"
+    },
+    "problem": {
+      "description": "Creating and selling digital products is complex and time-consuming. Most creators fail due to technical friction and lack of a structured system."
+    },
+    "solution": {
+      "description": "A professional-grade implementation system that handles everything from landing to delivery. Focus on your content, we handle the infrastructure."
+    },
+    "features": [
+      "One-file deployment architecture for How I make $30,000/Month Selling Notion Templates",
+      "Secure token-gated delivery for How I make $30,000/Month Selling Notion Templates",
+      "Conversion-optimized landing components for How I make $30,000/Month Selling Notion Templates",
+      "Built-in analytics & tracking for How I make $30,000/Month Selling Notion Templates",
+      "Automated promotion asset generator for How I make $30,000/Month Selling Notion Templates"
+    ],
+    "benefits": [
+      "Ship faster with ready How I make $30,000/Month Selling Notion Templates templates",
+      "Increase conversion with clear How I make $30,000/Month Selling Notion Templates value prop",
+      "Operate with predictable How I make $30,000/Month Selling Notion Templates delivery flow",
+      "Scale experimentation with simple How I make $30,000/Month Selling Notion Templates A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$59.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the How I make $30,000/Month Selling Notion Templates guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "modern",
+      "primary_color": "#10b981",
+      "secondary_color": "#10b981",
+      "font_family": "Inter, sans-serif",
+      "layout_style": "minimalist"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  }
+}

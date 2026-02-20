@@ -1,7 +1,7 @@
 {
-  "last_log": "자동 복구(Auto-heal) 프로세스 시작...",
-  "last_updated": "2026-02-20T20:00:27.231986+00:00",
-  "phase": "idle",
+  "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1}, [\"20260220-023210-digital-products-goldmine-200\"]]",
+  "last_updated": "2026-02-20T20:31:18.451101+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-20T19:04:22.254919+00:00",
-  "next_run_approx": "2026-02-20T19:27:16.460644+00:00",
+  "last_run_end": "2026-02-20T20:31:05.124503+00:00",
+  "next_run_approx": "2026-02-20T20:31:15.124504+00:00",
   "count": 1,
   "status": "running",
   "pid": 1188,

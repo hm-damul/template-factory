@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-02-20T19:44:17.912486+00:00",
+  "timestamp": "2026-02-20T20:31:18.337867+00:00",
   "stats": {
-    "total": 237,
+    "total": 238,
     "published": 0,
     "waiting": 30,
-    "failed": 2
+    "failed": 0
   },
   "recent_products": [
     {
+      "id": "20260221-044426-most-popular-surnames-in-the-u",
+      "topic": "Most Popular Surnames in the United States",
+      "status": "PROMOTED",
+      "created_at": "2026-02-21T04:44:26.755751"
+    },
+    {
       "id": "20260221-034852-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:15",
-      "status": "PIPELINE_FAILED",
+      "status": "PUBLISH_FAILED",
       "created_at": "2026-02-21T03:48:52.811905"
     },
     {
       "id": "20260221-033322-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:55",
-      "status": "PIPELINE_FAILED",
+      "status": "PUBLISH_FAILED",
       "created_at": "2026-02-21T03:33:22.387127"
     },
     {
@@ -120,17 +126,11 @@
       "topic": "23 Proven Ways To Make Money Online in 2026",
       "status": "PROMOTED",
       "created_at": "2026-02-20T19:50:37.065070"
-    },
-    {
-      "id": "20260220-194413-ielts-speaking-part-1-topics-q",
-      "topic": "IELTS Speaking Part 1 Topics & Questions",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T19:44:13.993978"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1, \"Prompt Pack / Asset\": 2}, [\"20260221-032731-13-profitable-niche-digital-pr\", \"20260221-033322-digital-asset-bundle-2026-02-2\", \"20260221-034852-digital-asset-bundle-2026-02-2\"]]",
-    "last_updated": "2026-02-20T19:44:17.166070+00:00",
+    "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1}, [\"20260220-023210-digital-products-goldmine-200\"]]",
+    "last_updated": "2026-02-20T20:31:17.156446+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T19:04:22.254919+00:00",
-    "next_run_approx": "2026-02-20T19:27:16.460644+00:00",
+    "last_run_end": "2026-02-20T20:31:05.124503+00:00",
+    "next_run_approx": "2026-02-20T20:31:15.124504+00:00",
     "count": 1,
     "status": "running",
     "pid": 1188,
