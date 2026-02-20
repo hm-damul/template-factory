@@ -1,0 +1,16 @@
+{
+  "product_id": "20260221-002736-digital-asset-bundle-2026-02-2",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-002736-digital-asset-bundle-2026-02-2",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-002736-digital-asset-bundle-2026-02-2\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-002736-digital-asset-bundle-2026-02-2\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-002736-digital-asset-bundle-2026-02-2\\product.pdf",
+  "checksum": "b68d3946e554772e82c230fcdd0048993a823188d34b5112680ceb18b6269bc0",
+  "generated_at": "20260221-002753",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
