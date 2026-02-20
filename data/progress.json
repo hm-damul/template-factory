@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-192514-untapped-gg",
-  "updated_at": 1771583455.4349623,
-  "updated_at_iso": "2026-02-20T10:30:55Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260220-194413-ielts-speaking-part-1-topics-q",
+  "updated_at": 1771584272.9218762,
+  "updated_at_iso": "2026-02-20T10:44:32Z"
 }

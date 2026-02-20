@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T10:23:53.090184+00:00",
+  "timestamp": "2026-02-20T10:43:57.354198+00:00",
   "stats": {
-    "total": 216,
-    "published": 0,
-    "waiting": 32,
+    "total": 217,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-192514-untapped-gg",
+      "topic": "Untapped .gg",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T19:25:14.662816"
+    },
     {
       "id": "20260220-191010-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 19:10",
@@ -120,29 +126,23 @@
       "topic": "Digital Asset Bundle 2026-02-20 10:31",
       "status": "PROMOTED",
       "created_at": "2026-02-20T10:31:46.698091"
-    },
-    {
-      "id": "20260220-103030-the-hottest-etsy-trends-for-20",
-      "topic": "The Hottest Etsy Trends for 2026",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T10:30:30.414275"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-20T10:23:52.038211+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-20T10:43:56.531406+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T10:18:10.456233+00:00",
-    "next_run_approx": "2026-02-20T11:09:31.674152+00:00",
+    "last_run_end": "2026-02-20T10:31:41.046683+00:00",
+    "next_run_approx": "2026-02-20T10:31:51.046684+00:00",
     "count": 1,
     "status": "running",
     "pid": 7048,
