@@ -1,7 +1,7 @@
 {
-  "last_log": "재배포 성공: 20260215-210221-token-gated-content-revenue-au",
-  "last_updated": "2026-02-20T04:44:53.533380+00:00",
-  "phase": "sleeping",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
+  "last_updated": "2026-02-20T04:46:52.581935+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
     "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",

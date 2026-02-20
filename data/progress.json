@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-132939-5-ai-passive-income-ideas",
-  "updated_at": 1771562110.7830412,
-  "updated_at_iso": "2026-02-20T04:35:10Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260220-134701-900-etsy-printables-worksheets",
+  "updated_at": 1771562831.0679913,
+  "updated_at_iso": "2026-02-20T04:47:11Z"
 }
