@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-174404-17-typical-b-2-b-business-exam",
-  "updated_at": 1771577429.7942092,
-  "updated_at_iso": "2026-02-20T08:50:29Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260220-180209-7-hidden-no-code-ai-saas-ideas",
+  "updated_at": 1771578145.085411,
+  "updated_at_iso": "2026-02-20T09:02:25Z"
 }

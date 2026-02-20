@@ -4,7 +4,7 @@
   "topic": "17 Typical B 2 B Business Examples in eCommerce Worth...",
   "product_id": "20260220-174404-17-typical-b-2-b-business-exam",
   "created_at": "2026-02-20T08:44:16Z",
-  "price_usd": 59.0,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "dbb802dc2d7e91f2fadd51d833e6839eeeb9c7cf1e87b4346fdb62121be5d37f",
     "promotions/x_threads.txt": "e4ea4a44e47eac657245216371747f2b496e041dc31e0ddb3c986d8b0add27ea",
     "promotions/youtube_shorts.txt": "26462c052a6bd6ddd81499d552fc3cb35d14d32c69e1a76988168377c42b478c"
-  }
+  },
+  "price": 29,
+  "market_price": 49
 }
