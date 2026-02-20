@@ -1,16 +1,22 @@
 {
-  "timestamp": "2026-02-20T12:14:51.060538+00:00",
+  "timestamp": "2026-02-20T12:22:46.459919+00:00",
   "stats": {
-    "total": 224,
+    "total": 225,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
     {
+      "id": "20260220-211508-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 21:15",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T21:15:08.069555"
+    },
+    {
       "id": "20260220-211248-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 21:12",
-      "status": "QA2_PASSED",
+      "status": "PROMOTED",
       "created_at": "2026-02-20T21:12:48.608794"
     },
     {
@@ -120,29 +126,23 @@
       "topic": "Digital Asset Bundle 2026-02-20 11:46",
       "status": "PROMOTED",
       "created_at": "2026-02-20T11:46:37.875258"
-    },
-    {
-      "id": "20260220-114219-top-definition-in-american-eng",
-      "topic": "TOP definition in American English",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T11:42:19.267645"
     }
   ],
   "daemon": {
     "last_log": "가격 최적화 완료: {\"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-20T12:14:50.304535+00:00",
-    "phase": "running_autopilot",
+    "last_updated": "2026-02-20T12:22:45.767452+00:00",
+    "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T11:59:01.298325+00:00",
-    "next_run_approx": "2026-02-20T11:59:11.298326+00:00",
+    "last_run_end": "2026-02-20T12:22:34.013691+00:00",
+    "next_run_approx": "2026-02-20T12:22:44.013691+00:00",
     "count": 1,
     "status": "running",
     "pid": 7048,
