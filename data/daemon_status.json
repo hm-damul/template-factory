@@ -1,7 +1,7 @@
 {
-  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 2}",
-  "last_updated": "2026-02-20T08:43:49.697338+00:00",
-  "phase": "running_autopilot",
+  "last_log": "대기 중인 제품 2개 재배포 시도 중...",
+  "last_updated": "2026-02-20T08:51:01.964462+00:00",
+  "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
     "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-20T08:43:01.020101+00:00",
-  "next_run_approx": "2026-02-20T08:43:11.020101+00:00",
+  "last_run_end": "2026-02-20T08:50:50.272757+00:00",
+  "next_run_approx": "2026-02-20T08:51:00.272757+00:00",
   "count": 1,
   "status": "running",
   "pid": 7048,
