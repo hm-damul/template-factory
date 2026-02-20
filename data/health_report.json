@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T01:05:33.844510+00:00",
+  "timestamp": "2026-02-20T01:24:01.291924+00:00",
   "stats": {
-    "total": 194,
-    "published": 0,
-    "waiting": 32,
+    "total": 195,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-100544-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 10:05",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T10:05:44.223237"
+    },
     {
       "id": "20260220-094258-find-the-school-that-fits-you",
       "topic": "Find the School that Fits You Best",
@@ -120,17 +126,11 @@
       "topic": "How to Make Money on Etsy: What Actually Works (And What's Changed in 2026)",
       "status": "PROMOTED",
       "created_at": "2026-02-20T06:45:23.037601"
-    },
-    {
-      "id": "20260220-063850-crypto-wallet-buyer-playbook-p",
-      "topic": "Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T06:38:50.035154"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-20T01:05:33.060962+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
+    "last_updated": "2026-02-20T01:24:00.487432+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T00:48:49.023959+00:00",
-    "next_run_approx": "2026-02-20T00:48:59.023960+00:00",
+    "last_run_end": "2026-02-20T01:12:53.096721+00:00",
+    "next_run_approx": "2026-02-20T01:13:03.096721+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
