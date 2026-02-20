@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "name": "metapassiveincome-final",
+  "builds": [
+        {
+            "src": "public/**",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "api/main.py",
+            "use": "@vercel/python",
+            "config": {
+                "includeFiles": "../outputs/**/product_schema.json"
+            }
+        },
+        {
+            "src": "downloads/**",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "outputs/**",
+            "use": "@vercel/static"
+        }
+    ],
+  "routes": [
+    {
+      "src": "/api/pay/(.*)",
+      "dest": "/api/main.py"
+    },
+    {
+      "src": "/downloads/(.*)",
+      "dest": "/downloads/$1"
+    },
+    {
+      "src": "/outputs/(.*)",
+      "dest": "/outputs/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
