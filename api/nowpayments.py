@@ -27,6 +27,43 @@ def _headers():
         "Content-Type": "application/json"
     }
 
+def create_invoice(order_id, product_id, amount, currency="usd"):
+    if SIMULATION_MODE:
+        print(f"[SIMULATION] Creating invoice for {product_id} (${amount})")
+        return {
+            "id": f"sim_inv_{int(time.time())}_{random.randint(1000,9999)}",
+            "order_id": order_id,
+            "order_description": f"Product: {product_id}",
+            "price_amount": float(amount),
+            "price_currency": currency,
+            "pay_currency": None,
+            "ipn_callback_url": "https://metapassiveincome-final.vercel.app/api/pay/ipn",
+            "invoice_url": "https://nowpayments.io/payment/?iid=sim_invoice_url", # Mock URL
+            "success_url": f"https://metapassiveincome-final.vercel.app/outputs/{product_id}/success.html",
+            "cancel_url": f"https://metapassiveincome-final.vercel.app/outputs/{product_id}/cancel.html",
+            "created_at": "2026-02-20T12:00:00.000Z",
+            "updated_at": "2026-02-20T12:00:00.000Z"
+        }
+
+    url = f"{BASE_URL}/v1/invoice"
+    payload = {
+        "price_amount": float(amount),
+        "price_currency": currency.lower(),
+        "order_id": order_id,
+        "order_description": f"Product: {product_id}",
+        "ipn_callback_url": "https://metapassiveincome-final.vercel.app/api/pay/ipn",
+        "success_url": f"https://metapassiveincome-final.vercel.app/outputs/{product_id}/index.html?payment=success",
+        "cancel_url": f"https://metapassiveincome-final.vercel.app/outputs/{product_id}/index.html?payment=cancel"
+    }
+    
+    try:
+        response = requests.post(url, headers=_headers(), json=payload, timeout=10)
+        response.raise_for_status()
+        return response.json()
+    except Exception as e:
+        print(f"NOWPayments Invoice Error: {e}")
+        return None
+
 def create_payment(order_id, product_id, amount, currency="usd"):
     if SIMULATION_MODE:
         print(f"[SIMULATION] Creating payment for {product_id} (${amount})")

@@ -11,6 +11,7 @@ import requests
 
 from .config import Config
 from .ledger_manager import LedgerManager
+from .product_generator import _render_landing_html_from_schema
 from .utils import ProductionError, get_logger, handle_errors, retry_on_failure
 
 logger = get_logger(__name__)
@@ -614,6 +615,31 @@ class Publisher:
                 stage="Publish",
                 product_id=product_id,
             )
+
+        # [NEW] 배포 전 최신 스키마 기반 HTML 재생성 (업데이트 반영 보장)
+        try:
+            schema_path = Path(product_output_dir) / "product_schema.json"
+            if schema_path.exists():
+                logger.info(f"배포 전 HTML 재생성: {product_id}")
+                schema = json.loads(schema_path.read_text(encoding="utf-8"))
+                
+                # 스키마 내 package_file 확인 (없으면 기본값 설정)
+                if "package_file" not in schema:
+                    # 기존 package.zip이 있는지 확인
+                    if (Path(product_output_dir) / "package.zip").exists():
+                        schema["package_file"] = "package.zip"
+                    # 없으면 pass (render 함수가 알아서 처리하거나 default 사용)
+                
+                html = _render_landing_html_from_schema(schema, brand="MetaPassiveIncome")
+                (Path(product_output_dir) / "index.html").write_text(html, encoding="utf-8")
+                logger.info(f"HTML 재생성 완료: {product_id}")
+            else:
+                logger.warning(f"스키마 파일 없음, HTML 재생성 건너뜀: {product_id}")
+        except Exception as e:
+            logger.error(f"배포 전 HTML 재생성 실패: {e}")
+            # 재생성 실패해도 배포는 시도? 아니면 중단? 
+            # 업데이트 반영이 중요하므로 에러를 로그에 남기고 진행하되, 
+            # 심각한 경우 중단할 수도 있음. 여기서는 일단 진행.
 
         # [NEW] Git Push 배포 방식 우선 사용 (Vercel API 한도 우회)
         # 모든 제품을 하나의 통합 사이트에서 서빙

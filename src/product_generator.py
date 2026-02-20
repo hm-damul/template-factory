@@ -195,6 +195,8 @@ def _render_landing_html_from_schema(schema: Dict[str, Any], brand: str = "MetaP
         product_price = (pr.get("price") or "").strip()
     if not product_price:
         product_price = "$49"
+        
+    package_filename = schema.get("package_file", "package.zip")
 
     return _render_landing_html(
         product_id=pid,
@@ -208,7 +210,8 @@ def _render_landing_html_from_schema(schema: Dict[str, Any], brand: str = "MetaP
         faq_html=faq_html or None,
         theme_class=theme_class,
         design_meta=design,
-        product_price=product_price
+        product_price=product_price,
+        package_filename=package_filename
     )
 
 
@@ -268,6 +271,7 @@ def _render_landing_html(
     theme_class: str = "theme-default",
     design_meta: Dict[str, Any] | None = None,
     product_price: str = "$59",
+    package_filename: str = "package.zip",
 ) -> str:
     """단일 HTML 파일에 모든 기능(내장 CSS/JS)을 포함하여 렌더링합니다. 스키마에서 생성한 HTML을 넘기면 해당 블록을 사용합니다."""
     design = design_meta or {}
@@ -1531,11 +1535,11 @@ def _render_landing_html(
               // 로컬 미리보기(8090/8099) 환경이고 URL이 /api/pay/download로 시작하면 dashboard의 프록시를 통하도록 유도
                if (false && isLocalPreview() && url && url.indexOf("/api/pay/download") !== -1) {{
                  var currentPort = window.location.port;
-                 if (currentPort === \"8090\" || currentPort === \"8099\") {{
-                   url = (url || \"\").replace(\"127.0.0.1:5000\", window.location.host);
+                 if (currentPort === "8090" || currentPort === "8099") {{
+                   url = (url || "").replace("127.0.0.1:5000", window.location.host);
                  }}
                }}
-               window.location.href = url || (\"/downloads/\" + productId + \"/package.zip\");
+               window.location.href = url || ("/downloads/" + productId + "/{package_filename}");
             }}, 2000); // 2초 정도 '지연'을 주어 결제된 느낌을 줌
           }} else {{
             showToast(\"Order created: \" + (data.order_id || \"pending\"));

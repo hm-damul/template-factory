@@ -1,42 +1,133 @@
 import requests
-import sys
 import time
+import subprocess
+import sys
+import os
+import json
+from pathlib import Path
 
-def check_url(url, name):
+# Configuration
+API_URL = "http://localhost:5000"
+PRODUCT_ID = "product_test_auto"
+OUTPUTS_DIR = Path("outputs") / PRODUCT_ID
+SCHEMA_PATH = OUTPUTS_DIR / "product_schema.json"
+PACKAGE_ZIP = OUTPUTS_DIR / "secure_pkg_xyz.zip"
+
+def setup_test_product():
+    """Create a dummy product for testing"""
+    if not OUTPUTS_DIR.exists():
+        OUTPUTS_DIR.mkdir(parents=True)
+    
+    # Create schema with specific package name
+    schema = {
+        "product_id": PRODUCT_ID,
+        "title": "Test Product",
+        "package_file": "secure_pkg_xyz.zip",
+        "sections": {
+            "pricing": {"price": "19.99"}
+        }
+    }
+    SCHEMA_PATH.write_text(json.dumps(schema), encoding="utf-8")
+    
+    # Create dummy package file
+    PACKAGE_ZIP.write_text("dummy content", encoding="utf-8")
+    print(f"[Setup] Created test product at {OUTPUTS_DIR}")
+
+def start_server():
+    """Start the API server in background"""
+    # Set PYTHONPATH to include current directory so api.nowpayments works
+    env = os.environ.copy()
+    env["PYTHONPATH"] = os.getcwd()
+    env["SIMULATION_MODE"] = "true" # Force simulation mode
+    
+    # Run api/main.py
+    process = subprocess.Popen(
+        [sys.executable, "api/main.py"],
+        env=env,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE
+    )
+    print("[Setup] Starting API server...")
+    time.sleep(3) # Wait for server to start
+    return process
+
+def test_flow():
+    """Test the full payment flow"""
+    print("\n[Test] Starting Payment Flow Test...")
+    
+    # 1. Start Payment
+    start_url = f"{API_URL}/api/pay/start?product_id={PRODUCT_ID}&price_amount=19.99"
     try:
-        r = requests.get(url, timeout=2)
-        print(f"[{name}] Status: {r.status_code}")
-        return r.status_code == 200
-    except Exception as e:
-        print(f"[{name}] Failed: {e}")
+        resp = requests.get(start_url)
+        data = resp.json()
+        
+        if resp.status_code != 200:
+            print(f"[Fail] Start Payment failed: {data}")
+            return False
+            
+        print(f"[Pass] Payment Started. Invoice URL: {data['nowpayments'].get('invoice_url')}")
+        payment_id = data['nowpayments']['payment_id'] # In simulation, this is our key
+        
+        # 2. Simulate Payment Completion (The check API in simulation mode might auto-confirm or we rely on mock status)
+        # In our nowpayments.py simulation, get_payment_status returns 'finished' if ID starts with 'sim_'
+        
+        # 3. Check Status
+        check_url = f"{API_URL}/api/pay/check?order_id={payment_id}&product_id={PRODUCT_ID}"
+        for _ in range(3):
+            resp = requests.get(check_url)
+            data = resp.json()
+            status = data.get('status')
+            provider_status = data.get('provider_status')
+            
+            print(f"[Check] Status: {status}, Provider: {provider_status}")
+            
+            if status == 'paid':
+                download_url = data.get('download_url')
+                print(f"[Pass] Payment Confirmed! Download URL: {download_url}")
+                
+                # Verify Download URL matches schema
+                expected_suffix = f"/outputs/{PRODUCT_ID}/secure_pkg_xyz.zip"
+                if download_url.endswith(expected_suffix):
+                    print("[Pass] Download URL matches obfuscated filename.")
+                    return True
+                else:
+                    print(f"[Fail] Download URL mismatch. Expected endswith {expected_suffix}, got {download_url}")
+                    return False
+            
+            time.sleep(1)
+            
+        print("[Fail] Payment did not complete in time.")
         return False
 
-def check_imports():
-    print("\nChecking imports...")
-    try:
-        import praw
-        print("[Import] praw: OK")
-    except ImportError as e:
-        print(f"[Import] praw: FAILED ({e})")
+    except Exception as e:
+        print(f"[Error] Test failed with exception: {e}")
+        return False
 
+def cleanup():
+    """Clean up test files"""
+    if SCHEMA_PATH.exists():
+        os.remove(SCHEMA_PATH)
+    if PACKAGE_ZIP.exists():
+        os.remove(PACKAGE_ZIP)
+    if OUTPUTS_DIR.exists():
+        os.rmdir(OUTPUTS_DIR)
+    print("[Cleanup] Test files removed.")
+
+if __name__ == "__main__":
+    setup_test_product()
+    server_process = start_server()
+    
+    success = False
     try:
-        import google.genai
-        print("[Import] google.genai: OK")
-    except ImportError as e:
-        print(f"[Import] google.genai: FAILED ({e})")
+        success = test_flow()
+    finally:
+        server_process.terminate()
+        server_process.wait()
+        cleanup()
         
-    try:
-        import decorator
-        print("[Import] decorator: OK")
-    except ImportError as e:
-        print(f"[Import] decorator: FAILED ({e})")
-
-print("Waiting for services to start (10s)...")
-time.sleep(10)
-
-print("\nChecking Services...")
-check_url("http://127.0.0.1:8099/health", "Dashboard")
-check_url("http://127.0.0.1:5000/health", "Payment Server")
-    check_url("http://127.0.0.1:8088/health", "Preview Server")
-
-check_imports()
+    if success:
+        print("\nSUCCESS: System verification passed.")
+        sys.exit(0)
+    else:
+        print("\nFAILURE: System verification failed.")
+        sys.exit(1)

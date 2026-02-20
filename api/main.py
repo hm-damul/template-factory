@@ -97,20 +97,32 @@ class handler(BaseHTTPRequestHandler):
             # waiting, confirming -> pending
             if provider_status in ["finished", "confirmed", "sending"]:
                 status = "paid"
-                # Secure download link (in real app, use signed URL)
-                # For Vercel demo/autonomous, we redirect to file
-                
+                # Secure download link logic
                 # Determine package filename from schema for security/obfuscation
                 package_filename = "package.zip"
                 try:
-                    # Check both relative paths (vercel vs local)
-                    schema_path = Path(f"outputs/{product_id}/product_schema.json")
-                    if not schema_path.exists():
-                        schema_path = Path(f"../outputs/{product_id}/product_schema.json")
+                    # Robust path finding for Vercel and Local
+                    # Vercel: /var/task/outputs/... or similar, but we use relative paths
+                    # api/main.py is usually in api/ folder. 
+                    # We need to look for ../outputs (local) or outputs (if bundled differently)
                     
-                    if schema_path.exists():
-                        s = json.loads(schema_path.read_text(encoding="utf-8"))
-                        package_filename = s.get("package_file", "package.zip")
+                    possible_paths = [
+                        Path(f"outputs/{product_id}/product_schema.json"),      # Project root or bundled
+                        Path(f"../outputs/{product_id}/product_schema.json"),   # From api/ folder
+                        Path(os.getcwd()) / f"outputs/{product_id}/product_schema.json" # Absolute
+                    ]
+                    
+                    found_schema = False
+                    for schema_path in possible_paths:
+                        if schema_path.exists():
+                            s = json.loads(schema_path.read_text(encoding="utf-8"))
+                            package_filename = s.get("package_file", "package.zip")
+                            found_schema = True
+                            break
+                    
+                    if not found_schema:
+                         print(f"Warning: Schema not found for {product_id}, using default package.zip")
+
                 except Exception as e:
                     print(f"Error reading schema for package file: {e}")
 
@@ -168,32 +180,32 @@ class handler(BaseHTTPRequestHandler):
         # For stateless, we use random or timestamp
         internal_order_id = f"ord_{secrets.token_hex(8)}"
         
-        # Call NOWPayments to create invoice
-        # Use USDT-TRC20 as default (low fee) or ETH
-        payment_data = nowpayments.create_payment(
+        # Call NOWPayments to create invoice (Hosted Page is better for autonomous sales)
+        payment_data = nowpayments.create_invoice(
             order_id=internal_order_id,
             product_id=product_id,
             amount=price,
-            currency="usd" # Base currency
+            currency="usd"
         )
         
-        if payment_data and "payment_id" in payment_data:
+        if payment_data and ("invoice_url" in payment_data or "id" in payment_data):
             # Success
             self._send_json(200, {
-                "order_id": payment_data["payment_id"], # Return payment_id as order_id for client tracking
-                "payment_address": payment_data.get("pay_address"),
-                "pay_amount": payment_data.get("pay_amount"),
-                "pay_currency": payment_data.get("pay_currency", "USDTTRC20").upper(),
+                "order_id": payment_data.get("order_id") or internal_order_id,
+                "nowpayments": {
+                    "invoice_url": payment_data.get("invoice_url"),
+                    "payment_id": payment_data.get("id")
+                },
                 "amount": price,
                 "currency": "USD",
                 "status": "pending",
-                "message": "Payment created. Please send funds to the address below."
+                "message": "Invoice created. Redirecting to payment..."
             })
         else:
             # Failure fallback
             self._send_json(500, {
                 "error": "payment_creation_failed",
-                "message": "Could not create payment address. Please try again later."
+                "message": "Could not create payment invoice. Please try again later."
             })
 
     def handle_token(self, data):

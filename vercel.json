@@ -8,7 +8,10 @@
         },
         {
             "src": "api/main.py",
-            "use": "@vercel/python"
+            "use": "@vercel/python",
+            "config": {
+                "includeFiles": "../outputs/**/product_schema.json"
+            }
         },
         {
             "src": "downloads/**",

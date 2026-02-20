@@ -370,7 +370,15 @@ def sync_products():
                         pass
                 
                 # Infer status from files
-                if (item / "package.zip").exists():
+                package_filename = "package.zip"
+                if schema_path.exists():
+                    try:
+                        s = json.loads(schema_path.read_text(encoding="utf-8"))
+                        package_filename = s.get("package_file", "package.zip")
+                    except:
+                        pass
+                
+                if (item / package_filename).exists():
                     status = "PACKAGED"
                 if (item / "final_publish_info.json").exists():
                     status = "PUBLISHED"
@@ -905,13 +913,23 @@ def _list_products() -> List[Dict[str, Any]]:
             except:
                 pass
 
+        # Check package filename
+        package_filename = "package.zip"
+        schema_path = d / "product_schema.json"
+        if schema_path.exists():
+            try:
+                s = json.loads(schema_path.read_text(encoding="utf-8"))
+                package_filename = s.get("package_file", "package.zip")
+            except:
+                pass
+
         item = {
             "product_id": pid,
             "topic": topic,
             "title": title,
             "created_at": str(prod.get("created_at") or ""),
             "has_landing": (d / "index.html").exists(),
-            "has_package": (d / "package.zip").exists(),
+            "has_package": (d / package_filename).exists(),
             "status": status,
             "deployment_url": deployment_url,
             "price_wei": get_product_price_wei(PROJECT_ROOT, pid),
@@ -939,13 +957,23 @@ def _list_products() -> List[Dict[str, Any]]:
             except:
                 pass
 
+        # Check package filename
+        package_filename = "package.zip"
+        schema_path = d / "product_schema.json"
+        if schema_path.exists():
+            try:
+                s = json.loads(schema_path.read_text(encoding="utf-8"))
+                package_filename = s.get("package_file", "package.zip")
+            except:
+                pass
+
         item = {
             "product_id": pid,
             "created_at": time.strftime(
                 "%Y-%m-%d %H:%M:%S", time.gmtime(d.stat().st_mtime)
             ),
             "has_landing": (d / "index.html").exists(),
-            "has_package": (d / "package.zip").exists(),
+            "has_package": (d / package_filename).exists(),
             "status": "LOCAL_ONLY",
             "deployment_url": "",
             "price_wei": get_product_price_wei(PROJECT_ROOT, pid),

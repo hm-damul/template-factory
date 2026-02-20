@@ -199,13 +199,29 @@ def consume_token_if_needed(
 
 
 def get_package_path(project_root: Path, product_id: str) -> Path:
-    """outputs/<product_id>/package.zip 경로. Vercel에서는 루트의 package.zip 가능성도 체크."""
-    # 1) 로컬 구조: outputs/<product_id>/package.zip
-    p1 = (project_root / "outputs" / str(product_id) / "package.zip").resolve()
+    """outputs/<product_id>/package_xxxx.zip 경로 (schema 참조)."""
+    # 1) 스키마에서 파일명 조회
+    schema_path = project_root / "outputs" / str(product_id) / "product_schema.json"
+    package_filename = "package.zip"
+    
+    if schema_path.exists():
+        try:
+            schema = json.loads(schema_path.read_text(encoding="utf-8"))
+            package_filename = schema.get("package_file", "package.zip")
+        except Exception:
+            pass
+
+    # 2) 로컬 구조: outputs/<product_id>/<package_filename>
+    p1 = (project_root / "outputs" / str(product_id) / package_filename).resolve()
     if p1.exists():
         return p1
     
-    # 2) Vercel 배포 구조: 루트에 바로 package.zip이 있는 경우 (Publisher가 그렇게 업로드함)
+    # 3) fallback: package.zip (legacy)
+    p_legacy = (project_root / "outputs" / str(product_id) / "package.zip").resolve()
+    if p_legacy.exists():
+        return p_legacy
+
+    # 4) Vercel 배포 구조: 루트에 바로 package.zip이 있는 경우 (Publisher가 그렇게 업로드함)
     p2 = (project_root / "package.zip").resolve()
     if p2.exists():
         return p2
