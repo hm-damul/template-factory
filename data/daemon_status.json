@@ -1,7 +1,7 @@
 {
-  "last_log": "가격 최적화 완료: [{\"Prompt Pack / Asset\": 1}, [\"20260221-012727-digital-asset-bundle-2026-02-2\"]]",
-  "last_updated": "2026-02-20T17:27:18.170918+00:00",
-  "phase": "running_autopilot",
+  "last_log": "자동 복구(Auto-heal) 프로세스 시작...",
+  "last_updated": "2026-02-20T17:43:23.604110+00:00",
+  "phase": "idle",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
