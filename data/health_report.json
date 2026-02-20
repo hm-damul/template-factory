@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T17:27:18.051272+00:00",
+  "timestamp": "2026-02-20T18:27:18.786228+00:00",
   "stats": {
-    "total": 233,
+    "total": 234,
     "published": 30,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260221-022733-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-21 02:27",
+      "status": "PROMOTED",
+      "created_at": "2026-02-21T02:27:33.932243"
+    },
     {
       "id": "20260221-012727-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-21 01:27",
@@ -120,17 +126,11 @@
       "topic": "IELTS Speaking Part 3 Topics",
       "status": "PROMOTED",
       "created_at": "2026-02-20T18:26:42.673047"
-    },
-    {
-      "id": "20260220-181547-the-6-best-b-2-b-community-exa",
-      "topic": "The 6 Best B 2 B Community Examples of 2025",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T18:15:47.216285"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: [{\"Prompt Pack / Asset\": 1}, [\"20260221-012727-digital-asset-bundle-2026-02-2\"]]",
-    "last_updated": "2026-02-20T17:27:17.115659+00:00",
+    "last_log": "가격 최적화 완료: [{\"Prompt Pack / Asset\": 1}, [\"20260221-022733-digital-asset-bundle-2026-02-2\"]]",
+    "last_updated": "2026-02-20T18:27:17.905150+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T16:43:23.534636+00:00",
-    "next_run_approx": "2026-02-20T17:27:15.260845+00:00",
+    "last_run_end": "2026-02-20T18:14:11.130629+00:00",
+    "next_run_approx": "2026-02-20T18:27:15.846161+00:00",
     "count": 1,
     "status": "running",
     "pid": 1188,

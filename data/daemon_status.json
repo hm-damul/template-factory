@@ -1,7 +1,7 @@
 {
-  "last_log": "--- RUN #4 END (took 2815.3s). Next run in 784.7s ---",
-  "last_updated": "2026-02-20T18:14:11.142121+00:00",
-  "phase": "sleeping",
+  "last_log": "가격 최적화 완료: [{\"Prompt Pack / Asset\": 1}, [\"20260221-022733-digital-asset-bundle-2026-02-2\"]]",
+  "last_updated": "2026-02-20T18:27:18.927178+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",

@@ -1,0 +1,63 @@
+{
+  "product_id": "20260221-032731-13-profitable-niche-digital-pr",
+  "title": "Unlock Your Passive Income with 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
+  "target_customer": "Creators and merchants interested in 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
+  "value_proposition": "Leverage AI to create and sell digital products based on: 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
+      "subheadline": "Leverage AI to create and sell digital products based on: 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet"
+    },
+    "problem": {
+      "description": "Generic e-commerce stores fail to build trust and suffer from high cart abandonment. Without a high-performance storefront, conversion remains stagnant."
+    },
+    "solution": {
+      "description": "A conversion-optimized e-commerce engine with mobile-first UI, friction-free checkout, and built-in trust triggers. Built for modern digital merchants."
+    },
+    "features": [
+      "Mobile-optimized high-speed landing UI for 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
+      "Trust-building proof & badge templates for 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
+      "Frictionless 1-click checkout flow for 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
+      "Automated order confirmation & tracking for 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
+      "Urgency & scarcity trigger system for 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet"
+    ],
+    "benefits": [
+      "Ship faster with ready 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet templates",
+      "Increase conversion with clear 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet value prop",
+      "Operate with predictable 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet delivery flow",
+      "Scale experimentation with simple 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$59.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "dark",
+      "primary_color": "#6366f1",
+      "secondary_color": "#6366f1",
+      "font_family": "Georgia, serif",
+      "layout_style": "creative"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  }
+}
