@@ -49,6 +49,15 @@ def start_server():
     )
     print("[Setup] Starting API server...")
     time.sleep(3) # Wait for server to start
+    
+    if process.poll() is not None:
+        stdout, stderr = process.communicate()
+        print(f"[Error] API Server failed to start with code {process.returncode}")
+        print(f"[Error] Stdout: {stdout.decode()}")
+        print(f"[Error] Stderr: {stderr.decode()}")
+        sys.exit(1)
+        
+    print("[Setup] API server started (PID: {})".format(process.pid))
     return process
 
 def test_flow():
@@ -63,6 +72,8 @@ def test_flow():
         
         if resp.status_code != 200:
             print(f"[Fail] Start Payment failed: {data}")
+            print(f"[Debug] Response headers: {resp.headers}")
+            print(f"[Debug] Response URL: {resp.url}")
             return False
             
         print(f"[Pass] Payment Started. Invoice URL: {data['nowpayments'].get('invoice_url')}")

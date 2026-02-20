@@ -99,7 +99,7 @@ def create_payment(order_id, product_id, amount, currency="usd"):
         return None
 
 def get_payment_status(payment_id):
-    if SIMULATION_MODE and str(payment_id).startswith("sim_pay_"):
+    if SIMULATION_MODE and (str(payment_id).startswith("sim_pay_") or str(payment_id).startswith("sim_inv_")):
         print(f"[SIMULATION] Checking status for {payment_id}")
         # Always return finished for demo purposes to allow download
         return {

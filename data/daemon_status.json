@@ -1,6 +1,6 @@
 {
-  "last_log": "홍보 발행 완료: 20260220-015448-9-most-profitable-notion-niche",
-  "last_updated": "2026-02-20T13:55:33.887087+00:00",
+  "last_log": "가격 최적화 완료: [{\"Prompt Pack / Asset\": 1}, [\"20260220-225518-digital-asset-bundle-2026-02-2\"]]",
+  "last_updated": "2026-02-20T15:10:48.863021+00:00",
   "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
@@ -15,7 +15,7 @@
   "next_run_approx": "2026-02-20T12:41:26.356752+00:00",
   "count": 1,
   "status": "running",
-  "pid": 7048,
-  "start_time": "2026-02-20T08:09:25.814049+00:00",
+  "pid": 1188,
+  "start_time": "2026-02-20T14:15:00.415300+00:00",
   "stop_time": "2026-02-18T22:46:37.546758+00:00"
 }

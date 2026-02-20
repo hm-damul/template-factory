@@ -35,6 +35,8 @@ class handler(BaseHTTPRequestHandler):
             parsed_path = urlparse(self.path)
             path = parsed_path.path
             query = parse_qs(parsed_path.query)
+            
+            print(f"[DEBUG] Request path: {path}")
 
             if "/api/pay/check" in path:
                 self.handle_check(query)
@@ -44,6 +46,8 @@ class handler(BaseHTTPRequestHandler):
                 # Convert query params (lists) to single values for handle_start
                 data = {k: v[0] for k, v in query.items() if v}
                 self.handle_start(data)
+            elif "/health" in path:
+                self._send_json(200, {"status": "ok"})
             else:
                 self._send_json(404, {"error": "not_found", "path": path})
         except Exception as e:

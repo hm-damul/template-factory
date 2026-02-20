@@ -232,7 +232,7 @@ def _start_background_process(name: str, cmd: List[str]):
 def _check_and_start_services():
     """결제 서버(5000)와 프리뷰 서버(8090)가 죽어있으면 살립니다."""
     services = [
-            {"name": "Payment Server", "port": 5000, "script": "backend/payment_server.py", "url": "http://127.0.0.1:5000/health"},
+            {"name": "Payment Server", "port": 5000, "script": "api/main.py", "url": "http://127.0.0.1:5000/health"},
             {"name": "Preview Server", "port": 8088, "script": "preview_server.py", "url": "http://127.0.0.1:8088/health"},
             {"name": "Dashboard", "port": 8099, "script": "dashboard_server.py", "url": "http://127.0.0.1:8099/health"},
         ]
@@ -471,10 +471,29 @@ def _run_market_analysis():
     logger_info("시장 분석 및 가격 최적화 봇 가동...")
     try:
         from src.market_analyzer import MarketAnalyzer
+        from src.ledger_manager import LedgerManager
+        from src.config import Config
+        
         analyzer = MarketAnalyzer(PROJECT_ROOT)
-        stats = analyzer.analyze_and_optimize()
+        stats, updated_ids = analyzer.analyze_and_optimize()
+        
         if stats:
             logger_info(f"가격 최적화 완료: {json.dumps(stats, ensure_ascii=False)}")
+            
+        # 업데이트된 제품이 있으면 상태를 WAITING_FOR_DEPLOYMENT로 변경하여 재배포 유도
+        if updated_ids:
+            logger_info(f"업데이트된 제품 {len(updated_ids)}개를 재배포 대기열에 추가합니다.")
+            try:
+                lm = LedgerManager(Config.DATABASE_URL)
+                for pid in updated_ids:
+                    # 현재 상태가 PUBLISHED인 경우에만 재배포 대기로 변경 (실패한 것은 놔둠)
+                    prod = lm.get_product(pid)
+                    if prod and prod.get("status") == "PUBLISHED":
+                        lm.update_product(pid, status="WAITING_FOR_DEPLOYMENT")
+                        logger_info(f"[{pid}] 가격 변동으로 인한 재배포 요청됨.")
+            except Exception as e:
+                logger_info(f"재배포 상태 업데이트 중 오류: {e}")
+                
     except Exception as e:
         logger_info(f"시장 분석 중 오류 발생: {e}")
         try:

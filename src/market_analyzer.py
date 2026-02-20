@@ -98,17 +98,18 @@ class MarketAnalyzer:
         
         return "Standard Digital Product", self.DEFAULT_MARKET_PRICE, self.DEFAULT_OUR_PRICE
 
-    def analyze_and_optimize(self, force: bool = False) -> Dict[str, int]:
+    def analyze_and_optimize(self, force: bool = False) -> Tuple[Dict[str, int], List[str]]:
         """
         Scans all products in outputs_dir and updates their pricing 
         if it doesn't match the market optimized price.
-        Returns a summary of updates.
+        Returns a summary of updates and a list of updated product IDs.
         """
         if not self.outputs_dir.exists():
             logger.warning(f"Outputs directory not found: {self.outputs_dir}")
-            return {}
+            return {}, []
 
         stats = {}
+        updated_ids = []
         updates_count = 0
         
         logger.info("Starting Market Analysis and Price Optimization...")
@@ -120,6 +121,7 @@ class MarketAnalyzer:
             updated_cat = self._optimize_product(product_dir, force=force)
             if updated_cat:
                 stats[updated_cat] = stats.get(updated_cat, 0) + 1
+                updated_ids.append(product_dir.name)
                 updates_count += 1
         
         if updates_count > 0:
@@ -127,7 +129,7 @@ class MarketAnalyzer:
         else:
             logger.info("Market Analysis Complete. All prices are optimal.")
             
-        return stats
+        return stats, updated_ids
 
     def _optimize_product(self, product_dir: Path, force: bool = False) -> str:
         product_id = product_dir.name

@@ -1,14 +1,26 @@
 {
-  "last_audit": "2026-02-20 22:09:34",
+  "last_audit": "2026-02-20 23:15:05",
   "summary": {
-    "total_products": 228,
-    "healthy_products": 196,
-    "broken_products": 32,
+    "total_products": 230,
+    "healthy_products": 200,
+    "broken_products": 30,
     "total_promotions": 375,
     "healthy_promotions": 141,
     "broken_promotions": 234
   },
   "details": [
+    {
+      "product_id": "20260220-225518-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PUBLISH_FAILED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-221545-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PUBLISH_FAILED",
+      "issues": []
+    },
     {
       "product_id": "20260220-213518-top-100-best-selling-t-shirts",
       "type": "product",
@@ -1348,10 +1360,8 @@
     {
       "product_id": "20260215-074829-freelancer-consultant-landing",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404"
-      ]
+      "status": "PROMOTED",
+      "issues": []
     },
     {
       "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
@@ -1396,10 +1406,8 @@
     {
       "product_id": "20260214-231100-unknown-single",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404"
-      ]
+      "status": "PROMOTED",
+      "issues": []
     },
     {
       "product_id": "20260214-140141-ai-dev-income",
@@ -1785,9 +1793,9 @@
     {
       "product_id": "20260220-090820-digital-products-best-seller-2",
       "type": "promotion_wordpress",
-      "post_id": 1310,
+      "post_id": 1365,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-090820-digital-products-best-seller-2/index.html (404)",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-090820-digital-products-best-seller-2/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Digital Products Best Seller 2026'"
       ]
     },
@@ -1893,9 +1901,9 @@
     {
       "product_id": "20260220-071129-70-digital-product-ideas-for-p",
       "type": "promotion_wordpress",
-      "post_id": 1298,
+      "post_id": 1363,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-071129-70-digital-product-ideas-for-p/index.html (404)",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-071129-70-digital-product-ideas-for-p/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title '70+ Digital Product Ideas for Passive Income'"
       ]
     },
@@ -1940,9 +1948,9 @@
     {
       "product_id": "20260220-061810-digital-to-physical-on-etsy-th",
       "type": "promotion_wordpress",
-      "post_id": 1293,
+      "post_id": 1362,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-061810-digital-to-physical-on-etsy-th/index.html (404)",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-061810-digital-to-physical-on-etsy-th/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Digital -to-Physical on Etsy : The New Hybrid Seller Playbook'"
       ]
     },
@@ -2092,9 +2100,9 @@
     {
       "product_id": "20260220-031839-trending-etsy-products-2026",
       "type": "promotion_wordpress",
-      "post_id": 1276,
+      "post_id": 1361,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-031839-trending-etsy-products-2026/index.html (404)",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-031839-trending-etsy-products-2026/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Trending Etsy Products 2026'"
       ]
     },
@@ -2344,7 +2352,7 @@
     {
       "product_id": "20260220-001028-best-saas-business-ideas-in-20",
       "type": "promotion_wordpress",
-      "post_id": 1248,
+      "post_id": 1360,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Best SaaS Business Ideas in 2026'"
       ]
@@ -2360,9 +2368,9 @@
     {
       "product_id": "20260219-234910-30-top-selling-digital-product",
       "type": "promotion_wordpress",
-      "post_id": 1246,
+      "post_id": 1359,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-234910-30-top-selling-digital-product/index.html (404)",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-234910-30-top-selling-digital-product/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title '30 Top Selling digital Products on Etsy in 2026'"
       ]
     },
@@ -2378,9 +2386,9 @@
     {
       "product_id": "20260219-233033-25-trending-products-to-sell-o",
       "type": "promotion_wordpress",
-      "post_id": 1244,
+      "post_id": 1358,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-233033-25-trending-products-to-sell-o/index.html (404)",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-233033-25-trending-products-to-sell-o/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title '25 Trending Products to Sell Online in 2026'"
       ]
     },
@@ -2568,9 +2576,9 @@
     {
       "product_id": "20260219-180224-18-most-profitable-digital-pro",
       "type": "promotion_wordpress",
-      "post_id": 1220,
+      "post_id": 1357,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-180224-18-most-profitable-digital-pro/index.html (404)",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-180224-18-most-profitable-digital-pro/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title '18 Most Profitable Digital Products to Sell in 2026'"
       ]
     },
@@ -2631,18 +2639,16 @@
     {
       "product_id": "20260219-160930-the-best-notion-templates-for",
       "type": "promotion_wordpress",
-      "post_id": 1212,
+      "post_id": 1356,
       "issues": [
-        "No product link found in post content",
         "SEO Warning: Not visible in top 20 for title 'The Best Notion Templates for 2026'"
       ]
     },
     {
       "product_id": "20260219-155942-top-selling-digital-downloads",
       "type": "promotion_wordpress",
-      "post_id": 1211,
+      "post_id": 1355,
       "issues": [
-        "No product link found in post content",
         "SEO Warning: Not visible in top 20 for title 'Top Selling Digital Downloads'"
       ]
     },
@@ -2856,9 +2862,8 @@
     {
       "product_id": "20260219-063717-26-best-shopify-themes-for-202",
       "type": "promotion_wordpress",
-      "post_id": 1103,
+      "post_id": 1354,
       "issues": [
-        "No product link found in post content",
         "SEO Warning: Not visible in top 20 for title '26 Best Shopify Themes for 2026'"
       ]
     },
@@ -2910,7 +2915,7 @@
     {
       "product_id": "20260219-035801-build-your-2026",
       "type": "promotion_wordpress",
-      "post_id": 1236,
+      "post_id": 1353,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Build your 2026'"
       ]
@@ -2972,9 +2977,8 @@
     {
       "product_id": "20260219-002802-top-sales-templates-from-notio",
       "type": "promotion_wordpress",
-      "post_id": 1088,
+      "post_id": 1352,
       "issues": [
-        "No product link found in post content",
         "SEO Warning: Not visible in top 20 for title 'Top Sales Templates from Notion'"
       ]
     },
@@ -3146,7 +3150,7 @@
     {
       "product_id": "20260218-090417-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3154,7 +3158,7 @@
     {
       "product_id": "20260218-085832-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3162,7 +3166,7 @@
     {
       "product_id": "20260218-075918-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3170,7 +3174,7 @@
     {
       "product_id": "20260218-075634-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3256,9 +3260,10 @@
     {
       "product_id": "20260215-135151-ai-agent-monetization-guide",
       "type": "promotion_wordpress",
-      "post_id": 1037,
+      "post_id": 1253,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Ai Agent Monetization Guide'"
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'AI Agent Monetization Guide: Selling Custom GPT Actions'"
       ]
     },
     {
@@ -3514,7 +3519,7 @@
     {
       "product_id": "20260215-081614-saas-marketing",
       "type": "promotion_wordpress",
-      "post_id": 1224,
+      "post_id": 1364,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Saas Marketing'"
       ]
@@ -3621,7 +3626,7 @@
     {
       "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
       "type": "promotion_wordpress",
-      "post_id": 1028,
+      "post_id": 1350,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Ai Automation Agency Prompt Pack'"
       ]
