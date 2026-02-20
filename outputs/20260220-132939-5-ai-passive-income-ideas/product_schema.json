@@ -1,0 +1,63 @@
+{
+  "product_id": "20260220-132939-5-ai-passive-income-ideas",
+  "title": "Unlock Your Passive Income with 5 AI Passive Income Ideas",
+  "target_customer": "Creators and merchants interested in 5 AI Passive Income Ideas",
+  "value_proposition": "Leverage AI to create and sell digital products based on: 5 AI Passive Income Ideas",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with 5 AI Passive Income Ideas",
+      "subheadline": "Leverage AI to create and sell digital products based on: 5 AI Passive Income Ideas"
+    },
+    "problem": {
+      "description": "Manual AI workflows are slow and error-prone. Without a structured automation system, scaling AI-driven tasks leads to inconsistent quality and high operational costs."
+    },
+    "solution": {
+      "description": "A robust AI automation framework with pre-built prompt templates, error-handling logic, and automated quality gates. Designed for high-scale AI operations."
+    },
+    "features": [
+      "Hardened prompt engineering library for 5 AI Passive Income Ideas",
+      "Automated quality gate & validation logic for 5 AI Passive Income Ideas",
+      "Rate-limit & retry handling system for 5 AI Passive Income Ideas",
+      "Structured output (JSON/Markdown) templates for 5 AI Passive Income Ideas",
+      "AI-to-Human handoff workflows for 5 AI Passive Income Ideas"
+    ],
+    "benefits": [
+      "Ship faster with ready 5 AI Passive Income Ideas templates",
+      "Increase conversion with clear 5 AI Passive Income Ideas value prop",
+      "Operate with predictable 5 AI Passive Income Ideas delivery flow",
+      "Scale experimentation with simple 5 AI Passive Income Ideas A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$19.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the 5 AI Passive Income Ideas guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "modern",
+      "primary_color": "#10b981",
+      "secondary_color": "#10b981",
+      "font_family": "system-ui, sans-serif",
+      "layout_style": "professional"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-132939-5-ai-passive-income-ideas",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-132939-5-ai-passive-income-ideas",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-132939-5-ai-passive-income-ideas\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-132939-5-ai-passive-income-ideas\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-132939-5-ai-passive-income-ideas\\product.pdf",
+  "checksum": "9bf04cb7a8a7e8efdd085cfccb133ff9bdca92b55da6887b371c01e4426ef239",
+  "generated_at": "20260220-132948",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,16 +1,22 @@
 {
-  "timestamp": "2026-02-20T02:46:21.947136+00:00",
+  "timestamp": "2026-02-20T04:29:24.460964+00:00",
   "stats": {
-    "total": 205,
+    "total": 206,
     "published": 0,
     "waiting": 32,
     "failed": 0
   },
   "recent_products": [
     {
+      "id": "20260220-114637-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 11:46",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T11:46:37.875258"
+    },
+    {
       "id": "20260220-114219-top-definition-in-american-eng",
       "topic": "TOP definition in American English",
-      "status": "QA2_PASSED",
+      "status": "PROMOTED",
       "created_at": "2026-02-20T11:42:19.267645"
     },
     {
@@ -120,29 +126,23 @@
       "topic": "15+ Best Notion Freelance Templates",
       "status": "PROMOTED",
       "created_at": "2026-02-20T08:40:11.976162"
-    },
-    {
-      "id": "20260220-083354-12-notion-ideas-to-boost-produ",
-      "topic": "12 Notion Ideas to Boost Productivity in 2026",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T08:33:54.081181"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Trading / Bot / Crypto Tool\": 1}",
-    "last_updated": "2026-02-20T02:46:20.864489+00:00",
-    "phase": "running_autopilot",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
+    "last_updated": "2026-02-20T04:29:16.171779+00:00",
+    "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T02:41:47.510178+00:00",
-    "next_run_approx": "2026-02-20T02:41:57.511649+00:00",
+    "last_run_end": "2026-02-20T02:52:44.717032+00:00",
+    "next_run_approx": "2026-02-20T03:31:32.587183+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,

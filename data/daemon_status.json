@@ -1,10 +1,10 @@
 {
-  "last_log": "시장 분석 및 가격 최적화 봇 가동...",
-  "last_updated": "2026-02-20T04:29:11.120921+00:00",
-  "phase": "sleeping",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
+  "last_updated": "2026-02-20T04:29:24.587178+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
-    "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
     "auto_pilot.py",
     "--batch",
     "1"
