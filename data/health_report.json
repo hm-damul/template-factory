@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T02:23:07.696232+00:00",
+  "timestamp": "2026-02-20T02:29:18.138664+00:00",
   "stats": {
-    "total": 201,
+    "total": 202,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-112316-your-modern-ebook-reading-expe",
+      "topic": "Your modern ebook reading experience",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T11:23:16.063900"
+    },
     {
       "id": "20260220-110614-10-best-digital-products-for-p",
       "topic": "10 Best Digital Products for Passive Income in 2025 (Proven Ideas to ...",
@@ -120,17 +126,11 @@
       "topic": "Build Your Ultimate Course",
       "status": "PROMOTED",
       "created_at": "2026-02-20T08:09:37.745287"
-    },
-    {
-      "id": "20260220-074802-student-log-in",
-      "topic": "Student Log In",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T07:48:02.410339"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-20T02:23:06.982214+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Guide / E-book / Blueprint\": 1}",
+    "last_updated": "2026-02-20T02:29:17.448791+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T02:12:00.884737+00:00",
-    "next_run_approx": "2026-02-20T02:12:10.884737+00:00",
+    "last_run_end": "2026-02-20T02:29:05.704915+00:00",
+    "next_run_approx": "2026-02-20T02:29:15.704915+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
