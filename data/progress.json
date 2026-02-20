@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-221545-digital-asset-bundle-2026-02-2",
-  "updated_at": 1771605802.9811366,
-  "updated_at_iso": "2026-02-20T16:43:22Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260221-022733-digital-asset-bundle-2026-02-2",
+  "updated_at": 1771608466.11253,
+  "updated_at_iso": "2026-02-20T17:27:46Z"
 }
