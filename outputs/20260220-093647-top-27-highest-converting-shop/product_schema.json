@@ -1,0 +1,63 @@
+{
+  "product_id": "20260220-093647-top-27-highest-converting-shop",
+  "title": "Unlock Your Passive Income with Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
+  "target_customer": "Creators and merchants interested in Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
+      "subheadline": "Leverage AI to create and sell digital products based on: Top 27 Highest Converting Shopify Themes for 2026 – EComposer"
+    },
+    "problem": {
+      "description": "Generic e-commerce stores fail to build trust and suffer from high cart abandonment. Without a high-performance storefront, conversion remains stagnant."
+    },
+    "solution": {
+      "description": "A conversion-optimized e-commerce engine with mobile-first UI, friction-free checkout, and built-in trust triggers. Built for modern digital merchants."
+    },
+    "features": [
+      "Mobile-optimized high-speed landing UI for Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
+      "Trust-building proof & badge templates for Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
+      "Frictionless 1-click checkout flow for Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
+      "Automated order confirmation & tracking for Top 27 Highest Converting Shopify Themes for 2026 – EComposer",
+      "Urgency & scarcity trigger system for Top 27 Highest Converting Shopify Themes for 2026 – EComposer"
+    ],
+    "benefits": [
+      "Ship faster with ready Top 27 Highest Converting Shopify Themes for 2026 – EComposer templates",
+      "Increase conversion with clear Top 27 Highest Converting Shopify Themes for 2026 – EComposer value prop",
+      "Operate with predictable Top 27 Highest Converting Shopify Themes for 2026 – EComposer delivery flow",
+      "Scale experimentation with simple Top 27 Highest Converting Shopify Themes for 2026 – EComposer A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$49.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Top 27 Highest Converting Shopify Themes for 2026 – EComposer guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "landing",
+      "primary_color": "#6366f1",
+      "secondary_color": "#6366f1",
+      "font_family": "Roboto, sans-serif",
+      "layout_style": "bold"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  }
+}
