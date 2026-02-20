@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Packaging",
-  "progress": 80,
-  "details": "Creating ZIP package...",
-  "product_id": "20260221-033322-digital-asset-bundle-2026-02-2",
-  "updated_at": 1771627865.7479768,
-  "updated_at_iso": "2026-02-20T22:51:05Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260221-080621-digital-asset-bundle-2026-02-2",
+  "updated_at": 1771628793.226127,
+  "updated_at_iso": "2026-02-20T23:06:33Z"
 }
