@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T01:36:56.948072+00:00",
+  "timestamp": "2026-02-20T01:43:09.647765+00:00",
   "stats": {
-    "total": 198,
+    "total": 199,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-103707-490-business-management-ideen",
+      "topic": "490 Business Management-Ideen in 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T10:37:07.273622"
+    },
     {
       "id": "20260220-103146-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 10:31",
@@ -120,29 +126,23 @@
       "topic": "Digital Asset Bundle 2026-02-20 07:35",
       "status": "PROMOTED",
       "created_at": "2026-02-20T07:35:37.034949"
-    },
-    {
-      "id": "20260220-073144-digital-asset-bundle-2026-02-2",
-      "topic": "Digital Asset Bundle 2026-02-20 07:31",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T07:31:44.357650"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-20T01:36:56.260433+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-20T01:43:08.972480+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T01:36:44.608464+00:00",
-    "next_run_approx": "2026-02-20T01:36:54.608464+00:00",
+    "last_run_end": "2026-02-20T01:42:57.362929+00:00",
+    "next_run_approx": "2026-02-20T01:43:07.362930+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
