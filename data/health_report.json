@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T02:29:18.138664+00:00",
+  "timestamp": "2026-02-20T02:35:42.525898+00:00",
   "stats": {
-    "total": 202,
+    "total": 203,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-112926-digital-products-examples",
+      "topic": "Digital Products Examples",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T11:29:26.033029"
+    },
     {
       "id": "20260220-112316-your-modern-ebook-reading-expe",
       "topic": "Your modern ebook reading experience",
@@ -120,17 +126,11 @@
       "topic": "Course Login",
       "status": "PROMOTED",
       "created_at": "2026-02-20T08:27:10.539982"
-    },
-    {
-      "id": "20260220-080937-build-your-ultimate-course",
-      "topic": "Build Your Ultimate Course",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T08:09:37.745287"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Guide / E-book / Blueprint\": 1}",
-    "last_updated": "2026-02-20T02:29:17.448791+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-20T02:35:41.786515+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T02:29:05.704915+00:00",
-    "next_run_approx": "2026-02-20T02:29:15.704915+00:00",
+    "last_run_end": "2026-02-20T02:35:25.350867+00:00",
+    "next_run_approx": "2026-02-20T02:35:35.350867+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,

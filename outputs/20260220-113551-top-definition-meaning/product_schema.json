@@ -1,0 +1,63 @@
+{
+  "product_id": "20260220-113551-top-definition-meaning",
+  "title": "Unlock Your Passive Income with TOP Definition & Meaning",
+  "target_customer": "Creators and merchants interested in TOP Definition & Meaning",
+  "value_proposition": "Leverage AI to create and sell digital products based on: TOP Definition & Meaning",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with TOP Definition & Meaning",
+      "subheadline": "Leverage AI to create and sell digital products based on: TOP Definition & Meaning"
+    },
+    "problem": {
+      "description": "Creating and selling digital products is complex and time-consuming. Most creators fail due to technical friction and lack of a structured system."
+    },
+    "solution": {
+      "description": "A professional-grade implementation system that handles everything from landing to delivery. Focus on your content, we handle the infrastructure."
+    },
+    "features": [
+      "One-file deployment architecture for TOP Definition & Meaning",
+      "Secure token-gated delivery for TOP Definition & Meaning",
+      "Conversion-optimized landing components for TOP Definition & Meaning",
+      "Built-in analytics & tracking for TOP Definition & Meaning",
+      "Automated promotion asset generator for TOP Definition & Meaning"
+    ],
+    "benefits": [
+      "Ship faster with ready TOP Definition & Meaning templates",
+      "Increase conversion with clear TOP Definition & Meaning value prop",
+      "Operate with predictable TOP Definition & Meaning delivery flow",
+      "Scale experimentation with simple TOP Definition & Meaning A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$19.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the TOP Definition & Meaning guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "saas",
+      "primary_color": "#10b981",
+      "secondary_color": "#10b981",
+      "font_family": "Inter, sans-serif",
+      "layout_style": "minimalist"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-113551-top-definition-meaning",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-113551-top-definition-meaning",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-113551-top-definition-meaning\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-113551-top-definition-meaning\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-113551-top-definition-meaning\\product.pdf",
+  "checksum": "3436ebcfd4cf19b37c6b0705ecd96bad58316b2978cb12223799813244644c41",
+  "generated_at": "20260220-113602",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
