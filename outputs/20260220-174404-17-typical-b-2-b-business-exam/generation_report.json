@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-174404-17-typical-b-2-b-business-exam",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-174404-17-typical-b-2-b-business-exam",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-174404-17-typical-b-2-b-business-exam\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-174404-17-typical-b-2-b-business-exam\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-174404-17-typical-b-2-b-business-exam\\product.pdf",
+  "checksum": "3b643664c5134aaf8c739c45621b9c2d84726e4c9b62e494253d7eae03d3de57",
+  "generated_at": "20260220-174415",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

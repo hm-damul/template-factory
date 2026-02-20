@@ -1,5 +1,5 @@
-# SEO Content Blueprint — 5 AI Passive Income Ideas
-**Primary Keyword:** 5 AI Passive Income Ideas automation
+# SEO Content Blueprint — Unlock Your Passive Income with 5 AI Passive Income Ideas
+**Primary Keyword:** Leverage AI to create and sell digital products based on: 5 AI Passive Income Ideas automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

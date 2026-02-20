@@ -1,6 +1,6 @@
 {
-  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 2, \"Course / Masterclass\": 1, \"Template / Landing Page\": 1, \"Guide / E-book / Blueprint\": 1}",
-  "last_updated": "2026-02-20T08:39:29.960428+00:00",
+  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 2}",
+  "last_updated": "2026-02-20T08:43:49.697338+00:00",
   "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-20T04:35:39.774780+00:00",
-  "next_run_approx": "2026-02-20T04:35:49.774781+00:00",
+  "last_run_end": "2026-02-20T08:43:01.020101+00:00",
+  "next_run_approx": "2026-02-20T08:43:11.020101+00:00",
   "count": 1,
   "status": "running",
   "pid": 7048,

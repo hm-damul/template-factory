@@ -1,23 +1,30 @@
 {
   "product_id": "20260220-092534-best-shopify-themes-for-your-s",
-  "created_at": "2026-02-20T00:25:44Z",
+  "created_at": "2026-02-20T08:40:28Z",
   "files": [
+    "blog.txt",
     "blog_longform.md",
     "blog_outline.md",
+    "blog_post.html",
     "blog_post.md",
+    "channel_payloads.json",
+    "instagram.txt",
     "instagram_post.txt",
     "linkedin_posts.txt",
     "medium_story.md",
     "newsletter_email.txt",
     "promo_calendar_30d.csv",
     "promo_pack.zip",
+    "promotion_manifest.json",
     "reddit_posts.txt",
     "sales_page_copy.md",
     "seo.txt",
     "shortform_scripts.txt",
     "shortform_video_script.txt",
+    "tiktok.txt",
     "x_posts.txt",
-    "x_threads.txt"
+    "x_threads.txt",
+    "youtube_shorts.txt"
   ],
   "validation": {
     "passed": true,
