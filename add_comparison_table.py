@@ -77,6 +77,9 @@ def inject_comparison():
         path_obj = Path(file_path)
         product_id = path_obj.parent.name
         
+        # Get product info from DB for status check later
+        p_info = lm.get_product(product_id)
+        
         # Get price
         price_usd = 29.0  # Default fallback
         
@@ -98,7 +101,6 @@ def inject_comparison():
                 print(f"Error reading schema for {product_id}: {e}")
         else:
             # [Priority 2] Fallback to DB
-            p_info = lm.get_product(product_id)
             if p_info:
                 meta = p_info.get("metadata", {})
                 if isinstance(meta, str):
