@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T12:22:46.459919+00:00",
+  "timestamp": "2026-02-20T12:28:58.777803+00:00",
   "stats": {
-    "total": 225,
+    "total": 226,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-212254-how-i-made-93k-in-revenue-sell",
+      "topic": "How I Made $93K in Revenue Selling Digital Downloads on Etsy",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T21:22:54.872066"
+    },
     {
       "id": "20260220-211508-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 21:15",
@@ -120,29 +126,23 @@
       "topic": "5 AI Passive Income Ideas",
       "status": "PROMOTED",
       "created_at": "2026-02-20T13:29:39.649899"
-    },
-    {
-      "id": "20260220-114637-digital-asset-bundle-2026-02-2",
-      "topic": "Digital Asset Bundle 2026-02-20 11:46",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T11:46:37.875258"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-20T12:22:45.767452+00:00",
+    "last_log": "가격 최적화 완료: {\"SaaS / System\": 1}",
+    "last_updated": "2026-02-20T12:28:58.083430+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T12:22:34.013691+00:00",
-    "next_run_approx": "2026-02-20T12:22:44.013691+00:00",
+    "last_run_end": "2026-02-20T12:28:46.388047+00:00",
+    "next_run_approx": "2026-02-20T12:28:56.388047+00:00",
     "count": 1,
     "status": "running",
     "pid": 7048,
