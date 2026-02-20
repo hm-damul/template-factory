@@ -1,7 +1,7 @@
 {
-  "last_log": "자동 복구(Auto-heal) 프로세스 시작...",
-  "last_updated": "2026-02-20T16:33:04.254132+00:00",
-  "phase": "idle",
+  "last_log": "--- RUN #3 END (took 968.3s). Next run in 2631.7s ---",
+  "last_updated": "2026-02-20T16:43:23.546356+00:00",
+  "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-20T15:43:35.591409+00:00",
-  "next_run_approx": "2026-02-20T16:27:14.692497+00:00",
+  "last_run_end": "2026-02-20T16:43:23.534636+00:00",
+  "next_run_approx": "2026-02-20T17:27:15.260845+00:00",
   "count": 1,
   "status": "running",
   "pid": 1188,

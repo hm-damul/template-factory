@@ -2,6 +2,7 @@ import json
 import os
 import base64
 import time
+import shutil
 import subprocess
 from datetime import datetime
 from pathlib import Path
@@ -403,24 +404,21 @@ class Publisher:
                             if api_r.status_code == 200:
                                 logger.info(f"배포 검증 성공: {url} (HTTP 200, API OK)")
                                 return
-                            else:
-                                logger.warning(f"API 검증 실패 (HTTP {api_r.status_code}): {api_url}")
                         except Exception as e:
-                            logger.warning(f"API 검증 중 오류: {e}")
-                            # API 검증 실패하더라도 메인 페이지가 뜨면 일단 성공으로 간주할 수 있음 (옵션)
-                            # 하지만 여기서는 엄격하게 체크하거나, API가 없으면 패스하도록 수정 가능
-                            # 일단 API 검증 실패해도 메인 페이지가 200이면 성공으로 처리 (사용자 요청: 결과 우선)
-                            logger.info(f"배포 검증 성공 (메인 페이지 OK, API 확인 불가): {url}")
+                            logger.warning(f"API 검증 중 오류 (무시함): {e}")
+                            # API 실패해도 메인 페이지가 뜨면 일단 성공으로 간주 (API는 콜드 스타트일 수 있음)
+                            logger.info(f"배포 검증 성공 (API 체크 건너뜀): {url}")
                             return
                 else:
-                    logger.warning(f"검증 실패 (HTTP {r.status_code}): {url}")
+                    logger.warning(f"검증 대기 중... 상태 코드: {r.status_code}")
             except Exception as e:
-                logger.warning(f"검증 중 오류 발생 ({i+1}/{max_retries}): {e}")
+                logger.warning(f"검증 연결 오류: {e}")
         
-        # 모든 재시도 실패 시
-        # 사용자 요청: "성공시키게 만들어서" -> 실패해도 일단 진행 (URL은 맞다고 가정)
-        logger.error(f"배포 후 검증 최종 실패: {url}. 하지만 배포는 완료되었으므로 진행합니다.")
-        # raise ProductionError(...) # 에러 발생시키지 않음
+        raise ProductionError(
+            f"배포 검증 실패: {url} (최대 재시도 {max_retries}회 초과)",
+            stage="Publish_Verify",
+            product_id=product_id
+        )
 
     def _update_vercel_project_settings(self, project_name: str):
         """Vercel 프로젝트 설정을 업데이트하여 Framework 오탐지를 방지합니다."""
@@ -552,6 +550,26 @@ class Publisher:
             # .gitignore에 outputs/가 있어도 강제로 추가하여 배포 포함
             # product_id에 해당하는 폴더만 강제 추가
             output_path = f"outputs/{product_id}"
+
+            # [NEW] Ensure files are served via public folder too (for Vercel compatibility)
+            # Some Vercel configurations prefer static files in public/
+            public_output_path = f"public/outputs/{product_id}"
+            if os.path.exists(output_path):
+                try:
+                    # Ensure parent directory exists
+                    os.makedirs(os.path.dirname(public_output_path), exist_ok=True)
+                    
+                    # Copy directory (overwrite if exists)
+                    if os.path.exists(public_output_path):
+                        shutil.rmtree(public_output_path)
+                    shutil.copytree(output_path, public_output_path)
+                    logger.info(f"Copied {output_path} to {public_output_path} for static serving")
+                    
+                    # Add public output path to git
+                    subprocess.run(["git", "add", public_output_path], check=True, capture_output=True)
+                except Exception as e:
+                    logger.warning(f"Failed to copy to public folder: {e}")
+
             if os.path.exists(output_path):
                 logger.info(f"Git: {output_path} 강제 추가 (ignored 파일 포함)")
                 subprocess.run(["git", "add", "-f", output_path], check=True, capture_output=True)
