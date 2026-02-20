@@ -1,14 +1,50 @@
 {
-  "last_audit": "2026-02-20 09:49:00",
+  "last_audit": "2026-02-20 10:49:30",
   "summary": {
-    "total_products": 194,
-    "healthy_products": 21,
+    "total_products": 200,
+    "healthy_products": 27,
     "broken_products": 173,
-    "total_promotions": 342,
+    "total_promotions": 348,
     "healthy_promotions": 141,
-    "broken_promotions": 201
+    "broken_promotions": 207
   },
   "details": [
+    {
+      "product_id": "20260220-104317-25-digital-product-niches-to-w",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-103707-490-business-management-ideen",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-103146-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-103030-the-hottest-etsy-trends-for-20",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-102409-2026-planner",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-100544-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
     {
       "product_id": "20260220-094258-find-the-school-that-fits-you",
       "type": "product",
@@ -1550,6 +1586,60 @@
       "issues": [
         "Deployment URL dead/invalid: Status Code 401",
         "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260220-104317-25-digital-product-niches-to-w",
+      "type": "promotion_wordpress",
+      "post_id": 1321,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-104317-25-digital-product-niches-to-w/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '25 Digital Product Niches to Watch in 2025/2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-103707-490-business-management-ideen",
+      "type": "promotion_wordpress",
+      "post_id": 1320,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-103707-490-business-management-ideen/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title '490 Business Management-Ideen in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-103146-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1319,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-103146-digital-asset-bundle-2026-02-2/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 10:31'"
+      ]
+    },
+    {
+      "product_id": "20260220-103030-the-hottest-etsy-trends-for-20",
+      "type": "promotion_wordpress",
+      "post_id": 1318,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-103030-the-hottest-etsy-trends-for-20/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'The Hottest Etsy Trends for 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-102409-2026-planner",
+      "type": "promotion_wordpress",
+      "post_id": 1317,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-102409-2026-planner/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '2026 Planner'"
+      ]
+    },
+    {
+      "product_id": "20260220-100544-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1316,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-100544-digital-asset-bundle-2026-02-2/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 10:05'"
       ]
     },
     {
