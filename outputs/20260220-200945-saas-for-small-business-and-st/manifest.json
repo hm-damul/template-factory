@@ -4,7 +4,7 @@
   "topic": "SaaS For Small Business and Startups: 15 Micro SaaS Ideas in 2026",
   "product_id": "20260220-200945-saas-for-small-business-and-st",
   "created_at": "2026-02-20T11:09:57Z",
-  "price_usd": 29.0,
+  "price_usd": 59,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "35b7a7226dc2d2c602fd8f78a2bbd5728822bfb13f4be2b27db1a5f8c926a426",
     "promotions/x_threads.txt": "cb8992e98a0a86b58991ccd8d88f0efa255c45b4f4b2e29d4e8a487c7858a173",
     "promotions/youtube_shorts.txt": "cfa5887805ec12bda810ae7b3e16853bf62e6d4b14d8fdd03db811f525126347"
-  }
+  },
+  "price": 59,
+  "market_price": 179
 }

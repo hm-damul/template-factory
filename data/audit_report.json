@@ -1,14 +1,50 @@
 {
-  "last_audit": "2026-02-20 18:35:06",
+  "last_audit": "2026-02-20 20:09:19",
   "summary": {
-    "total_products": 215,
-    "healthy_products": 183,
+    "total_products": 221,
+    "healthy_products": 189,
     "broken_products": 32,
-    "total_promotions": 362,
+    "total_promotions": 368,
     "healthy_promotions": 141,
-    "broken_promotions": 221
+    "broken_promotions": 227
   },
   "details": [
+    {
+      "product_id": "20260220-200310-400-high-ticket-product-ideas",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-195647-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-195037-23-proven-ways-to-make-money-o",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-194413-ielts-speaking-part-1-topics-q",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-192514-untapped-gg",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-191010-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
     {
       "product_id": "20260220-182642-ielts-speaking-part-3-topics",
       "type": "product",
@@ -1361,6 +1397,60 @@
       "status": "PUBLISHED",
       "issues": [
         "Deployment URL dead/invalid: Status Code 401"
+      ]
+    },
+    {
+      "product_id": "20260220-200310-400-high-ticket-product-ideas",
+      "type": "promotion_wordpress",
+      "post_id": 1341,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-200310-400-high-ticket-product-ideas/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '400+ High-Ticket Product Ideas to Sell !! ( 2026 List)'"
+      ]
+    },
+    {
+      "product_id": "20260220-195647-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1340,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-195647-digital-asset-bundle-2026-02-2/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 19:56'"
+      ]
+    },
+    {
+      "product_id": "20260220-195037-23-proven-ways-to-make-money-o",
+      "type": "promotion_wordpress",
+      "post_id": 1339,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-195037-23-proven-ways-to-make-money-o/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '23 Proven Ways To Make Money Online in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-194413-ielts-speaking-part-1-topics-q",
+      "type": "promotion_wordpress",
+      "post_id": 1338,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-194413-ielts-speaking-part-1-topics-q/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'IELTS Speaking Part 1 Topics &#038; Questions'"
+      ]
+    },
+    {
+      "product_id": "20260220-192514-untapped-gg",
+      "type": "promotion_wordpress",
+      "post_id": 1337,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-192514-untapped-gg/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Untapped .gg'"
+      ]
+    },
+    {
+      "product_id": "20260220-191010-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1336,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-191010-digital-asset-bundle-2026-02-2/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 19:10'"
       ]
     },
     {

@@ -741,17 +741,27 @@
         <div class="card"><h4>Conversion-optimized landing components for Student Log In</h4><p>Conversion-optimized landing components for Student Log In</p></div>
         <div class="card"><h4>Built-in analytics &amp; tracking for Student Log In</h4><p>Built-in analytics &amp; tracking for Student Log In</p></div>
         <div class="card"><h4>Automated promotion asset generator for Student Log In</h4><p>Automated promotion asset generator for Student Log In</p></div>
+      <div class="card"><h4>Refund Policy</h4><p>Refund Policy: Due to the nature of digital products, all sales are final. No refunds are available after download.</p></div>
       </div>
     </section>
 
     <section id="pricing">
       <h2 class="section-title">Pricing</h2>
       <div class="pricing">
-        <div class="card" style="border-color: rgba(0,180,255,0.38); box-shadow: 0 24px 80px rgba(0,180,255,0.12);"><div class="badge"><span class="pill" style="background: var(--accent2);"></span><span>Standard Access</span></div><div class="price">$29.00<span style="font-size:14px; color: var(--muted);">/mo</span></div><p class="sub" style="font-size:13px;">Best for most creators.</p><ul class="list"><li>Full access</li><li>Priority support</li><li>Updates included</li></ul><div class="row"><button class="btn btn-primary" data-action="choose-plan" data-plan="Standard Access" data-price="$29.00">Standard Access</button></div></div>
+        <div class="card" style="border-color: rgba(0,180,255,0.38); box-shadow: 0 24px 80px rgba(0,180,255,0.12);"><div class="badge"><span class="pill" style="background: var(--accent2);"></span><span>Standard Access</span></div><div class="price">$29.00<span style="font-size:14px; color: var(--muted);">/mo</span></div><div class="crypto-price-display" style="font-size: 0.8rem; color: #666; margin-top: 5px;">Pay with USDT, ETH (~0.0148), BTC</div><p class="sub" style="font-size:13px;">Best for most creators.</p><ul class="list"><li>Full access</li><li>Priority support</li><li>Updates included</li></ul><div class="row"><button class="btn btn-primary" data-action="choose-plan" data-plan="Standard Access" data-price="$29.00">Standard Access</button></div></div>
+      <div class="card"><h4>Refund Policy</h4><p>Refund Policy: Due to the nature of digital products, all sales are final. No refunds are available after download.</p></div>
       </div>
     </section>
 
     
+
+
+
+
+
+
+
+
 
 
 
@@ -818,12 +828,21 @@
 
 
 
+
+
+
+
+
+
+
+
 <section id="faq">
       <h2 class="section-title">FAQ</h2>
       <div class="faq">
         <div class="card"><h4>What is included?</h4><p>You get the full landing page, the Student Log In guide, and automated delivery setup.</p></div>
         <div class="card"><h4>How do I deploy?</h4><p>Upload to Vercel, Netlify, or any static host. No backend needed.</p></div>
         <div class="card"><h4>Is it secure?</h4><p>Yes, it uses wallet-based authentication for delivery gating.</p></div>
+      <div class="card"><h4>Refund Policy</h4><p>Refund Policy: Due to the nature of digital products, all sales are final. No refunds are available after download.</p></div>
       </div>
     </section>
 
@@ -1365,5 +1384,48 @@
       // showToast("JS loaded.");
     })();
   </script>
+
+<script>
+  (function() {
+    function updateEthPrice() {
+      var priceEl = document.querySelector('.price');
+      if (!priceEl) return;
+      var priceText = priceEl.childNodes[0].textContent.replace(/[^0-9.]/g, '');
+      var price = parseFloat(priceText);
+      if (isNaN(price)) price = 49.00;
+      
+      fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd')
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+          var ethRate = data.ethereum.usd;
+          var ethAmount = (price / ethRate).toFixed(4);
+          
+          // Try to update via class
+          var cryptoEl = document.querySelector('.crypto-price-display');
+          if (cryptoEl) {
+             cryptoEl.innerHTML = 'Pay with USDT, ETH (~' + ethAmount + '), BTC';
+          } else {
+             // Fallback to text search
+             var els = document.querySelectorAll('div');
+             for (var i = 0; i < els.length; i++) {
+                if (els[i].textContent.indexOf('Pay with USDT, ETH') > -1) {
+                   els[i].innerHTML = 'Pay with USDT, ETH (~' + ethAmount + '), BTC';
+                   break;
+                }
+             }
+          }
+        })
+        .catch(function(err) {
+           console.log('ETH price fetch failed, using fallback');
+        });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updateEthPrice);
+    } else {
+      updateEthPrice();
+    }
+  })();
+</script>
+
 </body>
 </html>

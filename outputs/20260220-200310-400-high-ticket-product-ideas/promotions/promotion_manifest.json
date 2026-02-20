@@ -1,6 +1,6 @@
 {
   "product_id": "20260220-200310-400-high-ticket-product-ideas",
-  "created_at": "2026-02-20T11:10:08Z",
+  "created_at": "2026-02-20T11:50:00Z",
   "files": [
     "blog.txt",
     "blog_longform.md",
@@ -29,4 +29,6 @@
     "passed": true,
     "score": 0.97,
     "feedback": [],
-    "schem
+    "schema_errors": []
+  }
+}
