@@ -1,6 +1,6 @@
 {
-  "product_id": "20260220-084628-digital-asset-bundle-2026-02-2",
-  "topic": "Digital Asset Bundle 2026-02-20 08:46",
+  "product_id": "20260220-090820-digital-products-best-seller-2",
+  "topic": "Digital Products Best Seller 2026",
   "sections": [
     "executive_overview",
     "strategic_foundation",
@@ -13,6 +13,5 @@
     "roadmap",
     "bonus_vault"
   ],
-  "price_band": "$19.00",
-  "price_wei": 6000000000000000
+  "price_band": "$19.00"
 }

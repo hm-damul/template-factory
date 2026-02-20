@@ -1,14 +1,50 @@
 {
-  "last_audit": "2026-02-20 07:54:11",
+  "last_audit": "2026-02-20 08:52:35",
   "summary": {
-    "total_products": 182,
-    "healthy_products": 9,
+    "total_products": 188,
+    "healthy_products": 15,
     "broken_products": 173,
-    "total_promotions": 330,
+    "total_promotions": 336,
     "healthy_promotions": 141,
-    "broken_promotions": 189
+    "broken_promotions": 195
   },
   "details": [
+    {
+      "product_id": "20260220-084628-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-084011-15-best-notion-freelance-templ",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-083354-12-notion-ideas-to-boost-produ",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-083144-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-082710-course-login",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-080937-build-your-ultimate-course",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
     {
       "product_id": "20260220-074802-student-log-in",
       "type": "product",
@@ -1478,6 +1514,60 @@
       "issues": [
         "Deployment URL dead/invalid: Status Code 401",
         "Promotion quality failed (Score 0.84): Missing Missing Section: Meta Description, Missing Section: Key Takeaways, Missing Section: Faq Section, Missing Section: Trust Security"
+      ]
+    },
+    {
+      "product_id": "20260220-084628-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1309,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-084628-digital-asset-bundle-2026-02-2/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 08:46'"
+      ]
+    },
+    {
+      "product_id": "20260220-084011-15-best-notion-freelance-templ",
+      "type": "promotion_wordpress",
+      "post_id": 1308,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-084011-15-best-notion-freelance-templ/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '15+ Best Notion Freelance Templates'"
+      ]
+    },
+    {
+      "product_id": "20260220-083354-12-notion-ideas-to-boost-produ",
+      "type": "promotion_wordpress",
+      "post_id": 1307,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-083354-12-notion-ideas-to-boost-produ/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title '12 Notion Ideas to Boost Productivity in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-083144-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1306,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-083144-digital-asset-bundle-2026-02-2/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 08:31'"
+      ]
+    },
+    {
+      "product_id": "20260220-082710-course-login",
+      "type": "promotion_wordpress",
+      "post_id": 1305,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-082710-course-login/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Course Login'"
+      ]
+    },
+    {
+      "product_id": "20260220-080937-build-your-ultimate-course",
+      "type": "promotion_wordpress",
+      "post_id": 1304,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-080937-build-your-ultimate-course/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Build Your Ultimate Course'"
       ]
     },
     {
