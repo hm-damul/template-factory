@@ -1,7 +1,7 @@
 {
-  "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1, \"Prompt Pack / Asset\": 2}, [\"20260221-032731-13-profitable-niche-digital-pr\", \"20260221-033322-digital-asset-bundle-2026-02-2\", \"20260221-034852-digital-asset-bundle-2026-02-2\"]]",
-  "last_updated": "2026-02-20T19:44:18.039864+00:00",
-  "phase": "running_autopilot",
+  "last_log": "자동 복구(Auto-heal) 프로세스 시작...",
+  "last_updated": "2026-02-20T20:00:27.231986+00:00",
+  "phase": "idle",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
