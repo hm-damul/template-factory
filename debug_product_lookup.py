@@ -7,9 +7,8 @@ def check_product(pid):
     p = lm.get_product(pid)
     if p:
         print(f"Product found: {pid}")
-        print(f"Status: {p['status']}")
-        print(f"Title: {p['title']}")
-        print(f"Meta: {json.dumps(p.get('metadata'), indent=2, ensure_ascii=False)}")
+        print(f"Keys: {list(p.keys())}")
+        print(f"Content: {json.dumps(p, indent=2, ensure_ascii=False, default=str)}")
     else:
         print(f"Product NOT found: {pid}")
         # Try fuzzy search
