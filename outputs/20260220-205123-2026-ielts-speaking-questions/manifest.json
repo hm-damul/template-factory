@@ -4,7 +4,7 @@
   "topic": "2026 IELTS Speaking Questions And Answer",
   "product_id": "20260220-205123-2026-ielts-speaking-questions",
   "created_at": "2026-02-20T11:51:41Z",
-  "price_usd": 19.0,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "dba37ea9d2d9e4fe61e6e9322edd554fcf3058fe2eb6dff0d2953b22d1a881ff",
     "promotions/x_threads.txt": "36bcb1215bfacd55baebfdfe2ffe4f3096b7c3f1dc27384a919d18cdd24a906c",
     "promotions/youtube_shorts.txt": "6daab8f1005416a54e898d649e88d98ac60b69ab9db3a29c0f2dbd1e8427fac8"
-  }
+  },
+  "price": 29,
+  "market_price": 49
 }

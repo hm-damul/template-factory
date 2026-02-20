@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T11:51:07.559458+00:00",
+  "timestamp": "2026-02-20T12:12:37.990377+00:00",
   "stats": {
-    "total": 222,
-    "published": 0,
-    "waiting": 32,
+    "total": 223,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-205123-2026-ielts-speaking-questions",
+      "topic": "2026 IELTS Speaking Questions And Answer",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T20:51:23.471455"
+    },
     {
       "id": "20260220-200945-saas-for-small-business-and-st",
       "topic": "SaaS For Small Business and Startups: 15 Micro SaaS Ideas in 2026",
@@ -120,29 +126,23 @@
       "topic": "TOP Definition & Meaning",
       "status": "PROMOTED",
       "created_at": "2026-02-20T11:35:51.070420"
-    },
-    {
-      "id": "20260220-112926-digital-products-examples",
-      "topic": "Digital Products Examples",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T11:29:26.033029"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 2}",
-    "last_updated": "2026-02-20T11:51:06.469382+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 1}",
+    "last_updated": "2026-02-20T12:12:37.224282+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T11:18:11.738034+00:00",
-    "next_run_approx": "2026-02-20T12:09:32.410099+00:00",
+    "last_run_end": "2026-02-20T11:59:01.298325+00:00",
+    "next_run_approx": "2026-02-20T11:59:11.298326+00:00",
     "count": 1,
     "status": "running",
     "pid": 7048,

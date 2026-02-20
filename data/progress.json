@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-205123-2026-ielts-speaking-questions",
-  "updated_at": 1771588687.5596933,
-  "updated_at_iso": "2026-02-20T11:58:07Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260220-211248-digital-asset-bundle-2026-02-2",
+  "updated_at": 1771589588.1461482,
+  "updated_at_iso": "2026-02-20T12:13:08Z"
 }
