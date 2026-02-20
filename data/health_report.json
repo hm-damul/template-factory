@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T00:08:10.040041+00:00",
+  "timestamp": "2026-02-20T00:25:26.655552+00:00",
   "stats": {
-    "total": 188,
-    "published": 0,
-    "waiting": 32,
+    "total": 189,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-090820-digital-products-best-seller-2",
+      "topic": "Digital Products Best Seller 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T09:08:20.436925"
+    },
     {
       "id": "20260220-084628-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 08:46",
@@ -120,17 +126,11 @@
       "topic": "17 Untapped Digital Products that Sell Like Crazy in 2025 and Beyond ...",
       "status": "PROMOTED",
       "created_at": "2026-02-20T05:39:43.743587"
-    },
-    {
-      "id": "20260220-053326-stablecoin-settlement-handbook",
-      "topic": "Stablecoin Settlement Handbook for Cross-Border Solopreneurs",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T05:33:26.925912"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-20T00:08:09.343446+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-20T00:25:25.763479+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-19T23:52:24.304145+00:00",
-    "next_run_approx": "2026-02-19T23:52:34.304146+00:00",
+    "last_run_end": "2026-02-20T00:14:19.531335+00:00",
+    "next_run_approx": "2026-02-20T00:14:29.531335+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
