@@ -12,7 +12,12 @@ import requests
 
 from .config import Config
 from .ledger_manager import LedgerManager
-from .product_generator import _render_landing_html_from_schema
+# Import product generator for HTML regeneration
+try:
+    from .product_generator import _render_landing_html_from_schema
+except ImportError:
+    # Fallback if circular import or missing
+    _render_landing_html_from_schema = None
 from .utils import ProductionError, get_logger, handle_errors, retry_on_failure
 
 logger = get_logger(__name__)
