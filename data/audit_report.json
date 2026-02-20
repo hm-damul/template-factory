@@ -1,18 +1,36 @@
 {
-  "last_audit": "2026-02-20 11:31:33",
+  "last_audit": "2026-02-20 11:59:38",
   "summary": {
-    "total_products": 203,
-    "healthy_products": 30,
+    "total_products": 206,
+    "healthy_products": 33,
     "broken_products": 173,
-    "total_promotions": 350,
+    "total_promotions": 354,
     "healthy_promotions": 141,
-    "broken_promotions": 209
+    "broken_promotions": 213
   },
   "details": [
     {
+      "product_id": "20260220-114637-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-114219-top-definition-in-american-eng",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-113551-top-definition-meaning",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
       "product_id": "20260220-112926-digital-products-examples",
       "type": "product",
-      "status": "QA2_PASSED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -1607,6 +1625,42 @@
       ]
     },
     {
+      "product_id": "20260220-114637-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1327,
+      "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-114637-digital-asset-bundle-2026-02-2/index.html found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 11:46'"
+      ]
+    },
+    {
+      "product_id": "20260220-114219-top-definition-in-american-eng",
+      "type": "promotion_wordpress",
+      "post_id": 1326,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-114219-top-definition-in-american-eng/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'TOP definition in American English'"
+      ]
+    },
+    {
+      "product_id": "20260220-113551-top-definition-meaning",
+      "type": "promotion_wordpress",
+      "post_id": 1325,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-113551-top-definition-meaning/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'TOP Definition &#038; Meaning'"
+      ]
+    },
+    {
+      "product_id": "20260220-112926-digital-products-examples",
+      "type": "promotion_wordpress",
+      "post_id": 1324,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-112926-digital-products-examples/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Digital Products Examples'"
+      ]
+    },
+    {
       "product_id": "20260220-112316-your-modern-ebook-reading-expe",
       "type": "promotion_wordpress",
       "post_id": 1323,
@@ -1999,8 +2053,7 @@
       "type": "promotion_wordpress",
       "post_id": 1280,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-040541-top-10-digital-product-niches/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top 10 Digital Product Niches for 2026 (Low Competition, High ROI)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1280 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2008,8 +2061,7 @@
       "type": "promotion_wordpress",
       "post_id": 1279,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-034618-2026-guide-38-popular-digital/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '(2026 Guide) 38 Popular Digital Products On Etsy'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1279 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2017,8 +2069,7 @@
       "type": "promotion_wordpress",
       "post_id": 1278,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-033412-30-best-free-shopify-themes-20/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '30 Best free Shopify themes ( 2026 )'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1278 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2026,7 +2077,7 @@
       "type": "promotion_wordpress",
       "post_id": 1277,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'How to Use Amazon’s New AI Tool to Discover Untapped Digital &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1277 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2034,8 +2085,7 @@
       "type": "promotion_wordpress",
       "post_id": 1276,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-031839-trending-etsy-products-2026/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Trending Etsy Products 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1276 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2043,8 +2093,7 @@
       "type": "promotion_wordpress",
       "post_id": 1275,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Selling Notion Templates on Whop'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1275 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2052,8 +2101,7 @@
       "type": "promotion_wordpress",
       "post_id": 1274,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'What Genres Dominate the eBook Market in 2026?'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1274 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2061,8 +2109,7 @@
       "type": "promotion_wordpress",
       "post_id": 1273,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '40 Best Digital AI Product Design Examples in 2025'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1273 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2070,8 +2117,7 @@
       "type": "promotion_wordpress",
       "post_id": 1272,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Digital Product Ideas 2026 for Online Success'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1272 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2079,8 +2125,7 @@
       "type": "promotion_wordpress",
       "post_id": 1271,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'NFT Business Blueprint: Beyond the Hype to Real Utility'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1271 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2088,8 +2133,7 @@
       "type": "promotion_wordpress",
       "post_id": 1270,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Products Goldmine: 200 Untapped Niches for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1270 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2097,8 +2141,7 @@
       "type": "promotion_wordpress",
       "post_id": 1269,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '10 Best Shopify Themes for High Conversions in 2026 Guide'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1269 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2106,8 +2149,7 @@
       "type": "promotion_wordpress",
       "post_id": 1268,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '8 Creative Ideas to Make AI-Generated Digital Products Unique'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1268 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2115,8 +2157,7 @@
       "type": "promotion_wordpress",
       "post_id": 1267,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'A Dozen Digital Product Ideas You Can Build With AI in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1267 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2124,8 +2165,7 @@
       "type": "promotion_wordpress",
       "post_id": 1266,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Most Popular Genres for 2026 – What Readers Are Buying'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1266 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2133,8 +2173,7 @@
       "type": "promotion_wordpress",
       "post_id": 1265,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Cold-Wallet Ops Manual for Digital Product Businesses'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1265 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2142,8 +2181,7 @@
       "type": "promotion_wordpress",
       "post_id": 1264,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '9 Most Profitable Notion Niches to Sell and Make Money 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1264 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2151,8 +2189,7 @@
       "type": "promotion_wordpress",
       "post_id": 1263,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '10 Digital Products You Can Sell Using AI Tools in 2025'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1263 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2160,8 +2197,7 @@
       "type": "promotion_wordpress",
       "post_id": 1262,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '16 Best Notion Life Planner Templates for 2026 (Goals &#038; Vision)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1262 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2169,8 +2205,7 @@
       "type": "promotion_wordpress",
       "post_id": 1261,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '6 Best B2B eCommerce Examples to Check Out in 2025'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1261 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2178,8 +2213,7 @@
       "type": "promotion_wordpress",
       "post_id": 1260,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Anti-Fraud &#038; Chargeback-Free Sales System Using Crypto Payments'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1260 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2187,8 +2221,7 @@
       "type": "promotion_wordpress",
       "post_id": 1259,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'How to Sell Digital Downloads on Etsy (Beginner Guide 2026)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1259 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2196,8 +2229,7 @@
       "type": "promotion_wordpress",
       "post_id": 1258,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '15+ Successful B2B Ecommerce Examples for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1258 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2205,8 +2237,7 @@
       "type": "promotion_wordpress",
       "post_id": 1257,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top Book Club Picks for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1257 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2214,8 +2245,7 @@
       "type": "promotion_wordpress",
       "post_id": 1256,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '100 Proven Digital Product Ideas and the Ultimate Launch Marketing &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1256 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2223,8 +2253,7 @@
       "type": "promotion_wordpress",
       "post_id": 1255,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'The Ultimate Notion Template Gallery: 12 Best Marketplaces for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1255 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2232,8 +2261,7 @@
       "type": "promotion_wordpress",
       "post_id": 1254,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 10 Profitable SaaS Application Ideas for Startups in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1254 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2241,8 +2269,7 @@
       "type": "promotion_wordpress",
       "post_id": 1253,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'AI Agent Monetization Guide: Selling Custom GPT Actions'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1253 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2250,8 +2277,7 @@
       "type": "promotion_wordpress",
       "post_id": 1252,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'The best free and premium Notion templates in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1252 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2259,8 +2285,7 @@
       "type": "promotion_wordpress",
       "post_id": 1251,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Crypto-First Email + Funnel System for Passive Digital Product Sales'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1251 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2268,8 +2293,7 @@
       "type": "promotion_wordpress",
       "post_id": 1250,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 9 Lucrative Topics to Sell Ebooks 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1250 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2277,8 +2301,7 @@
       "type": "promotion_wordpress",
       "post_id": 1249,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '10 Must-Try Notion Templates for Productivity in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1249 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2286,7 +2309,7 @@
       "type": "promotion_wordpress",
       "post_id": 1248,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Best SaaS Business Ideas in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1248 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2294,7 +2317,7 @@
       "type": "promotion_wordpress",
       "post_id": 1247,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes 2026 — Design Inspiration'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1247 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2302,8 +2325,7 @@
       "type": "promotion_wordpress",
       "post_id": 1246,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-234910-30-top-selling-digital-product/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '30 Top Selling digital Products on Etsy in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1246 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2311,8 +2333,7 @@
       "type": "promotion_wordpress",
       "post_id": 1245,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-233412-top-10-b2b-ecommerce-examples/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 10 B2B Ecommerce Examples'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1245 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2320,8 +2341,7 @@
       "type": "promotion_wordpress",
       "post_id": 1244,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-233033-25-trending-products-to-sell-o/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '25 Trending Products to Sell Online in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1244 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2329,8 +2349,7 @@
       "type": "promotion_wordpress",
       "post_id": 1243,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-231841-50-profitable-micro-saas-ideas/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '50 Profitable Micro SaaS Ideas for 2026: Build &#038; Launch &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1243 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2338,8 +2357,7 @@
       "type": "promotion_wordpress",
       "post_id": 1242,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-230203-top-high-potential-saas-ideas/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top High-Potential SaaS Ideas for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1242 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2347,8 +2365,7 @@
       "type": "promotion_wordpress",
       "post_id": 1241,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-225211-what-s-going-to-be-hot-in-2026/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'What&#8217;s Going to Be Hot in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1241 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2356,8 +2373,7 @@
       "type": "promotion_wordpress",
       "post_id": 1240,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-225211-14-digital-products-to-sell-fo/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '14 Digital Products to Sell for Passive Income (2026)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1240 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2365,8 +2381,7 @@
       "type": "promotion_wordpress",
       "post_id": 1239,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-222758-top-shopify-themes-for-2026-be/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top Shopify Themes for 2026: Best Themes for Speed, SEO, and &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1239 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2374,8 +2389,7 @@
       "type": "promotion_wordpress",
       "post_id": 1238,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-214518-10-profitable-saas-ideas-to-ex/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '10 Profitable SaaS Ideas to Explore in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1238 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2383,8 +2397,7 @@
       "type": "promotion_wordpress",
       "post_id": 1234,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-213559-untapped-digital-product-niche/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Untapped Digital Product Niches No One Is Talking About Yet'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1234 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2392,8 +2405,7 @@
       "type": "promotion_wordpress",
       "post_id": 1233,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-213419-best-digital-products-to-sell/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Digital Products to Sell in 2026 (With Examples)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1233 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2401,8 +2413,7 @@
       "type": "promotion_wordpress",
       "post_id": 1232,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-211904-ai-powered-digital-product-ide/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'AI-Powered Digital Product Ideas: 15 Profitable Offers to Launch…'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1232 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2410,8 +2421,7 @@
       "type": "promotion_wordpress",
       "post_id": 1231,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-210308-best-shopify-themes-for-ecomme/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes for eCommerce Startups in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1231 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2419,8 +2429,7 @@
       "type": "promotion_wordpress",
       "post_id": 1230,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-204559-best-books-2026-what-we-can-t/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Books 2026: What We Can&#8217;t Wait to Read'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1230 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2428,8 +2437,7 @@
       "type": "promotion_wordpress",
       "post_id": 1229,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-204520-25-best-shopify-themes-that-ll/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '25 Best Shopify Themes That’ll Help Your Store Grow in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1229 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2437,7 +2445,7 @@
       "type": "promotion_wordpress",
       "post_id": 1235,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Academia.edu'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1235 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2445,8 +2453,7 @@
       "type": "promotion_wordpress",
       "post_id": 1228,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-201042-trending-ebook-topics-2026-wha/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Trending Ebook Topics 2026: What&#8217;s Next?'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1228 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2454,8 +2461,7 @@
       "type": "promotion_wordpress",
       "post_id": 1227,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-194620-best-shopify-themes-in-2026-fr/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes in 2026: Free and Paid'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1227 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2463,8 +2469,7 @@
       "type": "promotion_wordpress",
       "post_id": 1226,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-192339-best-digital-products-to-sell/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Digital Products to Sell in 2026 (Beginner to Advanced)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1226 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2472,10 +2477,7 @@
       "type": "promotion_wordpress",
       "post_id": 1225,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '7 digital product ideas you can make with Excel and&#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1225 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2483,8 +2485,7 @@
       "type": "promotion_wordpress",
       "post_id": 1223,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-185810-top-8-popular-ebook-topics-to/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top 8 Popular Ebook Topics to Sell for Maximum Profit 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1223 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2492,8 +2493,7 @@
       "type": "promotion_wordpress",
       "post_id": 1222,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-183122-most-profitable-saas-business/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Most Profitable SaaS Business Ideas to Watch in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1222 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2501,8 +2501,7 @@
       "type": "promotion_wordpress",
       "post_id": 1221,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-182721-top-20-profitable-saas-startup/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top 20+ Profitable SaaS Startup Ideas 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1221 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2510,8 +2509,7 @@
       "type": "promotion_wordpress",
       "post_id": 1220,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-180224-18-most-profitable-digital-pro/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '18 Most Profitable Digital Products to Sell in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1220 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2519,8 +2517,7 @@
       "type": "promotion_wordpress",
       "post_id": 1219,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-173730-5-shopify-themes-perfect-for-e/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '5 Shopify Themes Perfect for E-commerce Stores in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1219 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2528,8 +2525,7 @@
       "type": "promotion_wordpress",
       "post_id": 1218,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-172503-b2b-products-the-complete-guid/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'B2B Products: The Complete Guide for Ecommerce &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1218 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2537,8 +2533,7 @@
       "type": "promotion_wordpress",
       "post_id": 1217,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-171353-150-ebook-ideas-that-actually/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '150+ Ebook Ideas That Actually Sell in 2026 (By Niche, With &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1217 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2546,8 +2541,7 @@
       "type": "promotion_wordpress",
       "post_id": 1216,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-164843-what-are-the-best-b2b-examples/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'What Are the Best B2B Examples in 2026?'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1216 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2555,8 +2549,7 @@
       "type": "promotion_wordpress",
       "post_id": 1215,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-163241-127-notion-template-ideas-that/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '127 Notion Template Ideas That Actually Sell in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1215 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2564,8 +2557,7 @@
       "type": "promotion_wordpress",
       "post_id": 1214,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '50 Profitable Micro-SaaS Ideas I&#8217;m Watching in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1214 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2573,8 +2565,7 @@
       "type": "promotion_wordpress",
       "post_id": 1212,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'The Best Notion Templates for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1212 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2582,8 +2573,7 @@
       "type": "promotion_wordpress",
       "post_id": 1211,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top Selling Digital Downloads'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1211 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2591,8 +2581,7 @@
       "type": "promotion_wordpress",
       "post_id": 1210,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '50 Digital Product Ideas That Generate Passive Income in 2025'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1210 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2600,8 +2589,7 @@
       "type": "promotion_wordpress",
       "post_id": 1120,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '18 Best B2B Websites in 2026: Examples &#038; Best Practices'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1120 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2609,8 +2597,7 @@
       "type": "promotion_wordpress",
       "post_id": 1119,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 22 digital products in demand for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1119 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2618,8 +2605,7 @@
       "type": "promotion_wordpress",
       "post_id": 1118,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Ultimate Guide to Passive Income Digital Products 2025'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1118 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2627,8 +2613,7 @@
       "type": "promotion_wordpress",
       "post_id": 1117,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '28 Unique Digital Products To Sell in 2026 (Profitable Ideas)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1117 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2636,8 +2621,7 @@
       "type": "promotion_wordpress",
       "post_id": 1115,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1115 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2645,8 +2629,7 @@
       "type": "promotion_wordpress",
       "post_id": 1115,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1115 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2654,8 +2637,7 @@
       "type": "promotion_wordpress",
       "post_id": 1116,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '11 B2B Ecommerce Examples and What You Can Learn From Them (2026)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1116 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2663,8 +2645,7 @@
       "type": "promotion_wordpress",
       "post_id": 1115,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1115 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2672,8 +2653,7 @@
       "type": "promotion_wordpress",
       "post_id": 1115,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-135543-как-открыть-магазин-на-etsy-и/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1115 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2681,8 +2661,7 @@
       "type": "promotion_wordpress",
       "post_id": 1114,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top Ebook Topic Ideas in 2026: What do readers want?'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1114 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2690,8 +2669,7 @@
       "type": "promotion_wordpress",
       "post_id": 1112,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '18 Best Digital Product Niches in 2025'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1112 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2699,8 +2677,7 @@
       "type": "promotion_wordpress",
       "post_id": 1111,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '20 Profitable SaaS &#038; Micro-SaaS Ideas for 2026 (And How to &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1111 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2708,8 +2685,7 @@
       "type": "promotion_wordpress",
       "post_id": 1110,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1110 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2717,8 +2693,7 @@
       "type": "promotion_wordpress",
       "post_id": 1110,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1110 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2726,8 +2701,7 @@
       "type": "promotion_wordpress",
       "post_id": 1110,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1110 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2735,8 +2709,7 @@
       "type": "promotion_wordpress",
       "post_id": 1110,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1110 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2744,8 +2717,7 @@
       "type": "promotion_wordpress",
       "post_id": 1109,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Ebook Topics'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1109 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2753,8 +2725,7 @@
       "type": "promotion_wordpress",
       "post_id": 1108,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '50 Digital Products to Sell for Passive Income in 2025 (Full Guide)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1108 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2762,8 +2733,7 @@
       "type": "promotion_wordpress",
       "post_id": 1107,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Latest IELTS Writing Topics February &#038; March 2026 with answers'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1107 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2771,8 +2741,7 @@
       "type": "promotion_wordpress",
       "post_id": 1106,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '12 Most Popular Notion Templates to Sell for Quick Profits 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1106 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2780,8 +2749,7 @@
       "type": "promotion_wordpress",
       "post_id": 1105,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '15 Digital Product Ideas You Can Create with AI (Even If You&#8217;re a Total &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1105 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2789,8 +2757,7 @@
       "type": "promotion_wordpress",
       "post_id": 1104,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'TOP 20 B2B Ecommerce Examples &#038; What You Can Learn'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1104 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2798,8 +2765,7 @@
       "type": "promotion_wordpress",
       "post_id": 1103,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '26 Best Shopify Themes for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1103 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2807,8 +2773,7 @@
       "type": "promotion_wordpress",
       "post_id": 1100,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '7 AI-Generated Digital Products You Can Start Selling Online Today'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1100 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2816,8 +2781,7 @@
       "type": "promotion_wordpress",
       "post_id": 1099,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'SaaS Ideas: 150+ Profitable SaaS Ideas to Build in 2026 &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1099 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2825,8 +2789,7 @@
       "type": "promotion_wordpress",
       "post_id": 1102,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '3 Profitable AI SaaS Ideas To Build in 2026 (Before Someone Else Does)&#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1102 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2834,8 +2797,7 @@
       "type": "promotion_wordpress",
       "post_id": 1098,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '9 B2B eCommerce Examples for Streamlined Digital Purchasing'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1098 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2843,8 +2805,7 @@
       "type": "promotion_wordpress",
       "post_id": 1097,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes 2026: Free &#038; Premium Options Compared'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1097 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2852,7 +2813,7 @@
       "type": "promotion_wordpress",
       "post_id": 1236,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Build your 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1236 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2860,8 +2821,7 @@
       "type": "promotion_wordpress",
       "post_id": 1095,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '720 Business 2 ideas to save in 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1095 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2869,8 +2829,7 @@
       "type": "promotion_wordpress",
       "post_id": 1094,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '18 Best Digital Products to Sell in 2026: Top Trending, Profitable, and In-Demand Ideas'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1094 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2878,8 +2837,7 @@
       "type": "promotion_wordpress",
       "post_id": 1093,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Dashboard and Digital Product Trends for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1093 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2887,8 +2845,7 @@
       "type": "promotion_wordpress",
       "post_id": 1092,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Notion Templates in 2026 (Free &#038; Paid Picks) – Plandio'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1092 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2896,8 +2853,7 @@
       "type": "promotion_wordpress",
       "post_id": 1091,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'The 30 Best Notion Second Brain Templates ( 2026 )'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1091 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2905,8 +2861,7 @@
       "type": "promotion_wordpress",
       "post_id": 1089,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '15 Profitable Digital Products to Create with AI in 2025 (That Actually &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1089 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2914,8 +2869,7 @@
       "type": "promotion_wordpress",
       "post_id": 1088,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top Sales Templates from Notion'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1088 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2923,8 +2877,7 @@
       "type": "promotion_wordpress",
       "post_id": 1087,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '30 AI-Powered Digital Product Ideas to Sell in 2025'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1087 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2932,8 +2885,7 @@
       "type": "promotion_wordpress",
       "post_id": 1086,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260218-232911-20-untapped-etsy-niches-for-20/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '20 Untapped Etsy Niches for 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1086 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2941,8 +2893,7 @@
       "type": "promotion_wordpress",
       "post_id": 1083,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Product Hunt – The best new products in tech.'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1083 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2950,8 +2901,7 @@
       "type": "promotion_wordpress",
       "post_id": 1085,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '2026&#8217;s Best Selling Shopify Themes and Templates'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1085 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2959,8 +2909,7 @@
       "type": "promotion_wordpress",
       "post_id": 1084,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Etsy Digital Products 2026: How to Make $2,000-$10,000/Month &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1084 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2968,8 +2917,7 @@
       "type": "promotion_wordpress",
       "post_id": 1082,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '8 Best Notion Templates for 2025 (I Built and Tested Every One)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1082 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2977,8 +2925,7 @@
       "type": "promotion_wordpress",
       "post_id": 1081,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1081 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2986,8 +2933,7 @@
       "type": "promotion_wordpress",
       "post_id": 1080,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Choose from 30,000+ Notion templates'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1080 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -2995,8 +2941,7 @@
       "type": "promotion_wordpress",
       "post_id": 1079,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Shopify.com'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1079 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3004,8 +2949,7 @@
       "type": "promotion_wordpress",
       "post_id": 1078,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '7 Most Profitable eBook Niches for 2025: Your Guide to High &#8230;'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1078 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3013,8 +2957,7 @@
       "type": "promotion_wordpress",
       "post_id": 1077,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Unknown Topic'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1077 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3022,8 +2965,7 @@
       "type": "promotion_wordpress",
       "post_id": 1029,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-063000-freelancer-consultant-landing/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1029 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3031,7 +2973,7 @@
       "type": "promotion_wordpress",
       "post_id": 1029,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1029 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3039,7 +2981,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3047,8 +2989,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3056,7 +2997,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3064,7 +3005,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3072,7 +3013,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3080,7 +3021,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3088,7 +3029,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3096,7 +3037,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3104,7 +3045,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3112,7 +3053,7 @@
       "type": "promotion_wordpress",
       "post_id": 1237,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1237 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3120,8 +3061,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3129,8 +3069,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3138,8 +3077,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3147,8 +3085,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3156,8 +3093,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3165,8 +3101,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3174,7 +3109,7 @@
       "type": "promotion_wordpress",
       "post_id": 1040,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Web3 Asset Security Audit Framework'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1040 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3182,7 +3117,7 @@
       "type": "promotion_wordpress",
       "post_id": 1039,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Finance Risk Management For Crypto Traders'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1039 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3190,7 +3125,7 @@
       "type": "promotion_wordpress",
       "post_id": 1038,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Web3 Smart Contract Audit Checklist'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1038 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3198,7 +3133,7 @@
       "type": "promotion_wordpress",
       "post_id": 1037,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Ai Agent Monetization Guide'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1037 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3206,8 +3141,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3215,7 +3149,7 @@
       "type": "promotion_wordpress",
       "post_id": 1035,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Defi Passive Income Strategies Staking Yield Farming And Lending'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1035 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3223,7 +3157,7 @@
       "type": "promotion_wordpress",
       "post_id": 1034,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Ai Driven Product Flipping'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1034 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3231,8 +3165,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1046 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3240,7 +3173,7 @@
       "type": "promotion_wordpress",
       "post_id": 1021,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Global Merchant Crypto Checkout Blueprint (No Bank Friction)'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1021 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3248,7 +3181,7 @@
       "type": "promotion_wordpress",
       "post_id": 1032,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Passive Income With Saas Boilerplates'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1032 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3256,7 +3189,7 @@
       "type": "promotion_wordpress",
       "post_id": 1031,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Crypto Ai Trading Signals'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1031 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3313,7 +3246,7 @@
       "type": "promotion_wordpress",
       "post_id": 1030,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Metaverse Real Estate Marketing Guide'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1030 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3380,8 +3313,7 @@
       "type": "promotion_wordpress",
       "post_id": 662,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/test_optimized_v3/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Automated Wealth Blueprint 2026'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/662 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3389,7 +3321,7 @@
       "type": "promotion_wordpress",
       "post_id": 1054,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Reddit Linkedin Test'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1054 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3456,7 +3388,7 @@
       "type": "promotion_wordpress",
       "post_id": 1224,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Saas Marketing'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1224 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3509,8 +3441,7 @@
       "type": "promotion_wordpress",
       "post_id": 1029,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-074829-freelancer-consultant-landing/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1029 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3563,7 +3494,7 @@
       "type": "promotion_wordpress",
       "post_id": 1028,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Ai Automation Agency Prompt Pack'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1028 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3616,7 +3547,7 @@
       "type": "promotion_wordpress",
       "post_id": 1027,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Viral Marketing Growth Blueprint'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1027 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3669,7 +3600,7 @@
       "type": "promotion_wordpress",
       "post_id": 1026,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Automated Daily Planner System'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1026 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3722,7 +3653,7 @@
       "type": "promotion_wordpress",
       "post_id": 1025,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Automated Crypto Tax Reporting Tool'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1025 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3775,7 +3706,7 @@
       "type": "promotion_wordpress",
       "post_id": 1024,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'High Ticket Service Automation Guide'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1024 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3828,8 +3759,7 @@
       "type": "promotion_wordpress",
       "post_id": 1074,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260214-231100-unknown-single/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Unknown Single'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1074 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
@@ -3882,7 +3812,7 @@
       "type": "promotion_wordpress",
       "post_id": 1075,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Ai Dev Income'"
+        "WordPress API check failed: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts/1075 (Caused by NameResolutionError(\"HTTPSConnection(host='dev-best-pick-global.pantheonsite.io', port=443): Failed to resolve 'dev-best-pick-global.pantheonsite.io' ([Errno 11001] getaddrinfo failed)\"))"
       ]
     },
     {
