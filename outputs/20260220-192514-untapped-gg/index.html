@@ -764,6 +764,8 @@
 
 
 
+
+
 <!-- ======= COMPARISON SECTION ======= -->
 <section id="comparison" style="padding: 60px 0; background: #f9f9f9;">
   <div class="container" style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
@@ -815,6 +817,8 @@
   </div>
 </section>
 <!-- ======= END COMPARISON SECTION ======= -->
+
+
 
 
 
@@ -1375,14 +1379,32 @@
     })();
   </script>
 
+
+
+
 <script>
   (function() {
     function updateEthPrice() {
       var priceEl = document.querySelector('.price');
       if (!priceEl) return;
-      var priceText = priceEl.childNodes[0].textContent.replace(/[^0-9.]/g, '');
-      var price = parseFloat(priceText);
-      if (isNaN(price)) price = 49.00;
+      
+      // Try to get price from data-price attribute first, if not, parse text
+      var price = 0;
+      var dataPrice = priceEl.getAttribute('data-price');
+      if (dataPrice) {
+          price = parseFloat(dataPrice.replace(/[^0-9.]/g, ''));
+      } else {
+          var priceText = priceEl.textContent.replace(/[^0-9.]/g, '');
+          price = parseFloat(priceText);
+      }
+      
+      if (isNaN(price) || price <= 0) {
+          // Fallback to searching for price in text
+          var text = priceEl.innerText || priceEl.textContent;
+          var match = text.match(/\$(\d+\.\d{2})/);
+          if (match) price = parseFloat(match[1]);
+          else price = 49.00; // Ultimate fallback
+      }
       
       fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd')
         .then(function(res) { return res.json(); })

@@ -21,7 +21,7 @@ If you are looking for a way to fast-track your results with Leverage AI to crea
 This tool is designed to handle the heavy lifting for you.
 - **Automated Workflow:** Save hours every week.
 - **Proven Templates:** Don't reinvent the wheel.
-- **Cost-Effective:** At just **$29.00**, it costs less than a single hour of a consultant's time.
+- **Cost-Effective:** At just **$59.00**, it costs less than a single hour of a consultant's time.
 
 I personally use this to streamline my operations, and it has been a game-changer for my productivity.
 

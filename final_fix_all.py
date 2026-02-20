@@ -152,6 +152,16 @@ def update_product_pages_price():
                 )
 
             # 7. Inject Dynamic Price Script (CoinGecko)
+            # First, remove old/less robust version of the script if it exists
+            # The old version used childNodes[0] which is brittle
+            if "var priceText = priceEl.childNodes[0].textContent" in new_content:
+                new_content = re.sub(
+                    r'<script>\s*\(function\(\)\s*\{\s*function updateEthPrice\(\)[\s\S]*?\)\(\);\s*</script>', 
+                    '', 
+                    new_content
+                )
+                print(f"[{product_id}] Removed old ETH script version.")
+
             if "updateEthPrice" not in new_content:
                 script_content = """
 <script>
@@ -159,9 +169,24 @@ def update_product_pages_price():
     function updateEthPrice() {
       var priceEl = document.querySelector('.price');
       if (!priceEl) return;
-      var priceText = priceEl.childNodes[0].textContent.replace(/[^0-9.]/g, '');
-      var price = parseFloat(priceText);
-      if (isNaN(price)) price = 49.00;
+      
+      // Try to get price from data-price attribute first, if not, parse text
+      var price = 0;
+      var dataPrice = priceEl.getAttribute('data-price');
+      if (dataPrice) {
+          price = parseFloat(dataPrice.replace(/[^0-9.]/g, ''));
+      } else {
+          var priceText = priceEl.textContent.replace(/[^0-9.]/g, '');
+          price = parseFloat(priceText);
+      }
+      
+      if (isNaN(price) || price <= 0) {
+          // Fallback to searching for price in text
+          var text = priceEl.innerText || priceEl.textContent;
+          var match = text.match(/\$(\d+\.\d{2})/);
+          if (match) price = parseFloat(match[1]);
+          else price = 49.00; // Ultimate fallback
+      }
       
       fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd')
         .then(function(res) { return res.json(); })
@@ -221,7 +246,7 @@ def update_product_pages_price():
                                 print(f"[{product_id}] Injected Refund Policy at end of FAQ section.")
 
                 # Fallback strategies if FAQ injection failed
-                if new_content == content:
+                if "Refund Policy" not in new_content:
                      refund_div = f'<div style="text-align: center; padding: 20px; color: #666; font-size: 0.9rem; max-width: 800px; margin: 0 auto;">{refund_text}</div>'
                      # Strategy 2: Inject before footer
                      if re.search(r'<footer', new_content, re.IGNORECASE):

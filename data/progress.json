@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Generating Promo Content",
-  "progress": 60,
-  "details": "Writing blog posts and social content...",
+  "status": "Verifying Payment Flow",
+  "progress": 95,
+  "details": "Checking payment gateway...",
   "product_id": "20260220-205123-2026-ielts-speaking-questions",
-  "updated_at": 1771588301.6272473,
-  "updated_at_iso": "2026-02-20T11:51:41Z"
+  "updated_at": 1771588687.5596933,
+  "updated_at_iso": "2026-02-20T11:58:07Z"
 }

@@ -1,0 +1,10 @@
+{
+  "product_id": "test_optimized_v3",
+  "title": "Digital Product",
+  "sections": {
+    "pricing": {
+      "price": "$29.00"
+    }
+  },
+  "price": "29"
+}

@@ -1,4 +1,4 @@
-# SEO Content Blueprint — Digital Asset
+# SEO Content Blueprint — Digital Product
 **Primary Keyword:** Crypto Automation automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
