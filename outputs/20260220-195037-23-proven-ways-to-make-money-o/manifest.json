@@ -4,7 +4,7 @@
   "topic": "23 Proven Ways To Make Money Online in 2026",
   "product_id": "20260220-195037-23-proven-ways-to-make-money-o",
   "created_at": "2026-02-20T10:50:45Z",
-  "price_usd": 19.0,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "363e9984e51a5b4398d6c77654ac9b7286d4d49b6770f67e866d1db72207934f",
     "promotions/x_threads.txt": "f02312abb17d803dc51f6f67481c73db9bbf253dd81b8fbf1a5cd5c2f881a7f9",
     "promotions/youtube_shorts.txt": "de33672891edb6732ee665b133dac972761e155538f9da0ee97a22d846db5036"
-  }
+  },
+  "price": 29,
+  "market_price": 49
 }
