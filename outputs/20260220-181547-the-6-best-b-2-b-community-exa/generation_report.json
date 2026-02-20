@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-181547-the-6-best-b-2-b-community-exa",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-181547-the-6-best-b-2-b-community-exa",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-181547-the-6-best-b-2-b-community-exa\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-181547-the-6-best-b-2-b-community-exa\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-181547-the-6-best-b-2-b-community-exa\\product.pdf",
+  "checksum": "2f9b160dea32753acbafcb1370e87adb8d55336eecbca4094d2769d6fad205a9",
+  "generated_at": "20260220-181601",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
