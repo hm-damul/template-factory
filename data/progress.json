@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Generating Promo Content",
-  "progress": 60,
-  "details": "Writing blog posts and social content...",
-  "product_id": "20260221-064927-reading-and-publishing-predict",
-  "updated_at": 1771624176.415235,
-  "updated_at_iso": "2026-02-20T21:49:36Z"
+  "status": "Packaging",
+  "progress": 80,
+  "details": "Creating ZIP package...",
+  "product_id": "20260221-063338-digital-asset-bundle-2026-02-2",
+  "updated_at": 1771625117.5786352,
+  "updated_at_iso": "2026-02-20T22:05:17Z"
 }
