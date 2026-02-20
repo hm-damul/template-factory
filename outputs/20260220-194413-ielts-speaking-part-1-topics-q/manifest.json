@@ -4,7 +4,7 @@
   "topic": "IELTS Speaking Part 1 Topics & Questions",
   "product_id": "20260220-194413-ielts-speaking-part-1-topics-q",
   "created_at": "2026-02-20T10:44:33Z",
-  "price_usd": 49.0,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "671b7bc1fc3ae91c1fa424ca83d6ec90628fe241b9d667378e200a61c194027f",
     "promotions/x_threads.txt": "1e517cb73b2e5ee21ea8a8c231f0172fad6cb14c0e0adf44e0b6ab616643d399",
     "promotions/youtube_shorts.txt": "2bebb4b27b0decc03cd221677cc3a527f9d2a43a5eb219076a82b4908cebf862"
-  }
+  },
+  "price": 29,
+  "market_price": 49
 }
