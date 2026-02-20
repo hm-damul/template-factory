@@ -112,7 +112,7 @@ def inject_comparison():
             content = f.read()
             
         # Prepare template with correct price
-        section_html = COMPARISON_TEMPLATE.replace("${price}", f"${price_usd}")
+        section_html = COMPARISON_TEMPLATE.replace("${price}", f"${price_usd:.2f}")
 
         if "id=\"comparison\"" in content:
             print(f"[{product_id}] Comparison section already exists. Updating...")

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-182642-ielts-speaking-part-3-topics",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-182642-ielts-speaking-part-3-topics",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-182642-ielts-speaking-part-3-topics\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-182642-ielts-speaking-part-3-topics\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-182642-ielts-speaking-part-3-topics\\product.pdf",
+  "checksum": "c1d91394365cb2fa1906768542a96da5dd58a96ed8344509a6d8704156e4b255",
+  "generated_at": "20260220-182700",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

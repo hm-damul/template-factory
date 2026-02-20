@@ -80,7 +80,15 @@ def regenerate_all_promotions_strict():
             )
             
             # 2. Generate HTML (uses schema internally for table, but markdown for body)
-            build_channel_payloads(product_id)
+            payloads = build_channel_payloads(product_id)
+            
+            # Save blog_post.html
+            if "blog" in payloads and "html" in payloads["blog"]:
+                blog_html = payloads["blog"]["html"]
+                promotions_dir = p_dir / "promotions"
+                promotions_dir.mkdir(parents=True, exist_ok=True)
+                (promotions_dir / "blog_post.html").write_text(blog_html, encoding="utf-8")
+                logger.info(f"[{product_id}] Saved blog_post.html")
             
             success_count += 1
         except Exception as e:
