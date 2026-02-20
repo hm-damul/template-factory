@@ -4,7 +4,7 @@
   "topic": "13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet",
   "product_id": "20260221-032731-13-profitable-niche-digital-pr",
   "created_at": "2026-02-20T18:27:40Z",
-  "price_usd": 59.0,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "1ee9f5e6ee14daf882e1c384b6535fe2894a9fca96bbcc70d31b856f51864a9f",
     "promotions/x_threads.txt": "9ac32e16772e280287ab4f896cb79378a8e34f70908b272802f1a52161bd3302",
     "promotions/youtube_shorts.txt": "ee837859a28746536e411fa138a78a85db42f3ca43426ca713366ed819213573"
-  }
+  },
+  "price": 29,
+  "market_price": 49
 }

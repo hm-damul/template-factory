@@ -1183,6 +1183,14 @@
       "created_at": "2026-02-20 23:12:11",
       "created_at_ts": 1771596731.1771798,
       "paid_at": "2026-02-20 23:12:11"
+    },
+    {
+      "order_id": "f305978a-a026-4f6d-bb5e-c270b169dd6b",
+      "product_id": "20260221-034852-digital-asset-bundle-2026-02-2",
+      "status": "paid",
+      "created_at": "2026-02-21 04:27:18",
+      "created_at_ts": 1771615638.5177004,
+      "paid_at": "2026-02-21 04:27:18"
     }
   ]
 }
