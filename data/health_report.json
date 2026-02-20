@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T01:24:01.291924+00:00",
+  "timestamp": "2026-02-20T01:30:23.113493+00:00",
   "stats": {
-    "total": 195,
+    "total": 196,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-102409-2026-planner",
+      "topic": "2026 Planner",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T10:24:09.750075"
+    },
     {
       "id": "20260220-100544-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 10:05",
@@ -120,17 +126,11 @@
       "topic": "70+ Digital Product Ideas for Passive Income",
       "status": "PROMOTED",
       "created_at": "2026-02-20T07:11:29.756017"
-    },
-    {
-      "id": "20260220-064523-how-to-make-money-on-etsy-what",
-      "topic": "How to Make Money on Etsy: What Actually Works (And What's Changed in 2026)",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T06:45:23.037601"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-20T01:24:00.487432+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Guide / E-book / Blueprint\": 1}",
+    "last_updated": "2026-02-20T01:30:22.435617+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T01:12:53.096721+00:00",
-    "next_run_approx": "2026-02-20T01:13:03.096721+00:00",
+    "last_run_end": "2026-02-20T01:30:10.825975+00:00",
+    "next_run_approx": "2026-02-20T01:30:20.825975+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
