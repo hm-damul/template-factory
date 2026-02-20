@@ -1,5 +1,5 @@
-# SEO Content Blueprint — Untapped .gg
-**Primary Keyword:** Untapped .gg automation
+# SEO Content Blueprint — Unlock Your Passive Income with Untapped .gg
+**Primary Keyword:** Leverage AI to create and sell digital products based on: Untapped .gg automation
 **Secondary Keywords:** crypto checkout, digital product delivery, passive income system, instant settlement
 
 ## Content Structure:

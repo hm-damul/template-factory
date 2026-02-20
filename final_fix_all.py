@@ -53,6 +53,33 @@ def update_product_pages_price():
         except Exception as e:
             print(f"[{product_id}] Error reading schema: {e}")
             continue
+
+        # Update manifest.json if exists
+        manifest_path = p_dir / "manifest.json"
+        if manifest_path.exists():
+            try:
+                with open(manifest_path, 'r', encoding='utf-8') as f:
+                    manifest = json.load(f)
+                
+                changed = False
+                if manifest.get("price_usd") != price_usd:
+                    manifest["price_usd"] = price_usd
+                    changed = True
+                
+                if "metadata" in manifest and manifest["metadata"].get("price_usd") != price_usd:
+                    manifest["metadata"]["price_usd"] = price_usd
+                    changed = True
+                    
+                if "product" in manifest and manifest["product"].get("price_usd") != price_usd:
+                    manifest["product"]["price_usd"] = price_usd
+                    changed = True
+                    
+                if changed:
+                    with open(manifest_path, 'w', encoding='utf-8') as f:
+                        json.dump(manifest, f, indent=2)
+                    print(f"[{product_id}] Updated manifest.json price to ${price_usd}")
+            except Exception as e:
+                print(f"[{product_id}] Error updating manifest: {e}")
             
         # Read index.html
         try:
@@ -86,6 +113,15 @@ def update_product_pages_price():
             
             # Fix fallback price in JS: || "$19"
             new_content = re.sub(r'\|\| "\$\d+"', f'|| "${price_usd:.0f}"', new_content)
+            
+            # Inject Crypto clarification if not present
+            if "Pay with USDT, ETH, BTC" not in new_content:
+                # Add it after price display in card
+                new_content = re.sub(
+                    r'(<div class="price">\$\d+\.\d{2}</div>)',
+                    r'\1<div style="font-size: 0.8rem; color: #666; margin-top: 5px;">Pay with USDT, ETH, BTC</div>',
+                    new_content
+                )
             
             if new_content != content:
                 with open(index_path, 'w', encoding='utf-8') as f:
