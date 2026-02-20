@@ -78,20 +78,60 @@ def inject_comparison():
         product_id = path_obj.parent.name
         
         # Get price
-        price_usd = 19.9
-        p_info = lm.get_product(product_id)
-        if p_info:
-            meta = p_info.get("metadata", {})
-            if isinstance(meta, str):
-                try: meta = json.loads(meta)
-                except: meta = {}
-            price_usd = float(meta.get("final_price_usd", 19.9))
+        price_usd = 29.0  # Default fallback
+        
+        # [Priority 1] Try product_schema.json first (Source of Truth)
+        schema_path = path_obj.parent / "product_schema.json"
+        if schema_path.exists():
+            try:
+                s = json.loads(schema_path.read_text(encoding="utf-8"))
+                # 1. Try pricing section
+                p_val = s.get("sections", {}).get("pricing", {}).get("price", "")
+                if p_val:
+                    price_usd = float(p_val.replace('$', '').replace(',', ''))
+                # 2. Fallback to market_analysis
+                elif "market_analysis" in s:
+                     p_val = s["market_analysis"].get("our_price")
+                     if p_val:
+                         price_usd = float(p_val)
+            except Exception as e:
+                print(f"Error reading schema for {product_id}: {e}")
+        else:
+            # [Priority 2] Fallback to DB
+            p_info = lm.get_product(product_id)
+            if p_info:
+                meta = p_info.get("metadata", {})
+                if isinstance(meta, str):
+                    try: meta = json.loads(meta)
+                    except: meta = {}
+                price_usd = float(meta.get("final_price_usd", 29.0))
             
         with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
             
+        # Prepare template with correct price
+        section_html = COMPARISON_TEMPLATE.replace("${price}", f"${price_usd}")
+
         if "id=\"comparison\"" in content:
-            print(f"[{product_id}] Comparison section already exists. Skipping.")
+            print(f"[{product_id}] Comparison section already exists. Updating...")
+            # Regex to replace existing comparison section
+            # Assuming it starts with <!-- ======= COMPARISON SECTION ======= --> and ends with <!-- ======= END COMPARISON SECTION ======= -->
+            pattern = r'<!-- ======= COMPARISON SECTION ======= -->.*?<!-- ======= END COMPARISON SECTION ======= -->'
+            new_content = re.sub(pattern, section_html, content, flags=re.DOTALL)
+            
+            if new_content == content:
+                 print(f"[{product_id}] Regex failed to match existing section. Appending new one (might duplicate if format changed).")
+                 # Fallback to insertion logic if regex fails, but we need to be careful not to duplicate
+                 # If regex failed but id="comparison" exists, maybe the comments are missing?
+                 # Let's try to match by ID
+                 pattern_id = r'<section id="comparison".*?</section>'
+                 new_content = re.sub(pattern_id, section_html, content, flags=re.DOTALL)
+            
+            if new_content != content:
+                with open(file_path, "w", encoding="utf-8") as f:
+                    f.write(new_content)
+                print(f"[{product_id}] Updated comparison section (Price: ${price_usd}).")
+                count += 1
             continue
             
         # Inject before footer or FAQ
