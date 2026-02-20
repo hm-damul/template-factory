@@ -4,7 +4,7 @@
   "topic": "1000 IELTS Speaking Questions (Updated 2026 )",
   "product_id": "20260220-212906-1000-ielts-speaking-questions",
   "created_at": "2026-02-20T12:29:14Z",
-  "price_usd": 59.0,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "5e03726ba0faea60ee540894da6972003216c7899c09dedf9feb01257325308a",
     "promotions/x_threads.txt": "ed1be3170b76e8c49dd3c8c2b316630dac47169ad83aeea8d364edfc0a6ccfcf",
     "promotions/youtube_shorts.txt": "6c759d358e8ad3901f74c9662de26428e64d2a71989175671fe76dd4082afe90"
-  }
+  },
+  "price": 29,
+  "market_price": 49
 }

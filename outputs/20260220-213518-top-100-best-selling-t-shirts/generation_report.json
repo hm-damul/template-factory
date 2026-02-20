@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-213518-top-100-best-selling-t-shirts",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-213518-top-100-best-selling-t-shirts",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-213518-top-100-best-selling-t-shirts\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-213518-top-100-best-selling-t-shirts\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-213518-top-100-best-selling-t-shirts\\product.pdf",
+  "checksum": "b32c60bd13fe2afe0a06109f733a83a71be31d2b1d294006cb757ab87671bf55",
+  "generated_at": "20260220-213526",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
