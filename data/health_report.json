@@ -1,16 +1,22 @@
 {
-  "timestamp": "2026-02-20T01:31:33.680959+00:00",
+  "timestamp": "2026-02-20T01:36:56.948072+00:00",
   "stats": {
-    "total": 197,
+    "total": 198,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
     {
+      "id": "20260220-103146-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 10:31",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T10:31:46.698091"
+    },
+    {
       "id": "20260220-103030-the-hottest-etsy-trends-for-20",
       "topic": "The Hottest Etsy Trends for 2026",
-      "status": "QA2_PASSED",
+      "status": "PROMOTED",
       "created_at": "2026-02-20T10:30:30.414275"
     },
     {
@@ -120,29 +126,23 @@
       "topic": "Digital Asset Bundle 2026-02-20 07:31",
       "status": "PROMOTED",
       "created_at": "2026-02-20T07:31:44.357650"
-    },
-    {
-      "id": "20260220-072901-best-digital-product-ideas-to",
-      "topic": "Best Digital Product Ideas to Start Selling Today",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T07:29:01.317650"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-20T01:31:32.948520+00:00",
-    "phase": "running_autopilot",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
+    "last_updated": "2026-02-20T01:36:56.260433+00:00",
+    "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T01:30:10.825975+00:00",
-    "next_run_approx": "2026-02-20T01:30:20.825975+00:00",
+    "last_run_end": "2026-02-20T01:36:44.608464+00:00",
+    "next_run_approx": "2026-02-20T01:36:54.608464+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
