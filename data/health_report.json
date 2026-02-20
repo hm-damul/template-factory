@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T11:03:02.533252+00:00",
+  "timestamp": "2026-02-20T11:09:34.888949+00:00",
   "stats": {
-    "total": 220,
+    "total": 221,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-200310-400-high-ticket-product-ideas",
+      "topic": "400+ High-Ticket Product Ideas to Sell !! ( 2026 List)",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T20:03:10.875349"
+    },
     {
       "id": "20260220-195647-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 19:56",
@@ -120,17 +126,11 @@
       "topic": "Your modern ebook reading experience",
       "status": "PROMOTED",
       "created_at": "2026-02-20T11:23:16.063900"
-    },
-    {
-      "id": "20260220-110614-10-best-digital-products-for-p",
-      "topic": "10 Best Digital Products for Passive Income in 2025 (Proven Ideas to ...",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T11:06:14.292927"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1, \"Prompt Pack / Asset\": 1}",
-    "last_updated": "2026-02-20T11:03:01.485135+00:00",
+    "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 16, \"SaaS / System\": 1}",
+    "last_updated": "2026-02-20T11:09:33.941483+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T11:02:49.578838+00:00",
-    "next_run_approx": "2026-02-20T11:02:59.578838+00:00",
+    "last_run_end": "2026-02-20T11:09:06.961863+00:00",
+    "next_run_approx": "2026-02-20T11:09:16.961864+00:00",
     "count": 1,
     "status": "running",
     "pid": 7048,

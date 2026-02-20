@@ -1,4 +1,3 @@
-
 import os
 import sys
 import glob
@@ -19,6 +18,7 @@ def update_product_pages_price():
     """
     Iterates over all product pages (index.html) and ensures the displayed price
     matches the product_schema.json price.
+    Also injects crypto clarification.
     """
     print("--- Updating Product Pages (index.html) Prices ---")
     outputs_dir = PROJECT_ROOT / "outputs"
@@ -39,20 +39,32 @@ def update_product_pages_price():
             continue
             
         # Get correct price from schema
-        price_usd = 29.00
+        price_usd = 49.00 # Default fallback
         try:
             with open(schema_path, 'r', encoding='utf-8') as f:
                 schema = json.load(f)
+                
+                # Priority 1: "pricing" section
                 p_str = schema.get("sections", {}).get("pricing", {}).get("price", "")
                 if p_str:
-                    price_usd = float(p_str.replace("$", "").replace(",", ""))
+                    price_usd = float(str(p_str).replace("$", "").replace(",", ""))
+                
+                # Priority 2: "market_analysis"
                 elif "market_analysis" in schema:
                      p_val = schema["market_analysis"].get("our_price")
                      if p_val:
                          price_usd = float(p_val)
+                
+                # Priority 3: root "price"
+                elif "price" in schema:
+                    price_usd = float(str(schema["price"]).replace("$", ""))
+
         except Exception as e:
-            print(f"[{product_id}] Error reading schema: {e}")
-            continue
+            print(f"[{product_id}] Error reading schema: {e}. Using default ${price_usd}")
+
+        # Calculate approx ETH (1 ETH ~ $2500)
+        eth_price = price_usd / 2500.0
+        eth_str = f"{eth_price:.4f}"
 
         # Update manifest.json if exists
         manifest_path = p_dir / "manifest.json"
@@ -86,47 +98,46 @@ def update_product_pages_price():
             with open(index_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             
-            # Regex to find prices like $19.00, $29.00 etc. and replace if context suggests it's the main price
-            # This is tricky because there might be other prices.
-            # But usually the main price is in a specific format or location.
-            # We look for <div class="price">$XX.XX</div> or similar.
-            
-            # 1. Update <div class="price">$...</div>
-            # pattern: <div class="price">\$\d+\.\d{2}
-            # replacement: <div class="price">${price_usd:.2f}
-            
             new_content = content
             
-            # specific replacement for card footer price if it matches standard pattern
-            new_content = re.sub(r'<div class="price">\$\d+\.\d{2}', f'<div class="price">${price_usd:.2f}', new_content)
+            # 1. Update <div class="price">$XX.XX...</div>
+            # We match the start of the div, the price, any content inside (like spans), and the closing div
+            # Group 1: $XX.XX
+            # Group 2: remaining content inside div
+            new_content = re.sub(
+                r'<div class="price">(\$\d+\.\d{2})(.*?)</div>', 
+                f'<div class="price">${price_usd:.2f}\\2</div>', 
+                new_content
+            )
             
-            # specific replacement for pricing card
-            # data-price="$49.00"
+            # 2. Update data-price="$XX.XX"
             new_content = re.sub(r'data-price="\$\d+\.\d{2}"', f'data-price="${price_usd:.2f}"', new_content)
             
-            # schema.org price
-            # "price": "49.00"
+            # 3. Update schema "price": "XX.XX"
             new_content = re.sub(r'"price": "\d+\.\d{2}"', f'"price": "{price_usd:.2f}"', new_content)
 
-            # Fix hardcoded script prices: Standard License ($49.00)
+            # 4. Fix hardcoded script prices: Standard License ($49.00)
             new_content = re.sub(r'Standard License \(\$\d+\.\d{2}\)', f'Standard License (${price_usd:.2f})', new_content)
             
-            # Fix fallback price in JS: || "$19"
+            # 5. Fix fallback price in JS: || "$19"
             new_content = re.sub(r'\|\| "\$\d+"', f'|| "${price_usd:.0f}"', new_content)
             
-            # Inject Crypto clarification if not present
-            if "Pay with USDT, ETH, BTC" not in new_content:
-                # Add it after price display in card
-                new_content = re.sub(
-                    r'(<div class="price">\$\d+\.\d{2}</div>)',
-                    r'\1<div style="font-size: 0.8rem; color: #666; margin-top: 5px;">Pay with USDT, ETH, BTC</div>',
-                    new_content
-                )
-            
+            # 6. Inject Crypto clarification
+            # Look for the price div and append text if not already there
+            marker = "Pay with USDT, ETH"
+            if marker not in new_content:
+                # Inject after the price div (accounting for potential spans inside)
+                replacement = f'<div class="price">${price_usd:.2f}\\2</div><div style="font-size: 0.8rem; color: #666; margin-top: 5px;">Pay with USDT, ETH (~{eth_str}), BTC</div>'
+                new_content = re.sub(r'<div class="price">\$\d+\.\d{2}(.*?)</div>', replacement, new_content, count=1)
+            else:
+                # Update existing clarification if price/ETH changed
+                # Use regex to replace the ETH amount
+                new_content = re.sub(r'Pay with USDT, ETH \(~[\d\.]+\)', f'Pay with USDT, ETH (~{eth_str})', new_content)
+
             if new_content != content:
                 with open(index_path, 'w', encoding='utf-8') as f:
                     f.write(new_content)
-                print(f"[{product_id}] Updated prices in index.html to ${price_usd:.2f}")
+                print(f"[{product_id}] Updated prices in index.html to ${price_usd:.2f} (~{eth_str} ETH)")
                 count += 1
                 
         except Exception as e:

@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-200945-saas-for-small-business-and-st",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-200945-saas-for-small-business-and-st",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-200945-saas-for-small-business-and-st\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-200945-saas-for-small-business-and-st\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-200945-saas-for-small-business-and-st\\product.pdf",
+  "checksum": "2e9dc4629286df6b5a66e8cde705b7d53115223daba7a58677d7d7cc39dc3a65",
+  "generated_at": "20260220-200956",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
