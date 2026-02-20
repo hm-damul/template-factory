@@ -1,0 +1,16 @@
+{
+  "product_id": "20260220-192514-untapped-gg",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-192514-untapped-gg",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-192514-untapped-gg\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-192514-untapped-gg\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260220-192514-untapped-gg\\product.pdf",
+  "checksum": "97c30d86c480de10719d3d3bf06e4cf1fbc00885e01bc2d17aa6d360929a5d24",
+  "generated_at": "20260220-192533",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
