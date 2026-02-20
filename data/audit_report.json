@@ -1,14 +1,56 @@
 {
-  "last_audit": "2026-02-20 20:09:19",
+  "last_audit": "2026-02-20 21:41:28",
   "summary": {
-    "total_products": 221,
-    "healthy_products": 189,
+    "total_products": 228,
+    "healthy_products": 196,
     "broken_products": 32,
-    "total_promotions": 368,
+    "total_promotions": 375,
     "healthy_promotions": 141,
-    "broken_promotions": 227
+    "broken_promotions": 234
   },
   "details": [
+    {
+      "product_id": "20260220-213518-top-100-best-selling-t-shirts",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-212906-1000-ielts-speaking-questions",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-212254-how-i-made-93k-in-revenue-sell",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-211508-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-211248-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-205123-2026-ielts-speaking-questions",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260220-200945-saas-for-small-business-and-st",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
     {
       "product_id": "20260220-200310-400-high-ticket-product-ideas",
       "type": "product",
@@ -1397,6 +1439,69 @@
       "status": "PUBLISHED",
       "issues": [
         "Deployment URL dead/invalid: Status Code 401"
+      ]
+    },
+    {
+      "product_id": "20260220-213518-top-100-best-selling-t-shirts",
+      "type": "promotion_wordpress",
+      "post_id": 1349,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-213518-top-100-best-selling-t-shirts/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Top 100 best selling t shirts on Etsy 2026'"
+      ]
+    },
+    {
+      "product_id": "20260220-212906-1000-ielts-speaking-questions",
+      "type": "promotion_wordpress",
+      "post_id": 1348,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-212906-1000-ielts-speaking-questions/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '1000 IELTS Speaking Questions (Updated 2026 )'"
+      ]
+    },
+    {
+      "product_id": "20260220-212254-how-i-made-93k-in-revenue-sell",
+      "type": "promotion_wordpress",
+      "post_id": 1347,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-212254-how-i-made-93k-in-revenue-sell/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'How I Made $93K in Revenue Selling Digital Downloads on Etsy'"
+      ]
+    },
+    {
+      "product_id": "20260220-211508-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1346,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-211508-digital-asset-bundle-2026-02-2/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 21:15'"
+      ]
+    },
+    {
+      "product_id": "20260220-211248-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1345,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-211248-digital-asset-bundle-2026-02-2/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 21:12'"
+      ]
+    },
+    {
+      "product_id": "20260220-205123-2026-ielts-speaking-questions",
+      "type": "promotion_wordpress",
+      "post_id": 1343,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-205123-2026-ielts-speaking-questions/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title '2026 IELTS Speaking Questions And Answer'"
+      ]
+    },
+    {
+      "product_id": "20260220-200945-saas-for-small-business-and-st",
+      "type": "promotion_wordpress",
+      "post_id": 1342,
+      "issues": [
+        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-200945-saas-for-small-business-and-st/index.html (404)",
+        "SEO Warning: Not visible in top 20 for title 'SaaS For Small Business and Startups: 15 Micro SaaS Ideas in 2026'"
       ]
     },
     {
@@ -2992,7 +3097,7 @@
     {
       "product_id": "20260218-144125-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3009,7 +3114,7 @@
     {
       "product_id": "20260218-094845-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3017,7 +3122,7 @@
     {
       "product_id": "20260218-093450-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3025,7 +3130,7 @@
     {
       "product_id": "20260218-093420-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3033,7 +3138,7 @@
     {
       "product_id": "20260218-093130-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3041,7 +3146,7 @@
     {
       "product_id": "20260218-090417-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3049,7 +3154,7 @@
     {
       "product_id": "20260218-085832-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3057,7 +3162,7 @@
     {
       "product_id": "20260218-075918-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]
@@ -3065,7 +3170,7 @@
     {
       "product_id": "20260218-075634-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1237,
+      "post_id": 1344,
       "issues": [
         "SEO Warning: Not visible in top 20 for title 'Test Run'"
       ]

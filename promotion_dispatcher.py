@@ -235,6 +235,22 @@ def _simple_markdown_to_html(md: str, title: str = "", target_url: str = "", pri
             if schema_path.exists():
                 with open(schema_path, 'r', encoding='utf-8') as f:
                     schema = json.load(f)
+                    
+                    # Force update current_price from schema to ensure consistency
+                    # This fixes the mismatch between passed 'price' arg and actual schema price
+                    if "sections" in schema and "pricing" in schema["sections"]:
+                        p_str = schema["sections"]["pricing"].get("price", "")
+                        if p_str:
+                            try:
+                                current_price = float(p_str.replace("$", "").replace(",", ""))
+                            except:
+                                pass
+                    elif "price" in schema:
+                         try:
+                            current_price = float(str(schema["price"]).replace("$", "").replace(",", ""))
+                         except:
+                            pass
+
                     if "market_analysis" in schema:
                         ma = schema["market_analysis"]
                         market_data = {
@@ -242,9 +258,14 @@ def _simple_markdown_to_html(md: str, title: str = "", target_url: str = "", pri
                             'high_price': float(ma.get("market_price", 97.0)) * 2.5, # Estimate high if not stored
                             'category': ma.get("category", "Digital Asset")
                         }
-                        # Use stored our_price if available to be safe, though passed 'price' should be same
-                        # if "our_price" in ma:
-                        #    current_price = float(ma["our_price"])
+                        # Also check if our_price is in market_analysis and use it if it seems more accurate
+                        if "our_price" in ma:
+                            try:
+                                schema_our = float(ma["our_price"])
+                                if schema_our > 0:
+                                    current_price = schema_our
+                            except:
+                                pass
         except Exception as e:
             print(f"Failed to load schema for market analysis: {e}")
 

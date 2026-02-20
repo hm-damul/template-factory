@@ -1,12 +1,12 @@
 {
   "product_id": "20260220-063116-sell-online-with-shopify",
-  "title": "Unlock Your Passive Income with Sell Online with Shopify®",
-  "target_customer": "Creators and merchants interested in Sell Online with Shopify®",
-  "value_proposition": "Leverage AI to create and sell digital products based on: Sell Online with Shopify®",
+  "title": "Unlock Your Passive Income with Sell Online with Shopify\u00ae",
+  "target_customer": "Creators and merchants interested in Sell Online with Shopify\u00ae",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Sell Online with Shopify\u00ae",
   "sections": {
     "hero": {
-      "headline": "Unlock Your Passive Income with Sell Online with Shopify®",
-      "subheadline": "Leverage AI to create and sell digital products based on: Sell Online with Shopify®"
+      "headline": "Unlock Your Passive Income with Sell Online with Shopify\u00ae",
+      "subheadline": "Leverage AI to create and sell digital products based on: Sell Online with Shopify\u00ae"
     },
     "problem": {
       "description": "Generic e-commerce stores fail to build trust and suffer from high cart abandonment. Without a high-performance storefront, conversion remains stagnant."
@@ -15,17 +15,17 @@
       "description": "A conversion-optimized e-commerce engine with mobile-first UI, friction-free checkout, and built-in trust triggers. Built for modern digital merchants."
     },
     "features": [
-      "Mobile-optimized high-speed landing UI for Sell Online with Shopify®",
-      "Trust-building proof & badge templates for Sell Online with Shopify®",
-      "Frictionless 1-click checkout flow for Sell Online with Shopify®",
-      "Automated order confirmation & tracking for Sell Online with Shopify®",
-      "Urgency & scarcity trigger system for Sell Online with Shopify®"
+      "Mobile-optimized high-speed landing UI for Sell Online with Shopify\u00ae",
+      "Trust-building proof & badge templates for Sell Online with Shopify\u00ae",
+      "Frictionless 1-click checkout flow for Sell Online with Shopify\u00ae",
+      "Automated order confirmation & tracking for Sell Online with Shopify\u00ae",
+      "Urgency & scarcity trigger system for Sell Online with Shopify\u00ae"
     ],
     "benefits": [
-      "Ship faster with ready Sell Online with Shopify® templates",
-      "Increase conversion with clear Sell Online with Shopify® value prop",
-      "Operate with predictable Sell Online with Shopify® delivery flow",
-      "Scale experimentation with simple Sell Online with Shopify® A/B hooks"
+      "Ship faster with ready Sell Online with Shopify\u00ae templates",
+      "Increase conversion with clear Sell Online with Shopify\u00ae value prop",
+      "Operate with predictable Sell Online with Shopify\u00ae delivery flow",
+      "Scale experimentation with simple Sell Online with Shopify\u00ae A/B hooks"
     ],
     "pricing": {
       "tier_name": "Standard Access",
@@ -34,7 +34,7 @@
     "faq": [
       {
         "q": "What is included?",
-        "a": "You get the full landing page, the Sell Online with Shopify® guide, and automated delivery setup."
+        "a": "You get the full landing page, the Sell Online with Shopify\u00ae guide, and automated delivery setup."
       },
       {
         "q": "How do I deploy?",
@@ -59,5 +59,6 @@
   "assets": {
     "main_content_file": "product.pdf",
     "landing_page": "index.html"
-  }
+  },
+  "package_file": "package_db20b7b630dd.zip"
 }

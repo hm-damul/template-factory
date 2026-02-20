@@ -1,6 +1,6 @@
 {
-  "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 1}",
-  "last_updated": "2026-02-20T12:35:08.243622+00:00",
+  "last_log": "시장 분석 및 가격 최적화 봇 가동...",
+  "last_updated": "2026-02-20T13:15:31.758466+00:00",
   "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-20T12:34:55.619398+00:00",
-  "next_run_approx": "2026-02-20T12:35:05.619399+00:00",
+  "last_run_end": "2026-02-20T12:41:16.356751+00:00",
+  "next_run_approx": "2026-02-20T12:41:26.356752+00:00",
   "count": 1,
   "status": "running",
   "pid": 7048,

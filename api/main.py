@@ -99,9 +99,22 @@ class handler(BaseHTTPRequestHandler):
                 status = "paid"
                 # Secure download link (in real app, use signed URL)
                 # For Vercel demo/autonomous, we redirect to file
-                # In Vercel, static files are served from root if placed in public/
-                # Assuming product_factory puts zip in outputs/{product_id}/
-                download_url = f"/outputs/{product_id}/package.zip"
+                
+                # Determine package filename from schema for security/obfuscation
+                package_filename = "package.zip"
+                try:
+                    # Check both relative paths (vercel vs local)
+                    schema_path = Path(f"outputs/{product_id}/product_schema.json")
+                    if not schema_path.exists():
+                        schema_path = Path(f"../outputs/{product_id}/product_schema.json")
+                    
+                    if schema_path.exists():
+                        s = json.loads(schema_path.read_text(encoding="utf-8"))
+                        package_filename = s.get("package_file", "package.zip")
+                except Exception as e:
+                    print(f"Error reading schema for package file: {e}")
+
+                download_url = f"/outputs/{product_id}/{package_filename}"
             elif provider_status in ["failed", "refunded", "expired"]:
                 status = "failed"
             else:

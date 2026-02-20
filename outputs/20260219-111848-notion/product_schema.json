@@ -1,12 +1,12 @@
 {
   "product_id": "20260219-111848-notion",
-  "title": "Unlock Your Passive Income with Шаблоны Notion на русском",
-  "target_customer": "Creators and merchants interested in Шаблоны Notion на русском",
-  "value_proposition": "Leverage AI to create and sell digital products based on: Шаблоны Notion на русском",
+  "title": "Unlock Your Passive Income with \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c",
+  "target_customer": "Creators and merchants interested in \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c",
+  "value_proposition": "Leverage AI to create and sell digital products based on: \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c",
   "sections": {
     "hero": {
-      "headline": "Unlock Your Passive Income with Шаблоны Notion на русском",
-      "subheadline": "Leverage AI to create and sell digital products based on: Шаблоны Notion на русском"
+      "headline": "Unlock Your Passive Income with \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c",
+      "subheadline": "Leverage AI to create and sell digital products based on: \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c"
     },
     "problem": {
       "description": "Creating and selling digital products is complex and time-consuming. Most creators fail due to technical friction and lack of a structured system."
@@ -15,17 +15,17 @@
       "description": "A professional-grade implementation system that handles everything from landing to delivery. Focus on your content, we handle the infrastructure."
     },
     "features": [
-      "One-file deployment architecture for Шаблоны Notion на русском",
-      "Secure token-gated delivery for Шаблоны Notion на русском",
-      "Conversion-optimized landing components for Шаблоны Notion на русском",
-      "Built-in analytics & tracking for Шаблоны Notion на русском",
-      "Automated promotion asset generator for Шаблоны Notion на русском"
+      "One-file deployment architecture for \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c",
+      "Secure token-gated delivery for \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c",
+      "Conversion-optimized landing components for \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c",
+      "Built-in analytics & tracking for \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c",
+      "Automated promotion asset generator for \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c"
     ],
     "benefits": [
-      "Ship faster with ready Шаблоны Notion на русском templates",
-      "Increase conversion with clear Шаблоны Notion на русском value prop",
-      "Operate with predictable Шаблоны Notion на русском delivery flow",
-      "Scale experimentation with simple Шаблоны Notion на русском A/B hooks"
+      "Ship faster with ready \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c templates",
+      "Increase conversion with clear \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c value prop",
+      "Operate with predictable \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c delivery flow",
+      "Scale experimentation with simple \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c A/B hooks"
     ],
     "pricing": {
       "tier_name": "Standard Access",
@@ -34,7 +34,7 @@
     "faq": [
       {
         "q": "What is included?",
-        "a": "You get the full landing page, the Шаблоны Notion на русском guide, and automated delivery setup."
+        "a": "You get the full landing page, the \u0428\u0430\u0431\u043b\u043e\u043d\u044b Notion \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c guide, and automated delivery setup."
       },
       {
         "q": "How do I deploy?",
@@ -76,5 +76,6 @@
     "market_price": 49,
     "our_price": 29,
     "desc": "High-quality digital resource"
-  }
+  },
+  "package_file": "package_62d5b6cca3df.zip"
 }

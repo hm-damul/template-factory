@@ -72,5 +72,6 @@
   "offers": {
     "@type": "Offer",
     "price": "29.00"
-  }
+  },
+  "package_file": "package_b05f278bc700.zip"
 }
