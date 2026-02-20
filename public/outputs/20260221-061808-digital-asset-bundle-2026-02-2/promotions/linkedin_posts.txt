@@ -1,7 +1,7 @@
 Digital products + crypto checkout can be a clean alternative to card rails.
 I packaged a guide: Digital Asset Bundle 2026-02-20 22:55.
 Focus: privacy-first buyer experience, deterministic fulfillment, and an ops runbook.
-Price: $49. Wallet buyers get instant delivery.
+Price: $15.00. Wallet buyers get instant delivery.
 
 ---
 

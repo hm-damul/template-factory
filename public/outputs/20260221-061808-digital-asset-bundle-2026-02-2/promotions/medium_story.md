@@ -21,7 +21,7 @@ If you are looking for a way to fast-track your results with Digital Asset Bundl
 This tool is designed to handle the heavy lifting for you.
 - **Automated Workflow:** Save hours every week.
 - **Proven Templates:** Don't reinvent the wheel.
-- **Cost-Effective:** At just **$49.00**, it costs less than a single hour of a consultant's time.
+- **Cost-Effective:** At just **$15.00**, it costs less than a single hour of a consultant's time.
 
 I personally use this to streamline my operations, and it has been a game-changer for my productivity.
 
