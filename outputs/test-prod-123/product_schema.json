@@ -1,0 +1,10 @@
+{
+  "product_id": "test-prod-123",
+  "title": "MetaPassiveIncome",
+  "sections": {
+    "pricing": {
+      "price": "$29.00"
+    }
+  },
+  "price": "29.00"
+}
