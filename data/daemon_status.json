@@ -1,7 +1,7 @@
 {
-  "last_log": "자동 복구(Auto-heal) 프로세스 시작...",
-  "last_updated": "2026-02-20T20:47:31.538250+00:00",
-  "phase": "idle",
+  "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1, \"Template / Landing Page\": 1, \"Prompt Pack / Asset\": 2}, [\"20260220-023210-digital-products-goldmine-200\", \"20260221-053135-how-i-make-30-000-month-sellin\", \"20260221-061808-digital-asset-bundle-2026-02-2\", \"20260221-063338-digital-asset-bundle-2026-02-2\"]]",
+  "last_updated": "2026-02-20T21:49:19.306982+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-20T20:31:05.124503+00:00",
-  "next_run_approx": "2026-02-20T20:31:15.124504+00:00",
+  "last_run_end": "2026-02-20T21:49:06.484589+00:00",
+  "next_run_approx": "2026-02-20T21:49:16.484589+00:00",
   "count": 1,
   "status": "running",
   "pid": 1188,

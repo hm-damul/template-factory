@@ -1,0 +1,16 @@
+{
+  "product_id": "20260221-064927-reading-and-publishing-predict",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-064927-reading-and-publishing-predict",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-064927-reading-and-publishing-predict\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-064927-reading-and-publishing-predict\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-064927-reading-and-publishing-predict\\product.pdf",
+  "checksum": "5658a6368008ba58232efcb8d9f56b3d94ea54cb2a63889c26be320d94a87a58",
+  "generated_at": "20260221-064936",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

@@ -1,12 +1,30 @@
 {
-  "timestamp": "2026-02-20T20:31:18.337867+00:00",
+  "timestamp": "2026-02-20T21:49:19.185540+00:00",
   "stats": {
-    "total": 238,
+    "total": 241,
     "published": 0,
     "waiting": 30,
-    "failed": 0
+    "failed": 2
   },
   "recent_products": [
+    {
+      "id": "20260221-063338-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 22:15",
+      "status": "PIPELINE_FAILED",
+      "created_at": "2026-02-21T06:33:38.370321"
+    },
+    {
+      "id": "20260221-061808-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 22:55",
+      "status": "PIPELINE_FAILED",
+      "created_at": "2026-02-21T06:18:08.979459"
+    },
+    {
+      "id": "20260221-053135-how-i-make-30-000-month-sellin",
+      "topic": "How I make $30,000/Month Selling Notion Templates",
+      "status": "PROMOTED",
+      "created_at": "2026-02-21T05:31:35.045298"
+    },
     {
       "id": "20260221-044426-most-popular-surnames-in-the-u",
       "topic": "Most Popular Surnames in the United States",
@@ -108,29 +126,11 @@
       "topic": "SaaS For Small Business and Startups: 15 Micro SaaS Ideas in 2026",
       "status": "PROMOTED",
       "created_at": "2026-02-20T20:09:45.913955"
-    },
-    {
-      "id": "20260220-200310-400-high-ticket-product-ideas",
-      "topic": "400+ High-Ticket Product Ideas to Sell !! ( 2026 List)",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T20:03:10.875349"
-    },
-    {
-      "id": "20260220-195647-digital-asset-bundle-2026-02-2",
-      "topic": "Digital Asset Bundle 2026-02-20 19:56",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T19:56:47.035826"
-    },
-    {
-      "id": "20260220-195037-23-proven-ways-to-make-money-o",
-      "topic": "23 Proven Ways To Make Money Online in 2026",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T19:50:37.065070"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1}, [\"20260220-023210-digital-products-goldmine-200\"]]",
-    "last_updated": "2026-02-20T20:31:17.156446+00:00",
+    "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1, \"Template / Landing Page\": 1, \"Prompt Pack / Asset\": 2}, [\"20260220-023210-digital-products-goldmine-200\", \"20260221-053135-how-i-make-30-000-month-sellin\", \"20260221-061808-digital-asset-bundle-2026-02-2\", \"20260221-063338-digital-asset-bundle-2026-02-2\"]]",
+    "last_updated": "2026-02-20T21:49:18.415698+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T20:31:05.124503+00:00",
-    "next_run_approx": "2026-02-20T20:31:15.124504+00:00",
+    "last_run_end": "2026-02-20T21:49:06.484589+00:00",
+    "next_run_approx": "2026-02-20T21:49:16.484589+00:00",
     "count": 1,
     "status": "running",
     "pid": 1188,
