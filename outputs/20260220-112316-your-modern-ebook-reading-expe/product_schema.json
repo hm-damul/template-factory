@@ -1,0 +1,63 @@
+{
+  "product_id": "20260220-112316-your-modern-ebook-reading-expe",
+  "title": "Unlock Your Passive Income with Your modern ebook reading experience",
+  "target_customer": "Creators and merchants interested in Your modern ebook reading experience",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Your modern ebook reading experience",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Your modern ebook reading experience",
+      "subheadline": "Leverage AI to create and sell digital products based on: Your modern ebook reading experience"
+    },
+    "problem": {
+      "description": "Most marketing assets are generic and fail to convert. Without a high-converting system, traffic is wasted and acquisition costs skyrocket."
+    },
+    "solution": {
+      "description": "A results-driven marketing vault with proven hooks, structured landing templates, and conversion-optimized copy. Designed for rapid scale."
+    },
+    "features": [
+      "High-converting hook & headline library for Your modern ebook reading experience",
+      "A/B test ready landing page templates for Your modern ebook reading experience",
+      "Psychology-based sales copy frameworks for Your modern ebook reading experience",
+      "Social proof & proof-block templates for Your modern ebook reading experience",
+      "Multi-channel promotion sequences for Your modern ebook reading experience"
+    ],
+    "benefits": [
+      "Ship faster with ready Your modern ebook reading experience templates",
+      "Increase conversion with clear Your modern ebook reading experience value prop",
+      "Operate with predictable Your modern ebook reading experience delivery flow",
+      "Scale experimentation with simple Your modern ebook reading experience A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$19.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Your modern ebook reading experience guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "minimal",
+      "primary_color": "#ef4444",
+      "secondary_color": "#ef4444",
+      "font_family": "Inter, sans-serif",
+      "layout_style": "minimalist"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  }
+}

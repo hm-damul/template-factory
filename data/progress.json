@@ -1,9 +1,9 @@
 {
   "task": "Product Creation",
-  "status": "Verifying Payment Flow",
-  "progress": 95,
-  "details": "Checking payment gateway...",
-  "product_id": "20260220-110614-10-best-digital-products-for-p",
-  "updated_at": 1771553502.3344727,
-  "updated_at_iso": "2026-02-20T02:11:42Z"
+  "status": "Generating Promo Content",
+  "progress": 60,
+  "details": "Writing blog posts and social content...",
+  "product_id": "20260220-112316-your-modern-ebook-reading-expe",
+  "updated_at": 1771554205.8251698,
+  "updated_at_iso": "2026-02-20T02:23:25Z"
 }

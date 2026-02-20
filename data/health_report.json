@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T02:06:05.064220+00:00",
+  "timestamp": "2026-02-20T02:23:07.696232+00:00",
   "stats": {
-    "total": 200,
-    "published": 0,
-    "waiting": 32,
+    "total": 201,
+    "published": 32,
+    "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-110614-10-best-digital-products-for-p",
+      "topic": "10 Best Digital Products for Passive Income in 2025 (Proven Ideas to ...",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T11:06:14.292927"
+    },
     {
       "id": "20260220-104317-25-digital-product-niches-to-w",
       "topic": "25 Digital Product Niches to Watch in 2025/2026",
@@ -120,17 +126,11 @@
       "topic": "Student Log In",
       "status": "PROMOTED",
       "created_at": "2026-02-20T07:48:02.410339"
-    },
-    {
-      "id": "20260220-074149-20-indonesia-viral-terbaru-vid",
-      "topic": "20 Indonesia Viral Terbaru Videos on Social Media in 2026 ...",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T07:41:49.567950"
     }
   ],
   "daemon": {
     "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-20T02:06:04.351492+00:00",
+    "last_updated": "2026-02-20T02:23:06.982214+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T01:49:19.030981+00:00",
-    "next_run_approx": "2026-02-20T01:49:29.030982+00:00",
+    "last_run_end": "2026-02-20T02:12:00.884737+00:00",
+    "next_run_approx": "2026-02-20T02:12:10.884737+00:00",
     "count": 1,
     "status": "running",
     "pid": 12128,
