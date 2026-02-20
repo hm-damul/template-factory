@@ -1,7 +1,7 @@
 {
-  "last_log": "자동 복구(Auto-heal) 프로세스 시작...",
-  "last_updated": "2026-02-20T15:33:16.158587+00:00",
-  "phase": "idle",
+  "last_log": "가격 최적화 완료: [{\"Prompt Pack / Asset\": 1}, [\"20260221-002736-digital-asset-bundle-2026-02-2\"]]",
+  "last_updated": "2026-02-20T16:27:17.075342+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 0,
-  "last_run_end": "2026-02-20T15:26:59.979449+00:00",
-  "next_run_approx": "2026-02-20T15:27:09.979450+00:00",
+  "last_run_end": "2026-02-20T15:43:35.591409+00:00",
+  "next_run_approx": "2026-02-20T16:27:14.692497+00:00",
   "count": 1,
   "status": "running",
   "pid": 1188,
