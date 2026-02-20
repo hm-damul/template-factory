@@ -119,7 +119,37 @@ class handler(BaseHTTPRequestHandler):
 
     def handle_start(self, data):
         product_id = data.get('product_id', '')
-        price = data.get('price_amount', '19.90')
+        # Default price
+        price = '19.90'
+        
+        # Try to load price from schema
+        try:
+            # Assume running from project root or api folder, try both
+            # If running from root: outputs/{product_id}/product_schema.json
+            # If running from api/: ../outputs/{product_id}/product_schema.json
+            schema_path = Path(f"outputs/{product_id}/product_schema.json")
+            if not schema_path.exists():
+                schema_path = Path(f"../outputs/{product_id}/product_schema.json")
+            
+            if schema_path.exists():
+                s = json.loads(schema_path.read_text(encoding="utf-8"))
+                # 1. Try pricing section
+                p_val = s.get("sections", {}).get("pricing", {}).get("price", "")
+                if p_val:
+                    price = str(float(p_val.replace('$', '').replace(',', '')))
+                # 2. Fallback to market_analysis
+                elif "market_analysis" in s:
+                     p_val = s["market_analysis"].get("our_price")
+                     if p_val:
+                         price = str(float(p_val))
+        except Exception as e:
+            print(f"Error loading schema price: {e}")
+            
+        # Use provided price if it's not the default fallback (but trust schema more)
+        # Actually, we should trust the schema price over the client input if possible, 
+        # but for now let's use schema price if we found it, otherwise fallback to data.get or default.
+        if price == '19.90':
+             price = data.get('price_amount', '19.90')
         
         # Generate Order ID for internal tracking (if we had DB)
         # For stateless, we use random or timestamp

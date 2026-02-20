@@ -80,6 +80,12 @@ def update_product_pages_price():
             # schema.org price
             # "price": "49.00"
             new_content = re.sub(r'"price": "\d+\.\d{2}"', f'"price": "{price_usd:.2f}"', new_content)
+
+            # Fix hardcoded script prices: Standard License ($49.00)
+            new_content = re.sub(r'Standard License \(\$\d+\.\d{2}\)', f'Standard License (${price_usd:.2f})', new_content)
+            
+            # Fix fallback price in JS: || "$19"
+            new_content = re.sub(r'\|\| "\$\d+"', f'|| "${price_usd:.0f}"', new_content)
             
             if new_content != content:
                 with open(index_path, 'w', encoding='utf-8') as f:

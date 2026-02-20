@@ -754,6 +754,8 @@
     
 
 
+
+
 <!-- ======= COMPARISON SECTION ======= -->
 <section id="comparison" style="padding: 60px 0; background: #f9f9f9;">
   <div class="container" style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
@@ -771,7 +773,7 @@
         <tbody>
           <tr style="border-bottom: 1px solid #eee;">
             <td style="padding: 15px; font-weight: bold;">Cost</td>
-            <td style="padding: 15px; text-align: center; color: #0070f3; font-weight: bold;">$59.0 (One-time)</td>
+            <td style="padding: 15px; text-align: center; color: #0070f3; font-weight: bold;">$59.00 (One-time)</td>
             <td style="padding: 15px; text-align: center;">Free (but hidden costs)</td>
             <td style="padding: 15px; text-align: center;">$500 - $2,000+</td>
           </tr>
@@ -805,6 +807,8 @@
   </div>
 </section>
 <!-- ======= END COMPARISON SECTION ======= -->
+
+
 
 
 
@@ -1065,9 +1069,9 @@
 
       // ----- 로직 유틸 -----
       async function startPay(plan) {
-        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        var rawPrice = localStorage.getItem(KEY_PRICE) || "$59";
         // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
-        var safePriceStr = String(rawPrice || "$19");
+        var safePriceStr = String(rawPrice || "$59");
         var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, "")) || 19;
 
         showToast("Starting checkout for " + plan + " (" + rawPrice + ")...");
@@ -1222,7 +1226,7 @@
 
         "choose-plan": function(el) {
           var plan = el.getAttribute("data-plan") || "Starter";
-          var price = el.getAttribute("data-price") || "$19";
+          var price = el.getAttribute("data-price") || "$59";
           localStorage.setItem(KEY_PLAN, plan);
           localStorage.setItem(KEY_PRICE, price);
 

@@ -816,6 +816,10 @@ def generate_promotions(
         _gen_instagram_post(rng, title=title, topic=topic, price_usd=price_usd),
     )
     _write(
+        promo_dir / "instagram.txt",
+        _gen_instagram_post(rng, title=title, topic=topic, price_usd=price_usd),
+    )
+    _write(
         promo_dir / "shortform_video_script.txt", _pick_first_shortform(shortform_lib)
     )  # 1편만
     _write(

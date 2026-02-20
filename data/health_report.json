@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-20T09:26:31.476175+00:00",
+  "timestamp": "2026-02-20T10:09:33.568062+00:00",
   "stats": {
-    "total": 214,
+    "total": 215,
     "published": 32,
     "waiting": 0,
     "failed": 0
   },
   "recent_products": [
+    {
+      "id": "20260220-182642-ielts-speaking-part-3-topics",
+      "topic": "IELTS Speaking Part 3 Topics",
+      "status": "PROMOTED",
+      "created_at": "2026-02-20T18:26:42.673047"
+    },
     {
       "id": "20260220-181547-the-6-best-b-2-b-community-exa",
       "topic": "The 6 Best B 2 B Community Examples of 2025",
@@ -120,29 +126,23 @@
       "topic": "2026 Planner",
       "status": "PROMOTED",
       "created_at": "2026-02-20T10:24:09.750075"
-    },
-    {
-      "id": "20260220-100544-digital-asset-bundle-2026-02-2",
-      "topic": "Digital Asset Bundle 2026-02-20 10:05",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T10:05:44.223237"
     }
   ],
   "daemon": {
     "last_log": "가격 최적화 완료: {\"Standard Digital Product\": 17, \"SaaS / System\": 1}",
-    "last_updated": "2026-02-20T09:26:30.570601+00:00",
+    "last_updated": "2026-02-20T10:09:32.716435+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T09:21:32.295909+00:00",
-    "next_run_approx": "2026-02-20T10:09:30.931294+00:00",
+    "last_run_end": "2026-02-20T09:34:55.066566+00:00",
+    "next_run_approx": "2026-02-20T09:35:05.066566+00:00",
     "count": 1,
     "status": "running",
     "pid": 7048,
