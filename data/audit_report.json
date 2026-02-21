@@ -1,24 +1,78 @@
 {
-  "last_audit": "2026-02-21 04:27:17",
+  "last_audit": "2026-02-21 15:25:34",
   "summary": {
-    "total_products": 237,
-    "healthy_products": 4,
-    "broken_products": 233,
-    "total_promotions": 232,
+    "total_products": 246,
+    "healthy_products": 14,
+    "broken_products": 232,
+    "total_promotions": 236,
     "healthy_promotions": 0,
-    "broken_promotions": 232
+    "broken_promotions": 236
   },
   "details": [
     {
-      "product_id": "20260221-034852-digital-asset-bundle-2026-02-2",
+      "product_id": "20260221-133812-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PIPELINE_FAILED",
       "issues": []
     },
     {
+      "product_id": "20260221-115017-big-ideas-2026-part-1",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260221-082149-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PUBLISH_FAILED",
+      "issues": []
+    },
+    {
+      "product_id": "20260221-080621-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PUBLISH_FAILED",
+      "issues": []
+    },
+    {
+      "product_id": "20260221-064927-reading-and-publishing-predict",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260221-063338-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PUBLISH_FAILED",
+      "issues": []
+    },
+    {
+      "product_id": "20260221-061808-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PUBLISH_FAILED",
+      "issues": []
+    },
+    {
+      "product_id": "20260221-053135-how-i-make-30-000-month-sellin",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260221-044426-most-popular-surnames-in-the-u",
+      "type": "product",
+      "status": "PROMOTED",
+      "issues": []
+    },
+    {
+      "product_id": "20260221-034852-digital-asset-bundle-2026-02-2",
+      "type": "product",
+      "status": "PUBLISH_FAILED",
+      "issues": []
+    },
+    {
       "product_id": "20260221-033322-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PIPELINE_FAILED",
+      "status": "PUBLISH_FAILED",
       "issues": []
     },
     {
@@ -709,9 +763,7 @@
       "product_id": "20260220-023210-digital-products-goldmine-200",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-022846-10-best-shopify-themes-for-hig",
@@ -1638,7 +1690,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1647,7 +1699,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1656,7 +1708,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1665,7 +1717,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1674,7 +1726,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1683,7 +1735,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1692,7 +1744,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1701,7 +1753,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1710,7 +1762,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1719,7 +1771,7 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
@@ -1728,70 +1780,63 @@
       "type": "product",
       "status": "PUBLISHED",
       "issues": [
-        "Missing deployment_url in metadata",
+        "Deployment URL dead/invalid: Status Code 404",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-132048-defi-passive-income-strategies",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-130406-ai-driven-product-flipping",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-130008-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-125053-global-merchant-crypto-checkou",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-122807-passive-income-with-saas-boile",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-122558-crypto-ai-trading-signals",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-120036-metaverse-real-estate-marketin",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
@@ -1806,18 +1851,16 @@
     {
       "product_id": "20260215-081716-reddit-linkedin-test",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-081614-saas-marketing",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
@@ -1832,45 +1875,40 @@
     {
       "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-015534-viral-marketing-growth-bluepri",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-015455-automated-daily-planner-system",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-014951-automated-crypto-tax-reporting",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260215-004917-high-ticket-service-automation",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
@@ -1885,46 +1923,77 @@
     {
       "product_id": "20260214-140141-ai-dev-income",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260214-133737-ai-powered-passive-income-syst",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260214-130903-ai-trading-bot",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260214-112651-aipassiveincomesystem",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Missing deployment_url in metadata",
         "Missing index.html in outputs"
       ]
     },
     {
       "product_id": "20260214-105333-global-merchant-crypto-checkou",
       "type": "product",
-      "status": "PUBLISHED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": [
-        "Deployment URL dead/invalid: Status Code 401",
         "Missing index.html in outputs"
+      ]
+    },
+    {
+      "product_id": "20260221-115017-big-ideas-2026-part-1",
+      "type": "promotion_wordpress",
+      "post_id": 1375,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Big Ideas 2026: Part 1'"
+      ]
+    },
+    {
+      "product_id": "20260221-064927-reading-and-publishing-predict",
+      "type": "promotion_wordpress",
+      "post_id": 1374,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Reading and Publishing Predictions: Book Trends to Watch for in 2026'"
+      ]
+    },
+    {
+      "product_id": "20260221-053135-how-i-make-30-000-month-sellin",
+      "type": "promotion_wordpress",
+      "post_id": 1373,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with How I make $30,000/Month Selling Notion Templates'"
+      ]
+    },
+    {
+      "product_id": "20260221-044426-most-popular-surnames-in-the-u",
+      "type": "promotion_wordpress",
+      "post_id": 1372,
+      "issues": [
+        "No product link found in post content",
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Most Popular Surnames in the United States'"
       ]
     },
     {
@@ -3705,7 +3774,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-212725-token-gated-content-revenue-au/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
       ]
     },
@@ -3714,7 +3783,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-212356-token-gated-content-revenue-au/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
       ]
     },
@@ -3723,7 +3792,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-210221-token-gated-content-revenue-au/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
       ]
     },
@@ -3732,7 +3801,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-185109-token-gated-content-revenue-au/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
       ]
     },
@@ -3741,7 +3810,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-155105-token-gated-content-revenue-au/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
       ]
     },
@@ -3750,7 +3819,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-145048-token-gated-content-revenue-au/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
       ]
     },
@@ -3759,6 +3828,7 @@
       "type": "promotion_wordpress",
       "post_id": 1040,
       "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-143859-web3-asset-security-audit-fram/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Web3 Asset Security Audit Framework'"
       ]
     },
@@ -3767,6 +3837,7 @@
       "type": "promotion_wordpress",
       "post_id": 1039,
       "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-143641-finance-risk-management-for-cr/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Finance Risk Management For Crypto Traders'"
       ]
     },
@@ -3775,6 +3846,7 @@
       "type": "promotion_wordpress",
       "post_id": 1038,
       "issues": [
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-143622-web3-smart-contract-audit-chec/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Web3 Smart Contract Audit Checklist'"
       ]
     },
@@ -3783,7 +3855,7 @@
       "type": "promotion_wordpress",
       "post_id": 1253,
       "issues": [
-        "No product link found in post content",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-135151-ai-agent-monetization-guide/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'AI Agent Monetization Guide: Selling Custom GPT Actions'"
       ]
     },
@@ -3792,7 +3864,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
+        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-135047-token-gated-content-revenue-au/index.html found in post content",
         "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
       ]
     },

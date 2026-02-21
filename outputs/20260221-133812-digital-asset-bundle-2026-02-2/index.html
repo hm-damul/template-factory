@@ -30,7 +30,7 @@
     "offers": {
       "@type": "Offer",
       "priceCurrency": "USD",
-      "price": "29.00",
+      "price": "15.00",
       "availability": "https://schema.org/InStock"
     }
   }
@@ -747,7 +747,7 @@
     <section id="pricing">
       <h2 class="section-title">Pricing</h2>
       <div class="pricing">
-        <div class="card" style="border-color: rgba(0,180,255,0.38); box-shadow: 0 24px 80px rgba(0,180,255,0.12);"><div class="badge"><span class="pill" style="background: var(--accent2);"></span><span>Standard Access</span></div><div class="price">$29.00<span style="font-size:14px; color: var(--muted);">/mo</span></div><p class="sub" style="font-size:13px;">Best for most creators.</p><ul class="list"><li>Full access</li><li>Priority support</li><li>Updates included</li></ul><div class="row"><button class="btn btn-primary" data-action="choose-plan" data-plan="Standard Access" data-price="$29.00">Standard Access</button></div></div>
+        <div class="card" style="border-color: rgba(0,180,255,0.38); box-shadow: 0 24px 80px rgba(0,180,255,0.12);"><div class="badge"><span class="pill" style="background: var(--accent2);"></span><span>Standard Access</span></div><div class="price">$15.00<span style="font-size:14px; color: var(--muted);">/mo</span></div><p class="sub" style="font-size:13px;">Best for most creators.</p><ul class="list"><li>Full access</li><li>Priority support</li><li>Updates included</li></ul><div class="row"><button class="btn btn-primary" data-action="choose-plan" data-plan="Standard Access" data-price="$15.00">Standard Access</button></div></div>
       </div>
     </section>
 
@@ -905,8 +905,8 @@
         if (planBtns) {
             // 스키마에서 주입된 가격 정보 사용 (localStorage 무시)
             planBtns.innerHTML = `
-                <button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$29.00">
-                    Standard License ($29.00)
+                <button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$15.00">
+                    Standard License ($15.00)
                 </button>
             `;
         }
@@ -1016,15 +1016,13 @@
         showToast("Starting checkout for " + plan + " (" + rawPrice + ")...");
         
         // 1) 로컬 프리뷰 환경에서 대시보드 체크아웃 페이지(MetaMask 등)가 우선인지 확인
+        /*
+        // DEPRECATED: We now use the main API endpoint for checkout in all environments
+        // The API server (api/main.py) or Vercel functions will handle the request
         if (isLocalPreview()) {
-           var checkoutUrl = "http://127.0.0.1:8099/checkout/" + productId;
-           // 대시보드 서버가 살아있는지 확인은 생략하고 바로 리다이렉트 시도 (사용자 경험 우선)
-           showToast("Redirecting to secure checkout...");
-           setTimeout(function() {
-             window.location.href = checkoutUrl;
-           }, 800);
-           return;
+           // Legacy logic removed to prevent hardcoded localhost dependencies
         }
+        */
 
         try {
           // GET request to avoid 405 error (fallback supported on server)

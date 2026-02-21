@@ -1,7 +1,7 @@
 {
-  "last_log": "재배포 성공: 20260215-135047-token-gated-content-revenue-au",
-  "last_updated": "2026-02-21T05:51:58.024974+00:00",
-  "phase": "sleeping",
+  "last_log": "업데이트된 제품 89개를 재배포 대기열에 추가합니다.",
+  "last_updated": "2026-02-21T06:42:54.657962+00:00",
+  "phase": "running_autopilot",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
@@ -15,7 +15,7 @@
   "next_run_approx": "2026-02-21T04:53:57.886784+00:00",
   "count": 1,
   "status": "running",
-  "pid": 1188,
-  "start_time": "2026-02-20T14:15:00.415300+00:00",
+  "pid": 16644,
+  "start_time": "2026-02-21T05:52:57.186419+00:00",
   "stop_time": "2026-02-18T22:46:37.546758+00:00"
 }

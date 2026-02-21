@@ -1,0 +1,16 @@
+{
+  "product_id": "20260221-154313-niche-college-search-reviews-a",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-154313-niche-college-search-reviews-a",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-154313-niche-college-search-reviews-a\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-154313-niche-college-search-reviews-a\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-154313-niche-college-search-reviews-a\\product.pdf",
+  "checksum": "a482aad014c54397260322c6d70cb8e6553b9cb5d3a5ed10b74b70752c4393d1",
+  "generated_at": "20260221-154323",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}
