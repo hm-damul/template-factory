@@ -1,7 +1,7 @@
 {
-  "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1, \"Guide / E-book / Blueprint\": 1, \"Prompt Pack / Asset\": 2}, [\"20260220-023210-digital-products-goldmine-200\", \"20260221-064927-reading-and-publishing-predict\", \"20260221-080621-digital-asset-bundle-2026-02-2\", \"20260221-082149-digital-asset-bundle-2026-02-2\"]]",
-  "last_updated": "2026-02-21T02:50:08.114350+00:00",
-  "phase": "running_autopilot",
+  "last_log": "자동 복구(Auto-heal) 프로세스 시작...",
+  "last_updated": "2026-02-21T03:06:24.821869+00:00",
+  "phase": "idle",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
