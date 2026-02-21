@@ -1483,6 +1483,7 @@ def _render_landing_html(
         showToast(\"Starting checkout for \" + plan + \" (\" + rawPrice + \")...\");
         
         // 1) 로컬 프리뷰 환경에서 대시보드 체크아웃 페이지(MetaMask 등)가 우선인지 확인
+        /*
         if (isLocalPreview()) {{
            var checkoutUrl = \"http://127.0.0.1:8099/checkout/\" + productId;
            // 대시보드 서버가 살아있는지 확인은 생략하고 바로 리다이렉트 시도 (사용자 경험 우선)
@@ -1492,6 +1493,7 @@ def _render_landing_html(
            }}, 800);
            return;
         }}
+        */
 
         try {{
           // GET request to avoid 405 error (fallback supported on server)
