@@ -2,11 +2,14 @@
 {
   "version": 2,
   "name": "metapassiveincome-final",
-  "public": false,
   "rewrites": [
     {
       "source": "/api/pay/(.*)",
       "destination": "/api/main"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
     }
   ]
 }
