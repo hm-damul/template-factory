@@ -605,6 +605,11 @@ def build_channel_payloads(product_id: str) -> Dict[str, Any]:
     if title and ("-" in title or "_" in title) and " " not in title:
         title = _humanize_title(title)
 
+    # Force production URL if localhost is detected or URL is missing
+    # This ensures all promotions point to the live Vercel site
+    if not preview_url or "localhost" in preview_url or "127.0.0.1" in preview_url:
+        preview_url = f"https://metapassiveincome-final.vercel.app/checkout/{product_id}"
+
     # 기본 텍스트 구성 요소
     primary = _extract_primary_x_post(promotions_dir)
     newsletter = _extract_newsletter(promotions_dir)

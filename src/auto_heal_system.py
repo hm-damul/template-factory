@@ -66,7 +66,7 @@ class AutoHealSystem:
             logger.info(f"Found issues for product {pid}: {issues}")
             
             # Issue: Missing deployment_url or Deployment URL dead
-            if any("Deployment URL dead" in i or "Missing deployment_url" in i for i in issues):
+            if any("Deployment URL dead" in i or "Missing deployment_url" in i or "Deployment URL is localhost" in i for i in issues):
                 self._redeploy_product(pid)
 
             # Issue: Missing index.html (Cannot redeploy if source is missing, needs regeneration)
@@ -253,15 +253,18 @@ class AutoHealSystem:
         self._update_wp_post(wp_api_url, wp_token, post_id, html_content)
 
     def _update_wp_post(self, api_url: str, token: str, post_id: str, content: str):
-        if ":" in token:
-            encoded_auth = base64.b64encode(token.encode("utf-8")).decode("utf-8")
+        # Strip spaces from token
+        clean_token = token.replace(" ", "")
+        
+        if ":" in clean_token:
+            encoded_auth = base64.b64encode(clean_token.encode("utf-8")).decode("utf-8")
             headers = {
                 "Authorization": f"Basic {encoded_auth}",
                 "Content-Type": "application/json",
             }
         else:
             headers = {
-                "Authorization": f"Bearer {token}",
+                "Authorization": f"Bearer {clean_token}",
                 "Content-Type": "application/json",
             }
         

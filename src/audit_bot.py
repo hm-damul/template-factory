@@ -118,6 +118,8 @@ class SystemAuditBot:
             if status == "PUBLISHED":
                 if not deployment_url:
                     audit_item["issues"].append("Missing deployment_url in metadata")
+                elif "localhost" in deployment_url or "127.0.0.1" in deployment_url:
+                    audit_item["issues"].append("Deployment URL is localhost (should be production)")
                 else:
                     is_ok, error_msg = self._validate_deployment_url(deployment_url)
                     if not is_ok:
@@ -186,12 +188,15 @@ class SystemAuditBot:
             
             headers = {"Content-Type": "application/json"}
             if wp_token:
-                if ":" in wp_token:
+                # Strip spaces from token to prevent header injection or auth errors
+                # Especially for Application Passwords which might be displayed with spaces
+                clean_token = wp_token.replace(" ", "")
+                if ":" in clean_token:
                     import base64
-                    encoded_auth = base64.b64encode(wp_token.encode("utf-8")).decode("utf-8")
+                    encoded_auth = base64.b64encode(clean_token.encode("utf-8")).decode("utf-8")
                     headers["Authorization"] = f"Basic {encoded_auth}"
                 else:
-                    headers["Authorization"] = f"Bearer {wp_token}"
+                    headers["Authorization"] = f"Bearer {clean_token}"
             
             r = requests.get(check_url, headers=headers, timeout=10)
             if r.status_code != 200:
