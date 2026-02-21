@@ -4,7 +4,7 @@
   "topic": "Reading and Publishing Predictions: Book Trends to Watch for in 2026",
   "product_id": "20260221-064927-reading-and-publishing-predict",
   "created_at": "2026-02-20T21:49:36Z",
-  "price_usd": 59.0,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "785461be6ffeb8dc2e628dd1b82e6224f5a6d81e35792d3907ce87e37129992a",
     "promotions/x_threads.txt": "03fda76f240b17edc6ddde9f3628c1719e902a9f9d60e045cd6444435002336a",
     "promotions/youtube_shorts.txt": "fa89d73014c94413dce5951f806b62f732336253bfcf287223c95797b9a725c4"
-  }
+  },
+  "price": 29,
+  "market_price": 49
 }

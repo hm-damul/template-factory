@@ -7,3 +7,5 @@ data/*.db
 data/*.db-journal
 *.log
 .env
+outputs/
+downloads/
