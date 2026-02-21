@@ -18,7 +18,7 @@ try:
 except ImportError:
     OAuth1 = None
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 CONFIG_PATH = DATA_DIR / "promo_channels.json"
 

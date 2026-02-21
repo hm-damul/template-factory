@@ -4,7 +4,7 @@
   "topic": "Niche: College Search, Reviews, and Rankings",
   "product_id": "20260221-154313-niche-college-search-reviews-a",
   "created_at": "2026-02-21T06:43:24Z",
-  "price_usd": 59.0,
+  "price_usd": 29,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "22d444bfe8a0241a41cb3e399597f2d4015d825dd99b6e7f60cd0ddb94fdb816",
     "promotions/x_threads.txt": "2fbc424270b1abf30c7684fc082d98e10eff89781b250ad365283709c7703cda",
     "promotions/youtube_shorts.txt": "bdd96a441d969e4afb064e4ad958479be61b9750bfa9ab8a4b92283b2756490c"
-  }
+  },
+  "price": 29,
+  "market_price": 49
 }

@@ -6,12 +6,12 @@ product_id = "20260220-211248-digital-asset-bundle-2026-02-2"
 base_urls = [
     "https://metapassiveincome-final.vercel.app",
     "http://127.0.0.1:5000",
-    "http://127.0.0.1:8099" # Dashboard
+    "http://127.0.0.1:8099"
 ]
 
 paths = [
     f"/outputs/{product_id}/index.html",
-    f"/checkout/{product_id}", # New rewrite path
+    f"/checkout/{product_id}",
     "/api/pay/health",
     "/",
     "/index.html"

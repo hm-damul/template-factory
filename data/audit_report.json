@@ -1,14 +1,20 @@
 {
-  "last_audit": "2026-02-21 15:25:34",
+  "last_audit": "2026-02-21 17:29:32",
   "summary": {
-    "total_products": 246,
-    "healthy_products": 14,
-    "broken_products": 232,
+    "total_products": 247,
+    "healthy_products": 102,
+    "broken_products": 145,
     "total_promotions": 236,
     "healthy_promotions": 0,
     "broken_promotions": 236
   },
   "details": [
+    {
+      "product_id": "20260221-154313-niche-college-search-reviews-a",
+      "type": "product",
+      "status": "PIPELINE_FAILED",
+      "issues": []
+    },
     {
       "product_id": "20260221-133812-digital-asset-bundle-2026-02-2",
       "type": "product",
@@ -555,9 +561,7 @@
       "product_id": "20260220-063850-crypto-wallet-buyer-playbook-p",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-063116-sell-online-with-shopify",
@@ -1265,700 +1269,517 @@
       "product_id": "20260219-141036-11-b2b-ecommerce-examples-and",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-135543-etsy",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-135543-как-открыть-магазин-на-etsy-и",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-133359-top-ebook-topic-ideas-in-2026",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-131443-18-best-digital-product-niches",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-131418-20-profitable-saas-micro-saas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-113455-notion",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-111848-notion",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-113455-шаблоны-notion-на-русском",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-111848-шаблоны-notion-на-русском",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-101841-best-ebook-topics",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-091843-50-digital-products-to-sell-fo",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-081908-latest-ielts-writing-topics-fe",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-072234-12-most-popular-notion-templat",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-072203-15-digital-product-ideas-you-c",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-063824-top-20-b2b-ecommerce-examples",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-063717-26-best-shopify-themes-for-202",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-060349-7-ai-generated-digital-product",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-060347-saas-ideas-150-profitable-saas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-052804-3-profitable-ai-saas-ideas-to",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-045803-9-b2b-ecommerce-examples-for-s",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-043147-best-shopify-themes-2026-free",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-035801-build-your-2026",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-032754-720-business-2-ideas-to-save-i",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-030007-18-best-digital-products-to-se",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-022754-dashboard-and-digital-product",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-015809-best-notion-templates-in-2026",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-012800-the-30-best-notion-second-brai",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-005756-15-profitable-digital-products",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-002802-top-sales-templates-from-notio",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-235807-30-ai-powered-digital-product",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-232911-20-untapped-etsy-niches-for-20",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-225813-product-hunt-the-best-new-prod",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-225123-2026-s-best-selling-shopify-th",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-225010-etsy-digital-products-2026-how",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-223156-8-best-notion-templates-for-20",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-215906-best-ebook-niches-2025-2026-10",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-213154-choose-from-30-000-notion-temp",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-205806-shopify-com",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-203243-7-most-profitable-ebook-niches",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "test-prod-123",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-063000-freelancer-consultant-landing",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-000641-freelancer-consultant-landing",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-144125-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-102720-token-gated-content-revenue-au",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-094845-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-093450-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-093420-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-093130-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-090417-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-085832-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-075918-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260218-075634-test-run",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-212725-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-212356-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-210221-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-185109-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-155105-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-145048-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-143859-web3-asset-security-audit-fram",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-143641-finance-risk-management-for-cr",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-143622-web3-smart-contract-audit-chec",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-135151-ai-agent-monetization-guide",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-135047-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PUBLISHED",
-      "issues": [
-        "Deployment URL dead/invalid: Status Code 404",
-        "Missing index.html in outputs"
-      ]
+      "status": "WAITING_FOR_DEPLOYMENT",
+      "issues": []
     },
     {
       "product_id": "20260215-132048-defi-passive-income-strategies",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-130406-ai-driven-product-flipping",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-130008-token-gated-content-revenue-au",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-125053-global-merchant-crypto-checkou",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-122807-passive-income-with-saas-boile",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-122558-crypto-ai-trading-signals",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-120036-metaverse-real-estate-marketin",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "test_optimized_v3",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-081716-reddit-linkedin-test",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-081614-saas-marketing",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-074829-freelancer-consultant-landing",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-015534-viral-marketing-growth-bluepri",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-015455-automated-daily-planner-system",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-014951-automated-crypto-tax-reporting",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260215-004917-high-ticket-service-automation",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260214-231100-unknown-single",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260214-140141-ai-dev-income",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260214-133737-ai-powered-passive-income-syst",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260214-130903-ai-trading-bot",
       "type": "product",
       "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260214-112651-aipassiveincomesystem",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "status": "PROMOTED",
+      "issues": []
     },
     {
       "product_id": "20260214-105333-global-merchant-crypto-checkou",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "status": "PROMOTED",
+      "issues": []
     },
     {
       "product_id": "20260221-115017-big-ideas-2026-part-1",

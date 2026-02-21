@@ -1,12 +1,18 @@
 {
-  "timestamp": "2026-02-21T06:42:54.513883+00:00",
+  "timestamp": "2026-02-21T12:40:45.082139+00:00",
   "stats": {
-    "total": 246,
+    "total": 247,
     "published": 0,
-    "waiting": 30,
-    "failed": 1
+    "waiting": 28,
+    "failed": 2
   },
   "recent_products": [
+    {
+      "id": "20260221-154313-niche-college-search-reviews-a",
+      "topic": "Niche: College Search, Reviews, and Rankings",
+      "status": "PIPELINE_FAILED",
+      "created_at": "2026-02-21T15:43:13.755097"
+    },
     {
       "id": "20260221-133812-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:55",
@@ -120,17 +126,11 @@
       "topic": "Top 100 best selling t shirts on Etsy 2026",
       "status": "PROMOTED",
       "created_at": "2026-02-20T21:35:18.288191"
-    },
-    {
-      "id": "20260220-212906-1000-ielts-speaking-questions",
-      "topic": "1000 IELTS Speaking Questions (Updated 2026 )",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T21:29:06.261290"
     }
   ],
   "daemon": {
     "last_log": "업데이트된 제품 89개를 재배포 대기열에 추가합니다.",
-    "last_updated": "2026-02-21T06:42:51.907844+00:00",
+    "last_updated": "2026-02-21T12:40:44.231961+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -140,13 +140,13 @@
       "1"
     ],
     "action": "Creating/Updating Product",
-    "rc": 0,
-    "last_run_end": "2026-02-21T04:53:47.886783+00:00",
-    "next_run_approx": "2026-02-21T04:53:57.886784+00:00",
+    "rc": 1,
+    "last_run_end": "2026-02-21T11:40:50.960551+00:00",
+    "next_run_approx": "2026-02-21T11:52:54.259408+00:00",
     "count": 1,
     "status": "running",
-    "pid": 16644,
-    "start_time": "2026-02-21T05:52:57.186419+00:00",
+    "pid": 13060,
+    "start_time": "2026-02-21T07:42:01.444808+00:00",
     "stop_time": "2026-02-18T22:46:37.546758+00:00"
   }
 }

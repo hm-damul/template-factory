@@ -13,16 +13,11 @@ from src.ledger_manager import LedgerManager
 from src.config import Config
 from src.error_learning_system import get_error_system
 from src.payment_flow_verifier import PaymentFlowVerifier
-import promotion_dispatcher
-
-# Try to import deploy_static_files from root module
+from src.publisher import Publisher
 try:
-    import sys
-    sys.path.append(str(Path(__file__).parent.parent))
-    from deploy_module_vercel_api import deploy_static_files
+    from src import promotion_dispatcher
 except ImportError:
-    # Fallback or error logging
-    deploy_static_files = None
+    import promotion_dispatcher
 
 # Configure logging
 logging.basicConfig(
@@ -35,144 +30,12 @@ logging.basicConfig(
 )
 logger = logging.getLogger("AutoHealSystem")
 
-class VercelAPIDeployerWrapper:
-    def __init__(self):
-        self.vercel_api_token = Config.VERCEL_API_TOKEN
-        self.vercel_team_id = os.getenv("VERCEL_TEAM_ID") or os.getenv("VERCEL_ORG_ID")
-
-    def _vercel_headers(self) -> Dict[str, str]:
-        return {
-            "Authorization": f"Bearer {self.vercel_api_token}",
-            "Content-Type": "application/json",
-        }
-
-    def _vercel_team_qs(self) -> str:
-        if self.vercel_team_id:
-            return f"?teamId={self.vercel_team_id}"
-        return ""
-
-    def _disable_vercel_sso(self, project_name: str):
-        """Disable Vercel SSO Protection for public access."""
-        qs = self._vercel_team_qs()
-        url = f"https://api.vercel.com/v9/projects/{project_name}{qs}"
-        payloads = [{"ssoProtection": None}, {"directoryListing": True}]
-        for payload in payloads:
-            try:
-                requests.patch(url, headers=self._vercel_headers(), json=payload)
-            except Exception as e:
-                logger.warning(f"Failed to update project settings for {project_name}: {e}")
-
-    def _set_vercel_env_vars(self, project_name: str):
-        """Set necessary environment variables for the Vercel project."""
-        env_vars = {
-            "NOWPAYMENTS_API_KEY": os.getenv("NOWPAYMENTS_API_KEY"),
-            "PAYMENT_MODE": os.getenv("PAYMENT_MODE", "nowpayments"),
-            "MERCHANT_WALLET_ADDRESS": os.getenv("MERCHANT_WALLET_ADDRESS"),
-            "CHAIN_ID": os.getenv("CHAIN_ID", "1"),
-            "UPSTASH_REDIS_REST_URL": os.getenv("UPSTASH_REDIS_REST_URL"),
-            "UPSTASH_REDIS_REST_TOKEN": os.getenv("UPSTASH_REDIS_REST_TOKEN"),
-            "DOWNLOAD_TOKEN_SECRET": os.getenv("DOWNLOAD_TOKEN_SECRET")
-        }
-        qs = self._vercel_team_qs()
-        url = f"https://api.vercel.com/v9/projects/{project_name}/env{qs}"
-        
-        # Check existing envs to update or create
-        try:
-            r = requests.get(url, headers=self._vercel_headers())
-            existing_envs = {}
-            if r.status_code == 200:
-                for e in r.json().get("envs", []):
-                    existing_envs[e['key']] = {'id': e['id'], 'value': e.get('value')}
-            
-            for key, value in env_vars.items():
-                if not value: continue
-                
-                if key in existing_envs:
-                    # Update (Patch)
-                    env_id = existing_envs[key]['id']
-                    patch_url = f"https://api.vercel.com/v9/projects/{project_name}/env/{env_id}{qs}"
-                    payload = {"value": value, "target": ["production", "preview", "development"]}
-                    requests.patch(patch_url, headers=self._vercel_headers(), json=payload)
-                else:
-                    # Create (Post)
-                    payload = {
-                        "key": key, "value": value, "type": "encrypted",
-                        "target": ["production", "preview", "development"]
-                    }
-                    requests.post(url, headers=self._vercel_headers(), json=payload)
-        except Exception as e:
-            logger.error(f"Failed to set env vars for {project_name}: {e}")
-
-    def deploy(self, directory: str, project_name: str) -> str:
-        if not deploy_static_files:
-            logger.error("deploy_static_files function not available.")
-            return ""
-            
-        # Read all files in directory
-        files = []
-        dir_path = Path(directory)
-        for f in dir_path.rglob("*"):
-            if f.is_file():
-                try:
-                    rel_path = f.relative_to(dir_path).as_posix()
-                    content = f.read_bytes()
-                    files.append((rel_path, content))
-                except Exception as e:
-                    logger.warning(f"Failed to read file {f}: {e}")
-        
-        # [CRITICAL FIX] Add vercel.json and api/ files for full functionality
-        project_root = Path(__file__).resolve().parents[1]
-        
-        # 1. vercel.json
-        vercel_json = project_root / "vercel.json"
-        if vercel_json.exists():
-            files.append(("vercel.json", vercel_json.read_bytes()))
-            
-        # 2. api/ folder
-        api_dir = project_root / "api"
-        if api_dir.exists():
-            for p in api_dir.rglob("*"):
-                if p.is_file() and "__pycache__" not in str(p):
-                    rel = p.relative_to(project_root).as_posix()
-                    files.append((rel, p.read_bytes()))
-                    
-        # 3. secrets.json
-        secrets_json = project_root / "data" / "secrets.json"
-        if secrets_json.exists():
-            files.append(("data/secrets.json", secrets_json.read_bytes()))
-
-        # 4. [CRITICAL] Required root modules for API functionality
-        required_modules = [
-            "payment_api.py",
-            "nowpayments_client.py",
-            "order_store.py",
-            "evm_verifier.py",
-        ]
-        for mod in required_modules:
-            mod_path = project_root / mod
-            if mod_path.exists():
-                files.append((mod, mod_path.read_bytes()))
-
-        if not files:
-            logger.error(f"No files found in {directory}")
-            return ""
-            
-        try:
-            url = deploy_static_files(project_name, files, production=True)
-            if url:
-                # Post-deployment configuration
-                self._set_vercel_env_vars(project_name)
-                self._disable_vercel_sso(project_name)
-            return url
-        except Exception as e:
-            logger.error(f"Vercel deployment failed: {e}")
-            return ""
-
 class AutoHealSystem:
     def __init__(self):
         self.audit_bot = SystemAuditBot()
         self.ledger = LedgerManager(Config.DATABASE_URL)
-        self.deployer = VercelAPIDeployerWrapper()
+        # Use Publisher for Git-based deployment (bypassing Vercel API limits)
+        self.publisher = Publisher(self.ledger)
         self.project_root = Path(__file__).parent.parent
         self.outputs_dir = self.project_root / "outputs"
 
@@ -228,23 +91,10 @@ class AutoHealSystem:
              return
 
         try:
-            # Use Vercel API Deployer
-            # We need a project name. Let's try to get it from metadata or generate one.
-            prod = self.ledger.get_product(product_id)
-            meta = prod.get("metadata", {}) if prod else {}
-            if isinstance(meta, str):
-                meta = json.loads(meta)
-            
-            project_name = meta.get("vercel_project_name")
-            if not project_name:
-                # Fallback to a name based on title or ID
-                title = meta.get("title") or prod.get("topic") or "product"
-                import re
-                safe_title = re.sub(r'[^a-zA-Z0-9-]', '', title.replace(' ', '-').lower())
-                project_name = f"{safe_title[:30]}-{int(time.time())}"
-            
-            logger.info(f"Deploying to Vercel project: {project_name}")
-            deployment_url = self.deployer.deploy(str(product_dir), project_name)
+            # Use Publisher for Git Push deployment
+            logger.info(f"Redeploying product {product_id} using Publisher (Git Push)...")
+            result = self.publisher.publish_product(product_id, str(product_dir))
+            deployment_url = result.get("url")
             
             if deployment_url:
                 logger.info(f"Redeployment successful: {deployment_url}")
@@ -252,7 +102,13 @@ class AutoHealSystem:
                 # Payment Flow Verification
                 logger.info(f"Verifying payment flow for {product_id}...")
                 verifier = PaymentFlowVerifier()
-                # Get price from metadata or default
+                
+                # Get price from metadata
+                prod = self.ledger.get_product(product_id)
+                meta = prod.get("metadata", {}) if prod else {}
+                if isinstance(meta, str):
+                    meta = json.loads(meta)
+                    
                 try:
                     price = float(meta.get("price_usd", 1.0))
                 except:
@@ -286,7 +142,7 @@ class AutoHealSystem:
                 
                 self.ledger.update_product_status(product_id, new_status, metadata={
                     "deployment_url": deployment_url, 
-                    "vercel_project_name": project_name,
+                    "deploy_method": "git_push_auto_heal",
                     **verification_meta
                 })
             else:

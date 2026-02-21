@@ -1,45 +1,5 @@
 [
   {
-    "id": "ERR-1771378071-5559",
-    "timestamp": 1771378071.788253,
-    "message": "AI 스키마 생성에 실패했습니다 (API 키 누락 또는 응답 오류). AI 참여 필수 정책에 따라 중단합니다.",
-    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 468, in create_and_process_product\n    gen_result = self.product_generator.generate_product_assets(generation_config)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\product_generator.py\", line 1824, in generate_product_assets\n    schema = generate_product_schema(\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\schema_generator.py\", line 262, in generate_product_schema\n    raise ProductionError(\nsrc.utils.ProductionError: AI 스키마 생성에 실패했습니다 (API 키 누락 또는 응답 오류). AI 참여 필수 정책에 따라 중단합니다.\n",
-    "context": "Generating assets for product: 20260218-102720-token-gated-content-revenue-au",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771386566-39",
-    "timestamp": 1771386566.799083,
-    "message": "HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Read timed out. (read timeout=10)",
-    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 534, in _make_request\n    response = conn.getresponse()\n               ^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connection.py\", line 571, in getresponse\n    httplib_response = super().getresponse()\n                       ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py\", line 1430, in getresponse\n    response.begin()\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py\", line 331, in begin\n    version, status, reason = self._read_status()\n                              ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py\", line 292, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socket.py\", line 720, in readinto\n    return self._sock.recv_into(b)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py\", line 1251, in recv_into\n    return self.read(nbytes, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py\", line 1103, in read\n    return self._sslobj.read(len, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTimeoutError: The read operation timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\adapters.py\", line 644, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\util\\retry.py\", line 490, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\util\\util.py\", line 39, in reraise\n    raise value\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 536, in _make_request\n    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 367, in _raise_timeout\n    raise ReadTimeoutError(\nurllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Read timed out. (read timeout=10)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_mode_daemon.py\", line 364, in _check_wordpress_comments\n    r = requests.get(base_url, headers=headers, params={\"per_page\": 10, \"status\": \"approve\"}, timeout=10)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\api.py\", line 73, in get\n    return request(\"get\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\api.py\", line 59, in request\n    return session.request(method=method, url=url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\adapters.py\", line 690, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Read timed out. (read timeout=10)\n",
-    "context": "Checking WordPress comments",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771393318-7732",
-    "timestamp": 1771393318.1926403,
-    "message": "AI 스키마 생성에 실패했습니다 (API 키 누락 또는 응답 오류). AI 참여 필수 정책에 따라 중단합니다.",
-    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 468, in create_and_process_product\n    gen_result = self.product_generator.generate_product_assets(generation_config)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\product_generator.py\", line 1828, in generate_product_assets\n    schema = generate_product_schema(\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\schema_generator.py\", line 262, in generate_product_schema\n    raise ProductionError(\nsrc.utils.ProductionError: AI 스키마 생성에 실패했습니다 (API 키 누락 또는 응답 오류). AI 참여 필수 정책에 따라 중단합니다.\n",
-    "context": "Generating assets for product: 20260218-144125-test-run",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771422920-1811",
-    "timestamp": 1771422920.669886,
-    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260218-225123-2026-s-best-selling-shopify-th/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
-    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 716, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 633, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 608, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 580, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 571, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 412, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260218-225123-2026-s-best-selling-shopify-th/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
-    "context": "Publishing product: 20260218-225123-2026-s-best-selling-shopify-th",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771424020-9835",
-    "timestamp": 1771424020.632799,
-    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260218-225813-product-hunt-the-best-new-prod/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
-    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 716, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 638, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 613, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 585, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 576, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 417, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260218-225813-product-hunt-the-best-new-prod/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
-    "context": "Publishing product: 20260218-225813-product-hunt-the-best-new-prod",
-    "resolved": false
-  },
-  {
     "id": "ERR-1771425896-65",
     "timestamp": 1771425896.259016,
     "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260218-232911-20-untapped-etsy-niches-for-20/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
@@ -797,6 +757,46 @@
     "message": "배포 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260221-154313-niche-college-search-reviews-a/index.html (최대 재시도 30회 초과)",
     "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 694, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 669, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 616, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 607, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 421, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260221-154313-niche-college-search-reviews-a/index.html (최대 재시도 30회 초과)\n",
     "context": "Publishing product: 20260221-154313-niche-college-search-reviews-a",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771663910-5139",
+    "timestamp": 1771663910.7115347,
+    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
+    "traceback": "NoneType: None\n",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771666806-5139",
+    "timestamp": 1771666806.8751116,
+    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
+    "traceback": "NoneType: None\n",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771670414-5139",
+    "timestamp": 1771670414.3466525,
+    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
+    "traceback": "NoneType: None\n",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771674031-5139",
+    "timestamp": 1771674031.8639047,
+    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
+    "traceback": "NoneType: None\n",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771677648-5139",
+    "timestamp": 1771677648.2908497,
+    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
+    "traceback": "NoneType: None\n",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   }
 ]
