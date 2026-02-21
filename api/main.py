@@ -72,11 +72,15 @@ class handler(BaseHTTPRequestHandler):
             path = path[1:]
             
         # Determine root directory
-        root_dir = Path(".")
-        if not (root_dir / "outputs").exists() and (root_dir / "../outputs").exists():
-            root_dir = root_dir / ".."
+        root_dir = Path(".").resolve()
+        
+        # Check if we are running inside api folder
+        if root_dir.name == "api":
+            root_dir = root_dir.parent
             
         file_path = root_dir / path
+        
+        print(f"[DEBUG] serve_static: path={path}, root_dir={root_dir}, file_path={file_path}, exists={file_path.exists()}")
         
         if file_path.exists() and file_path.is_file():
             self.send_response(200)
