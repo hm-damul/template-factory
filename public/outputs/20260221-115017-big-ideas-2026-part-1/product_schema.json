@@ -1,0 +1,63 @@
+{
+  "product_id": "20260221-115017-big-ideas-2026-part-1",
+  "title": "Unlock Your Passive Income with Big Ideas 2026: Part 1",
+  "target_customer": "Creators and merchants interested in Big Ideas 2026: Part 1",
+  "value_proposition": "Leverage AI to create and sell digital products based on: Big Ideas 2026: Part 1",
+  "sections": {
+    "hero": {
+      "headline": "Unlock Your Passive Income with Big Ideas 2026: Part 1",
+      "subheadline": "Leverage AI to create and sell digital products based on: Big Ideas 2026: Part 1"
+    },
+    "problem": {
+      "description": "Creating and selling digital products is complex and time-consuming. Most creators fail due to technical friction and lack of a structured system."
+    },
+    "solution": {
+      "description": "A professional-grade implementation system that handles everything from landing to delivery. Focus on your content, we handle the infrastructure."
+    },
+    "features": [
+      "One-file deployment architecture for Big Ideas 2026: Part 1",
+      "Secure token-gated delivery for Big Ideas 2026: Part 1",
+      "Conversion-optimized landing components for Big Ideas 2026: Part 1",
+      "Built-in analytics & tracking for Big Ideas 2026: Part 1",
+      "Automated promotion asset generator for Big Ideas 2026: Part 1"
+    ],
+    "benefits": [
+      "Ship faster with ready Big Ideas 2026: Part 1 templates",
+      "Increase conversion with clear Big Ideas 2026: Part 1 value prop",
+      "Operate with predictable Big Ideas 2026: Part 1 delivery flow",
+      "Scale experimentation with simple Big Ideas 2026: Part 1 A/B hooks"
+    ],
+    "pricing": {
+      "tier_name": "Standard Access",
+      "price": "$29.00"
+    },
+    "faq": [
+      {
+        "q": "What is included?",
+        "a": "You get the full landing page, the Big Ideas 2026: Part 1 guide, and automated delivery setup."
+      },
+      {
+        "q": "How do I deploy?",
+        "a": "Upload to Vercel, Netlify, or any static host. No backend needed."
+      },
+      {
+        "q": "Is it secure?",
+        "a": "Yes, it uses wallet-based authentication for delivery gating."
+      }
+    ],
+    "cta": {
+      "text": "Get Started Now"
+    },
+    "design": {
+      "theme": "modern",
+      "primary_color": "#6366f1",
+      "secondary_color": "#6366f1",
+      "font_family": "Roboto, sans-serif",
+      "layout_style": "bold"
+    }
+  },
+  "assets": {
+    "main_content_file": "product.pdf",
+    "landing_page": "index.html"
+  }
+}

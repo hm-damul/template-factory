@@ -1,0 +1,16 @@
+{
+  "product_id": "20260221-115017-big-ideas-2026-part-1",
+  "output_dir": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-115017-big-ideas-2026-part-1",
+  "main_asset": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-115017-big-ideas-2026-part-1\\index.html",
+  "schema_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-115017-big-ideas-2026-part-1\\product_schema.json",
+  "main_content_path": "d:\\auto\\MetaPassiveIncome_FINAL\\outputs\\20260221-115017-big-ideas-2026-part-1\\product.pdf",
+  "checksum": "9ba99f5d971fe714306c31dd3085618b6cbe7c647211e3fdfe35ef646058bc01",
+  "generated_at": "20260221-115028",
+  "status": "GENERATED_SUCCESS",
+  "schema_driven": true,
+  "notes": [
+    "스키마 기반 생성 (product_schema.json)",
+    "단일 파일 랜딩 페이지 (CSS/JS 내장)",
+    "데이터 액션 라우터를 통한 버튼 기능"
+  ]
+}

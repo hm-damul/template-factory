@@ -1,22 +1,40 @@
 {
-  "timestamp": "2026-02-20T21:49:19.185540+00:00",
+  "timestamp": "2026-02-21T02:50:07.987641+00:00",
   "stats": {
-    "total": 241,
+    "total": 244,
     "published": 0,
     "waiting": 30,
     "failed": 2
   },
   "recent_products": [
     {
-      "id": "20260221-063338-digital-asset-bundle-2026-02-2",
+      "id": "20260221-082149-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:15",
       "status": "PIPELINE_FAILED",
+      "created_at": "2026-02-21T08:21:49.982765"
+    },
+    {
+      "id": "20260221-080621-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 22:55",
+      "status": "PIPELINE_FAILED",
+      "created_at": "2026-02-21T08:06:21.741745"
+    },
+    {
+      "id": "20260221-064927-reading-and-publishing-predict",
+      "topic": "Reading and Publishing Predictions: Book Trends to Watch for in 2026",
+      "status": "PROMOTED",
+      "created_at": "2026-02-21T06:49:27.961489"
+    },
+    {
+      "id": "20260221-063338-digital-asset-bundle-2026-02-2",
+      "topic": "Digital Asset Bundle 2026-02-20 22:15",
+      "status": "PUBLISH_FAILED",
       "created_at": "2026-02-21T06:33:38.370321"
     },
     {
       "id": "20260221-061808-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:55",
-      "status": "PIPELINE_FAILED",
+      "status": "PUBLISH_FAILED",
       "created_at": "2026-02-21T06:18:08.979459"
     },
     {
@@ -108,29 +126,11 @@
       "topic": "Digital Asset Bundle 2026-02-20 21:15",
       "status": "PROMOTED",
       "created_at": "2026-02-20T21:15:08.069555"
-    },
-    {
-      "id": "20260220-211248-digital-asset-bundle-2026-02-2",
-      "topic": "Digital Asset Bundle 2026-02-20 21:12",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T21:12:48.608794"
-    },
-    {
-      "id": "20260220-205123-2026-ielts-speaking-questions",
-      "topic": "2026 IELTS Speaking Questions And Answer",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T20:51:23.471455"
-    },
-    {
-      "id": "20260220-200945-saas-for-small-business-and-st",
-      "topic": "SaaS For Small Business and Startups: 15 Micro SaaS Ideas in 2026",
-      "status": "PROMOTED",
-      "created_at": "2026-02-20T20:09:45.913955"
     }
   ],
   "daemon": {
-    "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1, \"Template / Landing Page\": 1, \"Prompt Pack / Asset\": 2}, [\"20260220-023210-digital-products-goldmine-200\", \"20260221-053135-how-i-make-30-000-month-sellin\", \"20260221-061808-digital-asset-bundle-2026-02-2\", \"20260221-063338-digital-asset-bundle-2026-02-2\"]]",
-    "last_updated": "2026-02-20T21:49:18.415698+00:00",
+    "last_log": "가격 최적화 완료: [{\"Standard Digital Product\": 1, \"Guide / E-book / Blueprint\": 1, \"Prompt Pack / Asset\": 2}, [\"20260220-023210-digital-products-goldmine-200\", \"20260221-064927-reading-and-publishing-predict\", \"20260221-080621-digital-asset-bundle-2026-02-2\", \"20260221-082149-digital-asset-bundle-2026-02-2\"]]",
+    "last_updated": "2026-02-21T02:50:07.116529+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 0,
-    "last_run_end": "2026-02-20T21:49:06.484589+00:00",
-    "next_run_approx": "2026-02-20T21:49:16.484589+00:00",
+    "last_run_end": "2026-02-21T02:49:41.839144+00:00",
+    "next_run_approx": "2026-02-21T02:49:51.839145+00:00",
     "count": 1,
     "status": "running",
     "pid": 1188,

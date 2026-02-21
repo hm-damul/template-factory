@@ -4,7 +4,7 @@
   "topic": "Digital Asset Bundle 2026-02-20 22:15",
   "product_id": "20260221-082149-digital-asset-bundle-2026-02-2",
   "created_at": "2026-02-20T23:22:01Z",
-  "price_usd": 29.0,
+  "price_usd": 15,
   "currency": "usd",
   "screenshot_url": "",
   "checksums": {
@@ -53,5 +53,7 @@
     "promotions/x_posts.txt": "78948305cdc2eff726086b5c4a9bac80cf762efad3a897478167b8c057b2cd84",
     "promotions/x_threads.txt": "4702c0baa007d84b4de38dcdbec3b9ce6617a5de7ce1bb4ec5c4590328faff81",
     "promotions/youtube_shorts.txt": "97f4b42a961e045e3cbdef0cf96e3b911799d7eb6726e9c36264cc0664262faa"
-  }
+  },
+  "price": 15,
+  "market_price": 39
 }
