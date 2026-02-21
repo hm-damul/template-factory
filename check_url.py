@@ -1,11 +1,26 @@
 import requests
 
-url = "https://test-deploy-simple-public-na51tuwfp-dkkims-projects-a40a7241.vercel.app"
-try:
+def check_url(url):
     print(f"Checking {url}...")
-    r = requests.get(url, timeout=10)
-    print(f"Status Code: {r.status_code}")
-    print(f"Content Length: {len(r.text)}")
-    print(f"Title: {r.text[:500]}")
-except Exception as e:
-    print(f"Error: {e}")
+    try:
+        r = requests.head(url, allow_redirects=True)
+        print(f"Status: {r.status_code}")
+        if r.status_code != 200:
+             print(f"GETting...")
+             r = requests.get(url, allow_redirects=True)
+             print(f"GET Status: {r.status_code}")
+             if r.status_code == 200:
+                 print(f"Content-Length: {len(r.content)}")
+    except Exception as e:
+        print(f"Error: {e}")
+
+if __name__ == "__main__":
+    base = "https://metapassiveincome-final.vercel.app"
+    paths = [
+        "/",
+        "/index.html",
+        "/featured.html",
+        "/api/health"
+    ]
+    for p in paths:
+        check_url(base + p)

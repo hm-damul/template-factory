@@ -1,6 +1,6 @@
 {
-  "last_log": "🟢 Payment Server started in background. Logs: D:\\auto\\MetaPassiveIncome_FINAL\\logs\\Payment Server.log",
-  "last_updated": "2026-02-21T12:48:17.729834+00:00",
+  "last_log": "연속 5회 실패 발생. 안전을 위해 데몬을 1시간 동안 중단합니다.",
+  "last_updated": "2026-02-21T12:53:27.045130+00:00",
   "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
@@ -14,8 +14,9 @@
   "last_run_end": "2026-02-21T12:40:54.646674+00:00",
   "next_run_approx": "2026-02-21T12:53:10.655836+00:00",
   "count": 1,
-  "status": "running",
+  "status": "paused",
   "pid": 13060,
   "start_time": "2026-02-21T07:42:01.444808+00:00",
-  "stop_time": "2026-02-18T22:46:37.546758+00:00"
+  "stop_time": "2026-02-18T22:46:37.546758+00:00",
+  "reason": "too_many_failures"
 }

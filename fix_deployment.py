@@ -1,24 +1,44 @@
-from src.auto_heal_system import AutoHealSystem
-from src.ledger_manager import LedgerManager
-import logging
-import sys
+import os
+import shutil
+import subprocess
+from pathlib import Path
 
-def fix_broken_deployment():
-    logging.basicConfig(level=logging.INFO, stream=sys.stdout)
-    logger = logging.getLogger("FixDeployment")
+def run_cmd(cmd):
+    print(f"Running: {' '.join(cmd)}")
+    subprocess.run(cmd, check=True)
+
+def fix_deployment():
+    root = Path(".")
+    outputs_dir = root / "outputs"
+    public_outputs_dir = root / "public" / "outputs"
     
-    ahs = AutoHealSystem()
-    target_pid = "20260214-105333-global-merchant-crypto-checkou"
+    print("Copying outputs to public/outputs...")
+    if outputs_dir.exists():
+        if public_outputs_dir.exists():
+            # shutil.rmtree(public_outputs_dir) # Don't delete, merge/overwrite
+            pass
+        os.makedirs(public_outputs_dir, exist_ok=True)
+        
+        # Copy recursively
+        # shutil.copytree(outputs_dir, public_outputs_dir, dirs_exist_ok=True)
+        # copytree might be slow for huge dirs, let's just copy what we need or everything
+        # For now, copy everything to be safe
+        shutil.copytree(outputs_dir, public_outputs_dir, dirs_exist_ok=True)
+        
+    print("Adding files to git...")
+    run_cmd(["git", "add", "public/"])
+    run_cmd(["git", "add", ".vercelignore"])
     
-    logger.info(f"Attempting to redeploy {target_pid}...")
+    print("Committing...")
     try:
-        url = ahs._redeploy_product(target_pid)
-        if url:
-            logger.info(f"Redeployment successful: {url}")
-        else:
-            logger.error(f"Redeployment failed for {target_pid}")
-    except Exception as e:
-        logger.error(f"Error: {e}")
+        run_cmd(["git", "commit", "-m", "fix-deployment-size-limit"])
+    except subprocess.CalledProcessError:
+        print("Nothing to commit?")
+        
+    print("Pushing...")
+    run_cmd(["git", "push", "origin", "main"])
+    
+    print("Done!")
 
 if __name__ == "__main__":
-    fix_broken_deployment()
+    fix_deployment()

@@ -1,24 +1,32 @@
-
-import sys
-import os
+import requests
 import json
-from pathlib import Path
 
-PROJECT_ROOT = Path(r"d:\auto\MetaPassiveIncome_FINAL")
-sys.path.append(str(PROJECT_ROOT))
+VERCEL_API_TOKEN = "YWxQGfmb3zJxW0uJTZi7gbVP"
+HEADERS = {
+    "Authorization": f"Bearer {VERCEL_API_TOKEN}",
+    "Content-Type": "application/json"
+}
 
-from src.publisher import Publisher
-from src.ledger_manager import LedgerManager
-
-def check_projects():
-    lm = LedgerManager()
-    p = Publisher(lm)
-    projects = p._get_all_projects()
-    print(f"Current Vercel projects count: {len(projects)}")
-    
-    # Sort by creation date if available
-    for i, proj in enumerate(projects[:5]):
-        print(f"Project {i+1}: {proj.get('name')} (ID: {proj.get('id')})")
+def list_projects():
+    url = "https://api.vercel.com/v9/projects?limit=20"
+    try:
+        r = requests.get(url, headers=HEADERS)
+        if r.status_code == 200:
+            data = r.json()
+            projects = data.get("projects", [])
+            print(f"Total Projects: {len(projects)}")
+            for p in projects:
+                print(f"- Name: {p['name']}")
+                print(f"  URL: https://{p['name']}.vercel.app")
+                if p.get("latestDeployments"):
+                    deploy = p["latestDeployments"][0]
+                    print(f"  ID: {deploy.get('uid') or deploy.get('id')}")
+                    print(f"  Last Deploy: {deploy['url']}")
+                    print(f"  Status: {deploy['readyState']}")
+        else:
+            print(f"Error: {r.status_code} {r.text}")
+    except Exception as e:
+        print(f"Exception: {e}")
 
 if __name__ == "__main__":
-    check_projects()
+    list_projects()
