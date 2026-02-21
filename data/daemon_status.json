@@ -1,6 +1,6 @@
 {
-  "last_log": "연속 5회 실패 발생. 안전을 위해 데몬을 1시간 동안 중단합니다.",
-  "last_updated": "2026-02-21T12:53:27.045130+00:00",
+  "last_log": "배치 배포 시작: 28개 제품",
+  "last_updated": "2026-02-21T13:53:55.788980+00:00",
   "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
