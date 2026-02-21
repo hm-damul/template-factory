@@ -38,20 +38,66 @@ class handler(BaseHTTPRequestHandler):
             
             print(f"[DEBUG] Request path: {path}")
 
-            if "/api/pay/check" in path:
-                self.handle_check(query)
-            elif "/api/pay/debug" in path:
-                self.handle_debug()
-            elif "/api/pay/start" in path:
-                # Convert query params (lists) to single values for handle_start
-                data = {k: v[0] for k, v in query.items() if v}
-                self.handle_start(data)
-            elif "/health" in path:
-                self._send_json(200, {"status": "ok"})
+            if path.startswith("/api/"):
+                if "/api/pay/check" in path:
+                    self.handle_check(query)
+                elif "/api/pay/debug" in path:
+                    self.handle_debug()
+                elif "/api/pay/start" in path:
+                    # Convert query params (lists) to single values for handle_start
+                    data = {k: v[0] for k, v in query.items() if v}
+                    self.handle_start(data)
+                elif "/health" in path:
+                    self._send_json(200, {"status": "ok"})
+                else:
+                    self._send_json(404, {"error": "not_found", "path": path})
             else:
-                self._send_json(404, {"error": "not_found", "path": path})
+                # Serve static files locally
+                self.serve_static(path)
         except Exception as e:
             self._send_json(500, {"error": str(e), "trace": "do_GET"})
+
+    def serve_static(self, path):
+        # Security: prevent directory traversal
+        if ".." in path:
+            self.send_error(403)
+            return
+            
+        # Map / to index.html
+        if path == "/":
+            path = "/index.html"
+            
+        # Remove leading slash
+        if path.startswith("/"):
+            path = path[1:]
+            
+        # Determine root directory
+        root_dir = Path(".")
+        if not (root_dir / "outputs").exists() and (root_dir / "../outputs").exists():
+            root_dir = root_dir / ".."
+            
+        file_path = root_dir / path
+        
+        if file_path.exists() and file_path.is_file():
+            self.send_response(200)
+            # MIME types
+            if path.endswith(".html"):
+                self.send_header('Content-type', 'text/html')
+            elif path.endswith(".css"):
+                self.send_header('Content-type', 'text/css')
+            elif path.endswith(".js"):
+                self.send_header('Content-type', 'application/javascript')
+            elif path.endswith(".json"):
+                self.send_header('Content-type', 'application/json')
+            elif path.endswith(".png"):
+                self.send_header('Content-type', 'image/png')
+            else:
+                self.send_header('Content-type', 'application/octet-stream')
+            self.end_headers()
+            with open(file_path, 'rb') as f:
+                self.wfile.write(f.read())
+        else:
+            self.send_error(404, f"File not found: {path}")
 
     def do_POST(self):
         try:

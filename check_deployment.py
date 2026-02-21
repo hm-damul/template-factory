@@ -1,25 +1,26 @@
-
 import requests
 import sys
 
-base_url = "https://metapassiveincome-final.vercel.app"
+base_urls = [
+    "https://metapassiveincome-final.vercel.app",
+    "http://localhost:5000"
+]
 product_id = "20260220-211248-digital-asset-bundle-2026-02-2"
 paths = [
     f"/outputs/{product_id}/index.html",
-    f"/public/outputs/{product_id}/index.html",
-    "/api/main",
     "/api/pay/health",
     "/",
     "/index.html"
 ]
 
-print(f"Checking {base_url}...")
-for path in paths:
-    url = base_url + path
-    try:
-        r = requests.get(url, timeout=10)
-        print(f"{path}: {r.status_code}")
-        if r.status_code == 200:
-            print(f"  Content snippet: {r.text[:100]}")
-    except Exception as e:
-        print(f"{path}: Error {e}")
+for base_url in base_urls:
+    print(f"\nChecking {base_url}...")
+    for path in paths:
+        url = base_url + path
+        try:
+            r = requests.get(url, timeout=5)
+            print(f"{path}: {r.status_code}")
+            if r.status_code == 200:
+                print(f"  Content snippet: {r.text[:100]}")
+        except Exception as e:
+            print(f"{path}: Error {e}")
