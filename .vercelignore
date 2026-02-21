@@ -8,4 +8,4 @@ data/*.db-journal
 *.log
 .env
 # /outputs/
-# /downloads/
+/downloads/
