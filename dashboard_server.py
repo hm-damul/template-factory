@@ -2039,6 +2039,16 @@ def proxy_payment_download():
         return jsonify({"error": "proxy_failed", "message": str(e)}), 500
 
 
+@app.route("/checkout/<product_id>")
+def serve_checkout_preview(product_id: str):
+    """
+    체크아웃 페이지 라우트 (dashboard).
+    실제로는 제품의 index.html(랜딩페이지)을 보여주며,
+    랜딩페이지 내에서 결제 모달/로직이 동작합니다.
+    """
+    return serve_product_preview(product_id, "index.html")
+
+
 @app.route("/product/<product_id>/")
 @app.route("/product/<product_id>/<path:filename>")
 def serve_product_preview(product_id: str, filename: str = "index.html"):

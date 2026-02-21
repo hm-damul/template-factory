@@ -3,6 +3,7 @@ import sys
 
 base_urls = [
     "https://metapassiveincome-final.vercel.app",
+    "https://meta-passive-income-20260220-211248-digital-asset-bundle-2026-02-2.vercel.app",
     "http://localhost:5000",
     "http://localhost:8099" # Dashboard
 ]
