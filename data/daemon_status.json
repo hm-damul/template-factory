@@ -1,7 +1,7 @@
 {
-  "last_log": "업데이트된 제품 89개를 재배포 대기열에 추가합니다.",
-  "last_updated": "2026-02-21T06:42:54.657962+00:00",
-  "phase": "running_autopilot",
+  "last_log": "배치 배포 시작: 28개 제품",
+  "last_updated": "2026-02-21T07:18:03.399227+00:00",
+  "phase": "idle",
   "product_id": null,
   "last_cmd": [
     "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
@@ -15,7 +15,7 @@
   "next_run_approx": "2026-02-21T04:53:57.886784+00:00",
   "count": 1,
   "status": "running",
-  "pid": 16644,
-  "start_time": "2026-02-21T05:52:57.186419+00:00",
+  "pid": 14460,
+  "start_time": "2026-02-21T07:17:44.488107+00:00",
   "stop_time": "2026-02-18T22:46:37.546758+00:00"
 }
