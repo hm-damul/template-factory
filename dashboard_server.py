@@ -2905,13 +2905,14 @@ def _checkout_config(product_id: str):
     }
 
 
-@app.route("/checkout/<product_id>")
-def checkout_page(product_id: str):
-    """체크아웃 페이지: 상품 정보 + MetaMask 결제 UI."""
-    cfg = _checkout_config(product_id)
-    if not cfg or not cfg.get("merchant_wallet_address"):
-        return jsonify({"error": "product_not_available_or_merchant_not_configured"}), 404
-    return render_template_string(_CHECKOUT_HTML, **cfg)
+# REMOVED DUPLICATE ROUTE
+# @app.route("/checkout/<product_id>")
+# def checkout_page(product_id: str):
+#     """체크아웃 페이지: 상품 정보 + MetaMask 결제 UI."""
+#     cfg = _checkout_config(product_id)
+#     if not cfg or not cfg.get("merchant_wallet_address"):
+#         return jsonify({"error": "product_not_available_or_merchant_not_configured"}), 404
+#     return render_template_string(_CHECKOUT_HTML, **cfg)
 
 
 @app.route("/api/payment/create_order", methods=["POST"])
