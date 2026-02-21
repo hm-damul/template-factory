@@ -1032,14 +1032,14 @@
           
           // Production-ready checkout:
           // Call API to start payment
-          var apiStartUrl = "/api/pay/start?product_id=" + productId + "&price_amount=" + rawPrice;
+          // var apiStartUrl = "/api/pay/start?product_id=" + productId + "&price_amount=" + rawPrice;
           
-          showToast("Redirecting to secure payment gateway...");
+          // showToast("Redirecting to secure payment gateway...");
           
           // Small delay for toast
-          setTimeout(function() {
-             window.location.href = apiStartUrl;
-          }, 1000);
+          // setTimeout(function() {
+          //    window.location.href = apiStartUrl;
+          // }, 1000);
 
         try {
           // GET request to avoid 405 error (fallback supported on server)
