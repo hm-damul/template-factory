@@ -1484,14 +1484,10 @@ def _render_landing_html(
         
         // 1) 로컬 프리뷰 환경에서 대시보드 체크아웃 페이지(MetaMask 등)가 우선인지 확인
         /*
+        // DEPRECATED: We now use the main API endpoint for checkout in all environments
+        // The API server (api/main.py) or Vercel functions will handle the request
         if (isLocalPreview()) {{
-           var checkoutUrl = \"http://127.0.0.1:8099/checkout/\" + productId;
-           // 대시보드 서버가 살아있는지 확인은 생략하고 바로 리다이렉트 시도 (사용자 경험 우선)
-           showToast(\"Redirecting to secure checkout...\");
-           setTimeout(function() {{
-             window.location.href = checkoutUrl;
-           }}, 800);
-           return;
+           // Legacy logic removed to prevent hardcoded localhost dependencies
         }}
         */
 

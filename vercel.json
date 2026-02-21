@@ -8,6 +8,10 @@
       "destination": "/api/main"
     },
     {
+      "source": "/checkout/(.*)",
+      "destination": "/outputs/$1/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/$1"
     }

@@ -51,6 +51,18 @@ class handler(BaseHTTPRequestHandler):
                     self._send_json(200, {"status": "ok"})
                 else:
                     self._send_json(404, {"error": "not_found", "path": path})
+            elif path.startswith("/checkout/"):
+                # Rewrite /checkout/XXX to /outputs/XXX/index.html
+                # Remove /checkout/ prefix
+                product_path = path[len("/checkout/"):]
+                # Handle query params if any (already parsed in path, but let's be safe)
+                if "?" in product_path:
+                    product_path = product_path.split("?")[0]
+                
+                # Construct target path
+                target_path = f"outputs/{product_path}/index.html"
+                print(f"[DEBUG] Rewriting checkout path {path} to {target_path}")
+                self.serve_static(target_path)
             else:
                 # Serve static files locally
                 self.serve_static(path)
