@@ -1,6 +1,6 @@
 {
-  "last_log": "--- RUN #11 END (took 138.3s). Next run in 3461.7s ---",
-  "last_updated": "2026-02-22T16:34:00.758883+00:00",
+  "last_log": "배치 배포 시작: 1개 제품",
+  "last_updated": "2026-02-22T17:19:55.923708+00:00",
   "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
