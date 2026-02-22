@@ -1,18 +1,18 @@
 {
-  "last_log": "시스템 상시 검수 봇 가동...",
-  "last_updated": "2026-02-22T17:21:59.743057+00:00",
+  "last_log": "배치 배포 시작: 87개 제품",
+  "last_updated": "2026-02-22T17:31:47.233627+00:00",
   "phase": "sleeping",
   "product_id": null,
   "last_cmd": [
-    "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
     "auto_pilot.py",
     "--batch",
     "1"
   ],
   "action": "Creating/Updating Product",
   "rc": 1,
-  "last_run_end": "2026-02-22T16:34:00.748544+00:00",
-  "next_run_approx": "2026-02-22T17:31:42.471774+00:00",
+  "last_run_end": "2026-02-22T17:29:02.058660+00:00",
+  "next_run_approx": "2026-02-22T17:29:12.058660+00:00",
   "count": 1,
   "status": "paused",
   "pid": 1468,

@@ -1,9 +1,9 @@
 {
-  "last_audit": "2026-02-23 01:33:39",
+  "last_audit": "2026-02-23 02:21:59",
   "summary": {
     "total_products": 248,
-    "healthy_products": 247,
-    "broken_products": 1,
+    "healthy_products": 163,
+    "broken_products": 85,
     "total_promotions": 248,
     "healthy_promotions": 0,
     "broken_promotions": 248
@@ -966,260 +966,342 @@
     {
       "product_id": "20260219-143112-28-unique-digital-products-to",
       "type": "product",
-      "status": "PROMOTED",
+      "status": "PACKAGED",
       "issues": []
     },
     {
       "product_id": "20260219-141212-etsy",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году...'"
+      ]
     },
     {
       "product_id": "20260219-141212-как-открыть-магазин-на-etsy-и",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-141212-как-открыть-магазин-на-etsy-и'"
+      ]
     },
     {
       "product_id": "20260219-141036-11-b2b-ecommerce-examples-and",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-141036-11-b2b-ecommerce-examples-and'"
+      ]
     },
     {
       "product_id": "20260219-135543-etsy",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году...'"
+      ]
     },
     {
       "product_id": "20260219-135543-как-открыть-магазин-на-etsy-и",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-135543-как-открыть-магазин-на-etsy-и'"
+      ]
     },
     {
       "product_id": "20260219-133359-top-ebook-topic-ideas-in-2026",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-133359-top-ebook-topic-ideas-in-2026'"
+      ]
     },
     {
       "product_id": "20260219-131443-18-best-digital-product-niches",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-131443-18-best-digital-product-niches'"
+      ]
     },
     {
       "product_id": "20260219-131418-20-profitable-saas-micro-saas",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-131418-20-profitable-saas-micro-saas'"
+      ]
     },
     {
       "product_id": "20260219-113455-notion",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+      ]
     },
     {
       "product_id": "20260219-111848-notion",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+      ]
     },
     {
       "product_id": "20260219-113455-шаблоны-notion-на-русском",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-113455-шаблоны-notion-на-русском'"
+      ]
     },
     {
       "product_id": "20260219-111848-шаблоны-notion-на-русском",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-111848-шаблоны-notion-на-русском'"
+      ]
     },
     {
       "product_id": "20260219-101841-best-ebook-topics",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-101841-best-ebook-topics'"
+      ]
     },
     {
       "product_id": "20260219-091843-50-digital-products-to-sell-fo",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-091843-50-digital-products-to-sell-fo'"
+      ]
     },
     {
       "product_id": "20260219-081908-latest-ielts-writing-topics-fe",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-081908-latest-ielts-writing-topics-fe'"
+      ]
     },
     {
       "product_id": "20260219-072234-12-most-popular-notion-templat",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-072234-12-most-popular-notion-templat'"
+      ]
     },
     {
       "product_id": "20260219-072203-15-digital-product-ideas-you-c",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-072203-15-digital-product-ideas-you-c'"
+      ]
     },
     {
       "product_id": "20260219-063824-top-20-b2b-ecommerce-examples",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-063824-top-20-b2b-ecommerce-examples'"
+      ]
     },
     {
       "product_id": "20260219-063717-26-best-shopify-themes-for-202",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-063717-26-best-shopify-themes-for-202'"
+      ]
     },
     {
       "product_id": "20260219-060349-7-ai-generated-digital-product",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-060349-7-ai-generated-digital-product'"
+      ]
     },
     {
       "product_id": "20260219-060347-saas-ideas-150-profitable-saas",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-060347-saas-ideas-150-profitable-saas'"
+      ]
     },
     {
       "product_id": "20260219-052804-3-profitable-ai-saas-ideas-to",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-052804-3-profitable-ai-saas-ideas-to'"
+      ]
     },
     {
       "product_id": "20260219-045803-9-b2b-ecommerce-examples-for-s",
       "type": "product",
-      "status": "PROMOTED",
+      "status": "PACKAGED",
       "issues": []
     },
     {
       "product_id": "20260219-043147-best-shopify-themes-2026-free",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-043147-best-shopify-themes-2026-free'"
+      ]
     },
     {
       "product_id": "20260219-035801-build-your-2026",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-035801-build-your-2026'"
+      ]
     },
     {
       "product_id": "20260219-032754-720-business-2-ideas-to-save-i",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-032754-720-business-2-ideas-to-save-i'"
+      ]
     },
     {
       "product_id": "20260219-030007-18-best-digital-products-to-se",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-030007-18-best-digital-products-to-se'"
+      ]
     },
     {
       "product_id": "20260219-022754-dashboard-and-digital-product",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-022754-dashboard-and-digital-product'"
+      ]
     },
     {
       "product_id": "20260219-015809-best-notion-templates-in-2026",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-015809-best-notion-templates-in-2026'"
+      ]
     },
     {
       "product_id": "20260219-012800-the-30-best-notion-second-brai",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-012800-the-30-best-notion-second-brai'"
+      ]
     },
     {
       "product_id": "20260219-005756-15-profitable-digital-products",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-005756-15-profitable-digital-products'"
+      ]
     },
     {
       "product_id": "20260219-002802-top-sales-templates-from-notio",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260219-002802-top-sales-templates-from-notio'"
+      ]
     },
     {
       "product_id": "20260218-235807-30-ai-powered-digital-product",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-235807-30-ai-powered-digital-product'"
+      ]
     },
     {
       "product_id": "20260218-232911-20-untapped-etsy-niches-for-20",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-232911-20-untapped-etsy-niches-for-20'"
+      ]
     },
     {
       "product_id": "20260218-225813-product-hunt-the-best-new-prod",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-225813-product-hunt-the-best-new-prod'"
+      ]
     },
     {
       "product_id": "20260218-225123-2026-s-best-selling-shopify-th",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-225123-2026-s-best-selling-shopify-th'"
+      ]
     },
     {
       "product_id": "20260218-225010-etsy-digital-products-2026-how",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-225010-etsy-digital-products-2026-how'"
+      ]
     },
     {
       "product_id": "20260218-223156-8-best-notion-templates-for-20",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-223156-8-best-notion-templates-for-20'"
+      ]
     },
     {
       "product_id": "20260218-215906-best-ebook-niches-2025-2026-10",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-215906-best-ebook-niches-2025-2026-10'"
+      ]
     },
     {
       "product_id": "20260218-213154-choose-from-30-000-notion-temp",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-213154-choose-from-30-000-notion-temp'"
+      ]
     },
     {
       "product_id": "20260218-205806-shopify-com",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-205806-shopify-com'"
+      ]
     },
     {
       "product_id": "20260218-203243-7-most-profitable-ebook-niches",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-203243-7-most-profitable-ebook-niches'"
+      ]
     },
     {
       "product_id": "test-prod-123",
@@ -1230,182 +1312,242 @@
     {
       "product_id": "20260215-063000-freelancer-consultant-landing",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'freelancer-consultant-landing-page'"
+      ]
     },
     {
       "product_id": "20260215-000641-freelancer-consultant-landing",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'freelancer-consultant-landing-page'"
+      ]
     },
     {
       "product_id": "20260218-144125-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-144125-test-run'"
+      ]
     },
     {
       "product_id": "20260218-102720-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-102720-token-gated-content-revenue-au'"
+      ]
     },
     {
       "product_id": "20260218-094845-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-094845-test-run'"
+      ]
     },
     {
       "product_id": "20260218-093450-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-093450-test-run'"
+      ]
     },
     {
       "product_id": "20260218-093420-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-093420-test-run'"
+      ]
     },
     {
       "product_id": "20260218-093130-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-093130-test-run'"
+      ]
     },
     {
       "product_id": "20260218-090417-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-090417-test-run'"
+      ]
     },
     {
       "product_id": "20260218-085832-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-085832-test-run'"
+      ]
     },
     {
       "product_id": "20260218-075918-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-075918-test-run'"
+      ]
     },
     {
       "product_id": "20260218-075634-test-run",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260218-075634-test-run'"
+      ]
     },
     {
       "product_id": "20260215-212725-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
     },
     {
       "product_id": "20260215-212356-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
     },
     {
       "product_id": "20260215-210221-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
     },
     {
       "product_id": "20260215-185109-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
     },
     {
       "product_id": "20260215-155105-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
     },
     {
       "product_id": "20260215-145048-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
     },
     {
       "product_id": "20260215-143859-web3-asset-security-audit-fram",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Web3-Asset-Security-Audit-Framework'"
+      ]
     },
     {
       "product_id": "20260215-143641-finance-risk-management-for-cr",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Finance-Risk-Management-for-Crypto-Traders'"
+      ]
     },
     {
       "product_id": "20260215-143622-web3-smart-contract-audit-chec",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Web3-Smart-Contract-Audit-Checklist'"
+      ]
     },
     {
       "product_id": "20260215-135151-ai-agent-monetization-guide",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'AI-Agent-Monetization-Guide'"
+      ]
     },
     {
       "product_id": "20260215-135047-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
     },
     {
       "product_id": "20260215-132048-defi-passive-income-strategies",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'DeFi-Passive-Income-Strategies-Staking-Yield-Farming-and-Lending'"
+      ]
     },
     {
       "product_id": "20260215-130406-ai-driven-product-flipping",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'AI-Driven-Product-Flipping'"
+      ]
     },
     {
       "product_id": "20260215-130008-token-gated-content-revenue-au",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+      ]
     },
     {
       "product_id": "20260215-125053-global-merchant-crypto-checkou",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Global Merchant Crypto Checkout Blueprint (No Bank Friction)'"
+      ]
     },
     {
       "product_id": "20260215-122807-passive-income-with-saas-boile",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Passive-Income-with-SaaS-Boilerplates'"
+      ]
     },
     {
       "product_id": "20260215-122558-crypto-ai-trading-signals",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Crypto-AI-Trading-Signals'"
+      ]
     },
     {
       "product_id": "20260215-120036-metaverse-real-estate-marketin",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Metaverse-Real-Estate-Marketing-Guide'"
+      ]
     },
     {
       "product_id": "test_optimized_v3",
@@ -1416,80 +1558,106 @@
     {
       "product_id": "20260215-081716-reddit-linkedin-test",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Reddit_LinkedIn_Test'"
+      ]
     },
     {
       "product_id": "20260215-081614-saas-marketing",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'SaaS_Marketing'"
+      ]
     },
     {
       "product_id": "20260215-074829-freelancer-consultant-landing",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260215-074829-freelancer-consultant-landing'"
+      ]
     },
     {
       "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'AI-Automation-Agency-Prompt-Pack'"
+      ]
     },
     {
       "product_id": "20260215-015534-viral-marketing-growth-bluepri",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Viral-Marketing-Growth-Blueprint'"
+      ]
     },
     {
       "product_id": "20260215-015455-automated-daily-planner-system",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Automated-Daily-Planner-System'"
+      ]
     },
     {
       "product_id": "20260215-014951-automated-crypto-tax-reporting",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Automated-Crypto-Tax-Reporting-Tool'"
+      ]
     },
     {
       "product_id": "20260215-004917-high-ticket-service-automation",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'High-Ticket-Service-Automation-Guide'"
+      ]
     },
     {
       "product_id": "20260214-231100-unknown-single",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title '20260214-231100-unknown-single'"
+      ]
     },
     {
       "product_id": "20260214-140141-ai-dev-income",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'AI_Dev_Income'"
+      ]
     },
     {
       "product_id": "20260214-133737-ai-powered-passive-income-syst",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AI-Powered Passive Income Systems for 2026'"
+      ]
     },
     {
       "product_id": "20260214-130903-ai-trading-bot",
       "type": "product",
-      "status": "PACKAGED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AI-Trading-Bot'"
+      ]
     },
     {
       "product_id": "20260214-112651-aipassiveincomesystem",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AIPassiveIncomeSystem'"
+      ]
     },
     {
       "product_id": "20260214-105333-global-merchant-crypto-checkou",

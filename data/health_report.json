@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-22T16:33:52.930322+00:00",
+  "timestamp": "2026-02-22T17:28:55.157919+00:00",
   "stats": {
     "total": 248,
     "published": 0,
-    "waiting": 3,
+    "waiting": 87,
     "failed": 0
   },
   "recent_products": [
@@ -129,20 +129,20 @@
     }
   ],
   "daemon": {
-    "last_log": "[20260214-130903-ai-trading-bot] 가격 변동으로 인한 재배포 요청됨.",
-    "last_updated": "2026-02-22T16:33:51.260810+00:00",
+    "last_log": "[20260219-045803-9-b2b-ecommerce-examples-for-s] 가격 변동으로 인한 재배포 요청됨.",
+    "last_updated": "2026-02-22T17:28:54.089585+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 1,
-    "last_run_end": "2026-02-22T16:17:03.207194+00:00",
-    "next_run_approx": "2026-02-22T16:19:52.028295+00:00",
+    "last_run_end": "2026-02-22T16:34:00.748544+00:00",
+    "next_run_approx": "2026-02-22T17:31:42.471774+00:00",
     "count": 1,
     "status": "paused",
     "pid": 1468,
