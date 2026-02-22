@@ -1,7 +1,7 @@
 {
-  "last_log": "--- RUN #22 END (took 10.0s). Next run in 290.0s ---",
-  "last_updated": "2026-02-22T11:44:54.869920+00:00",
-  "phase": "sleeping",
+  "last_log": "성과 기반 재홍보(Analytics Loop) 실행...",
+  "last_updated": "2026-02-22T11:54:50.866338+00:00",
+  "phase": "idle",
   "product_id": null,
   "last_cmd": [
     "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
@@ -11,8 +11,8 @@
   ],
   "action": "Creating/Updating Product",
   "rc": 1,
-  "last_run_end": "2026-02-22T11:44:54.856189+00:00",
-  "next_run_approx": "2026-02-22T11:49:44.819235+00:00",
+  "last_run_end": "2026-02-22T11:49:54.389920+00:00",
+  "next_run_approx": "2026-02-22T11:54:45.242355+00:00",
   "count": 1,
   "status": "paused",
   "pid": 1468,
