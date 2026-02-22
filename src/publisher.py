@@ -401,6 +401,11 @@ class Publisher:
                     elif "404: not found" in content:
                         logger.warning(f"검증 실패 (404 Not Found): {url}")
                     else:
+                        # [FIX] 정적 파일(.html)인 경우 API 검사 건너뛰고 성공 처리
+                        if url.endswith(".html"):
+                            logger.info(f"배포 검증 성공 (정적 파일 확인됨): {url}")
+                            return
+
                         # 메인 페이지 성공 -> API 검사 시도
                         api_url = f"{url}/api/health"
                         try:
