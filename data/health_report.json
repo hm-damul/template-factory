@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-02-21T12:40:45.082139+00:00",
+  "timestamp": "2026-02-22T05:14:36.520909+00:00",
   "stats": {
     "total": 247,
     "published": 0,
     "waiting": 28,
-    "failed": 2
+    "failed": 0
   },
   "recent_products": [
     {
       "id": "20260221-154313-niche-college-search-reviews-a",
       "topic": "Niche: College Search, Reviews, and Rankings",
-      "status": "PIPELINE_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-21T15:43:13.755097"
     },
     {
       "id": "20260221-133812-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:55",
-      "status": "PIPELINE_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-21T13:38:12.306229"
     },
     {
@@ -28,13 +28,13 @@
     {
       "id": "20260221-082149-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:15",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-21T08:21:49.982765"
     },
     {
       "id": "20260221-080621-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:55",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-21T08:06:21.741745"
     },
     {
@@ -46,13 +46,13 @@
     {
       "id": "20260221-063338-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:15",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-21T06:33:38.370321"
     },
     {
       "id": "20260221-061808-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:55",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-21T06:18:08.979459"
     },
     {
@@ -70,13 +70,13 @@
     {
       "id": "20260221-034852-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:15",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-21T03:48:52.811905"
     },
     {
       "id": "20260221-033322-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:55",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-21T03:33:22.387127"
     },
     {
@@ -112,13 +112,13 @@
     {
       "id": "20260220-225518-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:55",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-20T22:55:18.665903"
     },
     {
       "id": "20260220-221545-digital-asset-bundle-2026-02-2",
       "topic": "Digital Asset Bundle 2026-02-20 22:15",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "created_at": "2026-02-20T22:15:45.560342"
     },
     {
@@ -129,24 +129,25 @@
     }
   ],
   "daemon": {
-    "last_log": "업데이트된 제품 89개를 재배포 대기열에 추가합니다.",
-    "last_updated": "2026-02-21T12:40:44.231961+00:00",
+    "last_log": "업데이트된 제품 233개를 재배포 대기열에 추가합니다.",
+    "last_updated": "2026-02-22T05:14:35.577467+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 1,
-    "last_run_end": "2026-02-21T11:40:50.960551+00:00",
-    "next_run_approx": "2026-02-21T11:52:54.259408+00:00",
+    "last_run_end": "2026-02-22T04:23:00.251373+00:00",
+    "next_run_approx": "2026-02-22T04:23:10.251374+00:00",
     "count": 1,
     "status": "running",
-    "pid": 13060,
-    "start_time": "2026-02-21T07:42:01.444808+00:00",
-    "stop_time": "2026-02-18T22:46:37.546758+00:00"
+    "pid": 1468,
+    "start_time": "2026-02-22T03:51:17.935970+00:00",
+    "stop_time": "2026-02-21T18:30:42.332264+00:00",
+    "reason": "too_many_failures"
   }
 }

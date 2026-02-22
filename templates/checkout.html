@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Checkout | {{ product.topic }}</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8fafc; color: #1e293b; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+    .card { background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); max-width: 400px; width: 100%; }
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #0f172a; }
+    .price { font-size: 2rem; font-weight: 800; color: #2563eb; margin: 1rem 0; }
+    .btn { display: block; width: 100%; padding: 0.75rem; background: #2563eb; color: white; border: none; border-radius: 0.5rem; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+    .btn:hover { background: #1d4ed8; }
+    .btn:disabled { background: #94a3b8; cursor: not-allowed; }
+    .meta { margin-top: 1.5rem; font-size: 0.875rem; color: #64748b; border-top: 1px solid #e2e8f0; padding-top: 1rem; }
+    .error { color: #ef4444; font-size: 0.875rem; margin-top: 1rem; display: none; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div style="font-size: 0.875rem; color: #64748b; margin-bottom: 0.5rem;">Secure Checkout</div>
+    <h1>{{ product.topic }}</h1>
+    <div class="price">${{ product.metadata.price_usd or 19 }}</div>
+    
+    <button id="payBtn" class="btn" onclick="startPayment()">Pay Now</button>
+    <div id="errorMsg" class="error"></div>
+    
+    <div class="meta">
+      <div>Product ID: {{ product.id }}</div>
+      <div>Secure payment via NowPayments / Test Mode</div>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = "http://127.0.0.1:5000";
+    const PRODUCT_ID = "{{ product.id }}";
+    const PRICE = {{ product.metadata.price_usd or 19 }};
+
+    async function startPayment() {
+      const btn = document.getElementById('payBtn');
+      const err = document.getElementById('errorMsg');
+      
+      btn.disabled = true;
+      btn.textContent = "Processing...";
+      err.style.display = "none";
+
+      try {
+        // Call Payment Server
+        const res = await fetch(`${API_BASE}/api/pay/start?product_id=${PRODUCT_ID}&price_amount=${PRICE}&price_currency=usd`);
+        const data = await res.json();
+        
+        if (!res.ok) {
+          throw new Error(data.error || "Payment initialization failed");
+        }
+
+        if (data.nowpayments && data.nowpayments.invoice_url) {
+          window.location.href = data.nowpayments.invoice_url;
+        } else if (data.status === "paid") {
+            // Mock payment success
+            btn.textContent = "Success! Redirecting...";
+            
+            let downloadUrl = data.download_url;
+            if (downloadUrl && downloadUrl.startsWith("/")) {
+                downloadUrl = API_BASE + downloadUrl;
+            }
+            
+            setTimeout(() => {
+                window.location.href = downloadUrl;
+            }, 1000);
+        } else {
+            throw new Error("Unexpected payment status: " + data.status);
+        }
+      } catch (e) {
+        console.error(e);
+        err.textContent = e.message;
+        err.style.display = "block";
+        btn.disabled = false;
+        btn.textContent = "Pay Now";
+      }
+    }
+  </script>
+</body>
+</html>

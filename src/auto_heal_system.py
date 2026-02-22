@@ -14,6 +14,7 @@ from src.config import Config
 from src.error_learning_system import get_error_system
 from src.payment_flow_verifier import PaymentFlowVerifier
 from src.publisher import Publisher
+from src.local_verifier import LocalVerifier
 try:
     from src import promotion_dispatcher
 except ImportError:
@@ -36,6 +37,7 @@ class AutoHealSystem:
         self.ledger = LedgerManager(Config.DATABASE_URL)
         # Use Publisher for Git-based deployment (bypassing Vercel API limits)
         self.publisher = Publisher(self.ledger)
+        self.local_verifier = LocalVerifier()
         self.project_root = Path(__file__).parent.parent
         self.outputs_dir = self.project_root / "outputs"
 
@@ -64,6 +66,12 @@ class AutoHealSystem:
                 continue
                 
             logger.info(f"Found issues for product {pid}: {issues}")
+
+            # Local Verification/Repair for all flagged products
+            product_dir = self.outputs_dir / pid
+            if product_dir.exists():
+                logger.info(f"Running Local Verification/Repair for {pid}...")
+                self.local_verifier.verify_and_repair_product(str(product_dir))
             
             # Issue: Missing deployment_url or Deployment URL dead
             if any("Deployment URL dead" in i or "Missing deployment_url" in i or "Deployment URL is localhost" in i for i in issues):

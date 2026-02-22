@@ -1,24 +1,24 @@
 {
-  "last_audit": "2026-02-21 17:29:32",
+  "last_audit": "2026-02-22 13:22:33",
   "summary": {
     "total_products": 247,
-    "healthy_products": 102,
-    "broken_products": 145,
-    "total_promotions": 236,
+    "healthy_products": 247,
+    "broken_products": 0,
+    "total_promotions": 247,
     "healthy_promotions": 0,
-    "broken_promotions": 236
+    "broken_promotions": 247
   },
   "details": [
     {
       "product_id": "20260221-154313-niche-college-search-reviews-a",
       "type": "product",
-      "status": "PIPELINE_FAILED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260221-133812-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PIPELINE_FAILED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -30,13 +30,13 @@
     {
       "product_id": "20260221-082149-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260221-080621-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -48,13 +48,13 @@
     {
       "product_id": "20260221-063338-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260221-061808-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -72,13 +72,13 @@
     {
       "product_id": "20260221-034852-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260221-033322-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PUBLISH_FAILED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -91,81 +91,61 @@
       "product_id": "20260221-022733-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260221-012727-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260221-002736-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260221-001102-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-225518-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PUBLISH_FAILED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "status": "PROMOTED",
+      "issues": []
     },
     {
       "product_id": "20260220-221545-digital-asset-bundle-2026-02-2",
       "type": "product",
-      "status": "PUBLISH_FAILED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "status": "PROMOTED",
+      "issues": []
     },
     {
       "product_id": "20260220-213518-top-100-best-selling-t-shirts",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-212906-1000-ielts-speaking-questions",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-212254-how-i-made-93k-in-revenue-sell",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-211508-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-211248-digital-asset-bundle-2026-02-2",
@@ -177,385 +157,289 @@
       "product_id": "20260220-205123-2026-ielts-speaking-questions",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-200945-saas-for-small-business-and-st",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-200310-400-high-ticket-product-ideas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-195647-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-195037-23-proven-ways-to-make-money-o",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-194413-ielts-speaking-part-1-topics-q",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-192514-untapped-gg",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-191010-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-182642-ielts-speaking-part-3-topics",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-181547-the-6-best-b-2-b-community-exa",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-180836-blackbox-ai",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-180209-7-hidden-no-code-ai-saas-ideas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-174404-17-typical-b-2-b-business-exam",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-174030-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-173942-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-134701-900-etsy-printables-worksheets",
       "type": "product",
-      "status": "QA2_PASSED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "status": "PROMOTED",
+      "issues": []
     },
     {
       "product_id": "20260220-132939-5-ai-passive-income-ideas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-114637-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-114219-top-definition-in-american-eng",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-113551-top-definition-meaning",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-112926-digital-products-examples",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-112316-your-modern-ebook-reading-expe",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-110614-10-best-digital-products-for-p",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-104317-25-digital-product-niches-to-w",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-103707-490-business-management-ideen",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-103146-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-103030-the-hottest-etsy-trends-for-20",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-102409-2026-planner",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-100544-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-094258-find-the-school-that-fits-you",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-093647-top-27-highest-converting-shop",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-093149-44-trending-products-to-sell-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-093144-shopify-the-all-in-one-commerc",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-092534-best-shopify-themes-for-your-s",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-090820-digital-products-best-seller-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-084628-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-084011-15-best-notion-freelance-templ",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-083354-12-notion-ideas-to-boost-produ",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-083144-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-082710-course-login",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-080937-build-your-ultimate-course",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-074802-student-log-in",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-074149-20-indonesia-viral-terbaru-vid",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-073537-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-073144-digital-asset-bundle-2026-02-2",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-072901-best-digital-product-ideas-to",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-071129-70-digital-product-ideas-for-p",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-064523-how-to-make-money-on-etsy-what",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-063850-crypto-wallet-buyer-playbook-p",
@@ -567,201 +451,151 @@
       "product_id": "20260220-063116-sell-online-with-shopify",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-062438-10-best-b-2-b-marketing-tiktok",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-061810-digital-to-physical-on-etsy-th",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-060044-web3-marketing-playbook-commun",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-053943-17-untapped-digital-products-t",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-053326-stablecoin-settlement-handbook",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-053152-leading-trends-for-etsy-2026-k",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-052629-dao-governance-101-how-to-laun",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-052005-how-to-sell-high-ticket-digita",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-050239-15-best-digital-product-ideas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-044219-best-digital-downloads-to-sell",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-043607-25-passive-income-ideas-to-mak",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-043147-saas-boilerplate-for-crypto-pa",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-042938-zero-knowledge-proofs-for-begi",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-042304-digital-nomad-tax-haven-guide",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-040541-top-10-digital-product-niches",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-034618-2026-guide-38-popular-digital",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-033412-30-best-free-shopify-themes-20",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-033213-how-to-use-amazon-s-new-ai-too",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-031839-trending-etsy-products-2026",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-030507-selling-notion-templates-on-wh",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-030237-what-genres-dominate-the-ebook",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-024401-40-best-digital-ai-product-des",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-023845-best-digital-product-ideas-202",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-023351-nft-business-blueprint-beyond",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-023210-digital-products-goldmine-200",
@@ -773,497 +607,373 @@
       "product_id": "20260220-022846-10-best-shopify-themes-for-hig",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-022707-8-creative-ideas-to-make-ai-ge",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-020936-a-dozen-digital-product-ideas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-020442-most-popular-genres-for-2026-w",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-015945-cold-wallet-ops-manual-for-dig",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-015448-9-most-profitable-notion-niche",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-015247-10-digital-products-you-can-se",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-014523-16-best-notion-life-planner-te",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-013245-6-best-b2b-ecommerce-examples",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-012800-anti-fraud-chargeback-free-sal",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-012558-how-to-sell-digital-downloads",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-011529-15-successful-b2b-ecommerce-ex",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-011338-top-book-club-picks-for-2026",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-005631-100-proven-digital-product-ide",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-005135-the-ultimate-notion-template-g",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-004641-top-10-profitable-saas-applica",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-004203-ai-agent-monetization-guide-se",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-003858-the-best-free-and-premium-noti",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-003319-crypto-first-email-funnel-syst",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-002330-top-9-lucrative-topics-to-sell",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-001843-10-must-try-notion-templates-f",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-001028-best-saas-business-ideas-in-20",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260220-000427-best-shopify-themes-2026-desig",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-234910-30-top-selling-digital-product",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-233412-top-10-b2b-ecommerce-examples",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-233033-25-trending-products-to-sell-o",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-231841-50-profitable-micro-saas-ideas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-230203-top-high-potential-saas-ideas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-225211-what-s-going-to-be-hot-in-2026",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-225211-14-digital-products-to-sell-fo",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-222758-top-shopify-themes-for-2026-be",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-214518-10-profitable-saas-ideas-to-ex",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-213559-untapped-digital-product-niche",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-213419-best-digital-products-to-sell",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-211904-ai-powered-digital-product-ide",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-210308-best-shopify-themes-for-ecomme",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-204559-best-books-2026-what-we-can-t",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-204520-25-best-shopify-themes-that-ll",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-202435-academia-edu",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-201042-trending-ebook-topics-2026-wha",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-194620-best-shopify-themes-in-2026-fr",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-192339-best-digital-products-to-sell",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-192247-7-digital-product-ideas-you-ca",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-185810-top-8-popular-ebook-topics-to",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-183122-most-profitable-saas-business",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-182721-top-20-profitable-saas-startup",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-180224-18-most-profitable-digital-pro",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-173730-5-shopify-themes-perfect-for-e",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-172503-b2b-products-the-complete-guid",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-171353-150-ebook-ideas-that-actually",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-164843-what-are-the-best-b2b-examples",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-163241-127-notion-template-ideas-that",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-161804-50-profitable-micro-saas-ideas",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-160930-the-best-notion-templates-for",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-155942-top-selling-digital-downloads",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-153954-50-digital-product-ideas-that",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-151814-18-best-b2b-websites-in-2026-e",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-151033-top-22-digital-products-in-dem",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-145247-ultimate-guide-to-passive-inco",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-143112-28-unique-digital-products-to",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-141212-etsy",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-141212-как-открыть-магазин-на-etsy-и",
       "type": "product",
       "status": "PROMOTED",
-      "issues": [
-        "Missing index.html in outputs"
-      ]
+      "issues": []
     },
     {
       "product_id": "20260219-141036-11-b2b-ecommerce-examples-and",
@@ -1782,12 +1492,43 @@
       "issues": []
     },
     {
+      "product_id": "20260221-154313-niche-college-search-reviews-a",
+      "type": "promotion_wordpress",
+      "post_id": 1385,
+      "issues": [
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260221-133812-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1383,
+      "issues": [
+        "WordPress config missing for verification"
+      ]
+    },
+    {
       "product_id": "20260221-115017-big-ideas-2026-part-1",
       "type": "promotion_wordpress",
       "post_id": 1375,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Big Ideas 2026: Part 1'"
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260221-082149-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1384,
+      "issues": [
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260221-080621-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1383,
+      "issues": [
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1795,8 +1536,23 @@
       "type": "promotion_wordpress",
       "post_id": 1374,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Reading and Publishing Predictions: Book Trends to Watch for in 2026'"
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260221-063338-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1384,
+      "issues": [
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260221-061808-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1383,
+      "issues": [
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1804,8 +1560,7 @@
       "type": "promotion_wordpress",
       "post_id": 1373,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with How I make $30,000/Month Selling Notion Templates'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1813,8 +1568,23 @@
       "type": "promotion_wordpress",
       "post_id": 1372,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Most Popular Surnames in the United States'"
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260221-034852-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1384,
+      "issues": [
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260221-033322-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1383,
+      "issues": [
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1822,7 +1592,7 @@
       "type": "promotion_wordpress",
       "post_id": 1371,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with 13 Profitable Niche Digital Products On Etsy You Haven’t Explored Yet'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1830,7 +1600,7 @@
       "type": "promotion_wordpress",
       "post_id": 1370,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Digital Asset Bundle 2026-02-21 02:27'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1838,8 +1608,7 @@
       "type": "promotion_wordpress",
       "post_id": 1369,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260221-012727-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Digital Asset Bundle 2026-02-21 01:27'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1847,8 +1616,7 @@
       "type": "promotion_wordpress",
       "post_id": 1368,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260221-002736-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Digital Asset Bundle 2026-02-21 00:27'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1856,26 +1624,39 @@
       "type": "promotion_wordpress",
       "post_id": 1367,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260221-001102-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Digital Asset Bundle 2026-02-21 00:11'"
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260220-225518-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1383,
+      "issues": [
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260220-221545-digital-asset-bundle-2026-02-2",
+      "type": "promotion_wordpress",
+      "post_id": 1384,
+      "issues": [
+        "WordPress config missing for verification"
       ]
     },
     {
       "product_id": "20260220-213518-top-100-best-selling-t-shirts",
       "type": "promotion_wordpress",
-      "post_id": 1349,
+      "post_id": 1391,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-213518-top-100-best-selling-t-shirts/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top 100 best selling t shirts on Etsy 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
       "product_id": "20260220-212906-1000-ielts-speaking-questions",
       "type": "promotion_wordpress",
-      "post_id": 1348,
+      "post_id": 1390,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-212906-1000-ielts-speaking-questions/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '1000 IELTS Speaking Questions (Updated 2026 )'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1883,8 +1664,7 @@
       "type": "promotion_wordpress",
       "post_id": 1347,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-212254-how-i-made-93k-in-revenue-sell/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'How I Made $93K in Revenue Selling Digital Downloads on Etsy'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1892,8 +1672,7 @@
       "type": "promotion_wordpress",
       "post_id": 1346,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-211508-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 21:15'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1901,8 +1680,7 @@
       "type": "promotion_wordpress",
       "post_id": 1345,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-211248-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 21:12'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1910,8 +1688,7 @@
       "type": "promotion_wordpress",
       "post_id": 1343,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-205123-2026-ielts-speaking-questions/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '2026 IELTS Speaking Questions And Answer'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1919,8 +1696,7 @@
       "type": "promotion_wordpress",
       "post_id": 1342,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-200945-saas-for-small-business-and-st/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'SaaS For Small Business and Startups: 15 Micro SaaS Ideas in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1928,8 +1704,7 @@
       "type": "promotion_wordpress",
       "post_id": 1341,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-200310-400-high-ticket-product-ideas/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '400+ High-Ticket Product Ideas to Sell !! ( 2026 List)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1937,8 +1712,7 @@
       "type": "promotion_wordpress",
       "post_id": 1340,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-195647-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 19:56'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1946,8 +1720,7 @@
       "type": "promotion_wordpress",
       "post_id": 1339,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-195037-23-proven-ways-to-make-money-o/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '23 Proven Ways To Make Money Online in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1955,8 +1728,7 @@
       "type": "promotion_wordpress",
       "post_id": 1338,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-194413-ielts-speaking-part-1-topics-q/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'IELTS Speaking Part 1 Topics &#038; Questions'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1964,8 +1736,7 @@
       "type": "promotion_wordpress",
       "post_id": 1337,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-192514-untapped-gg/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Untapped .gg'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1973,8 +1744,7 @@
       "type": "promotion_wordpress",
       "post_id": 1336,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-191010-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 19:10'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1982,8 +1752,7 @@
       "type": "promotion_wordpress",
       "post_id": 1335,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-182642-ielts-speaking-part-3-topics/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'IELTS Speaking Part 3 Topics'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -1991,8 +1760,7 @@
       "type": "promotion_wordpress",
       "post_id": 1334,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-181547-the-6-best-b-2-b-community-exa/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'The 6 Best B 2 B Community Examples of 2025'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2000,8 +1768,7 @@
       "type": "promotion_wordpress",
       "post_id": 1333,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-180836-blackbox-ai/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'BLACKBOX AI'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2009,8 +1776,7 @@
       "type": "promotion_wordpress",
       "post_id": 1332,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-180209-7-hidden-no-code-ai-saas-ideas/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '7 “Hidden” No-Code AI SaaS Ideas for 2026 That&#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2018,8 +1784,7 @@
       "type": "promotion_wordpress",
       "post_id": 1331,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-174404-17-typical-b-2-b-business-exam/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '17 Typical B 2 B Business Examples in eCommerce Worth&#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2027,8 +1792,7 @@
       "type": "promotion_wordpress",
       "post_id": 1330,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 17:40'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2036,17 +1800,23 @@
       "type": "promotion_wordpress",
       "post_id": 1329,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-173942-digital-asset-bundle-2026-02-2/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 17:39'"
+        "WordPress config missing for verification"
+      ]
+    },
+    {
+      "product_id": "20260220-134701-900-etsy-printables-worksheets",
+      "type": "promotion_wordpress",
+      "post_id": 1380,
+      "issues": [
+        "WordPress config missing for verification"
       ]
     },
     {
       "product_id": "20260220-132939-5-ai-passive-income-ideas",
       "type": "promotion_wordpress",
-      "post_id": 1328,
+      "post_id": 1389,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-132939-5-ai-passive-income-ideas/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '5 AI Passive Income Ideas'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2054,8 +1824,7 @@
       "type": "promotion_wordpress",
       "post_id": 1327,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-114637-digital-asset-bundle-2026-02-2/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 11:46'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2063,8 +1832,7 @@
       "type": "promotion_wordpress",
       "post_id": 1326,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-114219-top-definition-in-american-eng/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'TOP definition in American English'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2072,8 +1840,7 @@
       "type": "promotion_wordpress",
       "post_id": 1325,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-113551-top-definition-meaning/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'TOP Definition &#038; Meaning'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2081,8 +1848,7 @@
       "type": "promotion_wordpress",
       "post_id": 1324,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-112926-digital-products-examples/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Digital Products Examples'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2090,8 +1856,7 @@
       "type": "promotion_wordpress",
       "post_id": 1323,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-112316-your-modern-ebook-reading-expe/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Your modern ebook reading experience'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2099,8 +1864,7 @@
       "type": "promotion_wordpress",
       "post_id": 1322,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-110614-10-best-digital-products-for-p/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '10 Best Digital Products for Passive Income in 2025 (Proven Ideas to &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2108,8 +1872,7 @@
       "type": "promotion_wordpress",
       "post_id": 1321,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-104317-25-digital-product-niches-to-w/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '25 Digital Product Niches to Watch in 2025/2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2117,8 +1880,7 @@
       "type": "promotion_wordpress",
       "post_id": 1320,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-103707-490-business-management-ideen/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '490 Business Management-Ideen in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2126,8 +1888,7 @@
       "type": "promotion_wordpress",
       "post_id": 1319,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-103146-digital-asset-bundle-2026-02-2/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 10:31'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2135,8 +1896,7 @@
       "type": "promotion_wordpress",
       "post_id": 1318,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-103030-the-hottest-etsy-trends-for-20/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'The Hottest Etsy Trends for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2144,8 +1904,7 @@
       "type": "promotion_wordpress",
       "post_id": 1317,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-102409-2026-planner/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '2026 Planner'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2153,8 +1912,7 @@
       "type": "promotion_wordpress",
       "post_id": 1316,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-100544-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 10:05'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2162,8 +1920,7 @@
       "type": "promotion_wordpress",
       "post_id": 1315,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-094258-find-the-school-that-fits-you/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Find the School that Fits You Best'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2171,8 +1928,7 @@
       "type": "promotion_wordpress",
       "post_id": 1314,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-093647-top-27-highest-converting-shop/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 27 Highest Converting Shopify Themes for 2026 – EComposer'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2180,7 +1936,7 @@
       "type": "promotion_wordpress",
       "post_id": 1313,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title '44 Trending Products to Sell (2026)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2188,8 +1944,7 @@
       "type": "promotion_wordpress",
       "post_id": 1312,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-093144-shopify-the-all-in-one-commerc/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Shopify : The All-in-One Commerce Platform for Businesses'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2197,17 +1952,15 @@
       "type": "promotion_wordpress",
       "post_id": 1311,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-092534-best-shopify-themes-for-your-s/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes for Your Store in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
       "product_id": "20260220-090820-digital-products-best-seller-2",
       "type": "promotion_wordpress",
-      "post_id": 1365,
+      "post_id": 1388,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-090820-digital-products-best-seller-2/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Products Best Seller 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2215,8 +1968,7 @@
       "type": "promotion_wordpress",
       "post_id": 1309,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-084628-digital-asset-bundle-2026-02-2/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 08:46'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2224,8 +1976,7 @@
       "type": "promotion_wordpress",
       "post_id": 1308,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-084011-15-best-notion-freelance-templ/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '15+ Best Notion Freelance Templates'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2233,8 +1984,7 @@
       "type": "promotion_wordpress",
       "post_id": 1307,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-083354-12-notion-ideas-to-boost-produ/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '12 Notion Ideas to Boost Productivity in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2242,8 +1992,7 @@
       "type": "promotion_wordpress",
       "post_id": 1306,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-083144-digital-asset-bundle-2026-02-2/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 08:31'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2251,8 +2000,7 @@
       "type": "promotion_wordpress",
       "post_id": 1305,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-082710-course-login/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Course Login'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2260,8 +2008,7 @@
       "type": "promotion_wordpress",
       "post_id": 1304,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-080937-build-your-ultimate-course/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Build Your Ultimate Course'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2269,8 +2016,7 @@
       "type": "promotion_wordpress",
       "post_id": 1303,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-074802-student-log-in/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Student Log In'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2278,17 +2024,15 @@
       "type": "promotion_wordpress",
       "post_id": 1302,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-074149-20-indonesia-viral-terbaru-vid/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '20 Indonesia Viral Terbaru Videos on Social Media in 2026 &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
       "product_id": "20260220-073537-digital-asset-bundle-2026-02-2",
       "type": "promotion_wordpress",
-      "post_id": 1301,
+      "post_id": 1387,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-073537-digital-asset-bundle-2026-02-2/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 07:35'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2296,8 +2040,7 @@
       "type": "promotion_wordpress",
       "post_id": 1300,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-073144-digital-asset-bundle-2026-02-2/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Asset Bundle 2026-02-20 07:31'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2305,8 +2048,7 @@
       "type": "promotion_wordpress",
       "post_id": 1299,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-072901-best-digital-product-ideas-to/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Digital Product Ideas to Start Selling Today'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2314,8 +2056,7 @@
       "type": "promotion_wordpress",
       "post_id": 1363,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-071129-70-digital-product-ideas-for-p/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '70+ Digital Product Ideas for Passive Income'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2323,8 +2064,7 @@
       "type": "promotion_wordpress",
       "post_id": 1297,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-064523-how-to-make-money-on-etsy-what/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'How to Make Money on Etsy: What Actually Works (And What&#8217;s Changed in 2026)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2332,8 +2072,7 @@
       "type": "promotion_wordpress",
       "post_id": 1296,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-063850-crypto-wallet-buyer-playbook-p/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Crypto Wallet Buyer Playbook: Privacy-First Digital Product Purchasing'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2341,8 +2080,7 @@
       "type": "promotion_wordpress",
       "post_id": 1295,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-063116-sell-online-with-shopify/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Sell Online with Shopify®'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2350,19 +2088,15 @@
       "type": "promotion_wordpress",
       "post_id": 1294,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-062438-10-best-b-2-b-marketing-tiktok/index.html (404)",
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-062438-10-best-b-2-b-marketing-tiktok/index.html (404)",
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-062438-10-best-b-2-b-marketing-tiktok/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '10 Best B 2 B Marketing TikTok Examples'"
+        "WordPress config missing for verification"
       ]
     },
     {
       "product_id": "20260220-061810-digital-to-physical-on-etsy-th",
       "type": "promotion_wordpress",
-      "post_id": 1362,
+      "post_id": 1386,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-061810-digital-to-physical-on-etsy-th/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital -to-Physical on Etsy : The New Hybrid Seller Playbook'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2370,8 +2104,7 @@
       "type": "promotion_wordpress",
       "post_id": 1292,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-060044-web3-marketing-playbook-commun/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Web3 Marketing Playbook: Community Growth &#038; Tokenomics'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2379,8 +2112,7 @@
       "type": "promotion_wordpress",
       "post_id": 1291,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-053943-17-untapped-digital-products-t/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '17 Untapped Digital Products that Sell Like Crazy in 2025 and Beyond &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2388,8 +2120,7 @@
       "type": "promotion_wordpress",
       "post_id": 1290,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-053326-stablecoin-settlement-handbook/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Stablecoin Settlement Handbook for Cross-Border Solopreneurs'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2397,8 +2128,7 @@
       "type": "promotion_wordpress",
       "post_id": 1289,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-053152-leading-trends-for-etsy-2026-k/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Leading trends for Etsy 2026: Keywords, styles, bestsellers'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2406,8 +2136,7 @@
       "type": "promotion_wordpress",
       "post_id": 1288,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-052629-dao-governance-101-how-to-laun/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'DAO Governance 101: How to Launch and Manage a Decentralized Org'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2415,8 +2144,7 @@
       "type": "promotion_wordpress",
       "post_id": 1287,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-052005-how-to-sell-high-ticket-digita/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'How to Sell High-Ticket Digital Products for Crypto (Ops + Security)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2424,8 +2152,7 @@
       "type": "promotion_wordpress",
       "post_id": 1286,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-050239-15-best-digital-product-ideas/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '15+ Best Digital Product Ideas to Earn Passive Income'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2433,8 +2160,7 @@
       "type": "promotion_wordpress",
       "post_id": 1285,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-044219-best-digital-downloads-to-sell/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Digital Downloads to Sell on Etsy (2026)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2442,8 +2168,7 @@
       "type": "promotion_wordpress",
       "post_id": 1284,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-043607-25-passive-income-ideas-to-mak/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '25 Passive Income Ideas To Make Extra Money'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2451,8 +2176,7 @@
       "type": "promotion_wordpress",
       "post_id": 1283,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-043147-saas-boilerplate-for-crypto-pa/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'SaaS Boilerplate for Crypto Payments (Next.js + Tailwind)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2460,8 +2184,7 @@
       "type": "promotion_wordpress",
       "post_id": 1282,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-042938-zero-knowledge-proofs-for-begi/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Zero-Knowledge Proofs for Beginners: Privacy in Blockchain'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2469,8 +2192,7 @@
       "type": "promotion_wordpress",
       "post_id": 1281,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-042304-digital-nomad-tax-haven-guide/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Digital Nomad Tax Haven Guide: Crypto-Friendly Jurisdictions'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2478,8 +2200,7 @@
       "type": "promotion_wordpress",
       "post_id": 1280,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-040541-top-10-digital-product-niches/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top 10 Digital Product Niches for 2026 (Low Competition, High ROI)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2487,8 +2208,7 @@
       "type": "promotion_wordpress",
       "post_id": 1279,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-034618-2026-guide-38-popular-digital/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '(2026 Guide) 38 Popular Digital Products On Etsy'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2496,8 +2216,7 @@
       "type": "promotion_wordpress",
       "post_id": 1278,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260220-033412-30-best-free-shopify-themes-20/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '30 Best free Shopify themes ( 2026 )'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2505,7 +2224,7 @@
       "type": "promotion_wordpress",
       "post_id": 1277,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'How to Use Amazon’s New AI Tool to Discover Untapped Digital &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2513,8 +2232,7 @@
       "type": "promotion_wordpress",
       "post_id": 1361,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260220-031839-trending-etsy-products-2026/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Trending Etsy Products 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2522,8 +2240,7 @@
       "type": "promotion_wordpress",
       "post_id": 1275,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Selling Notion Templates on Whop'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2531,8 +2248,7 @@
       "type": "promotion_wordpress",
       "post_id": 1274,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'What Genres Dominate the eBook Market in 2026?'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2540,8 +2256,7 @@
       "type": "promotion_wordpress",
       "post_id": 1273,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '40 Best Digital AI Product Design Examples in 2025'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2549,8 +2264,7 @@
       "type": "promotion_wordpress",
       "post_id": 1272,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Digital Product Ideas 2026 for Online Success'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2558,8 +2272,7 @@
       "type": "promotion_wordpress",
       "post_id": 1271,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'NFT Business Blueprint: Beyond the Hype to Real Utility'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2567,8 +2280,7 @@
       "type": "promotion_wordpress",
       "post_id": 1270,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Digital Products Goldmine: 200 Untapped Niches for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2576,8 +2288,7 @@
       "type": "promotion_wordpress",
       "post_id": 1269,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '10 Best Shopify Themes for High Conversions in 2026 Guide'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2585,8 +2296,7 @@
       "type": "promotion_wordpress",
       "post_id": 1268,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '8 Creative Ideas to Make AI-Generated Digital Products Unique'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2594,8 +2304,7 @@
       "type": "promotion_wordpress",
       "post_id": 1267,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'A Dozen Digital Product Ideas You Can Build With AI in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2603,8 +2312,7 @@
       "type": "promotion_wordpress",
       "post_id": 1266,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Most Popular Genres for 2026 – What Readers Are Buying'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2612,8 +2320,7 @@
       "type": "promotion_wordpress",
       "post_id": 1265,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Cold-Wallet Ops Manual for Digital Product Businesses'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2621,8 +2328,7 @@
       "type": "promotion_wordpress",
       "post_id": 1264,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '9 Most Profitable Notion Niches to Sell and Make Money 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2630,8 +2336,7 @@
       "type": "promotion_wordpress",
       "post_id": 1263,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '10 Digital Products You Can Sell Using AI Tools in 2025'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2639,8 +2344,7 @@
       "type": "promotion_wordpress",
       "post_id": 1262,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '16 Best Notion Life Planner Templates for 2026 (Goals &#038; Vision)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2648,8 +2352,7 @@
       "type": "promotion_wordpress",
       "post_id": 1261,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '6 Best B2B eCommerce Examples to Check Out in 2025'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2657,8 +2360,7 @@
       "type": "promotion_wordpress",
       "post_id": 1260,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Anti-Fraud &#038; Chargeback-Free Sales System Using Crypto Payments'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2666,8 +2368,7 @@
       "type": "promotion_wordpress",
       "post_id": 1259,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'How to Sell Digital Downloads on Etsy (Beginner Guide 2026)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2675,8 +2376,7 @@
       "type": "promotion_wordpress",
       "post_id": 1258,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '15+ Successful B2B Ecommerce Examples for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2684,8 +2384,7 @@
       "type": "promotion_wordpress",
       "post_id": 1257,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top Book Club Picks for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2693,8 +2392,7 @@
       "type": "promotion_wordpress",
       "post_id": 1256,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '100 Proven Digital Product Ideas and the Ultimate Launch Marketing &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2702,8 +2400,7 @@
       "type": "promotion_wordpress",
       "post_id": 1255,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'The Ultimate Notion Template Gallery: 12 Best Marketplaces for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2711,8 +2408,7 @@
       "type": "promotion_wordpress",
       "post_id": 1254,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 10 Profitable SaaS Application Ideas for Startups in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2720,8 +2416,7 @@
       "type": "promotion_wordpress",
       "post_id": 1253,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'AI Agent Monetization Guide: Selling Custom GPT Actions'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2729,8 +2424,7 @@
       "type": "promotion_wordpress",
       "post_id": 1252,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'The best free and premium Notion templates in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2738,8 +2432,7 @@
       "type": "promotion_wordpress",
       "post_id": 1251,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Crypto-First Email + Funnel System for Passive Digital Product Sales'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2747,8 +2440,7 @@
       "type": "promotion_wordpress",
       "post_id": 1250,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 9 Lucrative Topics to Sell Ebooks 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2756,8 +2448,7 @@
       "type": "promotion_wordpress",
       "post_id": 1249,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '10 Must-Try Notion Templates for Productivity in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2765,7 +2456,7 @@
       "type": "promotion_wordpress",
       "post_id": 1360,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Best SaaS Business Ideas in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2773,7 +2464,7 @@
       "type": "promotion_wordpress",
       "post_id": 1247,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes 2026 — Design Inspiration'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2781,8 +2472,7 @@
       "type": "promotion_wordpress",
       "post_id": 1359,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-234910-30-top-selling-digital-product/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '30 Top Selling digital Products on Etsy in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2790,8 +2480,7 @@
       "type": "promotion_wordpress",
       "post_id": 1245,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-233412-top-10-b2b-ecommerce-examples/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 10 B2B Ecommerce Examples'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2799,8 +2488,7 @@
       "type": "promotion_wordpress",
       "post_id": 1358,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-233033-25-trending-products-to-sell-o/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '25 Trending Products to Sell Online in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2808,8 +2496,7 @@
       "type": "promotion_wordpress",
       "post_id": 1243,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-231841-50-profitable-micro-saas-ideas/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '50 Profitable Micro SaaS Ideas for 2026: Build &#038; Launch &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2817,8 +2504,7 @@
       "type": "promotion_wordpress",
       "post_id": 1242,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-230203-top-high-potential-saas-ideas/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top High-Potential SaaS Ideas for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2826,8 +2512,7 @@
       "type": "promotion_wordpress",
       "post_id": 1241,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-225211-what-s-going-to-be-hot-in-2026/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'What&#8217;s Going to Be Hot in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2835,8 +2520,7 @@
       "type": "promotion_wordpress",
       "post_id": 1240,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-225211-14-digital-products-to-sell-fo/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '14 Digital Products to Sell for Passive Income (2026)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2844,8 +2528,7 @@
       "type": "promotion_wordpress",
       "post_id": 1239,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-222758-top-shopify-themes-for-2026-be/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top Shopify Themes for 2026: Best Themes for Speed, SEO, and &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2853,8 +2536,7 @@
       "type": "promotion_wordpress",
       "post_id": 1238,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-214518-10-profitable-saas-ideas-to-ex/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '10 Profitable SaaS Ideas to Explore in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2862,8 +2544,7 @@
       "type": "promotion_wordpress",
       "post_id": 1234,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-213559-untapped-digital-product-niche/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Untapped Digital Product Niches No One Is Talking About Yet'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2871,8 +2552,7 @@
       "type": "promotion_wordpress",
       "post_id": 1233,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-213419-best-digital-products-to-sell/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Digital Products to Sell in 2026 (With Examples)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2880,8 +2560,7 @@
       "type": "promotion_wordpress",
       "post_id": 1232,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-211904-ai-powered-digital-product-ide/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'AI-Powered Digital Product Ideas: 15 Profitable Offers to Launch…'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2889,8 +2568,7 @@
       "type": "promotion_wordpress",
       "post_id": 1231,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-210308-best-shopify-themes-for-ecomme/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes for eCommerce Startups in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2898,8 +2576,7 @@
       "type": "promotion_wordpress",
       "post_id": 1230,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-204559-best-books-2026-what-we-can-t/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Books 2026: What We Can&#8217;t Wait to Read'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2907,8 +2584,7 @@
       "type": "promotion_wordpress",
       "post_id": 1229,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-204520-25-best-shopify-themes-that-ll/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '25 Best Shopify Themes That’ll Help Your Store Grow in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2916,7 +2592,7 @@
       "type": "promotion_wordpress",
       "post_id": 1235,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Academia.edu'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2924,8 +2600,7 @@
       "type": "promotion_wordpress",
       "post_id": 1228,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-201042-trending-ebook-topics-2026-wha/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Trending Ebook Topics 2026: What&#8217;s Next?'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2933,8 +2608,7 @@
       "type": "promotion_wordpress",
       "post_id": 1227,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-194620-best-shopify-themes-in-2026-fr/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes in 2026: Free and Paid'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2942,8 +2616,7 @@
       "type": "promotion_wordpress",
       "post_id": 1226,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-192339-best-digital-products-to-sell/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Digital Products to Sell in 2026 (Beginner to Advanced)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2951,10 +2624,7 @@
       "type": "promotion_wordpress",
       "post_id": 1225,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-192247-7-digital-product-ideas-you-ca/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '7 digital product ideas you can make with Excel and&#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2962,8 +2632,7 @@
       "type": "promotion_wordpress",
       "post_id": 1223,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-185810-top-8-popular-ebook-topics-to/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top 8 Popular Ebook Topics to Sell for Maximum Profit 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2971,8 +2640,7 @@
       "type": "promotion_wordpress",
       "post_id": 1222,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-183122-most-profitable-saas-business/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Most Profitable SaaS Business Ideas to Watch in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2980,8 +2648,7 @@
       "type": "promotion_wordpress",
       "post_id": 1221,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-182721-top-20-profitable-saas-startup/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'Top 20+ Profitable SaaS Startup Ideas 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2989,8 +2656,7 @@
       "type": "promotion_wordpress",
       "post_id": 1357,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-180224-18-most-profitable-digital-pro/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '18 Most Profitable Digital Products to Sell in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -2998,8 +2664,7 @@
       "type": "promotion_wordpress",
       "post_id": 1219,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-173730-5-shopify-themes-perfect-for-e/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '5 Shopify Themes Perfect for E-commerce Stores in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3007,8 +2672,7 @@
       "type": "promotion_wordpress",
       "post_id": 1218,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-172503-b2b-products-the-complete-guid/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'B2B Products: The Complete Guide for Ecommerce &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3016,8 +2680,7 @@
       "type": "promotion_wordpress",
       "post_id": 1217,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-171353-150-ebook-ideas-that-actually/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '150+ Ebook Ideas That Actually Sell in 2026 (By Niche, With &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3025,8 +2688,7 @@
       "type": "promotion_wordpress",
       "post_id": 1216,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-164843-what-are-the-best-b2b-examples/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title 'What Are the Best B2B Examples in 2026?'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3034,8 +2696,7 @@
       "type": "promotion_wordpress",
       "post_id": 1215,
       "issues": [
-        "Broken product link in post: https://metapassiveincome-final.vercel.app/outputs/20260219-163241-127-notion-template-ideas-that/index.html (404)",
-        "SEO Warning: Not visible in top 20 for title '127 Notion Template Ideas That Actually Sell in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3043,8 +2704,7 @@
       "type": "promotion_wordpress",
       "post_id": 1214,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '50 Profitable Micro-SaaS Ideas I&#8217;m Watching in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3052,7 +2712,7 @@
       "type": "promotion_wordpress",
       "post_id": 1356,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'The Best Notion Templates for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3060,7 +2720,7 @@
       "type": "promotion_wordpress",
       "post_id": 1355,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Top Selling Digital Downloads'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3068,8 +2728,7 @@
       "type": "promotion_wordpress",
       "post_id": 1210,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '50 Digital Product Ideas That Generate Passive Income in 2025'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3077,8 +2736,7 @@
       "type": "promotion_wordpress",
       "post_id": 1120,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '18 Best B2B Websites in 2026: Examples &#038; Best Practices'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3086,8 +2744,7 @@
       "type": "promotion_wordpress",
       "post_id": 1119,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top 22 digital products in demand for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3095,8 +2752,7 @@
       "type": "promotion_wordpress",
       "post_id": 1118,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Ultimate Guide to Passive Income Digital Products 2025'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3104,8 +2760,7 @@
       "type": "promotion_wordpress",
       "post_id": 1117,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '28 Unique Digital Products To Sell in 2026 (Profitable Ideas)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3113,8 +2768,7 @@
       "type": "promotion_wordpress",
       "post_id": 1115,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3122,8 +2776,7 @@
       "type": "promotion_wordpress",
       "post_id": 1115,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3131,8 +2784,7 @@
       "type": "promotion_wordpress",
       "post_id": 1116,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '11 B2B Ecommerce Examples and What You Can Learn From Them (2026)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3140,8 +2792,7 @@
       "type": "promotion_wordpress",
       "post_id": 1115,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3149,8 +2800,7 @@
       "type": "promotion_wordpress",
       "post_id": 1115,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260219-135543-как-открыть-магазин-на-etsy-и/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Как открыть магазин на Etsy и что там продавать в 2026 году&#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3158,8 +2808,7 @@
       "type": "promotion_wordpress",
       "post_id": 1114,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Top Ebook Topic Ideas in 2026: What do readers want?'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3167,8 +2816,7 @@
       "type": "promotion_wordpress",
       "post_id": 1112,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '18 Best Digital Product Niches in 2025'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3176,8 +2824,7 @@
       "type": "promotion_wordpress",
       "post_id": 1111,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '20 Profitable SaaS &#038; Micro-SaaS Ideas for 2026 (And How to &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3185,8 +2832,7 @@
       "type": "promotion_wordpress",
       "post_id": 1110,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3194,8 +2840,7 @@
       "type": "promotion_wordpress",
       "post_id": 1110,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3203,8 +2848,7 @@
       "type": "promotion_wordpress",
       "post_id": 1110,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3212,8 +2856,7 @@
       "type": "promotion_wordpress",
       "post_id": 1110,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Шаблоны Notion на русском'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3221,8 +2864,7 @@
       "type": "promotion_wordpress",
       "post_id": 1109,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Ebook Topics'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3230,8 +2872,7 @@
       "type": "promotion_wordpress",
       "post_id": 1108,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '50 Digital Products to Sell for Passive Income in 2025 (Full Guide)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3239,8 +2880,7 @@
       "type": "promotion_wordpress",
       "post_id": 1107,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Latest IELTS Writing Topics February &#038; March 2026 with answers'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3248,8 +2888,7 @@
       "type": "promotion_wordpress",
       "post_id": 1106,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '12 Most Popular Notion Templates to Sell for Quick Profits 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3257,8 +2896,7 @@
       "type": "promotion_wordpress",
       "post_id": 1105,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '15 Digital Product Ideas You Can Create with AI (Even If You&#8217;re a Total &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3266,8 +2904,7 @@
       "type": "promotion_wordpress",
       "post_id": 1104,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'TOP 20 B2B Ecommerce Examples &#038; What You Can Learn'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3275,7 +2912,7 @@
       "type": "promotion_wordpress",
       "post_id": 1354,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title '26 Best Shopify Themes for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3283,8 +2920,7 @@
       "type": "promotion_wordpress",
       "post_id": 1100,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '7 AI-Generated Digital Products You Can Start Selling Online Today'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3292,8 +2928,7 @@
       "type": "promotion_wordpress",
       "post_id": 1099,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'SaaS Ideas: 150+ Profitable SaaS Ideas to Build in 2026 &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3301,8 +2936,7 @@
       "type": "promotion_wordpress",
       "post_id": 1102,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '3 Profitable AI SaaS Ideas To Build in 2026 (Before Someone Else Does)&#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3310,8 +2944,7 @@
       "type": "promotion_wordpress",
       "post_id": 1098,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '9 B2B eCommerce Examples for Streamlined Digital Purchasing'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3319,8 +2952,7 @@
       "type": "promotion_wordpress",
       "post_id": 1097,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Shopify Themes 2026: Free &#038; Premium Options Compared'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3328,7 +2960,7 @@
       "type": "promotion_wordpress",
       "post_id": 1353,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Build your 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3336,8 +2968,7 @@
       "type": "promotion_wordpress",
       "post_id": 1095,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '720 Business 2 ideas to save in 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3345,8 +2976,7 @@
       "type": "promotion_wordpress",
       "post_id": 1094,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '18 Best Digital Products to Sell in 2026: Top Trending, Profitable, and In-Demand Ideas'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3354,8 +2984,7 @@
       "type": "promotion_wordpress",
       "post_id": 1093,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Dashboard and Digital Product Trends for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3363,8 +2992,7 @@
       "type": "promotion_wordpress",
       "post_id": 1092,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Notion Templates in 2026 (Free &#038; Paid Picks) – Plandio'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3372,8 +3000,7 @@
       "type": "promotion_wordpress",
       "post_id": 1091,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'The 30 Best Notion Second Brain Templates ( 2026 )'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3381,8 +3008,7 @@
       "type": "promotion_wordpress",
       "post_id": 1089,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '15 Profitable Digital Products to Create with AI in 2025 (That Actually &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3390,7 +3016,7 @@
       "type": "promotion_wordpress",
       "post_id": 1352,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Top Sales Templates from Notion'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3398,8 +3024,7 @@
       "type": "promotion_wordpress",
       "post_id": 1087,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '30 AI-Powered Digital Product Ideas to Sell in 2025'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3407,8 +3032,7 @@
       "type": "promotion_wordpress",
       "post_id": 1086,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260218-232911-20-untapped-etsy-niches-for-20/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title '20 Untapped Etsy Niches for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3416,8 +3040,7 @@
       "type": "promotion_wordpress",
       "post_id": 1083,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Product Hunt – The best new products in tech.'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3425,8 +3048,7 @@
       "type": "promotion_wordpress",
       "post_id": 1085,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '2026&#8217;s Best Selling Shopify Themes and Templates'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3434,8 +3056,7 @@
       "type": "promotion_wordpress",
       "post_id": 1084,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Etsy Digital Products 2026: How to Make $2,000-$10,000/Month &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3443,8 +3064,7 @@
       "type": "promotion_wordpress",
       "post_id": 1082,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '8 Best Notion Templates for 2025 (I Built and Tested Every One)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3452,8 +3072,7 @@
       "type": "promotion_wordpress",
       "post_id": 1081,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Best Ebook Niches 2025/2026: 10 Topics Actually Making Sales'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3461,8 +3080,7 @@
       "type": "promotion_wordpress",
       "post_id": 1080,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Choose from 30,000+ Notion templates'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3470,8 +3088,7 @@
       "type": "promotion_wordpress",
       "post_id": 1079,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Shopify.com'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3479,8 +3096,7 @@
       "type": "promotion_wordpress",
       "post_id": 1078,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title '7 Most Profitable eBook Niches for 2025: Your Guide to High &#8230;'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3488,8 +3104,7 @@
       "type": "promotion_wordpress",
       "post_id": 1077,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Unknown Topic'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3497,8 +3112,7 @@
       "type": "promotion_wordpress",
       "post_id": 1029,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-063000-freelancer-consultant-landing/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3506,7 +3120,7 @@
       "type": "promotion_wordpress",
       "post_id": 1029,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3514,7 +3128,7 @@
       "type": "promotion_wordpress",
       "post_id": 1344,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3522,8 +3136,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3531,7 +3144,7 @@
       "type": "promotion_wordpress",
       "post_id": 1344,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3539,7 +3152,7 @@
       "type": "promotion_wordpress",
       "post_id": 1344,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3547,7 +3160,7 @@
       "type": "promotion_wordpress",
       "post_id": 1344,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3555,7 +3168,7 @@
       "type": "promotion_wordpress",
       "post_id": 1344,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3563,7 +3176,7 @@
       "type": "promotion_wordpress",
       "post_id": 1366,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3571,7 +3184,7 @@
       "type": "promotion_wordpress",
       "post_id": 1366,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3579,7 +3192,7 @@
       "type": "promotion_wordpress",
       "post_id": 1366,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3587,7 +3200,7 @@
       "type": "promotion_wordpress",
       "post_id": 1366,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Test Run'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3595,8 +3208,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-212725-token-gated-content-revenue-au/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3604,8 +3216,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-212356-token-gated-content-revenue-au/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3613,8 +3224,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-210221-token-gated-content-revenue-au/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3622,8 +3232,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-185109-token-gated-content-revenue-au/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3631,8 +3240,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-155105-token-gated-content-revenue-au/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3640,8 +3248,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-145048-token-gated-content-revenue-au/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3649,8 +3256,7 @@
       "type": "promotion_wordpress",
       "post_id": 1040,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-143859-web3-asset-security-audit-fram/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Web3 Asset Security Audit Framework'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3658,8 +3264,7 @@
       "type": "promotion_wordpress",
       "post_id": 1039,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-143641-finance-risk-management-for-cr/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Finance Risk Management For Crypto Traders'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3667,8 +3272,7 @@
       "type": "promotion_wordpress",
       "post_id": 1038,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-143622-web3-smart-contract-audit-chec/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Web3 Smart Contract Audit Checklist'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3676,8 +3280,7 @@
       "type": "promotion_wordpress",
       "post_id": 1253,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-135151-ai-agent-monetization-guide/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'AI Agent Monetization Guide: Selling Custom GPT Actions'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3685,8 +3288,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-135047-token-gated-content-revenue-au/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3694,7 +3296,7 @@
       "type": "promotion_wordpress",
       "post_id": 1035,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Defi Passive Income Strategies Staking Yield Farming And Lending'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3702,7 +3304,7 @@
       "type": "promotion_wordpress",
       "post_id": 1034,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Ai Driven Product Flipping'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3710,8 +3312,7 @@
       "type": "promotion_wordpress",
       "post_id": 1046,
       "issues": [
-        "No product link found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Token-Gated Content + Revenue Automation for Web3 Communities'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3719,7 +3320,7 @@
       "type": "promotion_wordpress",
       "post_id": 1021,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Global Merchant Crypto Checkout Blueprint (No Bank Friction)'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3727,7 +3328,7 @@
       "type": "promotion_wordpress",
       "post_id": 1032,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Passive Income With Saas Boilerplates'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3735,7 +3336,7 @@
       "type": "promotion_wordpress",
       "post_id": 1031,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Crypto Ai Trading Signals'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3743,7 +3344,7 @@
       "type": "promotion_wordpress",
       "post_id": 1030,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Metaverse Real Estate Marketing Guide'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3751,8 +3352,7 @@
       "type": "promotion_wordpress",
       "post_id": 662,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/test_optimized_v3/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Automated Wealth Blueprint 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3760,7 +3360,7 @@
       "type": "promotion_wordpress",
       "post_id": 1054,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Reddit Linkedin Test'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3768,7 +3368,7 @@
       "type": "promotion_wordpress",
       "post_id": 1364,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Saas Marketing'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3776,8 +3376,7 @@
       "type": "promotion_wordpress",
       "post_id": 1029,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260215-074829-freelancer-consultant-landing/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Freelancer Consultant Landing Page'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3785,7 +3384,7 @@
       "type": "promotion_wordpress",
       "post_id": 1350,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Ai Automation Agency Prompt Pack'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3793,7 +3392,7 @@
       "type": "promotion_wordpress",
       "post_id": 1027,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Viral Marketing Growth Blueprint'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3801,7 +3400,7 @@
       "type": "promotion_wordpress",
       "post_id": 1026,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Automated Daily Planner System'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3809,7 +3408,7 @@
       "type": "promotion_wordpress",
       "post_id": 1025,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Automated Crypto Tax Reporting Tool'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3817,7 +3416,7 @@
       "type": "promotion_wordpress",
       "post_id": 1024,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'High Ticket Service Automation Guide'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3825,8 +3424,7 @@
       "type": "promotion_wordpress",
       "post_id": 1074,
       "issues": [
-        "No link to https://metapassiveincome-final.vercel.app/outputs/20260214-231100-unknown-single/index.html found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Unknown Single'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3834,7 +3432,7 @@
       "type": "promotion_wordpress",
       "post_id": 1075,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Ai Dev Income'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3842,7 +3440,7 @@
       "type": "promotion_wordpress",
       "post_id": 1023,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AI-Powered Passive Income Systems for 2026'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3850,7 +3448,7 @@
       "type": "promotion_wordpress",
       "post_id": 604,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AI-Trading-Bot'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3858,7 +3456,7 @@
       "type": "promotion_wordpress",
       "post_id": 605,
       "issues": [
-        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with AIPassiveIncomeSystem'"
+        "WordPress config missing for verification"
       ]
     },
     {
@@ -3866,8 +3464,7 @@
       "type": "promotion_wordpress",
       "post_id": 1021,
       "issues": [
-        "No link to https://mpi-20260214-105333-global-merchant-crypto-checkou-88qsxo05w.vercel.app found in post content",
-        "SEO Warning: Not visible in top 20 for title 'Global Merchant Crypto Checkout Blueprint (No Bank Friction)'"
+        "WordPress config missing for verification"
       ]
     }
   ]

@@ -1,0 +1,23 @@
+@echo off
+echo Stopping existing Python processes...
+taskkill /F /IM python.exe /T >nul 2>&1
+
+echo Starting Payment Server (Port 5000)...
+start /B python backend/payment_server.py > logs/payment_server.log 2>&1
+
+echo Starting Preview Server (Port 8088)...
+start /B python preview_server.py > logs/preview_server.log 2>&1
+
+echo Starting Dashboard Server (Port 8099)...
+start /B python dashboard_server.py > logs/dashboard_server.log 2>&1
+
+echo Starting Auto Daemon...
+start /B python auto_mode_daemon.py --interval 3600 --batch 1 --deploy 1 --publish 1 > logs/auto_mode_daemon.log 2>&1
+
+echo Waiting for servers to initialize...
+timeout /t 15 /nobreak >nul
+
+echo Checking system health...
+python z_health_check.py
+
+echo Done! Access Dashboard at http://127.0.0.1:8099

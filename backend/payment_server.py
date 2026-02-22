@@ -454,7 +454,7 @@ def pay_start():
                 "order_id": order.order_id,
                 "status": "paid",
                 "product_id": product_id,
-                "download_url": f"/api/pay/download?order_id={order.order_id}&token={token}",
+                "download_url": f"http://127.0.0.1:5000/api/pay/download?order_id={order.order_id}&token={token}",
                 "token": token,
                 "mode": "mock-local",
                 "price_amount": amount,
@@ -482,7 +482,7 @@ def pay_check():
     if o.get("status") == "paid":
         product_id = str(o.get("product_id") or "crypto-template-001")
         token = issue_download_token(order_id=order_id, product_id=product_id)
-        download_url = f"/api/pay/download?order_id={order_id}&token={token}"
+        download_url = f"http://127.0.0.1:5000/api/pay/download?order_id={order_id}&token={token}"
         return _cors(
             jsonify(
                 {

@@ -1,33 +1,25 @@
 import requests
-import os
-import json
+import time
+import sys
 
-VERCEL_TOKEN = "e87M3f3Pqj76mK4U0m8S0x6u" # Config.py에서 가져오는 대신 직접 입력 (환경변수 확인용)
+url = "https://metapassiveincome-final.vercel.app/checkout/20260220-211248-digital-asset-bundle-2026-02-2/index.html"
+# Also check without index.html just in case of rewrite rules
+url_rewrite = "https://metapassiveincome-final.vercel.app/checkout/20260220-211248-digital-asset-bundle-2026-02-2"
 
-def get_deployment_status(deployment_url):
-    # host 부분만 추출
-    host = deployment_url.replace("https://", "").replace("/", "")
-    
-    url = f"https://api.vercel.com/v13/deployments/{host}"
-    headers = {
-        "Authorization": f"Bearer {VERCEL_TOKEN}",
-    }
-    
-    r = requests.get(url, headers=headers)
-    if r.status_code == 200:
-        data = r.json()
-        print(f"Deployment: {deployment_url}")
-        print(f"Status: {data.get('status')}")
-        print(f"Ready State: {data.get('readyState')}")
-        if 'error' in data:
-            print(f"Error: {data['error']}")
-    else:
-        print(f"Failed to get status for {deployment_url}: {r.status_code} {r.text}")
-
-if __name__ == "__main__":
-    urls = [
-        "https://meta-passive-income-20260214-140141-ai-dev-income-5yua4ri64.vercel.app",
-        "https://meta-passive-income-20260214-133737-ai-powered-passi-3h1y68b7r.vercel.app"
-    ]
-    for u in urls:
-        get_deployment_status(u)
+print(f"Checking URL: {url}")
+for i in range(10):
+    try:
+        r = requests.head(url)
+        print(f"Attempt {i+1}: {r.status_code}")
+        if r.status_code == 200:
+            print("SUCCESS: URL is accessible.")
+            break
+        
+        r2 = requests.head(url_rewrite)
+        print(f"Attempt {i+1} (rewrite): {r2.status_code}")
+        if r2.status_code == 200:
+             print("SUCCESS: Rewrite URL is accessible.")
+             break
+    except Exception as e:
+        print(f"Error: {e}")
+    time.sleep(5)

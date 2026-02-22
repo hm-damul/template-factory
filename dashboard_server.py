@@ -30,6 +30,16 @@ import zipfile
 from pathlib import Path
 from typing import Any, Dict, List
 
+# Add src to path
+sys.path.append(str(Path(__file__).resolve().parent / "src"))
+
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
+    except AttributeError:
+        pass
+
 import requests
 from flask import (
     Flask,
@@ -37,6 +47,7 @@ from flask import (
     abort,
     jsonify,
     redirect,
+    render_template,
     render_template_string,
     request,
     Response,
@@ -70,6 +81,24 @@ from src.progress_tracker import get_progress
 from blog_promo_bot import bot_instance
 
 app = Flask(__name__)
+
+
+@app.route("/checkout/<product_id>")
+def checkout_page(product_id):
+    """제품 결제 페이지 (로컬 프리뷰용)"""
+    try:
+        lm = LedgerManager()
+        product = lm.get_product(product_id)
+        if not product:
+            return "Product not found", 404
+        
+        # Ensure metadata exists
+        if not product.get("metadata"):
+            product["metadata"] = {}
+            
+        return render_template("checkout.html", product=product)
+    except Exception as e:
+        return f"Error loading checkout page: {str(e)}", 500
 
 
 @app.route("/")
@@ -432,7 +461,7 @@ def system_control():
         elif name == "preview":
             _stop_process("preview")
             if _is_windows():
-                _kill_port(8090)
+                _kill_port(8088)
             _start_process("preview", [sys.executable, "preview_server.py"])
         elif name == "daemon":
             # 데몬은 기존 PID 확인 후 종료하고 시작

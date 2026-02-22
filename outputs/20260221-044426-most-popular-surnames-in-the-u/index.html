@@ -1147,15 +1147,8 @@
         },
 
         "open-plans": function() {
-          openModal("#modal-plans");
-          // 모달 오픈 시 현재 선택된 플랜 표시
-          var plan = localStorage.getItem(KEY_PLAN) || "";
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
-          setTimeout(function() {
-            var inp = qs("#lead-email");
-            if (inp) inp.focus();
-          }, 50);
+          var plan = localStorage.getItem(KEY_PLAN) || "Premium";
+          startPay(plan);
         },
 
         "close-modal": function(el) {
@@ -1169,10 +1162,8 @@
           localStorage.setItem(KEY_PLAN, plan);
           localStorage.setItem(KEY_PRICE, price);
 
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
           showToast("Plan selected: " + plan + " (" + price + ")");
-          openModal("#modal-plans");
+          startPay(plan);
         },
 
         "submit-lead": function() {

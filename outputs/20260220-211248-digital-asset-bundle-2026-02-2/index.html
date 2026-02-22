@@ -884,10 +884,9 @@
           var h = window.location.hostname || "";
           var p = String(window.location.port || "");
           var prot = window.location.protocol || "";
-          // 8090(preview)은 전체 페이지 미리보기를 위해 리다이렉트 제외
-          // 8099(dashboard) 환경에서만 체크아웃 리다이렉트 허용
-          if (p === "8099" || h === "127.0.0.1" || h === "localhost" || prot === "file:") {
-              if (p === "8090") return false;
+          // 8090, 8088 (preview) 모두 로컬로 간주
+          // 8099 (dashboard) 도 로컬
+          if (p === "8099" || p === "8090" || p === "8088" || h === "127.0.0.1" || h === "localhost" || prot === "file:") {
               return true;
           }
           return false;
@@ -1016,11 +1015,19 @@
       // ----- 로직 유틸 -----
       async function startPay(plan) {
         var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
-        // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
         var safePriceStr = String(rawPrice || "$19");
         var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, "")) || 19;
 
         showToast("Starting checkout for " + plan + " (" + rawPrice + ")...");
+        
+        // 로컬 프리뷰인 경우 바로 대시보드 체크아웃으로 이동
+        if (isLocalPreview()) {
+             showToast("Redirecting to Local Checkout...");
+             setTimeout(function() {
+               window.location.href = "http://127.0.0.1:8099/checkout/" + encodeURIComponent(productId);
+             }, 800);
+             return;
+        }
         
         // 1) 로컬 프리뷰 환경에서 대시보드 체크아웃 페이지(MetaMask 등)가 우선인지 확인
         /*
@@ -1061,8 +1068,16 @@
             setTimeout(function() {
               window.location.href = data.nowpayments.invoice_url;
             }, 1000);
-          } 
-          // 3) Mock 모드인 경우에도 즉시 다운로드 대신 '결제 진행 중' 느낌을 주기 위해 모달이나 지연 처리
+          }
+          // 3) 로컬 테스트/프리뷰 환경이면 Dashboard의 Checkout 페이지로 리다이렉트
+          else if (isLocalPreview()) {
+             showToast("Redirecting to Local Checkout...");
+             setTimeout(function() {
+               // Dashboard Server Port 8099 assumed
+               window.location.href = "http://127.0.0.1:8099/checkout/" + encodeURIComponent(productId);
+             }, 800);
+          }
+          // 4) Mock 모드인 경우에도 즉시 다운로드 대신 '결제 진행 중' 느낌을 주기 위해 모달이나 지연 처리
           else if (data.status === "paid") {
             showToast("Success! Processing your order...");
             setTimeout(function() {
@@ -1152,15 +1167,8 @@
         },
 
         "open-plans": function() {
-          openModal("#modal-plans");
-          // 모달 오픈 시 현재 선택된 플랜 표시
-          var plan = localStorage.getItem(KEY_PLAN) || "";
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
-          setTimeout(function() {
-            var inp = qs("#lead-email");
-            if (inp) inp.focus();
-          }, 50);
+          var plan = localStorage.getItem(KEY_PLAN) || "Premium";
+          startPay(plan);
         },
 
         "close-modal": function(el) {
@@ -1174,10 +1182,8 @@
           localStorage.setItem(KEY_PLAN, plan);
           localStorage.setItem(KEY_PRICE, price);
 
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
           showToast("Plan selected: " + plan + " (" + price + ")");
-          openModal("#modal-plans");
+          startPay(plan);
         },
 
         "submit-lead": function() {

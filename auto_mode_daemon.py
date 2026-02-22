@@ -18,7 +18,7 @@ sys.path.append(str(PROJECT_ROOT))
 from src.ledger_manager import LedgerManager
 from src.config import Config
 from src.publisher import Publisher
-from promotion_dispatcher import dispatch_publish, load_channel_config, repromote_best_sellers
+from src.promotion_dispatcher import dispatch_publish, load_channel_config, repromote_best_sellers
 from src.key_manager import KeyManager
 from src.comment_bot import CommentBot
 from src.error_learning_system import get_error_system

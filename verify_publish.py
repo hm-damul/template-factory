@@ -9,9 +9,11 @@ sys.path.append(str(PROJECT_ROOT))
 
 from src.ledger_manager import LedgerManager
 from src.publisher import Publisher
+from src.local_verifier import LocalVerifier
 
 def verify_publish_logic():
     lm = LedgerManager()
+    lv = LocalVerifier()
     products = lm.list_products()
     
     if not products:
@@ -34,6 +36,10 @@ def verify_publish_logic():
         print(f"Output directory {output_dir} does not exist. Creating a dummy one for testing.")
         output_dir.mkdir(parents=True, exist_ok=True)
         (output_dir / "index.html").write_text("<html><body>Test</body></html>")
+
+    # Run Local Verification
+    print("Running Local Verification/Repair...")
+    lv.verify_and_repair_product(str(output_dir))
 
     # Check if Vercel token is set
     from src.config import Config
