@@ -47,11 +47,11 @@
         .back-link:hover { color: #fff; }
     </style>
 </head>
-<body data-product-id="product" data-price="$19">
+<body data-product-id="20260219-182721-top-20-profitable-saas-startup" data-price="$49">
     <div class="checkout-container">
         <h1>Secure Checkout</h1>
-        <div class="product-name">MetaPassiveIncome | Digital Product</div>
-        <div class="price" id="display-price">$19</div>
+        <div class="product-name">Unknown Product</div>
+        <div class="price" id="display-price">$49</div>
         
         <button id="payBtn" class="btn" onclick="startPayment()">Pay Now</button>
         <div id="errorMsg" class="error"></div>
@@ -61,12 +61,15 @@
 
     <script>
         // Payment Server Configuration
-        // 로컬 테스트 시: http://127.0.0.1:5000
-        // 배포 시: HTTPS 주소 필요 (지금은 로컬 테스트 가정)
+        // 프리뷰(8090 등)에서는 로컬 payment_server(5000) 사용
         var API_BASE = "http://127.0.0.1:5000";
-        
-        // Vercel 등 외부 배포 환경에서 로컬 서버 접근 시 Mixed Content 이슈 발생 가능
-        // 하지만 자율 에러 수정 봇은 로컬 환경을 제어하므로 로컬 주소 유지
+        try {
+            var h = window.location.hostname;
+            // 로컬 환경이 아닌 경우(배포 환경)에는 상대 경로(API Routes) 사용
+            if (h !== "127.0.0.1" && h !== "localhost" && window.location.protocol !== "file:") {
+                API_BASE = ""; 
+            }
+        } catch (e) {}
         
         var PRODUCT_ID = document.body.getAttribute('data-product-id');
         var PRICE_STR = document.body.getAttribute('data-price');
@@ -92,7 +95,14 @@
 
             try {
                 // Payment Server API 호출
-                const res = await fetch(`${API_BASE}/api/pay/start?product_id=${PRODUCT_ID}&price_amount=${PRICE}&price_currency=usd`);
+                // API_BASE가 비어있으면(배포환경) /api/pay/start 로 호출됨 (Vercel API Route)
+                var url = API_BASE + "/api/pay/start";
+                // 로컬 5000번 포트일 경우 명시적 URL 사용
+                if (API_BASE.includes("127.0.0.1")) {
+                     url = "http://127.0.0.1:5000/api/pay/start";
+                }
+
+                const res = await fetch(`${url}?product_id=${PRODUCT_ID}&price_amount=${PRICE}&price_currency=usd`);
                 const data = await res.json();
                 
                 if (!res.ok) {
@@ -106,7 +116,7 @@
                     
                     // 다운로드 URL 처리
                     let downloadUrl = data.download_url;
-                    if (downloadUrl && downloadUrl.startsWith("/")) {
+                    if (downloadUrl && downloadUrl.startsWith("/") && API_BASE) {
                         downloadUrl = API_BASE + downloadUrl;
                     }
                     

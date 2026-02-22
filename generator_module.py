@@ -509,78 +509,6 @@ def _render_landing_html(
       font-size: 13px;
     }}
 
-    /* 모달 */
-    .modal-backdrop {{
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.62);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      padding: 18px;
-      z-index: 200;
-    }}
-
-    .modal {{
-      width: min(560px, 100%);
-      background: rgba(10,14,22,0.92);
-      border: 1px solid rgba(255,255,255,0.14);
-      border-radius: 18px;
-      box-shadow: 0 30px 90px rgba(0,0,0,0.55);
-      padding: 16px;
-    }}
-
-    .modal-head {{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 10px;
-    }}
-
-    .modal-title {{
-      margin: 0;
-      font-size: 16px;
-      letter-spacing: -0.2px;
-    }}
-
-    .x {{
-      border: 1px solid rgba(255,255,255,0.14);
-      background: rgba(255,255,255,0.06);
-      color: var(--text);
-      border-radius: 12px;
-      padding: 8px 10px;
-      cursor: pointer;
-      font-weight: 800;
-    }}
-
-    .field {{
-      margin-top: 10px;
-    }}
-
-    .label {{
-      display: block;
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }}
-
-    .input {{
-      width: 100%;
-      padding: 12px 12px;
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.14);
-      background: rgba(255,255,255,0.05);
-      color: var(--text);
-      outline: none;
-    }}
-
-    .hint {{
-      margin-top: 8px;
-      font-size: 12px;
-      color: rgba(255,255,255,0.62);
-    }}
-
     .row {{
       display: flex;
       gap: 10px;
@@ -588,6 +516,7 @@ def _render_landing_html(
       margin-top: 12px;
     }}
 
+    /* 모달 removed */
     .toast {{
       position: fixed;
       right: 14px;
@@ -763,68 +692,6 @@ def _render_landing_html(
     </footer>
   </main>
 
-  <!-- Login Modal -->
-  <div class="modal-backdrop" id="modal-login" role="dialog" aria-modal="true" aria-label="Login modal">
-    <div class="modal">
-      <div class="modal-head">
-        <h3 class="modal-title">Sign In</h3>
-        <button class="x" data-action="close-modal" data-target="#modal-login">X</button>
-      </div>
-
-      <div class="field">
-        <label class="label">Email</label>
-        <input class="input" id="login-email" placeholder="you@example.com" />
-      </div>
-
-      <div class="field">
-        <label class="label">Password</label>
-        <input class="input" id="login-pass" type="password" placeholder="••••••••" />
-      </div>
-
-      <div class="row">
-        <button class="btn btn-primary" data-action="do-login">Sign In</button>
-        <button class="btn" data-action="close-modal" data-target="#modal-login">Cancel</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Plans Modal -->
-  <div class="modal-backdrop" id="modal-plans" role="dialog" aria-modal="true" aria-label="Plans modal">
-    <div class="modal">
-      <div class="modal-head">
-        <h3 class="modal-title">Get Started</h3>
-        <button class="x" data-action="close-modal" data-target="#modal-plans">X</button>
-      </div>
-
-      <p style="margin: 0; color: var(--muted); font-size: 13px;">
-        Choose a plan, enter your email, and we'll "capture a lead". Payment step will replace this later.
-      </p>
-
-      <div class="field">
-        <label class="label">Email</label>
-        <input class="input" id="lead-email" placeholder="lead@example.com" />
-      </div>
-
-      <div class="field">
-        <label class="label">Selected Plan</label>
-        <input class="input" id="lead-plan" placeholder="(select below)" readonly />
-      </div>
-
-      <div class="row">
-        <button class="btn" data-action="choose-plan" data-plan="Starter">Starter</button>
-        <button class="btn" data-action="choose-plan" data-plan="Pro">Pro</button>
-        <button class="btn" data-action="choose-plan" data-plan="Enterprise">Enterprise</button>
-      </div>
-
-      <div class="row">
-        <button class="btn btn-primary" data-action="submit-lead">Continue</button>
-        <button class="btn" data-action="close-modal" data-target="#modal-plans">Close</button>
-      </div>
-
-      <div class="hint">Captured leads: localStorage["{product_id}:leads"]</div>
-    </div>
-  </div>
-
   <!-- Toast -->
   <div class="toast" id="toast"></div>
 
@@ -845,18 +712,6 @@ def _render_landing_html(
         window.__toastTimer = setTimeout(function() {{
           t.style.display = "none";
         }}, 2200);
-      }}
-
-      function openModal(id) {{
-        var el = qs(id);
-        if (!el) return;
-        el.style.display = "flex";
-      }}
-
-      function closeModal(id) {{
-        var el = qs(id);
-        if (!el) return;
-        el.style.display = "none";
       }}
 
       function scrollToTarget(hash) {{
@@ -888,8 +743,6 @@ def _render_landing_html(
         localStorage.setItem(key, JSON.stringify(obj));
       }}
 
-      // refreshStats removed
-
       // ----- 액션 라우터 -----
       var actions = {{
         "nav": function(el) {{
@@ -907,100 +760,30 @@ def _render_landing_html(
         }},
 
         "open-login": function() {{
-          openModal("#modal-login");
+          showToast("Redirecting to login/checkout...");
           setTimeout(function() {{
-            var inp = qs("#login-email");
-            if (inp) inp.focus();
-          }}, 50);
+            window.location.href = "checkout.html";
+          }}, 500);
         }},
 
         "open-plans": function() {{
-          openModal("#modal-plans");
-          // 모달 오픈 시 현재 선택된 플랜 표시
-          var plan = localStorage.getItem(KEY_PLAN) || "";
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
-          setTimeout(function() {{
-            var inp = qs("#lead-email");
-            if (inp) inp.focus();
-          }}, 50);
-        }},
-
-        "close-modal": function(el) {{
-          var target = el.getAttribute("data-target");
-          if (target) closeModal(target);
+          scrollToTarget("#pricing");
         }},
 
         "choose-plan": function(el) {{
           var plan = el.getAttribute("data-plan") || "Starter";
           localStorage.setItem(KEY_PLAN, plan);
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
-          showToast("Plan selected: " + plan);
-          // refreshStats();
-        }},
-
-        "submit-lead": function() {{
-          var emailEl = qs("#lead-email");
-          var plan = localStorage.getItem(KEY_PLAN) || "";
-          var email = (emailEl ? emailEl.value : "").trim();
-
-          if (!plan) {{
-            showToast("Select a plan first.");
-            return;
-          }}
-          if (!email || email.indexOf("@") < 0) {{
-            showToast("Enter a valid email.");
-            return;
-          }}
-
-          var leads = readJson(KEY_LEADS, []);
-          leads.push({{
-            email: email,
-            plan: plan,
-            at: new Date().toISOString()
-          }});
-          writeJson(KEY_LEADS, leads);
-
-          showToast("Lead captured.");
-          // refreshStats();
-
-          // 다음 단계(결제)로 갈 훅 포인트:
-          // 여기서 서버에 invoice 생성 요청 → 결제 URL로 리다이렉트 로직을 붙이면 됨.
-          closeModal("#modal-plans");
-        }},
-
-        "do-login": function() {{
-          var emailEl = qs("#login-email");
-          var passEl = qs("#login-pass");
-          var email = (emailEl ? emailEl.value : "").trim();
-          var pass = (passEl ? passEl.value : "").trim();
-
-          if (!email || email.indexOf("@") < 0) {{
-            showToast("Enter a valid email.");
-            return;
-          }}
-          if (!pass) {{
-            showToast("Enter a password.");
-            return;
-          }}
-
-          localStorage.setItem(KEY_AUTH, email);
-          showToast("Signed in: " + email);
-          // refreshStats();
-          closeModal("#modal-login");
+          showToast("Selected " + plan + ". Redirecting...");
+          setTimeout(function() {{
+            window.location.href = "checkout.html";
+          }}, 800);
         }},
 
         "reset-demo": function() {{
           localStorage.removeItem(KEY_LEADS);
           localStorage.removeItem(KEY_PLAN);
           localStorage.removeItem(KEY_AUTH);
-          var leadPlan = qs("#lead-plan");
-          var leadEmail = qs("#lead-email");
-          if (leadPlan) leadPlan.value = "";
-          if (leadEmail) leadEmail.value = "";
           showToast("Reset.");
-          // refreshStats();
         }}
       }};
 
@@ -1027,7 +810,6 @@ def _render_landing_html(
       function onHashChange() {{
         var h = location.hash || "";
         if (h && h.startsWith("#")) {{
-          // 모달 해시 같은 건 쓰지 않고 섹션만 처리
           if (qs(h)) {{
             scrollToTarget(h);
           }}
@@ -1038,26 +820,6 @@ def _render_landing_html(
       document.addEventListener("click", handleClick);
       window.addEventListener("hashchange", onHashChange);
 
-      // ESC로 모달 닫기
-      document.addEventListener("keydown", function(e) {{
-        if (e.key === "Escape") {{
-          closeModal("#modal-login");
-          closeModal("#modal-plans");
-        }}
-      }});
-
-      // 백드롭 클릭 시 닫기
-      qsa(".modal-backdrop").forEach(function(bd) {{
-        bd.addEventListener("click", function(e) {{
-          if (e.target === bd) {{
-            bd.style.display = "none";
-          }}
-        }});
-      }});
-
-      // 상태 갱신
-      // refreshStats();
-
       // 초기 해시 처리
       onHashChange();
 
@@ -1066,85 +828,245 @@ def _render_landing_html(
   </script>
 </body>
 </html>
-# """
-#     return html
+"""
+    return html
 # 
 # 
 # -----------------------------
 # 설정/팩토리
 # -----------------------------
-# 
-# 
-# @dataclass
-# class TemplateConfig:
+
+
+def _render_checkout_html(
+    product_id: str,
+    product_price: str,
+    product_title: str,
+    brand: str
+) -> str:
+    """정적 결제 페이지(checkout.html) 생성. Payment Server와 통신."""
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - {brand}</title>
+    <style>
+        body {{
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }}
+        .checkout-container {{
+            background: #1e293b;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+        }}
+        h1 {{ margin-bottom: 0.5rem; font-size: 1.5rem; color: #fff; }}
+        .price {{ font-size: 2.5rem; font-weight: 700; color: #38bdf8; margin: 1rem 0; }}
+        .product-name {{ color: #94a3b8; margin-bottom: 2rem; }}
+        .btn {{
+            background: #38bdf8;
+            color: #0f172a;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            width: 100%;
+            transition: opacity 0.2s;
+        }}
+        .btn:hover {{ opacity: 0.9; }}
+        .btn:disabled {{ opacity: 0.5; cursor: not-allowed; }}
+        .error {{ color: #ef4444; margin-top: 1rem; font-size: 0.9rem; display: none; }}
+        .back-link {{ display: block; margin-top: 1.5rem; color: #94a3b8; text-decoration: none; font-size: 0.9rem; }}
+        .back-link:hover {{ color: #fff; }}
+    </style>
+</head>
+<body data-product-id="{product_id}" data-price="{product_price}">
+    <div class="checkout-container">
+        <h1>Secure Checkout</h1>
+        <div class="product-name">{product_title}</div>
+        <div class="price" id="display-price">{product_price}</div>
+        
+        <button id="payBtn" class="btn" onclick="startPayment()">Pay Now</button>
+        <div id="errorMsg" class="error"></div>
+        
+        <a href="index.html" class="back-link">← Back to Product</a>
+    </div>
+
+    <script>
+        // Payment Server Configuration
+        // 프리뷰(8090 등)에서는 로컬 payment_server(5000) 사용
+        var API_BASE = "http://127.0.0.1:5000";
+        try {{
+            var h = window.location.hostname;
+            // 로컬 환경이 아닌 경우(배포 환경)에는 상대 경로(API Routes) 사용
+            if (h !== "127.0.0.1" && h !== "localhost" && window.location.protocol !== "file:") {{
+                API_BASE = ""; 
+            }}
+        }} catch (e) {{}}
+        
+        var PRODUCT_ID = document.body.getAttribute('data-product-id');
+        var PRICE_STR = document.body.getAttribute('data-price');
+        var PRICE = parseFloat(PRICE_STR.replace(/[^0-9.]/g, '')) || 49;
+
+        // URL 파라미터 오버라이드
+        try {{
+            var params = new URLSearchParams(window.location.search);
+            if(params.has('price')) {{
+                var p = params.get('price');
+                document.getElementById('display-price').textContent = p;
+                PRICE = parseFloat(p.replace(/[^0-9.]/g, '')) || PRICE;
+            }}
+        }} catch(e) {{}}
+
+        async function startPayment() {{
+            const btn = document.getElementById('payBtn');
+            const err = document.getElementById('errorMsg');
+            
+            btn.disabled = true;
+            btn.textContent = "Processing...";
+            err.style.display = "none";
+
+            try {{
+                // Payment Server API 호출
+                // API_BASE가 비어있으면(배포환경) /api/pay/start 로 호출됨 (Vercel API Route)
+                var url = API_BASE + "/api/pay/start";
+                // 로컬 5000번 포트일 경우 명시적 URL 사용
+                if (API_BASE.includes("127.0.0.1")) {{
+                     url = "http://127.0.0.1:5000/api/pay/start";
+                }}
+
+                const res = await fetch(`${{url}}?product_id=${{PRODUCT_ID}}&price_amount=${{PRICE}}&price_currency=usd`);
+                const data = await res.json();
+                
+                if (!res.ok) {{
+                    throw new Error(data.error || "Payment initialization failed");
+                }}
+
+                if (data.nowpayments && data.nowpayments.invoice_url) {{
+                    window.location.href = data.nowpayments.invoice_url;
+                }} else if (data.status === "paid") {{
+                    btn.textContent = "Success! Redirecting...";
+                    
+                    // 다운로드 URL 처리
+                    let downloadUrl = data.download_url;
+                    if (downloadUrl && downloadUrl.startsWith("/") && API_BASE) {{
+                        downloadUrl = API_BASE + downloadUrl;
+                    }}
+                    
+                    setTimeout(() => {{
+                        window.location.href = downloadUrl;
+                    }}, 1000);
+                }} else {{
+                    throw new Error("Unexpected payment status: " + data.status);
+                }}
+            }} catch (e) {{
+                console.error(e);
+                err.textContent = e.message;
+                err.style.display = "block";
+                btn.disabled = false;
+                btn.textContent = "Pay Now";
+            }}
+        }}
+    </script>
+</body>
+</html>"""
+
+
+@dataclass
+class TemplateConfig:
     # 템플릿 기본 설정
-#     product_id: str
-#     brand: str
-#     headline: str
-#     subheadline: str
-#     primary_cta: str = "Get Started"
-#     secondary_cta: str = "Sign In"
-# 
-# 
-# class TemplateFactory:
-#     """
-#     auto_pilot이 찾아 쓸 가능성이 있는 이름(TemplateFactory)을 유지.
-#     실제로는 단일 파일 랜딩 생성.
-#     """
-# 
-#     def __init__(self, out_root: str = "outputs") -> None:
-#         # 출력 루트 폴더
-#         self.out_root = out_root
-# 
-#     def build(self, cfg: TemplateConfig) -> Dict[str, Any]:
-#         # product_id를 폴더명으로 안전하게 변환
-#         safe_pid = _safe_dirname(cfg.product_id, fallback="product")
-# 
-#         # 제품별 출력 폴더 결정
-#         out_dir = os.path.join(self.out_root, safe_pid)
-# 
-#         # HTML 생성
-#         html = _render_landing_html(
-#             product_id=safe_pid,
-#             brand=cfg.brand,
-#             headline=cfg.headline,
-#             subheadline=cfg.subheadline,
-#             primary_cta=cfg.primary_cta,
-#             secondary_cta=cfg.secondary_cta,
-#         )
-# 
-#         # sanitize + validate
-#         html = _sanitize_html(html)
-#         _validate_html(html)
-# 
-#         # 정적 배포 표준: index.html 로 저장 (Vercel에서 가장 안전)
-#         os.makedirs(out_dir, exist_ok=True)
-#         index_path = os.path.join(out_dir, "index.html")
-#         _write_text(index_path, html)
-# 
-#         # 간단한 메타/리포트 저장
-#         report = {
-#             "product_id": safe_pid,
-#             "out_dir": out_dir,
-#             "index_html": index_path,
-#             "sha256": _sha256_file(index_path),
-#             "notes": [
-#                 "Single-file landing with embedded CSS/JS",
-#                 "Buttons wired via data-action router",
-#                 "Leads/auth stored in localStorage (demo)",
-#                 "Next step: payment invoice + webhook + fulfillment",
-#             ],
-#         }
-#         report_path = os.path.join(out_dir, "report.json")
-#         _write_json(report_path, report)
-# 
-#         return {
-#             "ok": True,
-#             "out_dir": out_dir,
-#             "index_html": index_path,
-#             "report_json": report_path,
-#             "sha256": report["sha256"],
-#         }
+    product_id: str
+    brand: str
+    headline: str
+    subheadline: str
+    primary_cta: str = "Get Started"
+    secondary_cta: str = "Sign In"
+
+
+class TemplateFactory:
+    """
+    auto_pilot이 찾아 쓸 가능성이 있는 이름(TemplateFactory)을 유지.
+    실제로는 단일 파일 랜딩 생성.
+    """
+
+    def __init__(self, out_root: str = "outputs") -> None:
+        # 출력 루트 폴더
+        self.out_root = out_root
+
+    def build(self, cfg: TemplateConfig) -> Dict[str, Any]:
+        # product_id를 폴더명으로 안전하게 변환
+        safe_pid = _safe_dirname(cfg.product_id, fallback="product")
+
+        # 제품별 출력 폴더 결정
+        out_dir = os.path.join(self.out_root, safe_pid)
+
+        # HTML 생성
+        html = _render_landing_html(
+            product_id=safe_pid,
+            brand=cfg.brand,
+            headline=cfg.headline,
+            subheadline=cfg.subheadline,
+            primary_cta=cfg.primary_cta,
+            secondary_cta=cfg.secondary_cta,
+        )
+
+        # sanitize + validate
+        html = _sanitize_html(html)
+        _validate_html(html)
+
+        # 정적 배포 표준: index.html 로 저장 (Vercel에서 가장 안전)
+        os.makedirs(out_dir, exist_ok=True)
+        index_path = os.path.join(out_dir, "index.html")
+        _write_text(index_path, html)
+        
+        # [NEW] checkout.html 생성
+        checkout_html = _render_checkout_html(
+            product_id=safe_pid,
+            product_price="$49.00",
+            product_title=cfg.headline,
+            brand=cfg.brand
+        )
+        checkout_path = os.path.join(out_dir, "checkout.html")
+        _write_text(checkout_path, checkout_html)
+
+        # 간단한 메타/리포트 저장
+        report = {
+            "product_id": safe_pid,
+            "out_dir": out_dir,
+            "index_html": index_path,
+            "checkout_html": checkout_path,
+            "sha256": _sha256_file(index_path),
+            "notes": [
+                "Single-file landing with embedded CSS/JS",
+                "Buttons wired via data-action router",
+                "Leads/auth stored in localStorage (demo)",
+                "Next step: payment invoice + webhook + fulfillment",
+            ],
+        }
+        report_path = os.path.join(out_dir, "report.json")
+        _write_json(report_path, report)
+
+        return {
+            "ok": True,
+            "out_dir": out_dir,
+            "index_html": index_path,
+            "checkout_html": checkout_path,
+            "report_json": report_path,
+            "sha256": report["sha256"],
+        }
 
 
 # -----------------------------
@@ -1152,54 +1074,54 @@ def _render_landing_html(
 # -----------------------------
 
 
-# def make_template(product_id: str, **kwargs: Any) -> Dict[str, Any]:
-#     # make_template 진입점 (auto_pilot이 찾을 수 있게)
-#     return generate(product_id, **kwargs)
+def make_template(product_id: str, **kwargs: Any) -> Dict[str, Any]:
+    # make_template 진입점 (auto_pilot이 찾을 수 있게)
+    return generate(product_id, **kwargs)
 
 
-# def make(product_id: str, **kwargs: Any) -> Dict[str, Any]:
-#     # make 별칭
-#     return generate(product_id, **kwargs)
+def make(product_id: str, **kwargs: Any) -> Dict[str, Any]:
+    # make 별칭
+    return generate(product_id, **kwargs)
 
 
-# def create(product_id: str, **kwargs: Any) -> Dict[str, Any]:
-#     # create 별칭
-#     return generate(product_id, **kwargs)
+def create(product_id: str, **kwargs: Any) -> Dict[str, Any]:
+    # create 별칭
+    return generate(product_id, **kwargs)
 
 
-# def build(product_id: str, **kwargs: Any) -> Dict[str, Any]:
-#     # build 별칭
-#     return generate(product_id, **kwargs)
+def build(product_id: str, **kwargs: Any) -> Dict[str, Any]:
+    # build 별칭
+    return generate(product_id, **kwargs)
 
 
-# def run(product_id: str, **kwargs: Any) -> Dict[str, Any]:
-#     # run 별칭
-#     return generate(product_id, **kwargs)
-# 
-# 
-# def generate(
-#     product_id: str,
-#     brand: str = "Web3 SaaS",
-#     headline: str = "Powering the Next Generation of Decentralized Applications",
-#     subheadline: str = "Robust tools and infrastructure for builders and businesses to deploy and scale on-chain experiences with ease.",
-#     primary_cta: str = "Get Started",
-#     secondary_cta: str = "Sign In",
-#     out_root: str = "outputs",
-#     **_: Any,
-# ) -> Dict[str, Any]:
-#     """
-#     product_id 기준으로 outputs/<product_id>/index.html 생성.
-#     """
-#     factory = TemplateFactory(out_root=out_root)
-#     cfg = TemplateConfig(
-#         product_id=product_id,
-#         brand=brand,
-#         headline=headline,
-#         subheadline=subheadline,
-#         primary_cta=primary_cta,
-#         secondary_cta=secondary_cta,
-#     )
-#     return factory.build(cfg)
+def run(product_id: str, **kwargs: Any) -> Dict[str, Any]:
+    # run 별칭
+    return generate(product_id, **kwargs)
+
+
+def generate(
+    product_id: str,
+    brand: str = "Web3 SaaS",
+    headline: str = "Powering the Next Generation of Decentralized Applications",
+    subheadline: str = "Robust tools and infrastructure for builders and businesses to deploy and scale on-chain experiences with ease.",
+    primary_cta: str = "Get Started",
+    secondary_cta: str = "Sign In",
+    out_root: str = "outputs",
+    **_: Any,
+) -> Dict[str, Any]:
+    """
+    product_id 기준으로 outputs/<product_id>/index.html 생성.
+    """
+    factory = TemplateFactory(out_root=out_root)
+    cfg = TemplateConfig(
+        product_id=product_id,
+        brand=brand,
+        headline=headline,
+        subheadline=subheadline,
+        primary_cta=primary_cta,
+        secondary_cta=secondary_cta,
+    )
+    return factory.build(cfg)
 
 
 # auto_pilot 진단용: 어떤 함수들이 외부 공개인지 보여줄 수 있게
@@ -1220,18 +1142,18 @@ GENERATOR_PUBLIC_CALLABLES = [
 
 if __name__ == "__main__":
     # 사용 예: python generator_module.py
-    # pid = "crypto-template-001"
-    #
-    # # 출력 폴더 생성/렌더
-    # result = generate(
-    #     pid,
-    #     brand="Web3 SaaS",
-    #     headline="Powering the Next Generation of Decentralized Applications",
-    #     subheadline="Our Web3 SaaS platform provides robust tools and infrastructure to build, deploy, and scale on the blockchain with ease.",
-    #     out_root="outputs",
-    # )
-    #
-    # print(json.dumps(result, ensure_ascii=False, indent=2))
-    # print("\nOpen this file in browser (double-click):")
-    # print(result["index_html"])
-    pass
+    pid = "crypto-template-001"
+    
+    # 출력 폴더 생성/렌더
+    result = generate(
+        pid,
+        brand="Web3 SaaS",
+        headline="Powering the Next Generation of Decentralized Applications",
+        subheadline="Our Web3 SaaS platform provides robust tools and infrastructure to build, deploy, and scale on the blockchain with ease.",
+        out_root="outputs",
+    )
+    
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    print("\nOpen this file in browser (double-click):")
+    print(result["index_html"])
+

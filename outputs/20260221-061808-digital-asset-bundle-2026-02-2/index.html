@@ -1006,7 +1006,23 @@
 
       // ----- 로직 유틸 -----
       async function startPay(plan) {
-        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        var rawPrice = "$15.00";
+        // If button has data-price, use it
+        var btn = document.querySelector(`button[data-plan='${plan}']`);
+        if (btn && btn.dataset.price) {
+            rawPrice = btn.dataset.price;
+        }
+        
+        showToast("Redirecting to secure checkout...");
+        
+        // Short delay for toast visibility
+        setTimeout(function() {
+            var url = "checkout.html?price=" + encodeURIComponent(rawPrice);
+            window.location.href = url;
+        }, 500);
+    }, 500);
+        return; // Stop execution of old logic
+        
         // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
         var safePriceStr = String(rawPrice || "$19");
         var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, "")) || 19;

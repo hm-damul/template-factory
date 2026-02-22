@@ -1074,85 +1074,6 @@ def _render_landing_html(
       font-size: 13px;
     }}
 
-    /* 모달 */
-    .modal-backdrop {{
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.62);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      padding: 18px;
-      z-index: 200;
-    }}
-
-    .modal {{
-      width: min(560px, 100%);
-      background: rgba(10,14,22,0.92);
-      border: 1px solid rgba(255,255,255,0.14);
-      border-radius: 18px;
-      box-shadow: 0 30px 90px rgba(0,0,0,0.55);
-      padding: 16px;
-    }}
-
-    .modal-head {{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 10px;
-    }}
-
-    .modal-title {{
-      margin: 0;
-      font-size: 16px;
-      letter-spacing: -0.2px;
-    }}
-
-    .x {{
-      border: 1px solid rgba(255,255,255,0.14);
-      background: rgba(255,255,255,0.06);
-      color: var(--text);
-      border-radius: 12px;
-      padding: 8px 10px;
-      cursor: pointer;
-      font-weight: 800;
-    }}
-
-    .field {{
-      margin-top: 10px;
-    }}
-
-    .label {{
-      display: block;
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }}
-
-    .input {{
-      width: 100%;
-      padding: 12px 12px;
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.14);
-      background: rgba(255,255,255,0.05);
-      color: var(--text);
-      outline: none;
-    }}
-
-    .hint {{
-      margin-top: 8px;
-      font-size: 12px;
-      color: rgba(255,255,255,0.62);
-    }}
-
-    .row {{
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 12px;
-    }}
-
     .toast {{
       position: fixed;
       right: 14px;
@@ -1251,64 +1172,9 @@ def _render_landing_html(
     </div>
   </div>
 
-  <!-- Login Modal -->
-  <div class=\"modal-backdrop\" id=\"modal-login\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Login modal\">
-    <div class=\"modal\">
-      <div class=\"modal-head\">
-        <h3 class=\"modal-title\">Sign In</h3>
-        <button class=\"x\" data-action=\"close-modal\" data-target=\"#modal-login\">X</button>
-      </div>
 
-      <div class=\"field\">
-        <label class=\"label\">Email</label>
-        <input class=\"input\" id=\"login-email\" placeholder=\"you@example.com\" />
-      </div>
 
-      <div class=\"field\">
-        <label class=\"label\">Password</label>
-        <input class=\"input\" id=\"login-pass\" type=\"password\" placeholder=\"••••••••\" />
-      </div>
 
-      <div class=\"row\">
-        <button class=\"btn btn-primary\" data-action=\"do-login\">Sign In</button>
-        <button class=\"btn\" data-action=\"close-modal\" data-target=\"#modal-login\">Cancel</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Plans Modal -->
-  <div class=\"modal-backdrop\" id=\"modal-plans\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Plans modal\">
-    <div class=\"modal\">
-      <div class=\"modal-head\">
-        <h3 class=\"modal-title\">Get Started</h3>
-        <button class=\"x\" data-action=\"close-modal\" data-target=\"#modal-plans\">X</button>
-      </div>
-
-      <p style=\"margin: 0; color: var(--muted); font-size: 13px;\">
-        Choose a plan, enter your email, and we'll \"capture a lead\". Payment step will replace this later.
-      </p>
-
-      <div class=\"field\">
-        <label class=\"label\">Email</label>
-        <input class=\"input\" id=\"lead-email\" placeholder=\"lead@example.com\" />
-      </div>
-
-      <div class=\"field\">
-        <label class=\"label\">Selected Plan</label>
-        <input class=\"input\" id=\"lead-plan\" placeholder=\"(select below)\" readonly />
-      </div>
-
-      <div class="row" id="plan-buttons">
-        <!-- Dynamic buttons injected by JS -->
-      </div>
-
-      <div class=\"row\">
-        <button class=\"btn btn-primary\" data-action=\"submit-lead\">Continue</button>
-        <button class=\"btn\" data-action=\"check-payment\">I already paid</button>
-        <button class=\"btn\" data-action=\"close-modal\" data-target=\"#modal-plans\">Close</button>
-      </div>
-    </div>
-  </div>
 
   <!-- Toast -->
   <div class=\"toast\" id=\"toast\"></div>
@@ -1399,17 +1265,7 @@ def _render_landing_html(
         }}, 2200);
       }}
 
-      function openModal(id) {{
-        var el = qs(id);
-        if (!el) return;
-        el.style.display = \"flex\";
-      }}
 
-      function closeModal(id) {{
-        var el = qs(id);
-        if (!el) return;
-        el.style.display = \"none\";
-      }}
 
       function scrollToTarget(hash) {{
         try {{
@@ -1484,77 +1340,12 @@ def _render_landing_html(
 
       // ----- 로직 유틸 -----
       async function startPay(plan) {{
-        var rawPrice = localStorage.getItem(KEY_PRICE) || \"$19\";
-        // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
-        var safePriceStr = String(rawPrice || \"$19\");
-        var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, \"\")) || 19;
-
-        showToast(\"Starting checkout for \" + plan + \" (\" + rawPrice + \")...\");
-        
-        // 1) 로컬 프리뷰 환경이면 Dashboard의 Checkout 페이지로 리다이렉트
-        if (isLocalPreview()) {{
-           showToast("Redirecting to Local Checkout...");
-           setTimeout(function() {{
-             // Dashboard Server Port 8099 assumed
-             window.location.href = "http://127.0.0.1:8099/checkout/" + encodeURIComponent(productId);
-           }}, 800);
-           return;
-        }}
-
-        try {{
-          // GET request to avoid 405 error (fallback supported on server)
-          var params = \"product_id=\" + encodeURIComponent(productId) + 
-                       \"&price_amount=\" + encodeURIComponent(numericPrice) + 
-                       \"&price_currency=usd\";
-          var res = await fetch(API_BASE + \"/api/pay/start?\" + params, {{
-            method: \"GET\",
-            headers: {{ \"Content-Type\": \"application/json\" }}
-          }});
-
-          var data = await res.json().catch(function() {{ return {{}}; }});
-          if (!res.ok) {{
-            if (data.can_request) {{
-              alert(data.message || \"Product needs regeneration. Please leave a comment on the WordPress post!\");
-            }} else {{
-              showToast(\"Payment failed: \" + (data.error || res.status));
-            }}
-            return;
-          }}
-
-          if (data.order_id) {{
-            localStorage.setItem(KEY_ORDER, String(data.order_id));
-          }}
-
-          // 2) 실제 결제창(NowPayments) 전환
-          if (data.nowpayments && data.nowpayments.invoice_url) {{
-            showToast(\"Redirecting to payment gateway...\");
-            setTimeout(function() {{
-              window.location.href = data.nowpayments.invoice_url;
-            }}, 1000);
-          }} 
-          // 3) Mock 모드인 경우에도 즉시 다운로드 대신 '결제 진행 중' 느낌을 주기 위해 모달이나 지연 처리
-          else if (data.status === \"paid\") {{
-            showToast(\"Success! Processing your order...\");
-            setTimeout(function() {{
-              var url = data.download_url;
-              if (API_BASE && url && url.indexOf(\"http\") !== 0 && url[0] === \"/\") {{
-                url = API_BASE + url;
-              }}
-              // 로컬 미리보기(8090/8099) 환경이고 URL이 /api/pay/download로 시작하면 dashboard의 프록시를 통하도록 유도
-               if (false && isLocalPreview() && url && url.indexOf("/api/pay/download") !== -1) {{
-                 var currentPort = window.location.port;
-                 if (currentPort === "8090" || currentPort === "8099") {{
-                   url = (url || "").replace("127.0.0.1:5000", window.location.host);
-                 }}
-               }}
-               window.location.href = url || ("/downloads/" + productId + "/{package_filename}");
-            }}, 2000); // 2초 정도 '지연'을 주어 결제된 느낌을 줌
-          }} else {{
-            showToast(\"Order created: \" + (data.order_id || \"pending\"));
-          }}
-        }} catch (e) {{
-          showToast(\"Error: \" + (e.message || String(e)));
-        }}
+        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        showToast("Redirecting to secure checkout...");
+        setTimeout(function() {{
+            var url = "checkout.html?price=" + encodeURIComponent(rawPrice);
+            window.location.href = url;
+        }}, 500);
       }}
 
       async function checkPay() {{
@@ -1614,11 +1405,7 @@ def _render_landing_html(
         }},
 
         \"open-login\": function() {{
-          openModal(\"#modal-login\");
-          setTimeout(function() {{
-            var inp = qs(\"#login-email\");
-            if (inp) inp.focus();
-          }}, 50);
+          startPay("SignIn");
         }},
 
         \"open-plans\": function() {{
@@ -1626,10 +1413,6 @@ def _render_landing_html(
           startPay(plan);
         }},
 
-        \"close-modal\": function(el) {{
-          var target = el.getAttribute(\"data-target\");
-          if (target) closeModal(target);
-        }},
 
         \"choose-plan\": function(el) {{
           var plan = el.getAttribute(\"data-plan\") || \"Starter\";
@@ -1641,59 +1424,11 @@ def _render_landing_html(
           startPay(plan);
         }},
 
-        \"submit-lead\": function() {{
-          var emailEl = qs(\"#lead-email\");
-          var plan = localStorage.getItem(KEY_PLAN) || \"\";
-          var email = (emailEl ? emailEl.value : \"\").trim();
-
-          if (!plan) {{
-            showToast(\"Select a plan first.\");
-            return;
-          }}
-          if (!email || email.indexOf(\"@\") < 0) {{
-            showToast(\"Enter a valid email.\");
-            return;
-          }}
-
-          var leads = readJson(KEY_LEADS, []);
-          leads.push({{
-            email: email,
-            plan: plan,
-            at: new Date().toISOString()
-          }});
-          writeJson(KEY_LEADS, leads);
-
-          showToast(\"Lead captured. Proceeding to payment...\");
-
-          setTimeout(function() {{
-            closeModal(\"#modal-plans\");
-            startPay(plan);
-          }}, 800);
-        }},
 
         \"check-payment\": function() {{
           checkPay();
         }},
 
-        \"do-login\": function() {{
-          var emailEl = qs(\"#login-email\");
-          var passEl = qs(\"#login-pass\");
-          var email = (emailEl ? emailEl.value : \"\").trim();
-          var pass = (passEl ? passEl.value : \"\").trim();
-
-          if (!email || email.indexOf(\"@\") < 0) {{
-            showToast(\"Enter a valid email.\");
-            return;
-          }}
-          if (!pass) {{
-            showToast(\"Enter a password.\");
-            return;
-          }}
-
-          localStorage.setItem(KEY_AUTH, email);
-          showToast(\"Signed in: \" + email);
-          closeModal(\"#modal-login\");
-        }},
 
         \"reset-demo\": function() {{
           localStorage.removeItem(KEY_LEADS);
@@ -1741,22 +1476,7 @@ def _render_landing_html(
       document.addEventListener(\"click\", handleClick);
       window.addEventListener(\"hashchange\", onHashChange);
 
-      // ESC로 모달 닫기
-      document.addEventListener(\"keydown\", function(e) {{
-        if (e.key === \"Escape\") {{
-          closeModal(\"#modal-login\");
-          closeModal(\"#modal-plans\");
-        }}
-      }});
 
-      // 백드롭 클릭 시 닫기
-      qsa(\".modal-backdrop\").forEach(function(bd) {{
-        bd.addEventListener(\"click\", function(e) {{
-          if (e.target === bd) {{
-            bd.style.display = \"none\";
-          }}
-        }});
-      }});
 
       // 초기 해시 처리
       onHashChange();
@@ -1840,12 +1560,15 @@ def _render_checkout_html(
 
     <script>
         // Payment Server Configuration
-        // 로컬 테스트 시: http://127.0.0.1:5000
-        // 배포 시: HTTPS 주소 필요 (지금은 로컬 테스트 가정)
+        // 프리뷰(8090 등)에서는 로컬 payment_server(5000) 사용
         var API_BASE = "http://127.0.0.1:5000";
-        
-        // Vercel 등 외부 배포 환경에서 로컬 서버 접근 시 Mixed Content 이슈 발생 가능
-        // 하지만 자율 에러 수정 봇은 로컬 환경을 제어하므로 로컬 주소 유지
+        try {{
+            var h = window.location.hostname;
+            // 로컬 환경이 아닌 경우(배포 환경)에는 상대 경로(API Routes) 사용
+            if (h !== "127.0.0.1" && h !== "localhost" && window.location.protocol !== "file:") {{
+                API_BASE = ""; 
+            }}
+        }} catch (e) {{}}
         
         var PRODUCT_ID = document.body.getAttribute('data-product-id');
         var PRICE_STR = document.body.getAttribute('data-price');
@@ -1871,7 +1594,14 @@ def _render_checkout_html(
 
             try {{
                 // Payment Server API 호출
-                const res = await fetch(`${{API_BASE}}/api/pay/start?product_id=${{PRODUCT_ID}}&price_amount=${{PRICE}}&price_currency=usd`);
+                // API_BASE가 비어있으면(배포환경) /api/pay/start 로 호출됨 (Vercel API Route)
+                var url = API_BASE + "/api/pay/start";
+                // 로컬 5000번 포트일 경우 명시적 URL 사용
+                if (API_BASE.includes("127.0.0.1")) {{
+                     url = "http://127.0.0.1:5000/api/pay/start";
+                }}
+
+                const res = await fetch(`${{url}}?product_id=${{PRODUCT_ID}}&price_amount=${{PRICE}}&price_currency=usd`);
                 const data = await res.json();
                 
                 if (!res.ok) {{
@@ -1885,7 +1615,7 @@ def _render_checkout_html(
                     
                     // 다운로드 URL 처리
                     let downloadUrl = data.download_url;
-                    if (downloadUrl && downloadUrl.startsWith("/")) {{
+                    if (downloadUrl && downloadUrl.startsWith("/") && API_BASE) {{
                         downloadUrl = API_BASE + downloadUrl;
                     }}
                     
@@ -2016,12 +1746,23 @@ class ProductGenerator:
         update_progress("Product Creation", "Rendering HTML", 45, "Generating landing page...", safe_pid)
         schema["_injected_price"] = final_price_str
         
-        html_content = _render_landing_html_from_schema(schema, brand=config.brand)
-        html_content = _sanitize_html(html_content, schema)
-        _validate_html(html_content)
+        render_result = _render_landing_html_from_schema(schema, brand=config.brand)
+        if isinstance(render_result, dict):
+            landing_html = render_result["landing_html"]
+            checkout_html = render_result["checkout_html"]
+        else:
+            landing_html = render_result
+            checkout_html = ""
+        
+        landing_html = _sanitize_html(landing_html, schema)
+        _validate_html(landing_html)
 
         index_html_path = os.path.join(product_output_dir, "index.html")
-        write_text(index_html_path, html_content)
+        write_text(index_html_path, landing_html)
+
+        if checkout_html:
+            checkout_html_path = os.path.join(product_output_dir, "checkout.html")
+            write_text(checkout_html_path, checkout_html)
 
         main_content_file = (schema.get("assets") or {}).get("main_content_file") or "product.md"
         main_content_path = os.path.join(product_output_dir, main_content_file)

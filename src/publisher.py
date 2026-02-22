@@ -549,7 +549,7 @@ class Publisher:
         try:
             # 1. Add changes
             # outputs 폴더만 추가해도 되지만, 전체 동기화가 안전함
-            subprocess.run(["git", "add", "."], check=True, capture_output=True)
+            subprocess.run(["git.exe", "add", "."], check=True, capture_output=True)
             
             # .gitignore에 outputs/가 있어도 강제로 추가하여 배포 포함
             # product_id에 해당하는 폴더만 강제 추가
@@ -570,25 +570,25 @@ class Publisher:
                     logger.info(f"Copied {output_path} to {public_output_path} for static serving")
                     
                     # Add public output path to git
-                    subprocess.run(["git", "add", public_output_path], check=True, capture_output=True)
+                    subprocess.run(["git.exe", "add", public_output_path], check=True, capture_output=True)
                 except Exception as e:
                     logger.warning(f"Failed to copy to public folder: {e}")
 
             if os.path.exists(output_path):
                 logger.info(f"Git: {output_path} 강제 추가 (ignored 파일 포함)")
-                subprocess.run(["git", "add", "-f", output_path], check=True, capture_output=True)
+                subprocess.run(["git.exe", "add", "-f", output_path], check=True, capture_output=True)
             
             # 2. Commit
             commit_msg = f"Auto-Deploy: Product {product_id}"
             # 변경사항이 없으면 실패할 수 있으므로 check=False
-            subprocess.run(["git", "commit", "-m", commit_msg], check=False, capture_output=True)
+            subprocess.run(["git.exe", "commit", "-m", commit_msg], check=False, capture_output=True)
             
             # 3. Push
             # Try main branch first, then master
-            push_result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True)
+            push_result = subprocess.run(["git.exe", "push", "origin", "main"], capture_output=True, text=True)
             if push_result.returncode != 0:
                 logger.warning(f"Git push to main failed, trying master... ({push_result.stderr})")
-                push_result = subprocess.run(["git", "push", "origin", "master"], capture_output=True, text=True)
+                push_result = subprocess.run(["git.exe", "push", "origin", "master"], capture_output=True, text=True)
                 
             if push_result.returncode != 0:
                  raise ProductionError(f"Git Push Failed: {push_result.stderr}", stage="Publish_Git")
@@ -738,8 +738,8 @@ class Publisher:
                 shutil.copytree(output_dir, public_output_path)
                 
                 # Git Add
-                subprocess.run(["git", "add", public_output_path], check=True, capture_output=True)
-                subprocess.run(["git", "add", "-f", f"outputs/{pid}"], check=True, capture_output=True)
+                subprocess.run(["git.exe", "add", public_output_path], check=True, capture_output=True)
+                subprocess.run(["git.exe", "add", "-f", f"outputs/{pid}"], check=True, capture_output=True)
                 
                 successful_preps.append(pid)
                 
@@ -751,12 +751,12 @@ class Publisher:
 
         # 2. Commit and Push (Once)
         try:
-            subprocess.run(["git", "commit", "-m", f"Batch Deploy: {len(successful_preps)} products"], check=False, capture_output=True)
+            subprocess.run(["git.exe", "commit", "-m", f"Batch Deploy: {len(successful_preps)} products"], check=False, capture_output=True)
             
             # Push (try main then master)
-            push_result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True)
+            push_result = subprocess.run(["git.exe", "push", "origin", "main"], capture_output=True, text=True)
             if push_result.returncode != 0:
-                push_result = subprocess.run(["git", "push", "origin", "master"], capture_output=True, text=True)
+                push_result = subprocess.run(["git.exe", "push", "origin", "master"], capture_output=True, text=True)
             
             if push_result.returncode != 0:
                 raise ProductionError(f"Batch Git Push Failed: {push_result.stderr}", stage="Publish_Batch")

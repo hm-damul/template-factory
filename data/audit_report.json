@@ -1,14 +1,20 @@
 {
-  "last_audit": "2026-02-22 13:22:33",
+  "last_audit": "2026-02-22 20:39:45",
   "summary": {
-    "total_products": 247,
-    "healthy_products": 247,
+    "total_products": 248,
+    "healthy_products": 248,
     "broken_products": 0,
     "total_promotions": 247,
     "healthy_promotions": 0,
     "broken_promotions": 247
   },
   "details": [
+    {
+      "product_id": "crypto-template-001",
+      "type": "product",
+      "status": "GENERATED",
+      "issues": []
+    },
     {
       "product_id": "20260221-154313-niche-college-search-reviews-a",
       "type": "product",
@@ -1296,109 +1302,109 @@
     {
       "product_id": "20260215-212725-token-gated-content-revenue-au",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-212356-token-gated-content-revenue-au",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-210221-token-gated-content-revenue-au",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-185109-token-gated-content-revenue-au",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-155105-token-gated-content-revenue-au",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-145048-token-gated-content-revenue-au",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-143859-web3-asset-security-audit-fram",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-143641-finance-risk-management-for-cr",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-143622-web3-smart-contract-audit-chec",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-135151-ai-agent-monetization-guide",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-135047-token-gated-content-revenue-au",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-132048-defi-passive-income-strategies",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-130406-ai-driven-product-flipping",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-130008-token-gated-content-revenue-au",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-125053-global-merchant-crypto-checkou",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-122807-passive-income-with-saas-boile",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-122558-crypto-ai-trading-signals",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-120036-metaverse-real-estate-marketin",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -1410,13 +1416,13 @@
     {
       "product_id": "20260215-081716-reddit-linkedin-test",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-081614-saas-marketing",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -1428,31 +1434,31 @@
     {
       "product_id": "20260215-015754-ai-automation-agency-prompt-pa",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-015534-viral-marketing-growth-bluepri",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-015455-automated-daily-planner-system",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-014951-automated-crypto-tax-reporting",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260215-004917-high-ticket-service-automation",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -1464,19 +1470,19 @@
     {
       "product_id": "20260214-140141-ai-dev-income",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260214-133737-ai-powered-passive-income-syst",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
       "product_id": "20260214-130903-ai-trading-bot",
       "type": "product",
-      "status": "WAITING_FOR_DEPLOYMENT",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -1630,7 +1636,7 @@
     {
       "product_id": "20260220-225518-digital-asset-bundle-2026-02-2",
       "type": "promotion_wordpress",
-      "post_id": 1383,
+      "post_id": 1402,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -1678,7 +1684,7 @@
     {
       "product_id": "20260220-211248-digital-asset-bundle-2026-02-2",
       "type": "promotion_wordpress",
-      "post_id": 1345,
+      "post_id": 1401,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -1814,7 +1820,7 @@
     {
       "product_id": "20260220-132939-5-ai-passive-income-ideas",
       "type": "promotion_wordpress",
-      "post_id": 1389,
+      "post_id": 1400,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -1870,7 +1876,7 @@
     {
       "product_id": "20260220-104317-25-digital-product-niches-to-w",
       "type": "promotion_wordpress",
-      "post_id": 1321,
+      "post_id": 1404,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -1958,7 +1964,7 @@
     {
       "product_id": "20260220-090820-digital-products-best-seller-2",
       "type": "promotion_wordpress",
-      "post_id": 1388,
+      "post_id": 1399,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -2054,7 +2060,7 @@
     {
       "product_id": "20260220-071129-70-digital-product-ideas-for-p",
       "type": "promotion_wordpress",
-      "post_id": 1363,
+      "post_id": 1398,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -2094,7 +2100,7 @@
     {
       "product_id": "20260220-061810-digital-to-physical-on-etsy-th",
       "type": "promotion_wordpress",
-      "post_id": 1386,
+      "post_id": 1403,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -2230,7 +2236,7 @@
     {
       "product_id": "20260220-031839-trending-etsy-products-2026",
       "type": "promotion_wordpress",
-      "post_id": 1361,
+      "post_id": 1396,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -2470,7 +2476,7 @@
     {
       "product_id": "20260219-234910-30-top-selling-digital-product",
       "type": "promotion_wordpress",
-      "post_id": 1359,
+      "post_id": 1395,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -2718,7 +2724,7 @@
     {
       "product_id": "20260219-155942-top-selling-digital-downloads",
       "type": "promotion_wordpress",
-      "post_id": 1355,
+      "post_id": 1394,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -2958,7 +2964,7 @@
     {
       "product_id": "20260219-035801-build-your-2026",
       "type": "promotion_wordpress",
-      "post_id": 1353,
+      "post_id": 1393,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -3126,7 +3132,7 @@
     {
       "product_id": "20260218-144125-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -3142,7 +3148,7 @@
     {
       "product_id": "20260218-094845-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -3150,7 +3156,7 @@
     {
       "product_id": "20260218-093450-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -3158,7 +3164,7 @@
     {
       "product_id": "20260218-093420-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -3166,7 +3172,7 @@
     {
       "product_id": "20260218-093130-test-run",
       "type": "promotion_wordpress",
-      "post_id": 1344,
+      "post_id": 1366,
       "issues": [
         "WordPress config missing for verification"
       ]
@@ -3366,7 +3372,7 @@
     {
       "product_id": "20260215-081614-saas-marketing",
       "type": "promotion_wordpress",
-      "post_id": 1364,
+      "post_id": 1392,
       "issues": [
         "WordPress config missing for verification"
       ]

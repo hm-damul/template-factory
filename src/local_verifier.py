@@ -121,6 +121,23 @@ class LocalVerifier:
         if original_choose_plan in content_new:
             content_new = content_new.replace(original_choose_plan, new_choose_plan)
 
+        # 4. Patch startPay to redirect to checkout.html
+        start_pay_pattern = """async function startPay(plan) {
+        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";"""
+        
+        # Inject return; to bypass old logic and redirect to checkout.html
+        start_pay_clean_replacement = """async function startPay(plan) {
+        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        showToast("Redirecting to secure checkout...");
+        setTimeout(function() {
+            window.location.href = "checkout.html";
+        }, 500);
+        return; // Stop execution of old logic
+        """
+        
+        if start_pay_pattern in content_new and "window.location.href = \"checkout.html\"" not in content_new:
+            content_new = content_new.replace(start_pay_pattern, start_pay_clean_replacement)
+
         if content != content_new:
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(content_new)
