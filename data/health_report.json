@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-22T16:16:57.265972+00:00",
+  "timestamp": "2026-02-22T16:33:52.930322+00:00",
   "stats": {
     "total": 248,
     "published": 0,
-    "waiting": 1,
+    "waiting": 3,
     "failed": 0
   },
   "recent_products": [
@@ -129,8 +129,8 @@
     }
   ],
   "daemon": {
-    "last_log": "업데이트된 제품 234개를 재배포 대기열에 추가합니다.",
-    "last_updated": "2026-02-22T16:16:56.341679+00:00",
+    "last_log": "[20260214-130903-ai-trading-bot] 가격 변동으로 인한 재배포 요청됨.",
+    "last_updated": "2026-02-22T16:33:51.260810+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 1,
-    "last_run_end": "2026-02-22T16:12:09.823378+00:00",
-    "next_run_approx": "2026-02-22T16:14:51.656181+00:00",
+    "last_run_end": "2026-02-22T16:17:03.207194+00:00",
+    "next_run_approx": "2026-02-22T16:19:52.028295+00:00",
     "count": 1,
     "status": "paused",
     "pid": 1468,

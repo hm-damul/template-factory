@@ -1,9 +1,9 @@
 {
-  "last_audit": "2026-02-23 00:56:57",
+  "last_audit": "2026-02-23 01:33:39",
   "summary": {
     "total_products": 248,
-    "healthy_products": 248,
-    "broken_products": 0,
+    "healthy_products": 247,
+    "broken_products": 1,
     "total_promotions": 248,
     "healthy_promotions": 0,
     "broken_promotions": 248
@@ -1482,7 +1482,7 @@
     {
       "product_id": "20260214-130903-ai-trading-bot",
       "type": "product",
-      "status": "PROMOTED",
+      "status": "PACKAGED",
       "issues": []
     },
     {
@@ -1494,8 +1494,10 @@
     {
       "product_id": "20260214-105333-global-merchant-crypto-checkou",
       "type": "product",
-      "status": "PROMOTED",
-      "issues": []
+      "status": "PUBLISHED",
+      "issues": [
+        "SEO Warning: Not visible in top 20 for title 'Unlock Your Passive Income with Global Merchant Crypto Checkout Blueprint (No Bank Friction)'"
+      ]
     },
     {
       "product_id": "crypto-template-001",
