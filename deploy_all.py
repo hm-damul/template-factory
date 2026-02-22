@@ -97,7 +97,7 @@ def deploy_all_products():
                 # Update ledger if not already done by publisher (Publisher usually updates it)
                 # But let's double check
                 p = lm.get_product(pid)
-                if p and p.status != 'PUBLISHED':
+                if p and p.get('status') != 'PUBLISHED':
                      lm.update_product_status(pid, "PUBLISHED")
             else:
                 logger.error(f"  Failed to deploy: {result['status']}")
