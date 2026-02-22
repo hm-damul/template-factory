@@ -1,5 +1,133 @@
 [
   {
+    "id": "ERR-1771454304-2627",
+    "timestamp": 1771454304.579173,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-072234-12-most-popular-notion-templat/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-072234-12-most-popular-notion-templat/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-072234-12-most-popular-notion-templat",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771457690-5186",
+    "timestamp": 1771457690.1371067,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-081908-latest-ielts-writing-topics-fe/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-081908-latest-ielts-writing-topics-fe/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-081908-latest-ielts-writing-topics-fe",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771461259-855",
+    "timestamp": 1771461259.8877175,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-091843-50-digital-products-to-sell-fo/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-091843-50-digital-products-to-sell-fo/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-091843-50-digital-products-to-sell-fo",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771464859-1333",
+    "timestamp": 1771464859.9783907,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-101841-best-ebook-topics/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-101841-best-ebook-topics/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-101841-best-ebook-topics",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771468481-2962",
+    "timestamp": 1771468481.0353208,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-111848-шаблоны-notion-на-русском/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-111848-шаблоны-notion-на-русском/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-111848-шаблоны-notion-на-русском",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771474088-5874",
+    "timestamp": 1771474088.4745142,
+    "message": "HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Read timed out. (read timeout=10)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 534, in _make_request\n    response = conn.getresponse()\n               ^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connection.py\", line 571, in getresponse\n    httplib_response = super().getresponse()\n                       ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py\", line 1430, in getresponse\n    response.begin()\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py\", line 331, in begin\n    version, status, reason = self._read_status()\n                              ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py\", line 292, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socket.py\", line 720, in readinto\n    return self._sock.recv_into(b)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py\", line 1251, in recv_into\n    return self.read(nbytes, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py\", line 1103, in read\n    return self._sslobj.read(len, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTimeoutError: The read operation timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\adapters.py\", line 644, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\util\\retry.py\", line 490, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\util\\util.py\", line 39, in reraise\n    raise value\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 536, in _make_request\n    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 367, in _raise_timeout\n    raise ReadTimeoutError(\nurllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Read timed out. (read timeout=10)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_mode_daemon.py\", line 370, in _check_wordpress_comments\n    r = requests.get(base_url, headers=headers, params={\"per_page\": 10, \"status\": \"approve\"}, timeout=10)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\api.py\", line 73, in get\n    return request(\"get\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\api.py\", line 59, in request\n    return session.request(method=method, url=url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Lib\\site-packages\\requests\\adapters.py\", line 690, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='dev-best-pick-global.pantheonsite.io', port=443): Read timed out. (read timeout=10)\n",
+    "context": "Checking WordPress comments",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771475400-44",
+    "timestamp": 1771475400.1276777,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-131418-20-profitable-saas-micro-saas/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-131418-20-profitable-saas-micro-saas/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-131418-20-profitable-saas-micro-saas",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771475455-5314",
+    "timestamp": 1771475455.9583666,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-131443-18-best-digital-product-niches/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-131443-18-best-digital-product-niches/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-131443-18-best-digital-product-niches",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771476609-3988",
+    "timestamp": 1771476609.976922,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-133359-top-ebook-topic-ideas-in-2026/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-133359-top-ebook-topic-ideas-in-2026/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-133359-top-ebook-topic-ideas-in-2026",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771477914-4688",
+    "timestamp": 1771477914.587232,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-135543-как-открыть-магазин-на-etsy-и/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-135543-как-открыть-магазин-на-etsy-и/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-135543-как-открыть-магазин-на-etsy-и",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771478765-131",
+    "timestamp": 1771478765.3300428,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-141036-11-b2b-ecommerce-examples-and/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-141036-11-b2b-ecommerce-examples-and/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-141036-11-b2b-ecommerce-examples-and",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771478902-8587",
+    "timestamp": 1771478902.06753,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-141212-как-открыть-магазин-на-etsy-и/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-141212-как-открыть-магазин-на-etsy-и/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-141212-как-открыть-магазин-на-etsy-и",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771480042-4895",
+    "timestamp": 1771480042.2940018,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-143112-28-unique-digital-products-to/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-143112-28-unique-digital-products-to/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-143112-28-unique-digital-products-to",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771481334-3643",
+    "timestamp": 1771481334.1188602,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-145247-ultimate-guide-to-passive-inco/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-145247-ultimate-guide-to-passive-inco/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-145247-ultimate-guide-to-passive-inco",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771482362-5789",
+    "timestamp": 1771482362.424558,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-151033-top-22-digital-products-in-dem/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-151033-top-22-digital-products-in-dem/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-151033-top-22-digital-products-in-dem",
+    "resolved": false
+  },
+  {
+    "id": "ERR-1771482867-6536",
+    "timestamp": 1771482867.47379,
+    "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-151814-18-best-b2b-websites-in-2026-e/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 721, in create_and_process_product\n    publish_result = self.publisher.publish_product(product_id, current_product_output_dir)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 68, in wrapper\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 65, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\utils.py\", line 99, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 648, in publish_product\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 623, in publish_product\n    deployment_url = self._deploy_via_git(product_id)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 595, in _deploy_via_git\n    raise e\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 586, in _deploy_via_git\n    self._verify_deployment(product_url, product_id)\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\src\\publisher.py\", line 420, in _verify_deployment\n    raise ProductionError(\nsrc.utils.ProductionError: 배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-151814-18-best-b2b-websites-in-2026-e/index.html (접속 불가, 오류 페이지, 또는 API 실패)\n",
+    "context": "Publishing product: 20260219-151814-18-best-b2b-websites-in-2026-e",
+    "resolved": false
+  },
+  {
     "id": "ERR-1771484170-5139",
     "timestamp": 1771484170.1367836,
     "message": "배포 후 검증 실패: https://metapassiveincome-final.vercel.app/outputs/20260219-153954-50-digital-product-ideas-that/index.html (접속 불가, 오류 페이지, 또는 API 실패)",
@@ -608,195 +736,67 @@
     "resolved": false
   },
   {
-    "id": "ERR-1771734176-9499",
-    "timestamp": 1771734176.9374034,
+    "id": "ERR-1771738738-7156",
+    "timestamp": 1771738738.8094313,
     "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
     "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   },
   {
-    "id": "ERR-1771737279-9499",
-    "timestamp": 1771737279.2236247,
+    "id": "ERR-1771741904-7156",
+    "timestamp": 1771741904.635037,
     "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
     "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   },
   {
-    "id": "ERR-1771740582-9499",
-    "timestamp": 1771740582.391519,
+    "id": "ERR-1771745505-7156",
+    "timestamp": 1771745505.0265293,
     "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
     "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   },
   {
-    "id": "ERR-1771740882-9499",
-    "timestamp": 1771740882.7714186,
+    "id": "ERR-1771749104-7156",
+    "timestamp": 1771749104.870326,
     "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
     "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   },
   {
-    "id": "ERR-1771741182-9499",
-    "timestamp": 1771741182.9940577,
+    "id": "ERR-1771756307-7156",
+    "timestamp": 1771756307.021489,
     "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
     "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   },
   {
-    "id": "ERR-1771745084-9499",
-    "timestamp": 1771745084.254608,
+    "id": "ERR-1771759906-7156",
+    "timestamp": 1771759906.6824808,
     "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
     "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   },
   {
-    "id": "ERR-1771745384-9499",
-    "timestamp": 1771745384.1361027,
+    "id": "ERR-1771763509-7156",
+    "timestamp": 1771763509.0067823,
     "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
     "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   },
   {
-    "id": "ERR-1771745685-9499",
-    "timestamp": 1771745685.260545,
+    "id": "ERR-1771767109-7156",
+    "timestamp": 1771767109.2597957,
     "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
     "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771745984-9499",
-    "timestamp": 1771745984.9768972,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771746285-9499",
-    "timestamp": 1771746285.4093144,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771750186-9499",
-    "timestamp": 1771750186.1633837,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771750485-9499",
-    "timestamp": 1771750485.886772,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771750785-9499",
-    "timestamp": 1771750785.8448973,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771751086-9499",
-    "timestamp": 1771751086.3369,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771751386-9499",
-    "timestamp": 1771751386.7612257,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771755289-9499",
-    "timestamp": 1771755289.0342004,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771755587-9499",
-    "timestamp": 1771755587.7440994,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771755889-9499",
-    "timestamp": 1771755889.7480342,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771756188-9499",
-    "timestamp": 1771756188.6643064,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771756489-9499",
-    "timestamp": 1771756489.013819,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771760391-9499",
-    "timestamp": 1771760391.2723932,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771760690-9499",
-    "timestamp": 1771760690.7529109,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771760990-9499",
-    "timestamp": 1771760990.3718598,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
-    "resolved": false
-  },
-  {
-    "id": "ERR-1771761290-9499",
-    "timestamp": 1771761290.7553353,
-    "message": "Process failed with RC 1. Log tail:\nTraceback (most recent call last):\n  File \"D:\\auto\\MetaPassiveIncome_FINAL\\auto_pilot.py\", line 31, in <module>\n    from promotion_dispatcher import dispatch_publish\nModuleNotFoundError: No module named 'promotion_dispatcher'\n",
-    "traceback": "NoneType: None\n",
-    "context": "Running auto_pilot.py with args: ['D:\\\\auto\\\\MetaPassiveIncome_FINAL\\\\.venv\\\\Scripts\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
+    "context": "Running auto_pilot.py with args: ['C:\\\\Users\\\\us090\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'auto_pilot.py', '--batch', '1']",
     "resolved": false
   }
 ]

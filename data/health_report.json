@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-22T11:54:48.135061+00:00",
+  "timestamp": "2026-02-22T13:31:43.807328+00:00",
   "stats": {
     "total": 248,
     "published": 0,
@@ -130,7 +130,7 @@
   ],
   "daemon": {
     "last_log": "업데이트된 제품 234개를 재배포 대기열에 추가합니다.",
-    "last_updated": "2026-02-22T11:54:47.150738+00:00",
+    "last_updated": "2026-02-22T13:31:42.852752+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
@@ -141,8 +141,8 @@
     ],
     "action": "Creating/Updating Product",
     "rc": 1,
-    "last_run_end": "2026-02-22T11:49:54.389920+00:00",
-    "next_run_approx": "2026-02-22T11:54:45.242355+00:00",
+    "last_run_end": "2026-02-22T13:25:02.222124+00:00",
+    "next_run_approx": "2026-02-22T13:29:48.070775+00:00",
     "count": 1,
     "status": "paused",
     "pid": 1468,

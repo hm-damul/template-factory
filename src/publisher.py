@@ -596,9 +596,9 @@ class Publisher:
             logger.info("Git Push 성공.")
             
             # 4. Construct URL
-            # Use the clean /checkout/ URL which is rewritten in vercel.json
+            # Use the direct URL to avoid rewrite issues with relative links
             base_url = "https://metapassiveincome-final.vercel.app"
-            product_url = f"{base_url}/checkout/{product_id}"
+            product_url = f"{base_url}/outputs/{product_id}/index.html"
             
             # 5. Verify
             # Git 배포는 Vercel 빌드 시간이 필요하므로 검증 대기 시간을 늘려야 함
