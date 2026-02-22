@@ -8,8 +8,12 @@
       "destination": "/api/main"
     },
     {
-      "source": "/checkout/(.*)",
+      "source": "/product/(.*)",
       "destination": "/outputs/$1/index.html"
+    },
+    {
+      "source": "/checkout/(.*)",
+      "destination": "/outputs/$1/checkout.html"
     }
   ]
 }
