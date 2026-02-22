@@ -1008,6 +1008,12 @@
       // ----- 로직 유틸 -----
       async function startPay(plan) {
         var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        showToast("Redirecting to secure checkout...");
+        setTimeout(function() {
+            window.location.href = "checkout.html";
+        }, 500);
+        return; // Stop execution of old logic
+        
         // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
         var safePriceStr = String(rawPrice || "$19");
         var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, "")) || 19;
@@ -1145,15 +1151,8 @@
         },
 
         "open-plans": function() {
-          openModal("#modal-plans");
-          // 모달 오픈 시 현재 선택된 플랜 표시
-          var plan = localStorage.getItem(KEY_PLAN) || "";
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
-          setTimeout(function() {
-            var inp = qs("#lead-email");
-            if (inp) inp.focus();
-          }, 50);
+          var plan = localStorage.getItem(KEY_PLAN) || "Premium";
+          startPay(plan);
         },
 
         "close-modal": function(el) {
@@ -1167,10 +1166,8 @@
           localStorage.setItem(KEY_PLAN, plan);
           localStorage.setItem(KEY_PRICE, price);
 
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
           showToast("Plan selected: " + plan + " (" + price + ")");
-          openModal("#modal-plans");
+          startPay(plan);
         },
 
         "submit-lead": function() {
