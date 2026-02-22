@@ -1007,21 +1007,20 @@
 
       // ----- 로직 유틸 -----
       async function startPay(plan) {
-        var rawPrice = "$49";
-        // If button has data-price, use it
-        var btn = document.querySelector(`button[data-plan='${plan}']`);
-        if (btn && btn.dataset.price) {
-            rawPrice = btn.dataset.price;
-        }
+        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
+        var safePriceStr = String(rawPrice || "$19");
+        var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, "")) || 19;
+
+        showToast("Starting checkout for " + plan + " (" + rawPrice + ")...");
         
-        showToast("Redirecting to secure checkout...");
-        
-        // Short delay for toast visibility
-        setTimeout(function() {
-            var url = "checkout.html?price=" + encodeURIComponent(rawPrice);
-            window.location.href = url;
-        }, 500);
-    }, 800);
+        // 1) 로컬 프리뷰 환경이면 Dashboard의 Checkout 페이지로 리다이렉트
+        if (isLocalPreview()) {
+           showToast("Redirecting to Local Checkout...");
+           setTimeout(function() {
+             // Dashboard Server Port 8099 assumed
+             window.location.href = "http://127.0.0.1:8099/checkout/" + encodeURIComponent(productId);
+           }, 800);
            return;
         }
 
@@ -1146,8 +1145,15 @@
         },
 
         "open-plans": function() {
-          var plan = localStorage.getItem(KEY_PLAN) || "Premium";
-          startPay(plan);
+          openModal("#modal-plans");
+          // 모달 오픈 시 현재 선택된 플랜 표시
+          var plan = localStorage.getItem(KEY_PLAN) || "";
+          var leadPlan = qs("#lead-plan");
+          if (leadPlan) leadPlan.value = plan;
+          setTimeout(function() {
+            var inp = qs("#lead-email");
+            if (inp) inp.focus();
+          }, 50);
         },
 
         "close-modal": function(el) {
@@ -1161,8 +1167,10 @@
           localStorage.setItem(KEY_PLAN, plan);
           localStorage.setItem(KEY_PRICE, price);
 
+          var leadPlan = qs("#lead-plan");
+          if (leadPlan) leadPlan.value = plan;
           showToast("Plan selected: " + plan + " (" + price + ")");
-          startPay(plan);
+          openModal("#modal-plans");
         },
 
         "submit-lead": function() {

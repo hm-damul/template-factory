@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-22T11:39:48.337719+00:00",
+  "timestamp": "2026-02-22T11:44:48.056638+00:00",
   "stats": {
     "total": 248,
     "published": 0,
@@ -130,19 +130,19 @@
   ],
   "daemon": {
     "last_log": "업데이트된 제품 234개를 재배포 대기열에 추가합니다.",
-    "last_updated": "2026-02-22T11:39:47.114787+00:00",
+    "last_updated": "2026-02-22T11:44:47.021011+00:00",
     "phase": "sleeping",
     "product_id": null,
     "last_cmd": [
-      "C:\\Users\\us090\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "D:\\auto\\MetaPassiveIncome_FINAL\\.venv\\Scripts\\python.exe",
       "auto_pilot.py",
       "--batch",
       "1"
     ],
     "action": "Creating/Updating Product",
     "rc": 1,
-    "last_run_end": "2026-02-22T11:31:52.355789+00:00",
-    "next_run_approx": "2026-02-22T12:31:40.860525+00:00",
+    "last_run_end": "2026-02-22T11:40:03.818349+00:00",
+    "next_run_approx": "2026-02-22T11:44:44.412727+00:00",
     "count": 1,
     "status": "paused",
     "pid": 1468,
