@@ -9,7 +9,7 @@
     },
     {
       "source": "/checkout/(.*)",
-      "destination": "/public/outputs/$1/index.html"
+      "destination": "/outputs/$1/index.html"
     }
   ]
 }
