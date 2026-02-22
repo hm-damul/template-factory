@@ -1340,7 +1340,10 @@ def _render_landing_html(
 
       // ----- 로직 유틸 -----
       async function startPay(plan) {{
-        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        var rawPrice = "{product_price}";
+        var stored = localStorage.getItem(KEY_PRICE);
+        if (stored) rawPrice = stored;
+
         showToast("Redirecting to secure checkout...");
         setTimeout(function() {{
             var url = "checkout.html?price=" + encodeURIComponent(rawPrice);

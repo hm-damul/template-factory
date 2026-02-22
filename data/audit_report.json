@@ -1,18 +1,18 @@
 {
-  "last_audit": "2026-02-22 22:04:47",
+  "last_audit": "2026-02-23 00:56:57",
   "summary": {
     "total_products": 248,
     "healthy_products": 248,
     "broken_products": 0,
-    "total_promotions": 247,
+    "total_promotions": 248,
     "healthy_promotions": 0,
-    "broken_promotions": 247
+    "broken_promotions": 248
   },
   "details": [
     {
       "product_id": "crypto-template-001",
       "type": "product",
-      "status": "GENERATED",
+      "status": "PROMOTED",
       "issues": []
     },
     {
@@ -606,7 +606,7 @@
     {
       "product_id": "20260220-023210-digital-products-goldmine-200",
       "type": "product",
-      "status": "PACKAGED",
+      "status": "WAITING_FOR_DEPLOYMENT",
       "issues": []
     },
     {
@@ -1496,6 +1496,14 @@
       "type": "product",
       "status": "PROMOTED",
       "issues": []
+    },
+    {
+      "product_id": "crypto-template-001",
+      "type": "promotion_wordpress",
+      "post_id": 1077,
+      "issues": [
+        "WordPress config missing for verification"
+      ]
     },
     {
       "product_id": "20260221-154313-niche-college-search-reviews-a",

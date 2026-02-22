@@ -728,6 +728,19 @@ def _render_landing_html(
       var KEY_LEADS = productId + ":leads";
       var KEY_PLAN  = productId + ":plan";
       var KEY_AUTH  = productId + ":auth";
+      var KEY_PRICE = productId + ":price";
+
+      async function startPay(plan) {{
+        var rawPrice = "{product_price}";
+        var stored = localStorage.getItem(KEY_PRICE);
+        if (stored) rawPrice = stored;
+
+        showToast("Redirecting to secure checkout...");
+        setTimeout(function() {{
+            var url = "checkout.html?price=" + encodeURIComponent(rawPrice);
+            window.location.href = url;
+        }}, 500);
+      }}
 
       function readJson(key, fallback) {{
         try {{
@@ -760,23 +773,22 @@ def _render_landing_html(
         }},
 
         "open-login": function() {{
-          showToast("Redirecting to login/checkout...");
-          setTimeout(function() {{
-            window.location.href = "checkout.html";
-          }}, 500);
+          startPay("SignIn");
         }},
 
         "open-plans": function() {{
-          scrollToTarget("#pricing");
+          var plan = localStorage.getItem(KEY_PLAN) || "Premium";
+          startPay(plan);
         }},
 
         "choose-plan": function(el) {{
           var plan = el.getAttribute("data-plan") || "Starter";
+          var price = el.getAttribute("data-price") || "$19";
           localStorage.setItem(KEY_PLAN, plan);
-          showToast("Selected " + plan + ". Redirecting...");
-          setTimeout(function() {{
-            window.location.href = "checkout.html";
-          }}, 800);
+          localStorage.setItem(KEY_PRICE, price);
+
+          showToast("Plan selected: " + plan + " (" + price + ")");
+          startPay(plan);
         }},
 
         "reset-demo": function() {{
@@ -992,6 +1004,7 @@ class TemplateConfig:
     brand: str
     headline: str
     subheadline: str
+    product_price: str = "$49"
     primary_cta: str = "Get Started"
     secondary_cta: str = "Sign In"
 
@@ -1021,6 +1034,7 @@ class TemplateFactory:
             subheadline=cfg.subheadline,
             primary_cta=cfg.primary_cta,
             secondary_cta=cfg.secondary_cta,
+            product_price=cfg.product_price,
         )
 
         # sanitize + validate
@@ -1035,7 +1049,7 @@ class TemplateFactory:
         # [NEW] checkout.html 생성
         checkout_html = _render_checkout_html(
             product_id=safe_pid,
-            product_price="$49.00",
+            product_price=cfg.product_price,
             product_title=cfg.headline,
             brand=cfg.brand
         )
@@ -1104,6 +1118,7 @@ def generate(
     brand: str = "Web3 SaaS",
     headline: str = "Powering the Next Generation of Decentralized Applications",
     subheadline: str = "Robust tools and infrastructure for builders and businesses to deploy and scale on-chain experiences with ease.",
+    product_price: str = "$49",
     primary_cta: str = "Get Started",
     secondary_cta: str = "Sign In",
     out_root: str = "outputs",
@@ -1118,6 +1133,7 @@ def generate(
         brand=brand,
         headline=headline,
         subheadline=subheadline,
+        product_price=product_price,
         primary_cta=primary_cta,
         secondary_cta=secondary_cta,
     )
