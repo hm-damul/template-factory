@@ -4,8 +4,8 @@
 
 Stop losing 3-5% on transaction fees and waiting days for payouts. Our automated delivery system allows you to sell digital products globally, receive payments instantly in cryptocurrency, and fulfill orders automatically without lifting a finger.
 
-[![Product Visual Preview](https://images.unsplash.com/featured/?Digital+Asset+Bundle+2026-02-21+02:27,technology,business)](https://metapassiveincome-final.vercel.app/checkout/20260221-022733-digital-asset-bundle-2026-02-2)
-*[View Live Preview & Secure Checkout](https://metapassiveincome-final.vercel.app/checkout/20260221-022733-digital-asset-bundle-2026-02-2)*
+[![Product Visual Preview](https://images.unsplash.com/featured/?Digital+Asset+Bundle+2026-02-21+02:27,technology,business)](https://metapassiveincome-final.vercel.app/outputs/20260221-022733-digital-asset-bundle-2026-02-2/index.html)
+*[View Live Preview & Secure Checkout](https://metapassiveincome-final.vercel.app/outputs/20260221-022733-digital-asset-bundle-2026-02-2/index.html)*
 
 ## 💎 Why Choose MetaPassiveIncome Systems?
 Traditional payment processors often freeze accounts or delay funds for digital sellers. By switching to a crypto-first model, you regain control over your revenue stream.
@@ -24,7 +24,7 @@ Digital product sellers are frequently targeted by friendly fraud. Crypto paymen
 ## 📈 Growth & Scalability
 Whether you're selling one-off downloads or recurring digital access, this system scales with you. No merchant account applications, no credit checks, just pure commerce.
 
-### [🔥 Get Instant Access to Digital Asset Bundle 2026-02-21 02:27 Now](https://metapassiveincome-final.vercel.app/checkout/20260221-022733-digital-asset-bundle-2026-02-2)
+### [🔥 Get Instant Access to Digital Asset Bundle 2026-02-21 02:27 Now](https://metapassiveincome-final.vercel.app/outputs/20260221-022733-digital-asset-bundle-2026-02-2/index.html)
 
 ---
 
