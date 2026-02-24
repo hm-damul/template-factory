@@ -1,0 +1,13 @@
+{
+  "product_id": "crypto-template-001",
+  "out_dir": "outputs\\crypto-template-001",
+  "index_html": "outputs\\crypto-template-001\\index.html",
+  "checkout_html": "outputs\\crypto-template-001\\checkout.html",
+  "sha256": "79f43a9125291af1162dfa2b0f1632db26f9da03ab9c59c657731d7eb5b8e111",
+  "notes": [
+    "Single-file landing with embedded CSS/JS",
+    "Buttons wired via data-action router",
+    "Leads/auth stored in localStorage (demo)",
+    "Next step: payment invoice + webhook + fulfillment"
+  ]
+}
