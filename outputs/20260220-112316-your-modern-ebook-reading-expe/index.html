@@ -905,7 +905,7 @@
             // 스키마에서 주입된 가격 정보 사용 (localStorage 무시)
             planBtns.innerHTML = `
                 <button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$25.00">
-                    Standard License ($29.00)
+                    Standard License ($25.00)
                 </button>
             `;
         }
@@ -1006,33 +1006,7 @@
       }
 
       // ----- 로직 유틸 -----
-      async function startPay(plan) {
-        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
-        // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
-        var safePriceStr = String(rawPrice || "$19");
-        var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, "")) || 19;
-
-        showToast("Starting checkout for " + plan + " (" + rawPrice + ")...");
-        
-        // 1) 로컬 프리뷰 환경이면 Dashboard의 Checkout 페이지로 리다이렉트
-        if (isLocalPreview()) {
-           showToast("Redirecting to Local Checkout...");
-           setTimeout(function() {
-             // Dashboard Server Port 8099 assumed
-             window.location.href = "http://127.0.0.1:8099/checkout/" + encodeURIComponent(productId);
-           }, 800);
-           return;
-        }
-
-        try {
-          // GET request to avoid 405 error (fallback supported on server)
-          var params = "product_id=" + encodeURIComponent(productId) + 
-                       "&price_amount=" + encodeURIComponent(numericPrice) + 
-                       "&price_currency=usd";
-          var res = await fetch(API_BASE + "/api/pay/start?" + params, {
-            method: "GET",
-            headers: { "Content-Type": "application/json" }
-          });
+      );
 
           var data = await res.json().catch(function() { return {}; });
           if (!res.ok) {
@@ -1163,7 +1137,7 @@
 
         "choose-plan": function(el) {
           var plan = el.getAttribute("data-plan") || "Starter";
-          var price = el.getAttribute("data-price") || "$19";
+          var price = el.getAttribute("data-price") || "$25.00";
           localStorage.setItem(KEY_PLAN, plan);
           localStorage.setItem(KEY_PRICE, price);
 
@@ -1296,5 +1270,199 @@
       // showToast("JS loaded.");
     })();
   </script>
+
+
+
+
+<!-- ======= PAYMENT WIDGET (injected) ======= -->
+<div id="catp-pay" style="margin-top:14px;padding:14px;border:1px solid rgba(255,255,255,0.12);border-radius:14px;background:rgba(255,255,255,0.06);">
+  <div style="font-weight:800;margin-bottom:8px;">Crypto Checkout (NOWPayments)</div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;">
+    <button id="catpPayBtn" style="cursor:pointer;border:none;border-radius:12px;padding:12px 14px;font-weight:800;background:linear-gradient(135deg,#7c5cff,#00d3a7);color:#0b1020;">
+      결제하고 다운로드 ($25.00)
+    </button>
+
+    <button id="catpCheckBtn" style="cursor:pointer;border:1px solid rgba(255,255,255,0.16);border-radius:12px;padding:12px 14px;font-weight:800;background:rgba(255,255,255,0.10);color:#eaf0ff;">
+      결제 확인
+    </button>
+  </div>
+  
+  <div id="catpPayDetails" style="display:none;margin-top:14px;padding:14px;background:rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.1);border-radius:10px;font-size:13px;">
+    <div style="margin-bottom:8px;color:#aaa;font-weight:bold;">아래 주소로 정확한 금액을 전송하세요:</div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <span style="color:#00d3a7;font-weight:bold;font-size:16px;" id="catpPayAmount">0.00</span>
+        <span style="color:#fff;font-weight:bold;" id="catpPayCurrency">USDT</span>
+    </div>
+    <div style="background:#111;padding:10px;border-radius:6px;word-break:break-all;user-select:all;color:#eaf0ff;font-family:monospace;border:1px dashed #444;cursor:pointer;" 
+         onclick="navigator.clipboard.writeText(this.textContent);alert('주소가 복사되었습니다.');" 
+         title="클릭하여 복사"
+         id="catpPayAddress">Generating Address...</div>
+    <div style="margin-top:8px;font-size:11px;color:#888;">* 입금 후 블록체인 승인까지 1~5분 소요될 수 있습니다.<br>* 이 페이지를 닫지 마세요. 자동 확인됩니다.</div>
+  </div>
+
+  <div id="catpStatus" style="margin-top:8px;font-size:14px;color:#aaa;"></div>
+  <div id="catpDownloadArea" style="margin-top:8px;display:none;"></div>
+</div>
+
+<script>
+(function(){
+  var PRODUCT_ID = "20260220-112316-your-modern-ebook-reading-expe";
+  var PRICE_USD = 25.0;
+  var orderId = "";
+
+  // 1. API Base URL 감지
+  // 로컬 프리뷰/대시보드(127.0.0.1/localhost)에서는 로컬 결제 서버 사용
+  // 배포(Vercel 등)에서는 same-origin 상대경로(/api/...) 사용
+  var isLocal = (location.hostname === "127.0.0.1" || location.hostname === "localhost");
+  var API_BASE = isLocal ? "http://127.0.0.1:5000" : "";
+
+  function qs(id) { return document.getElementById(id); }
+  function setStatus(msg) {
+    var el = qs("catpStatus");
+    if (el) el.textContent = msg;
+  }
+  function showDownload(url) {
+    var area = qs("catpDownloadArea");
+    if (!area) return;
+    area.style.display = "block";
+    area.innerHTML = '<a href="' + (isLocal ? API_BASE : "") + url + '" target="_blank" style="color:#00d3a7;font-weight:bold;text-decoration:underline;font-size:16px;">[다운로드 링크 클릭]</a>';
+    
+    // Hide payment details on success
+    var details = qs("catpPayDetails");
+    if (details) details.style.display = "none";
+    
+    // Hide buttons
+    if(qs("catpPayBtn")) qs("catpPayBtn").style.display = "none";
+  }
+
+  // Expose to global for button clicks
+  window.startCryptoPay = startCryptoPay;
+
+  async function startCryptoPay(overridePrice) {
+    var finalPrice = PRICE_USD;
+    if (overridePrice) {
+      // Parse "$19.90" -> 19.90
+      var p = parseFloat(String(overridePrice).replace(/[^0-9.]/g, ""));
+      if (!isNaN(p) && p > 0) finalPrice = p;
+    }
+
+    setStatus("주문 생성 중... ($" + finalPrice + ")");
+    try {
+      // Use GET to avoid 405 Method Not Allowed issues on some platforms
+      var url = API_BASE + "/api/pay/start" + 
+                "?product_id=" + encodeURIComponent(PRODUCT_ID) + 
+                "&price_amount=" + encodeURIComponent(finalPrice);
+      
+      var res = await fetch(url, {
+        method: "GET",
+        headers: { "Accept": "application/json" }
+      });
+
+      var data = await res.json().catch(function(){ return {}; });
+      if (!res.ok) {
+        if (data.can_request) {
+          alert(data.message || "상품이 일시적으로 삭제되었습니다. 워드프레스 댓글로 요청하시면 재생성해 드립니다!");
+          setStatus("재생성 요청 필요 (댓글로 문의)");
+        } else {
+          setStatus("실패: " + (data.error || (res.status + " " + res.statusText)));
+        }
+        return;
+      }
+
+      orderId = data.order_id || "";
+      
+      // Update Payment Details UI
+      if (data.payment_address) {
+          var details = qs("catpPayDetails");
+          if (details) {
+              details.style.display = "block";
+              if(qs("catpPayAmount")) qs("catpPayAmount").textContent = data.pay_amount;
+              if(qs("catpPayCurrency")) qs("catpPayCurrency").textContent = data.pay_currency;
+              if(qs("catpPayAddress")) qs("catpPayAddress").textContent = data.payment_address;
+          }
+          setStatus("입금 대기 중... (" + data.pay_currency + ")");
+      } else {
+          setStatus("주문 생성 완료 (order_id=" + orderId + "). 결제 확인 중...");
+      }
+
+      // 즉시 1회 check
+      await checkPay(true);
+    } catch (e) {
+      setStatus("에러: " + (e && e.message ? e.message : String(e)));
+    }
+  }
+
+  async function checkPay(auto) {
+    if (!orderId) {
+      setStatus("order_id가 없습니다. 먼저 '결제하고 다운로드'를 누르세요.");
+      return;
+    }
+
+    try {
+      var url = API_BASE + "/api/pay/check?order_id=" + encodeURIComponent(orderId) + "&product_id=" + encodeURIComponent(PRODUCT_ID);
+      var res = await fetch(url, { method: "GET" });
+      var data = await res.json().catch(function(){ return {}; });
+      if (!res.ok) {
+        setStatus("실패: " + (data.error || (res.status + " " + res.statusText)));
+        return;
+      }
+
+      if ((data.status || "") === "paid") {
+        setStatus("결제 완료 ✅ 다운로드 준비됨");
+        if (data.download_url) {
+          showDownload(data.download_url);
+        } else {
+          // 배포 표준: downloads 경로
+          showDownload("/downloads/" + PRODUCT_ID + ".zip");
+        }
+        return;
+      }
+
+      // If not paid
+      if ((data.status || "") === "pending" || (data.status || "") === "waiting") {
+          setStatus("입금 확인 중... (" + (data.provider_status || "waiting") + ")");
+      } else {
+          setStatus("상태: " + (data.status || "unknown"));
+      }
+
+      if (auto) {
+        // 폴링(최대 60회 * 3초 = 3분)
+        var tries = 0;
+        var timer = setInterval(async function() {
+          tries++;
+          // Stop if element removed
+          if (!qs("catpStatus")) { clearInterval(timer); return; }
+          
+          if (tries > 60) {
+            clearInterval(timer);
+            setStatus("시간 초과: 결제 완료를 확인하지 못했습니다. 수동으로 '결제 확인'을 눌러주세요.");
+            return;
+          }
+          await checkPay(false);
+        }, 3000);
+      }
+    } catch (e) {
+      setStatus("에러: " + (e && e.message ? e.message : String(e)));
+    }
+  }
+
+  var payBtn = qs("catpPayBtn");
+  var chkBtn = qs("catpCheckBtn");
+  if (payBtn) payBtn.addEventListener("click", function() { startCryptoPay(null); });
+  if (chkBtn) chkBtn.addEventListener("click", function(){ checkPay(false); });
+
+  // 디버그: API_BASE 노출
+  try {
+    var ph = document.getElementById("payment-widget-placeholder");
+    if (ph) {
+      ph.textContent = "payment_api_base=" + API_BASE + " (auto-detected)";
+    }
+  } catch (e) {}
+
+})();
+</script>
+<!-- ======= END PAYMENT WIDGET ======= -->
+
 </body>
 </html>
