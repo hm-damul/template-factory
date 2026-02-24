@@ -1,23 +1,23 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="Digital, Product, digital product, passive income, MetaPassiveIncome" name="keywords"/>
-<meta content="MetaPassiveIncome | Digital Product" property="og:title"/>
-<meta content="" property="og:description"/>
-<meta content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" property="og:image"/>
-<meta content="website" property="og:type"/>
-<meta content="MetaPassiveIncome" property="og:site_name"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="MetaPassiveIncome | Digital Product" name="twitter:title"/>
-<meta content="" name="twitter:description"/>
-<meta content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" name="twitter:image"/>
-<meta content="index, follow" name="robots"/>
-<link href="https://meta-passive-income-product.vercel.app" rel="canonical"/>
-<script type="application/ld+json">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="Digital, Product, digital product, passive income, MetaPassiveIncome" />
+  <meta property="og:title" content="MetaPassiveIncome | Digital Product" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="MetaPassiveIncome" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MetaPassiveIncome | Digital Product" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://meta-passive-income-product.vercel.app" />
+  
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "Product",
@@ -35,9 +35,10 @@
     }
   }
   </script>
-<link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;rect width=%22100%22 height=%22100%22 fill=%22%2300b4ff%22&gt;&lt;/rect&gt;&lt;/svg&gt;" rel="icon"/>
-<title>MetaPassiveIncome | Digital Product</title>
-<style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%2300b4ff%22></rect></svg>">
+  <title>MetaPassiveIncome | Digital Product</title>
+
+  <style>
     :root {
       --bg: #070b12;
       --panel: rgba(255,255,255,0.06);
@@ -590,9 +591,25 @@
     }
 
     /* 모달 */
-    
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.62);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      z-index: 200;
+    }
 
-    
+    .modal {
+      width: min(560px, 100%);
+      background: rgba(10,14,22,0.92);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 18px;
+      box-shadow: 0 30px 90px rgba(0,0,0,0.55);
+      padding: 16px;
+    }
 
     .modal-head {
       display: flex;
@@ -669,86 +686,157 @@
     }
   </style>
 </head>
-<body class="theme-default layout-minimalist" data-product-id="product">
-<div class="urgency-bar">
+
+<body data-product-id="product" class="theme-default layout-minimalist">
+  <div class="urgency-bar">
     LIMITED TIME OFFER: Save 50% for the next <span id="countdown">15:00</span>
-</div>
-<div class="nav">
-<div class="nav-inner">
-<div class="brand">
-<div aria-hidden="true" class="logo"></div>
-<div>MetaPassiveIncome</div>
-</div>
-<div aria-label="Primary" class="nav-links">
-<a data-action="nav" data-target="#features" href="#features">Features</a>
-<a data-action="nav" data-target="#pricing" href="#pricing">Pricing</a>
-<a data-action="nav" data-target="#faq" href="#faq">FAQ</a>
-</div>
-<div class="nav-actions">
-<button class="btn" data-action="open-login">Sign In</button>
-<button class="btn btn-primary" data-action="open-plans">Get Started</button>
-</div>
-</div>
-</div>
-<main class="container">
-<div class="hero">
-<div class="hero-grid">
-<div>
-<div class="kicker">
-<span class="kicker-dot"></span>
-<span>Web3-ready SaaS landing • Professional Template</span>
-</div>
-<h1>Digital Product</h1>
-<p class="sub"></p>
-<div class="hero-actions">
-<button class="btn btn-primary" data-action="open-plans" style="padding: 14px 24px; font-size: 16px;">Get Started</button>
-<button class="btn" data-action="scroll" data-target="#features" style="padding: 14px 24px; font-size: 16px;">Learn More</button>
-</div>
-</div>
-<div class="hero-preview">
-<img alt="Product Preview" class="hero-image" loading="lazy" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&amp;w=2000&amp;auto=format&amp;fit=crop"/>
-</div>
-</div>
-</div>
-<section id="features">
-<h2 class="section-title">Features</h2>
-<div class="grid3">
-<div class="card"><h4>Wallet-ready checkout</h4><p>Designed for crypto-wallet users. Next step: invoice creation + webhook → fulfillment.</p></div>
-<div class="card"><h4>One-file deploy</h4><p>No build step required. Works on Vercel static hosting. No missing JS bundles.</p></div>
-<div class="card"><h4>Action router</h4><p>All buttons use <code>data-action</code>. Easy to extend with payment + download gating.</p></div>
-</div>
-</section>
-<section id="pricing">
-<h2 class="section-title">Pricing</h2>
-<div class="pricing">
-<div class="card" style="border-color: rgba(0,180,255,0.38); box-shadow: 0 24px 80px rgba(0,180,255,0.12);"><div class="badge"><span class="pill" style="background: var(--accent2);"></span><span>Standard</span></div><div class="price">$49.00<span style="font-size:14px; color: var(--muted);">/mo</span></div><p class="sub" style="font-size:13px;">Best for most creators.</p><ul class="list"><li>Full access</li><li>Priority support</li><li>Updates included</li></ul><div class="row"><button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$49.00">Standard</button></div></div>
-</div>
-</section>
-<section id="faq">
-<h2 class="section-title">FAQ</h2>
-<div class="faq">
-<div class="card"><h4>Why are buttons sometimes unresponsive?</h4><p>If the HTML file is wrapped in markdown fences or served escaped, the DOM differs and scripts may not run as expected.</p></div>
-<div class="card"><h4>Where does payment integration go?</h4><p>Next module: serverless function (Vercel) → create invoice → receive webhook → unlock download/email.</p></div>
-</div>
-</section>
-<footer>
-<div style="margin-top:6px;">© MetaPassiveIncome. All rights reserved.</div>
-</footer>
-</main>
-<div class="notification-popup" id="purchase-notification">
-<div style="font-size: 20px;">🔥</div>
-<div>
-<div id="notif-name" style="font-weight: 700; font-size: 14px;">Someone from USA</div>
-<div style="font-size: 12px; color: var(--muted);">just purchased this product</div>
-</div>
-</div>
-<!-- Login Modal -->
+  </div>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>MetaPassiveIncome</div>
+      </div>
 
-<!-- Plans Modal -->
+      <div class="nav-links" aria-label="Primary">
+        <a href="#features" data-action="nav" data-target="#features">Features</a>
+        <a href="#pricing" data-action="nav" data-target="#pricing">Pricing</a>
+        <a href="#faq" data-action="nav" data-target="#faq">FAQ</a>
+      </div>
 
-<!-- Toast -->
-<div class="toast" id="toast"></div>
-<script>
+      <div class="nav-actions">
+        <button class="btn" data-action="open-login">Sign In</button>
+        <button class="btn btn-primary" data-action="open-plans">Get Started</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <div class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="kicker">
+            <span class="kicker-dot"></span>
+            <span>Web3-ready SaaS landing • Professional Template</span>
+          </div>
+          <h1>Digital Product</h1>
+          <p class="sub"></p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-action="open-plans" style="padding: 14px 24px; font-size: 16px;">Get Started</button>
+            <button class="btn" data-action="scroll" data-target="#features" style="padding: 14px 24px; font-size: 16px;">Learn More</button>
+          </div>
+        </div>
+        <div class="hero-preview">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop" alt="Product Preview" class="hero-image" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+    <section id="features">
+      <h2 class="section-title">Features</h2>
+      <div class="grid3">
+        
+        <div class="card"><h4>Wallet-ready checkout</h4><p>Designed for crypto-wallet users. Next step: invoice creation + webhook → fulfillment.</p></div>
+        <div class="card"><h4>One-file deploy</h4><p>No build step required. Works on Vercel static hosting. No missing JS bundles.</p></div>
+        <div class="card"><h4>Action router</h4><p>All buttons use <code>data-action</code>. Easy to extend with payment + download gating.</p></div>
+        
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2 class="section-title">Pricing</h2>
+      <div class="pricing">
+        <div class="card" style="border-color: rgba(0,180,255,0.38); box-shadow: 0 24px 80px rgba(0,180,255,0.12);"><div class="badge"><span class="pill" style="background: var(--accent2);"></span><span>Standard</span></div><div class="price">$49.00<span style="font-size:14px; color: var(--muted);">/mo</span></div><p class="sub" style="font-size:13px;">Best for most creators.</p><ul class="list"><li>Full access</li><li>Priority support</li><li>Updates included</li></ul><div class="row"><button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$49.00">Standard</button></div></div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq">
+        
+        <div class="card"><h4>Why are buttons sometimes unresponsive?</h4><p>If the HTML file is wrapped in markdown fences or served escaped, the DOM differs and scripts may not run as expected.</p></div>
+        <div class="card"><h4>Where does payment integration go?</h4><p>Next module: serverless function (Vercel) → create invoice → receive webhook → unlock download/email.</p></div>
+        
+      </div>
+    </section>
+
+    <footer>
+      <div style="margin-top:6px;">© MetaPassiveIncome. All rights reserved.</div>
+    </footer>
+  </main>
+
+  <div class="notification-popup" id="purchase-notification">
+    <div style="font-size: 20px;">🔥</div>
+    <div>
+      <div style="font-weight: 700; font-size: 14px;" id="notif-name">Someone from USA</div>
+      <div style="font-size: 12px; color: var(--muted);">just purchased this product</div>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal-backdrop" id="modal-login" role="dialog" aria-modal="true" aria-label="Login modal">
+    <div class="modal">
+      <div class="modal-head">
+        <h3 class="modal-title">Sign In</h3>
+        <button class="x" data-action="close-modal" data-target="#modal-login">X</button>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <input class="input" id="login-email" placeholder="you@example.com" />
+      </div>
+
+      <div class="field">
+        <label class="label">Password</label>
+        <input class="input" id="login-pass" type="password" placeholder="••••••••" />
+      </div>
+
+      <div class="row">
+        <button class="btn btn-primary" data-action="do-login">Sign In</button>
+        <button class="btn" data-action="close-modal" data-target="#modal-login">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Plans Modal -->
+  <div class="modal-backdrop" id="modal-plans" role="dialog" aria-modal="true" aria-label="Plans modal">
+    <div class="modal">
+      <div class="modal-head">
+        <h3 class="modal-title">Get Started</h3>
+        <button class="x" data-action="close-modal" data-target="#modal-plans">X</button>
+      </div>
+
+      <p style="margin: 0; color: var(--muted); font-size: 13px;">
+        Choose a plan, enter your email, and we'll "capture a lead". Payment step will replace this later.
+      </p>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <input class="input" id="lead-email" placeholder="lead@example.com" />
+      </div>
+
+      <div class="field">
+        <label class="label">Selected Plan</label>
+        <input class="input" id="lead-plan" placeholder="(select below)" readonly />
+      </div>
+
+      <div class="row" id="plan-buttons">
+        <!-- Dynamic buttons injected by JS -->
+      </div>
+
+      <div class="row">
+        <button class="btn btn-primary" data-action="submit-lead">Continue</button>
+        <button class="btn" data-action="check-payment">I already paid</button>
+        <button class="btn" data-action="close-modal" data-target="#modal-plans">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
     (function() {
       "use strict";
 
@@ -919,22 +1007,20 @@
 
       // ----- 로직 유틸 -----
       async function startPay(plan) {
-        var rawPrice = "$49";
-        // Try to find price from local storage
-        // The key variable might be defined as KEY_PRICE, or we can reconstruct it
-        var key = "20260220-060044-web3-marketing-playbook-commun:price";
-        var stored = localStorage.getItem(key);
-        if (stored) rawPrice = stored;
+        var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
+        var safePriceStr = String(rawPrice || "$19");
+        var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, "")) || 19;
+
+        showToast("Starting checkout for " + plan + " (" + rawPrice + ")...");
         
-        // Also check if button has data-price (if clicked)
-        // This is harder inside startPay without the event, but localStorage is reliable if set by choose-plan
-        
-        showToast("Redirecting to secure checkout...");
-        setTimeout(function() {
-            var url = "checkout.html?price=" + encodeURIComponent(rawPrice);
-            window.location.href = url;
-        }, 500);
-    }, 800);
+        // 1) 로컬 프리뷰 환경이면 Dashboard의 Checkout 페이지로 리다이렉트
+        if (isLocalPreview()) {
+           showToast("Redirecting to Local Checkout...");
+           setTimeout(function() {
+             // Dashboard Server Port 8099 assumed
+             window.location.href = "http://127.0.0.1:8099/checkout/" + encodeURIComponent(productId);
+           }, 800);
            return;
         }
 
@@ -1050,13 +1136,24 @@
           }
         },
 
-        "open-login": function() { startPay("SignIn"); }, 50);
+        "open-login": function() {
+          openModal("#modal-login");
+          setTimeout(function() {
+            var inp = qs("#login-email");
+            if (inp) inp.focus();
+          }, 50);
         },
 
-        "open-plans": function() { 
-          var plan = localStorage.getItem("20260220-060044-web3-marketing-playbook-commun:plan") || "Premium";
-          startPay(plan); 
-        }, 50);
+        "open-plans": function() {
+          openModal("#modal-plans");
+          // 모달 오픈 시 현재 선택된 플랜 표시
+          var plan = localStorage.getItem(KEY_PLAN) || "";
+          var leadPlan = qs("#lead-plan");
+          if (leadPlan) leadPlan.value = plan;
+          setTimeout(function() {
+            var inp = qs("#lead-email");
+            if (inp) inp.focus();
+          }, 50);
         },
 
         "close-modal": function(el) {
@@ -1066,11 +1163,14 @@
 
         "choose-plan": function(el) {
           var plan = el.getAttribute("data-plan") || "Starter";
-          var price = el.getAttribute("data-price") || "$49";
-          localStorage.setItem("20260220-060044-web3-marketing-playbook-commun:plan", plan);
-          localStorage.setItem("20260220-060044-web3-marketing-playbook-commun:price", price);
+          var price = el.getAttribute("data-price") || "$19";
+          localStorage.setItem(KEY_PLAN, plan);
+          localStorage.setItem(KEY_PRICE, price);
+
+          var leadPlan = qs("#lead-plan");
+          if (leadPlan) leadPlan.value = plan;
           showToast("Plan selected: " + plan + " (" + price + ")");
-          startPay(plan);
+          openModal("#modal-plans");
         },
 
         "submit-lead": function() {

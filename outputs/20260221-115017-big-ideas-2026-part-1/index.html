@@ -794,7 +794,7 @@
           // 8090(preview)은 전체 페이지 미리보기를 위해 리다이렉트 제외
           // 8099(dashboard) 환경에서만 체크아웃 리다이렉트 허용
           if (p === "8099" || h === "127.0.0.1" || h === "localhost" || prot === "file:") {
-              if (p === "8090") return false;
+              // // // if (p === "8090") return false;
               return true;
           }
           return false;

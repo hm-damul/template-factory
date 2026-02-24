@@ -747,7 +747,7 @@
     <section id="pricing">
       <h2 class="section-title">Pricing</h2>
       <div class="pricing">
-        <div class="card" style="border-color: rgba(0,180,255,0.38); box-shadow: 0 24px 80px rgba(0,180,255,0.12);"><div class="badge"><span class="pill" style="background: var(--accent2);"></span><span>Standard</span></div><div class="price">$59.00<span style="font-size:14px; color: var(--muted);">/mo</span></div><p class="sub" style="font-size:13px;">Best for most creators.</p><ul class="list"><li>Full access</li><li>Priority support</li><li>Updates included</li></ul><div class="row"><button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$59.00">Standard</button></div></div>
+        <div class="card" style="border-color: rgba(0,180,255,0.38); box-shadow: 0 24px 80px rgba(0,180,255,0.12);"><div class="badge"><span class="pill" style="background: var(--accent2);"></span><span>Standard</span></div><div class="price">$19.90<span style="font-size:14px; color: var(--muted);">/mo</span></div><p class="sub" style="font-size:13px;">Best for most creators.</p><ul class="list"><li>Full access</li><li>Priority support</li><li>Updates included</li></ul><div class="row"><button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$19.90">Standard</button></div></div>
       </div>
     </section>
 
@@ -904,7 +904,7 @@
         if (planBtns) {
             // 스키마에서 주입된 가격 정보 사용 (localStorage 무시)
             planBtns.innerHTML = `
-                <button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$59.00">
+                <button class="btn btn-primary" data-action="choose-plan" data-plan="Standard" data-price="$19.90">
                     Standard License ($59.00)
                 </button>
             `;
@@ -1008,6 +1008,12 @@
       // ----- 로직 유틸 -----
       async function startPay(plan) {
         var rawPrice = localStorage.getItem(KEY_PRICE) || "$19";
+        showToast("Redirecting to secure checkout...");
+        setTimeout(function() {
+            window.location.href = "checkout.html";
+        }, 500);
+        return; // Stop execution of old logic
+        
         // rawPrice가 null/undefined일 경우를 대비한 안전한 문자열 변환 (NoneType 에러 방지)
         var safePriceStr = String(rawPrice || "$19");
         var numericPrice = parseFloat(safePriceStr.replace(/[^0-9.]/g, "")) || 19;
@@ -1145,15 +1151,8 @@
         },
 
         "open-plans": function() {
-          openModal("#modal-plans");
-          // 모달 오픈 시 현재 선택된 플랜 표시
-          var plan = localStorage.getItem(KEY_PLAN) || "";
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
-          setTimeout(function() {
-            var inp = qs("#lead-email");
-            if (inp) inp.focus();
-          }, 50);
+          var plan = localStorage.getItem(KEY_PLAN) || "Premium";
+          startPay(plan);
         },
 
         "close-modal": function(el) {
@@ -1167,10 +1166,8 @@
           localStorage.setItem(KEY_PLAN, plan);
           localStorage.setItem(KEY_PRICE, price);
 
-          var leadPlan = qs("#lead-plan");
-          if (leadPlan) leadPlan.value = plan;
           showToast("Plan selected: " + plan + " (" + price + ")");
-          openModal("#modal-plans");
+          startPay(plan);
         },
 
         "submit-lead": function() {

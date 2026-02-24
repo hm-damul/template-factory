@@ -53,5 +53,11 @@
     "promotions/x_posts.txt": "5a8c30de49f19ef853166dbae46d5704e090831bbbe8a87c40bf6d9863a277f0",
     "promotions/x_threads.txt": "e9710a2467a0f6a9f0f30b07360c9cf60acc7fda7779a90310179524283f6a32",
     "promotions/youtube_shorts.txt": "509b9ee810e4c11241c48dc505f521c520477b4b455a3587a61406a13361edc9"
+  },
+  "metadata": {
+    "price_usd": 29.0
+  },
+  "product": {
+    "price_usd": 29.0
   }
 }
