@@ -1,0 +1,69 @@
+{
+  "product_id": "20260220-200310-400-high-ticket-product-ideas",
+  "dispatch_results": {
+    "medium": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "tumblr": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "github_pages": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "blogger": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "x": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "telegram": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "discord": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "reddit": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "pinterest": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "linkedin": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "instagram": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "tiktok": {
+      "ok": false,
+      "skipped": true,
+      "msg": "Skipped due to health check"
+    },
+    "youtube_shorts": {
+      "ok": true,
+      "info": "Simulation success (No video file)"
+    }
+  }
+}
